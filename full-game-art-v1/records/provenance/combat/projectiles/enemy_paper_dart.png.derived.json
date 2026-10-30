@@ -1,0 +1,60 @@
+{
+  "id": "enemy_paper_dart",
+  "name": "敌方直射符弹",
+  "file": "assets/projectiles/enemy_paper_dart.png",
+  "function": "enemy_ranged_and_boss_shotgun",
+  "sha256": "ec72a292d897263b2e050c2198cc85d0e3f6addb9049d650347db0531d78fdfd",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_b.png",
+  "sourceSha256": "3c3325a7d474553e231b4ef8ef3853951c2ed8f9348353b852531a2854c80d9b",
+  "sourceRectTopLeftXYWH": [
+    0,
+    496,
+    526,
+    528
+  ],
+  "sourceAnchorXY": [
+    261.5,
+    241.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.41315401301518434,
+  "offsetTopLeft": [
+    20,
+    28
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    83,
+    33,
+    84
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

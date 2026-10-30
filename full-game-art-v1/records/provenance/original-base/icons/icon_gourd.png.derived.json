@@ -1,0 +1,96 @@
+{
+  "id": "icon_gourd",
+  "name": "回元",
+  "file": "assets/icons/icon_gourd.png",
+  "sha256": "0c315e057fa88e5ab14ec7905c214e362784778e2a2e283b49bcbfe043814435",
+  "operation": "Non-overlapping atlas ownership crop, fixed uniform premultiplied-Lanczos downscale and transparent centering; no AI generation or redrawing",
+  "slicingMode": "lower-row-transparent-seam-ownership",
+  "derivedFrom": {
+    "file": "assets/ui-kit/ability_icons_atlas.png",
+    "sha256": "65189866ae6f00df20ba819fb09764363d5e25a33fe80f32314ac808b07b7dec",
+    "generationRecord": "assets/ui-kit/ability_icons_atlas.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceRectTopLeftXYWH": [
+    0,
+    627,
+    708,
+    627
+  ],
+  "sourceCellSize": [
+    708,
+    627
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    85,
+    31,
+    668,
+    564
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "minimumPadding": 32,
+  "requestedUniformScale": 0.548885077186964,
+  "actualRasterScaleXY": [
+    0.5494350282485876,
+    0.5486443381180224
+  ],
+  "resizedWholeCellSize": [
+    389,
+    344
+  ],
+  "offsetTopLeft": [
+    -15,
+    28
+  ],
+  "subjectBBoxAlpha16": [
+    32,
+    45,
+    352,
+    338
+  ],
+  "subjectMarginsLTRB": [
+    32,
+    45,
+    32,
+    46
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "mode": "RGBA",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "edgeVisiblePixelsAlpha16": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "outsideOutput": {
+    "nonzeroPixelsOutsideOutput": 20,
+    "alpha16OrHigherPixelsOutsideOutput": 0,
+    "maximumAlphaOutsideOutput": 1
+  },
+  "nativeDetailIncreased": false,
+  "newAIGeneration": false,
+  "unityVerified": false,
+  "sourceUsedOnlyFromThisOriginalBatch": true,
+  "createdAtUtc": "2026-10-26T21:56:20.965841-04:00",
+  "dynamicLabelIncluded": false,
+  "fixedDecorativeMarks": []
+}

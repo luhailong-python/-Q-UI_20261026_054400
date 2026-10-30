@@ -1,0 +1,844 @@
+{
+  "screen": "03-character-equipment",
+  "title": "角色·装备",
+  "orientation": "landscape",
+  "state": "equipment_candidate_comparison",
+  "file": "designs/landscape/03-character-equipment.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 55
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        90,
+        100,
+        1740,
+        918
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        615,
+        30,
+        690,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        1756,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        260,
+        215,
+        459,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        731,
+        215,
+        459,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        1201,
+        215,
+        459,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_selected.png",
+      "rectTopLeft": [
+        220,
+        390,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_sword.png",
+      "rectTopLeft": [
+        234,
+        410,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        625,
+        390,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_boots.png",
+      "rectTopLeft": [
+        639,
+        410,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        220,
+        557,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_talisman.png",
+      "rectTopLeft": [
+        234,
+        577,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        625,
+        557,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        639,
+        577,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        220,
+        724,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_taiji.png",
+      "rectTopLeft": [
+        234,
+        744,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        625,
+        724,
+        380,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_scroll.png",
+      "rectTopLeft": [
+        639,
+        744,
+        108,
+        108
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1090,
+        330,
+        650,
+        550
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_sword.png",
+      "rectTopLeft": [
+        1135,
+        370,
+        145,
+        145
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        1130,
+        900,
+        260,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        1430,
+        900,
+        290,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "角色·装备",
+      "rectTopLeft": [
+        695,
+        50,
+        530,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "属性",
+      "rectTopLeft": [
+        268,
+        219,
+        443,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "装备",
+      "rectTopLeft": [
+        739,
+        219,
+        443,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "技能",
+      "rectTopLeft": [
+        1209,
+        219,
+        443,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "当前佩戴",
+      "rectTopLeft": [
+        225,
+        305,
+        760,
+        60
+      ],
+      "fontPixels": 36,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "青玉剑",
+      "rectTopLeft": [
+        360,
+        415,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "兵器 · 已装备",
+      "rectTopLeft": [
+        360,
+        479,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "逐云靴",
+      "rectTopLeft": [
+        765,
+        415,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "足具 · 已装备",
+      "rectTopLeft": [
+        765,
+        479,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "护身符",
+      "rectTopLeft": [
+        360,
+        582,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "灵符 · 已装备",
+      "rectTopLeft": [
+        360,
+        646,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "聚灵葫芦",
+      "rectTopLeft": [
+        765,
+        582,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "法器 · 已装备",
+      "rectTopLeft": [
+        765,
+        646,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "太极护符",
+      "rectTopLeft": [
+        360,
+        749,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "护符 · 已装备",
+      "rectTopLeft": [
+        360,
+        813,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "道法卷轴",
+      "rectTopLeft": [
+        765,
+        749,
+        223,
+        52
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "道书 · 已装备",
+      "rectTopLeft": [
+        765,
+        813,
+        223,
+        42
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "青玉剑",
+      "rectTopLeft": [
+        1310,
+        370,
+        370,
+        70
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "当前佩戴  ·  Lv.12",
+      "rectTopLeft": [
+        1310,
+        455,
+        370,
+        50
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "待换：凝气青玉剑",
+      "rectTopLeft": [
+        1140,
+        555,
+        545,
+        65
+      ],
+      "fontPixels": 35,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "攻击  168  →  174",
+      "rectTopLeft": [
+        1140,
+        655,
+        545,
+        60
+      ],
+      "fontPixels": 34,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "替换后攻击提高 6 点。",
+      "rectTopLeft": [
+        1140,
+        755,
+        545,
+        55
+      ],
+      "fontPixels": 28,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回属性",
+      "rectTopLeft": [
+        1155,
+        908,
+        210,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "替换青玉剑",
+      "rectTopLeft": [
+        1455,
+        908,
+        240,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    }
+  ],
+  "sha256": "8f846088431a0948ff9e2e3f0c026c128cb87a91d6424231663b1691b2e38f0b",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_normal.png",
+      "sha256": "ad58f542cacdea60ef0e9bbae2d40819c7fa39a8a4ebedc1fc46d8d675ee27fa",
+      "sourceRecord": "records/reused-assets.json#card_normal"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/card_selected.png",
+      "sha256": "f8ad6f7d944af4f7c5b5c8daeb2d62ec45f977e579656fee7759d99f7b793260",
+      "sourceRecord": "records/reused-assets.json#card_selected"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/badge_taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceRecord": "records/reused-assets.json#badge_taiji"
+    },
+    {
+      "file": "assets/icons/icon_boots.png",
+      "sha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "sourceRecord": "records/reused-assets.json#icon_boots"
+    },
+    {
+      "file": "assets/icons/icon_gourd.png",
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceRecord": "records/reused-assets.json#icon_gourd"
+    },
+    {
+      "file": "assets/icons/icon_scroll.png",
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceRecord": "records/reused-assets.json#icon_scroll"
+    },
+    {
+      "file": "assets/icons/icon_sword.png",
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "sourceRecord": "records/reused-assets.json#icon_sword"
+    },
+    {
+      "file": "assets/icons/icon_talisman.png",
+      "sha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "sourceRecord": "records/reused-assets.json#icon_talisman"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.187570+00:00"
+}

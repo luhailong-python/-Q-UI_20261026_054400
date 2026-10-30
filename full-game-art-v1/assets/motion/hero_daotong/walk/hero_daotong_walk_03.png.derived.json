@@ -1,0 +1,64 @@
+{
+  "id": "hero_daotong_walk_03",
+  "name": "青云道童 行走4",
+  "file": "assets/motion/hero_daotong/walk/hero_daotong_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "hero_daotong",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_03.png",
+  "sourceSha256": "d38e2470f58e498e2989a7724677debaa1bddef7b9e061da01bb18f9378b998a",
+  "sha256": "fb4b40e18b1e292eb11e20d2c01d162fe43a0c163a19115962eeef109850f178",
+  "sourceAnchorXY": [
+    730,
+    1121
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.7121714818266542,
+  "actualRasterScaleXY": [
+    0.7121212121212122,
+    0.7121212121212122
+  ],
+  "offsetTopLeft": [
+    -8,
+    98
+  ],
+  "visibleMarginsLTRB": [
+    198,
+    196,
+    348,
+    112
+  ],
+  "durationMs": 100,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/hero_daotong-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.7121714818266542,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

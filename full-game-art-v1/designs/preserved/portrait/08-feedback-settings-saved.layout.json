@@ -1,0 +1,611 @@
+{
+  "screen": "08-feedback-settings-saved",
+  "title": "设置已保存",
+  "orientation": "portrait",
+  "state": "feedback",
+  "file": "designs/portrait/08-feedback-settings-saved.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_portrait.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        941,
+        1672
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 100
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        50,
+        102,
+        980,
+        1758
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        215,
+        30,
+        650,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        916,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        125,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        406,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        686,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        150,
+        460,
+        690,
+        35
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        157,
+        466,
+        487,
+        22
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_thumb.png",
+      "rectTopLeft": [
+        623,
+        446,
+        62,
+        62
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        150,
+        700,
+        690,
+        35
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        157,
+        706,
+        575,
+        22
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_thumb.png",
+      "rectTopLeft": [
+        711,
+        686,
+        62,
+        62
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        150,
+        940,
+        690,
+        35
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        157,
+        946,
+        406,
+        22
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_thumb.png",
+      "rectTopLeft": [
+        542,
+        926,
+        62,
+        62
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        170,
+        1430,
+        740,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        170,
+        1580,
+        740,
+        110
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/section_plate.png",
+      "rectTopLeft": [
+        150,
+        1725,
+        780,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        76.0,
+        16.0,
+        72.0,
+        21.0
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "设置",
+      "rectTopLeft": [
+        295,
+        50,
+        490,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "声音",
+      "rectTopLeft": [
+        133,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "画面",
+      "rectTopLeft": [
+        414,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "操作",
+      "rectTopLeft": [
+        694,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "背景音乐",
+      "rectTopLeft": [
+        150,
+        380,
+        780,
+        55
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "72%",
+      "rectTopLeft": [
+        850,
+        442,
+        90,
+        60
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "音效音量",
+      "rectTopLeft": [
+        150,
+        620,
+        780,
+        55
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "85%",
+      "rectTopLeft": [
+        850,
+        682,
+        90,
+        60
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "提示音量",
+      "rectTopLeft": [
+        150,
+        860,
+        780,
+        55
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "60%",
+      "rectTopLeft": [
+        850,
+        922,
+        90,
+        60
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "音量调整即时预览；点击保存后保留。",
+      "rectTopLeft": [
+        150,
+        1170,
+        780,
+        70
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "恢复默认",
+      "rectTopLeft": [
+        195,
+        1438,
+        690,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "保存设置",
+      "rectTopLeft": [
+        195,
+        1588,
+        690,
+        100
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "设置已保存",
+      "rectTopLeft": [
+        210,
+        1737,
+        660,
+        88
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    }
+  ],
+  "sha256": "d5a46e63318ee48c0db3c020bc8836297a80c424250cadb165f8a7f4f5997f3e",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_portrait.png",
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_portrait.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/section_plate.png",
+      "sha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "sourceRecord": "records/reused-assets.json#section_plate"
+    },
+    {
+      "file": "assets/common/slider_fill.png",
+      "sha256": "6613b6f5a4ac1d03e1e92082efc92fd61c339b98d04523ac2a289bdac75acf0f",
+      "sourceRecord": "records/reused-assets.json#slider_fill"
+    },
+    {
+      "file": "assets/common/slider_thumb.png",
+      "sha256": "9cab35f55f601663f5f0020600e5815b81de09e303262ddda4be2571207d2aef",
+      "sourceRecord": "records/reused-assets.json#slider_thumb"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "f35d337bd76d4481db6636aba64172c0d86621fbddc043f3af1c6f7e1ae9697f",
+      "sourceRecord": "records/reused-assets.json#slider_track"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.285741+00:00"
+}

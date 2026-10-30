@@ -1,0 +1,64 @@
+{
+  "id": "orig_mob05_walk_02",
+  "name": "桃木小傀 行走3",
+  "file": "assets/motion/orig_mob05/walk/orig_mob05_walk_02.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_mob05",
+  "action": "walk",
+  "phase": 2,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob05\\orig_mob05_walk_02_v2.png",
+  "sourceSha256": "b4a264de026e4d6972585e57c8ecade731f97672aefbe3ff20361aa729b02b51",
+  "sha256": "bb84b91c6158287988d3a761352ae75846c53d1f24edbc44eb1aa0c07ea3b50c",
+  "sourceAnchorXY": [
+    660,
+    1216
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6564948453608247,
+  "actualRasterScaleXY": [
+    0.6562998405103668,
+    0.6562998405103668
+  ],
+  "offsetTopLeft": [
+    79,
+    98
+  ],
+  "visibleMarginsLTRB": [
+    194,
+    121,
+    246,
+    127
+  ],
+  "durationMs": 200,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_mob05-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6564948453608247,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

@@ -1,0 +1,76 @@
+{
+  "file": "assets/motion-native/orig_mob02/orig_mob02_walk_03_v2.png",
+  "sha256": "a9a21e5030afecaa0f5c4195956d6af16e58b87538bca3b73fd0a968045163da",
+  "operation": "AI targeted cuff-side continuity repair preserving passing pose, with actual edit target plus identity master attached",
+  "actor": "orig_mob02",
+  "action": "walk",
+  "phase": 3,
+  "phaseRole": "left-passing",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/motion/orig_mob02_walk_03_v2.txt",
+  "promptSha256": "530243afacd9a071ddf59e92464c4c362b734125d4210b94235a9b809669e251",
+  "actualSubmittedToolArguments": {
+    "promptTextFile": "records/prompts/motion/orig_mob02_walk_03_v2.txt",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03.png",
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03.png",
+      "sha256": "6767829d81e3a11fcf7361cd5a675786d66b3eb8f92dbf9c936fda9ecf366b66",
+      "role": "precise costume continuity edit target, actually viewed",
+      "sameProjectOriginal": true
+    },
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03.png",
+      "sha256": "6767829d81e3a11fcf7361cd5a675786d66b3eb8f92dbf9c936fda9ecf366b66",
+      "role": "accepted identity master, actually viewed",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268\\exec-5c65fa17-9c3f-4328-bd20-a6c17839c209.png",
+    "imageDataOmittedFromText": true
+  },
+  "generatedAtUtc": "2026-10-28T10:11:00.283534+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T10:11:26.092561+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review"
+}

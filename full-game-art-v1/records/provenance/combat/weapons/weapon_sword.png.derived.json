@@ -1,0 +1,60 @@
+{
+  "id": "weapon_sword",
+  "name": "剑诀实体",
+  "file": "assets/weapons/weapon_sword.png",
+  "function": "fixed_direction_stab",
+  "sha256": "077a687b95e6c9d7fd759741852a76f2305429818728ab0d2840db6d89e1ee78",
+  "size": [
+    512,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/weapons.png",
+  "sourceSha256": "bdc018345a918c0af8375ae2d23badf7a7c879cf5082684c2f89f37c0773f5b8",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    548,
+    503
+  ],
+  "sourceAnchorXY": [
+    110,
+    247
+  ],
+  "outputAnchorTopLeftXY": [
+    104,
+    128
+  ],
+  "anchorMethod": "Manually marked physical grip; one static transform, suggested binding pivot",
+  "pivot": [
+    0.203125,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.8502857142857142,
+  "offsetTopLeft": [
+    10,
+    -82
+  ],
+  "visibleMarginsLTRB": [
+    37,
+    75,
+    60,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "icon_sword",
+  "file": "assets/icons/icon_sword.png",
+  "sha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+  "operation": "Byte-identical copy of this project original icon; original UI untouched",
+  "existingOriginalSource": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\icons\\icon_sword.png",
+  "existingOriginalSha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+  "evidenceRecord": "records/existing-original-evidence/icon_sword.derived.json",
+  "sourceAtlas": "assets/native/existing_abilities_atlas.png",
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fixedDecorativeMarks": [],
+  "unityVerified": false,
+  "nativeDetailIncreased": false
+}

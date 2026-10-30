@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "hero_roster_atlas",
+  "file": "assets/ui-kit/hero_roster_atlas.png",
+  "operation": "One AI generation of an original three-character combination master atlas, byte-identical project copy",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "sourceNativePath": "C:/Users/luyua/.codex/generated_images/01a178ab-c6e7-7eb2-bd95-6199c794fb2a/exec-f7e8c617-66ac-495a-a082-f757843cafdc.png",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept.\nAsset type: one original three-character roster master atlas for a high-definition 2D Daoist chibi game, with genuine Alpha transparency. Create ONE landscape image with a 3:2 aspect ratio, arranged as THREE EQUAL VERTICAL COLUMNS. Each column contains exactly one complete isolated character, no scene or interface.\nLEFT COLUMN: an original young male Daoist apprentice, short brown hair and a warm-gold headband, jade-green short Daoist robe over an ivory inner garment, short boots, a little gourd at his waist, holding a modest small jade sword with a short hilt. A bright confident rounded face, big eyes, large head and short compact body. Keep the entire sword, hands, headband tails and feet within the left column.\nMIDDLE COLUMN: an original young female spirit healer, black hair in two neat braids, a small lotus-jade hairpin, ivory and teal Daoist clothing, very large head, short body, friendly round eyes, holding a jade medicine gourd in both clearly readable hands. Modest layered robes and short shoes, calm gentle pose. Keep both braids, pin, gourd, hands and feet wholly within the middle column.\nRIGHT COLUMN: an original elderly thunder cultivator, white hair and a short white beard, round short body and oversized head, celadon-jade and ivory Daoist robes with delicate warm-gold cloud edging and a small teal crown. He carries a jade staff and one small abstract thunder talisman with NO readable letters. His face is clearly older, with dignified thick eyebrows and subtle age creases, yet warm and charming. No huge beard covering the torso. Keep the entire staff, crown, talisman, hands and both feet within the right column.\nAll three are the same illustrated height, same chibi head-to-body scale and same gently elevated three-quarter game-art camera; all face slightly toward screen bottom-right, E. The elder may be a little rounder. Give distinct identities, hair, faces, clothing and equipment. They belong to one coherent original Daoist fantasy world.\nStyle: exquisite finished Chinese Daoist Q-version HD hand-painted game art, clean rounded silhouettes, fine controlled brushwork, soft painted highlights and shading, restrained jade/gold material character. Palette jade green, teal, warm ivory and fine warm gold. 2D painted illustration, never 3D render, plastic toy, photorealism, vector clip-art or pixel art. All faces and equipment are crisp and carefully finished.\nSpacing is essential: three equal vertical ownership zones; each WHOLE silhouette fits inside its own column with at least 12 percent transparent space on both column sides, and at least 12 percent empty space above and below. Leave clearly transparent vertical gutters between all three figures. Match the characters' feet to the same baseline. No silhouette, weapon, cloth tail, glow or shadow crosses a gutter or touches another figure. No ground plane, cast-shadow puddle, halo, background, checkerboard pattern, panel, selection card, borders, divider lines, text, names, numbers, typography or watermark. No pets, companion animals, extra characters, alternate poses or additional standalone props. This is a text-only original design; no external image input or existing character is supplied to copy.",
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Tool has no model/quality selectors and returned neither model nor quality.",
+  "requestStartedAt": "2026-10-27T02:21:01.593Z",
+  "toolReturnedAt": "2026-10-27T02:21:50.921Z",
+  "prompt": "records/generation/hero_roster/prompt.txt",
+  "toolReceipt": "records/generation/hero_roster/tool-receipt.json",
+  "referenceImages": [],
+  "referenceInputParametersOmitted": [
+    "referenced_image_paths",
+    "num_last_images_to_include"
+  ],
+  "externalImageInputUsed": false,
+  "FDriveImageInputUsed": false,
+  "newImageGenerationCalls": 1,
+  "staticMasterOnly": true,
+  "animationClaimed": false,
+  "unityVerified": false,
+  "nativeRGBUnderTransparentPixels": "Source contains hidden RGB colours where alpha is zero or nearly zero; actual alpha compositing must be used to assess transparency.",
+  "sha256": "a63d5e30490d4bc0917471b96a40030a127d2abb910e08492eb8c88914762404",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "alphaBBoxNonzero": [
+    0,
+    0,
+    1536,
+    1024
+  ],
+  "subjectBBoxAlpha16": [
+    12,
+    98,
+    1526,
+    942
+  ],
+  "generatedAtObservedFromNativeFileMtime": "2026-10-27T02:21:50.477294+00:00",
+  "byteIdenticalToNative": true,
+  "visuallyInspected": true,
+  "visualReviewNote": "Actual alpha compositing on ivory proved the coloured hidden RGB is not an opaque background. Three complete original identities are readable. Native gutters are narrower than requested; derived 1024 canvases restore safety margins without repainting.",
+  "native12PercentGutterTargetAchieved": false
+}

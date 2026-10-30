@@ -1,0 +1,74 @@
+{
+  "file": "assets/motion-native/orig_mob01/orig_mob01_walk_02_v3.png",
+  "sha256": "d01366f5672acc78bdcd3b57a3705a6b45cd7a10c7ca87b84e70ab828124fe08",
+  "operation": "AI individual pose edit from approved original master; not image-to-video and not transformed still animation",
+  "actor": "orig_mob01",
+  "action": "walk",
+  "phase": 2,
+  "phaseRole": "right-contact",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/orig_mob01_walk_02_v3.txt",
+  "promptSha256": "a0a58ef90f5f6687765a3fa7ec4c742e625cec64845855e217045d3478f36151",
+  "actualSubmittedToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: ONE new opposite-contact WALK cel of this exact original folded-paper Daoist chibi spirit on genuine transparent background. Sole input is the original identity/costume/style master. Preserve exact folded ivory paper head and body, jade eyes, cinnabar forehead curls, tall curled jade-gold paper hat leaning the same direction, folded short arms, red swirling front talisman, two jade hat ribbons, tiny folded paper legs and boots. Exact same three-quarter body/camera facing IMAGE RIGHT; no mirroring or body turn. Camera fixed and head/hat same size. Required pose: CAMERA-NEAR folded-paper leg steps FORWARD TOWARD VIEWER AND DOWN-LEFT, with large foreground ivory paper boot planted at IMAGE LEFT below the pelvis, closer/lower/larger than the other. CAMERA-FAR folded-paper leg trails BACK AND IMAGE RIGHT with small paper boot higher and heel lifting. Clear separation and overlap of folded thighs/shins must show an opposite-contact step, with big near boot LEFT and small far boot RIGHT. Do NOT repeat a large right-front boot and small left-rear boot. Keep exactly two legs and two arms; front red talisman may flutter slightly but must not hide both thighs. Preserve all identity marks and original hand-painted jade/ivory/warm-gold texture, slight ribbon follow-through only, no new material. One complete standing-contact walking key, not jump/dance/floating whole-body translation or a static symmetric straddle. Full body and hat with clean transparent margins; no cropped tip/boot, ground shadow, background, text or spritesheet.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png",
+      "sha256": "c8ab25c8440bb50277a48aa188d580a858ce83de65f2ceaba77ca46443642945",
+      "role": "identity/shape/costume master, actually viewed before AI edit",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-75f00c79-e916-4da6-9b4c-f9044a238628.png",
+    "imageDataOmittedFromText": true,
+    "imageUrlType": "data:image/png;base64 (omitted; retained PNG has exact returned pixels)",
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-75f00c79-e916-4da6-9b4c-f9044a238628.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "generatedAtUtc": "2026-10-28T10:19:42.409771+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T10:20:24.541997+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review",
+  "scope": "phase2 opposite-contact repair after second static reviewer found same foreground leg in phase0/2",
+  "actualToolReceipt": "records/motion/orig_mob01-phase2-v3-tool-receipt.json",
+  "actualToolReceiptSha256": "9080537314fc769eba563f24e203977ad7aebed1d9befff011d016c71fc81ff2"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "money_bag_50",
+  "name": "大钱袋 · 50",
+  "file": "assets/pickups/money_bag_50.png",
+  "function": "money50",
+  "sha256": "e3a0e5dd65282c29eb8546395dccae439ecc4c90f1cf33a05dfd66a566c5ed1b",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    809,
+    812,
+    445,
+    442
+  ],
+  "sourceAnchorXY": [
+    225.5,
+    202.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.5585454545454546,
+  "offsetTopLeft": [
+    2,
+    15
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    36,
+    32,
+    35
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

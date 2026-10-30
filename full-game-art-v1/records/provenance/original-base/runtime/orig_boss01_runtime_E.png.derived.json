@@ -1,0 +1,166 @@
+{
+  "id": "orig_boss01_runtime_E",
+  "monsterId": "orig_boss01",
+  "name": "玄坛石尊",
+  "purpose": "runtime",
+  "file": "assets/runtime/orig_boss01_runtime_E.png",
+  "sha256": "fa41e00123dd9a02b394c26298f347b3f6a3519d8d6535f1a220e99c07a41559",
+  "operation": "Technical static sprite export: uniform downscale and transparent canvas placement, without re-painting or model generation",
+  "artSource": "existing_original_master_generated_in_this_batch",
+  "newAIGeneration": false,
+  "nativeDetailIncreased": false,
+  "derivedFrom": {
+    "file": "assets/orig_boss01/orig_boss01_master_E.png",
+    "sha256": "c50d48f1fcc80eb01b6b7ce0334141dccbbe013c988be5be6b96fab63fdd5ce1",
+    "generationRecord": "assets/orig_boss01/orig_boss01_master_E.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "transform": {
+    "requestedUniformScale": 0.6444359117659605,
+    "actualRasterScaleXY": [
+      0.6443381180223285,
+      0.6443381180223285
+    ],
+    "resizedWholeSourceCanvas": [
+      808,
+      808
+    ],
+    "offsetTopLeft": [
+      106,
+      157
+    ],
+    "sourceSubjectBBoxAlpha16": [
+      35,
+      101,
+      1224,
+      1147
+    ],
+    "resizedSubjectBBoxAlpha16": [
+      22,
+      65,
+      789,
+      739
+    ],
+    "outputAnchorTopLeftPx": [
+      512,
+      896
+    ],
+    "pivotBottomLeftNormalized": [
+      0.5,
+      0.125
+    ],
+    "resampling": "Premultiplied RGBA (Pillow RGBa), Lanczos, unpremultiply; no new drawn pixels",
+    "perFrameBboxRegistration": false,
+    "wholeSourceCanvasPlacement": true,
+    "outsideOutput": {
+      "nonzeroPixelsOutsideOutput": 0,
+      "alpha16OrHigherPixelsOutsideOutput": 0,
+      "maximumAlphaOutsideOutput": 0,
+      "interpretation": "Original whole canvas is uniformly resized and placed. Only areas beyond the output canvas may be clipped; visible subject Alpha>=16 must remain complete. Native source retains all pixels."
+    }
+  },
+  "sourceMeasurements": {
+    "canvas": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      0,
+      19,
+      1254,
+      1254
+    ],
+    "subjectBBoxAlpha16": [
+      35,
+      101,
+      1224,
+      1147
+    ],
+    "subjectMarginsLTRB": [
+      35,
+      101,
+      30,
+      107
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.027910685805422646,
+      0.08054226475279107,
+      0.023923444976076555,
+      0.08532695374800638
+    ],
+    "alpha1To15Pixels": 25636,
+    "alphaExactly1Pixels": 13750,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 1
+  },
+  "measurements": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      106,
+      169,
+      914,
+      965
+    ],
+    "subjectBBoxAlpha16": [
+      128,
+      222,
+      895,
+      896
+    ],
+    "subjectMarginsLTRB": [
+      128,
+      222,
+      129,
+      128
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.125,
+      0.216796875,
+      0.1259765625,
+      0.125
+    ],
+    "alpha1To15Pixels": 9829,
+    "alphaExactly1Pixels": 4830,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 0
+  },
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "direction": "E",
+  "staticPoseOnly": true,
+  "unityVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Preserved native generation record is authoritative; export does not fill missing model/quality from configuration.",
+  "exportedAtUtc": "2026-10-27T02:08:39.442145+00:00"
+}

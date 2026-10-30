@@ -1,0 +1,69 @@
+{
+  "file": "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png",
+  "sha256": "7c7bc65b20dcfe8b11085898a83e5018fea20e4f4c479ccb874ee436203c2bd0",
+  "operation": "AI individual pose edit from approved original master; not image-to-video and not transformed still animation",
+  "actor": "orig_mob01",
+  "action": "walk",
+  "phase": 3,
+  "phaseRole": "left-passing",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/motion/orig_mob01_walk_03_v2.txt",
+  "promptSha256": "03000ced7d839ea15cbbeff2eb6dd20dca1739512bf08039a491f4cd5660b3f4",
+  "actualSubmittedToolArguments": {
+    "promptTextFile": "records/prompts/motion/orig_mob01_walk_03_v2.txt",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png",
+      "sha256": "c8ab25c8440bb50277a48aa188d580a858ce83de65f2ceaba77ca46443642945",
+      "role": "identity/shape/costume master, actually viewed before AI edit",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a18166-2111-7b43-8d7d-7505fceb447b\\exec-a0a4c172-bbe4-40b9-ac88-a13ecede43f0.png",
+    "imageDataOmittedFromText": true
+  },
+  "generatedAtUtc": "2026-10-28T08:52:04.959116+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T08:54:17.996367+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review"
+}

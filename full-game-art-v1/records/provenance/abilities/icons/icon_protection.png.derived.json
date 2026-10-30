@@ -1,0 +1,32 @@
+{
+  "id": "icon_protection",
+  "file": "assets/icons/icon_protection.png",
+  "sha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+  "operation": "Byte-identical copy of this project original icon; original UI untouched",
+  "existingOriginalSource": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\icons\\icon_protection.png",
+  "existingOriginalSha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+  "evidenceRecord": "records/existing-original-evidence/icon_protection.derived.json",
+  "sourceAtlas": "assets/native/existing_abilities_atlas.png",
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fixedDecorativeMarks": [],
+  "unityVerified": false,
+  "nativeDetailIncreased": false
+}

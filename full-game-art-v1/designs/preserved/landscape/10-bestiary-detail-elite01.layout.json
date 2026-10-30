@@ -1,0 +1,513 @@
+{
+  "screen": "10-bestiary-detail-elite01",
+  "title": "灵影图鉴",
+  "orientation": "landscape",
+  "state": "monster_detail_elite",
+  "file": "designs/landscape/10-bestiary-detail-elite01.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 55
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        90,
+        100,
+        1740,
+        918
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        615,
+        30,
+        690,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        1756,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/monsters/elite01/elite01_E.png",
+      "rectTopLeft": [
+        190,
+        295,
+        640,
+        600
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        895,
+        305,
+        835,
+        565
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_coin_tile.png",
+      "rectTopLeft": [
+        1143,
+        693,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_scroll.png",
+      "rectTopLeft": [
+        1285,
+        693,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_crystal_tile.png",
+      "rectTopLeft": [
+        1427,
+        693,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        970,
+        915,
+        320,
+        85
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        1365,
+        915,
+        320,
+        85
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "灵影图鉴",
+      "rectTopLeft": [
+        695,
+        50,
+        530,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼 · 内庭关口精英",
+      "rectTopLeft": [
+        200,
+        210,
+        1500,
+        60
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "玄潮龟",
+      "rectTopLeft": [
+        245,
+        900,
+        540,
+        70
+      ],
+      "fontPixels": 48,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "精英 · Lv.12 · 灵龟",
+      "rectTopLeft": [
+        940,
+        330,
+        745,
+        55
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#ae8647",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "气血  1,800",
+      "rectTopLeft": [
+        940,
+        395,
+        745,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "背负一泓玄潮，玉甲凝光。\n作为内庭关口的守关灵影。",
+      "rectTopLeft": [
+        940,
+        465,
+        745,
+        105
+      ],
+      "fontPixels": 28,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "形态特征",
+      "rectTopLeft": [
+        940,
+        585,
+        745,
+        45
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "深青鳞甲 · 水盂龟壳 · 月牙玉饰",
+      "rectTopLeft": [
+        940,
+        637,
+        745,
+        45
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "掉落类型",
+      "rectTopLeft": [
+        940,
+        700,
+        160,
+        45
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "铜钱",
+      "rectTopLeft": [
+        1115,
+        775,
+        135,
+        40
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "道法残卷",
+      "rectTopLeft": [
+        1257,
+        775,
+        135,
+        40
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "通用灵晶",
+      "rectTopLeft": [
+        1399,
+        775,
+        135,
+        40
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "相关任务：破除阻碍",
+      "rectTopLeft": [
+        940,
+        822,
+        745,
+        40
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回图鉴",
+      "rectTopLeft": [
+        995,
+        923,
+        270,
+        75
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "查看任务",
+      "rectTopLeft": [
+        1390,
+        923,
+        270,
+        75
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    }
+  ],
+  "sha256": "8e097ab3de8851ddc5ff0f5e49f138e3f13d91d5cb1afecac979b4a06c2ff826",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "metadata": {
+    "module": "bestiary",
+    "monsterId": "elite01",
+    "name": "玄潮龟",
+    "tier": "elite",
+    "level": 12,
+    "hp": 1800,
+    "portraitAssetId": "elite01_portrait",
+    "illustrationAssetId": "elite01_E",
+    "relatedQuestIds": [
+      "main03"
+    ],
+    "dropRewardIds": [
+      "currency_copper",
+      "item_m06",
+      "item_m10"
+    ],
+    "dropRatesSpecified": false,
+    "sourceRole": "原参考仓库原创宠物；本演示改作试炼灵影",
+    "businessDataIsIllustrative": true,
+    "ctaTarget": "quest_detail_main03"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/icon_scroll.png",
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceRecord": "records/reused-assets.json#icon_scroll"
+    },
+    {
+      "file": "assets/icons/reward_coin_tile.png",
+      "sha256": "a01e72ecfb786f61d116f2960fd97d7386a083a9d97335ca9140598522f8c4d1",
+      "sourceRecord": "records/reused-assets.json#reward_coin_tile"
+    },
+    {
+      "file": "assets/icons/reward_crystal_tile.png",
+      "sha256": "0cdd4ef4c8838409317d55a4217b3ffb286673920886cc979aa3395cc8d35d55",
+      "sourceRecord": "records/reused-assets.json#reward_crystal_tile"
+    },
+    {
+      "file": "assets/monsters/elite01/elite01_E.png",
+      "sha256": "f48097dd016557281ee9740e140fbd426967a65a49aba49e1610cbbda07af5ed",
+      "sourceRecord": "records/monster-assets.json#elite01_E"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.359260+00:00"
+}

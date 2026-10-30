@@ -1,0 +1,60 @@
+{
+  "id": "proj_jade_fragment",
+  "name": "丹珠碎片",
+  "file": "assets/projectiles/proj_jade_fragment.png",
+  "function": "grenade",
+  "sha256": "512bd57baff1636a54d6605ae3ab08eab11920e1b0a55fb2a2eb23bc1ad4f320",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    532,
+    501,
+    493,
+    523
+  ],
+  "sourceAnchorXY": [
+    247.5,
+    251.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7241977186311788,
+  "offsetTopLeft": [
+    -51,
+    -54
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    53,
+    32,
+    53
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

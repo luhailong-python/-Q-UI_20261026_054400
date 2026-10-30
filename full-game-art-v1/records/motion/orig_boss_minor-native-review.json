@@ -1,0 +1,89 @@
+{
+  "actor": "orig_boss_minor",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_boss_minor\\orig_boss_minor_master_E.png",
+  "masterSha256": "8f07673716f4d36e367fa4beb05a3eab2e96fbc91eafb27e1aed825f9d42980c",
+  "selectedFiles": [
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_00.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_01.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_02_v3.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "5c7a5834b19092bd0acb13602bd36ebc226b4db26f41342d07335dbae77db609",
+    "1fa6abef335ad8fd3254d974b8c3ac4ed9a1e582dea043f536301a2480f4b19a",
+    "d2453d357135500650a2e81fe10ac1e8701f165ddb552124dfabf729072776d5",
+    "3efa58ce222a680a5e1650bdd16b761c9eb366ee47e1eda9f944b2badba6e9c9"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceTorsoX": 650,
+      "sourceGroundY": 1143,
+      "definition": "Manually selected planted boot sole and bell/torso axis; sole pixel read within observed supporting-foot region, not whole-alpha bbox bottom",
+      "supportNote": "Shield-side boot strides forward and contacts; mallet-side boot trails behind.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceTorsoX": 650,
+      "sourceGroundY": 1127,
+      "definition": "Manually selected planted boot sole and bell/torso axis; sole pixel read within observed supporting-foot region, not whole-alpha bbox bottom",
+      "supportNote": "Shield-side knee bends and boot rises with tilted visible sole; mallet-side boot supports.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 650,
+      "sourceGroundY": 1154,
+      "definition": "Manually selected planted boot sole and bell/torso axis; sole pixel read within observed supporting-foot region, not whole-alpha bbox bottom",
+      "supportNote": "Mallet-side boot now extends in front and grounds lower; shield-side boot recedes. Confirmed actual opposite leg from contact A.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceTorsoX": 650,
+      "sourceGroundY": 1106,
+      "definition": "Manually selected planted boot sole and bell/torso axis; sole pixel read within observed supporting-foot region, not whole-alpha bbox bottom",
+      "supportNote": "Mallet-side knee bends and boot rises with tilted visible sole; shield-side boot supports.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Native identity, complete anatomy and distinct opposite contact/passing articulation only; registered loop playback is not approved.",
+  "reviewedAtUtc": "2026-10-28T10:19:39.720802+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_00.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_01.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_02_v3.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "Same bell face, bronze cloud shell, handle crown and jade shoulders in all selected frames.",
+    "Mallet remains on image left and jade shield on image right in all selected frames.",
+    "Opposite-contact generation initially failed twice; phase02 and phase02_v2 are excluded, phase02_v3 has visibly opposite leading foot.",
+    "Four unique AI-painted full-body poses; not static transforms."
+  ],
+  "phaseObservations": [
+    "Shield-side boot strides forward and contacts; mallet-side boot trails behind.",
+    "Shield-side knee bends and boot rises with tilted visible sole; mallet-side boot supports.",
+    "Mallet-side boot now extends in front and grounds lower; shield-side boot recedes. Confirmed actual opposite leg from contact A.",
+    "Mallet-side knee bends and boot rises with tilted visible sole; shield-side boot supports."
+  ],
+  "excludedFiles": [
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_02.png",
+    "assets/motion-native/orig_boss_minor/orig_boss_minor_walk_02_v2.png"
+  ],
+  "remainingReview": [
+    "Normal and slow playback over light and dark",
+    "Loop seam and visible camera-size variation",
+    "Foot contact and walking readability at game size"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits, all from same original master; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false,
+  "lightDarkNativeContactSheet": "previews/walk/orig_boss_minor/native-contact.jpg",
+  "lightDarkNativeActuallyViewed": true
+}

@@ -1,0 +1,87 @@
+{
+  "actor": "orig_boss01",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_boss01\\orig_boss01_master_E.png",
+  "masterSha256": "c50d48f1fcc80eb01b6b7ce0334141dccbbe013c988be5be6b96fab63fdd5ce1",
+  "selectedFiles": [
+    "assets/motion-native/orig_boss01/orig_boss01_walk_00.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_01.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_02.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "8ed4f6fa42b975119823a5abf3fe46064b50c0bc89b0a866ef086c532aefc4fd",
+    "0af5ca084c85f2ab77cbe218fd6c19e831083c2b1ece8c67cddc66f86f8a340b",
+    "d38dbf2c7c01804bc7221da64bf92f048368a3fa8173874a7ab37bbb1f4eadbe",
+    "04bc91cb12846559aede81c8176811f83fa6d17aede55f831ac0826e62def097"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceTorsoX": 745,
+      "sourceGroundY": 1165,
+      "definition": "Manually observed stone torso axis and planted boot sole. Sole pixel read inside selected supporting-foot region, not whole-alpha bbox bottom.",
+      "supportNote": "Shield-side leg extends forward and grounds; mallet-side leg recedes, heel raised.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceTorsoX": 745,
+      "sourceGroundY": 1159,
+      "definition": "Manually observed stone torso axis and planted boot sole. Sole pixel read inside selected supporting-foot region, not whole-alpha bbox bottom.",
+      "supportNote": "Shield-side knee bends and boot rises with visible angled sole; mallet-side leg supports.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 745,
+      "sourceGroundY": 1175,
+      "definition": "Manually observed stone torso axis and planted boot sole. Sole pixel read inside selected supporting-foot region, not whole-alpha bbox bottom.",
+      "supportNote": "Mallet-side leg extends forward and grounds; shield-side leg recedes and foot is smaller/higher. Actual opposite lead leg from contact A.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceTorsoX": 745,
+      "sourceGroundY": 1149,
+      "definition": "Manually observed stone torso axis and planted boot sole. Sole pixel read inside selected supporting-foot region, not whole-alpha bbox bottom.",
+      "supportNote": "Mallet-side knee bends and boot rises with visible stone sole; shield-side leg supports.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Native identity, complete anatomy and distinct opposite contact/passing articulation only; registered loop playback is not approved.",
+  "reviewedAtUtc": "2026-10-28T10:25:24.841486+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_boss01/orig_boss01_walk_00.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_01.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_02.png",
+    "assets/motion-native/orig_boss01/orig_boss01_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "Same original stone face, jade brows and eyes, halo arch, cloud shoulder armor, chest Taiji and bead/tassel identity across selected poses.",
+    "Jade mallet stays on image left and white cloud shield on image right; no swapped equipment or extra limb.",
+    "Both contact poses have different lead legs and both passing poses have different raised boots, confirmed visually.",
+    "Four unique AI-painted full-body poses, not transformed standing master.",
+    "Native full and light/dark contact sheet inspected; parent must verify registered motion and retained safety margin."
+  ],
+  "phaseObservations": [
+    "Shield-side leg extends forward and grounds; mallet-side leg recedes, heel raised.",
+    "Shield-side knee bends and boot rises with visible angled sole; mallet-side leg supports.",
+    "Mallet-side leg extends forward and grounds; shield-side leg recedes and foot is smaller/higher. Actual opposite lead leg from contact A.",
+    "Mallet-side knee bends and boot rises with visible stone sole; shield-side leg supports."
+  ],
+  "excludedFiles": [],
+  "remainingReview": [
+    "Normal and slow playback over light and dark",
+    "Loop seam, foot contact and apparent size/pose volume consistency",
+    "Walking readability at intended game size"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits, all from same original master; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false,
+  "lightDarkNativeContactSheet": "previews/walk/orig_boss01/native-contact.jpg",
+  "lightDarkNativeActuallyViewed": true
+}

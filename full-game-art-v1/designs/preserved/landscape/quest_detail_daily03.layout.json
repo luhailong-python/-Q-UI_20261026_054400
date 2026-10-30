@@ -1,0 +1,1142 @@
+{
+  "screen": "quest_detail_daily03",
+  "title": "任务",
+  "orientation": "landscape",
+  "state": "quest_detail_daily03",
+  "file": "designs/landscape/quest_detail_daily03.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 70
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        90,
+        100,
+        1740,
+        918
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        615,
+        30,
+        690,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        1756,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        210,
+        205,
+        222,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        444,
+        205,
+        222,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        678,
+        205,
+        222,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        210,
+        365,
+        690,
+        112
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_normal.png",
+      "rectTopLeft": [
+        210,
+        497,
+        690,
+        112
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_selected.png",
+      "rectTopLeft": [
+        210,
+        629,
+        690,
+        112
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        950,
+        205,
+        760,
+        690
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/checkbox_off.png",
+      "rectTopLeft": [
+        998,
+        530,
+        60,
+        60
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        990,
+        740,
+        217,
+        150
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_coin_tile.png",
+      "rectTopLeft": [
+        1059,
+        750,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1222,
+        740,
+        217,
+        150
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_taiji.png",
+      "rectTopLeft": [
+        1291,
+        750,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1453,
+        740,
+        217,
+        150
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        1523,
+        750,
+        78,
+        78
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        990,
+        900,
+        300,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        1360,
+        900,
+        330,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "任务",
+      "rectTopLeft": [
+        695,
+        50,
+        530,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "主线",
+      "rectTopLeft": [
+        218,
+        209,
+        206,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "支线",
+      "rectTopLeft": [
+        452,
+        209,
+        206,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "日常",
+      "rectTopLeft": [
+        686,
+        209,
+        206,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼",
+      "rectTopLeft": [
+        220,
+        295,
+        360,
+        48
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "可领取 2",
+      "rectTopLeft": [
+        620,
+        295,
+        265,
+        48
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#a84c3f",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "外庭巡察",
+      "rectTopLeft": [
+        240,
+        375,
+        435,
+        48
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "可领取",
+      "rectTopLeft": [
+        682,
+        375,
+        188,
+        45
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "目标 6/6",
+      "rectTopLeft": [
+        240,
+        434,
+        630,
+        35
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "松径除扰",
+      "rectTopLeft": [
+        240,
+        507,
+        435,
+        48
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "今日已完成",
+      "rectTopLeft": [
+        682,
+        507,
+        188,
+        45
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "目标 4/4",
+      "rectTopLeft": [
+        240,
+        566,
+        630,
+        35
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "再赴试炼",
+      "rectTopLeft": [
+        240,
+        639,
+        435,
+        48
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "进行中",
+      "rectTopLeft": [
+        682,
+        639,
+        188,
+        45
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "right",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "目标 0/1",
+      "rectTopLeft": [
+        240,
+        698,
+        630,
+        35
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "再赴试炼",
+      "rectTopLeft": [
+        990,
+        230,
+        505,
+        65
+      ],
+      "fontPixels": 42,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "进行中",
+      "rectTopLeft": [
+        1495,
+        240,
+        170,
+        50
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "今日完成一次山门试炼，温习所学道法。",
+      "rectTopLeft": [
+        990,
+        315,
+        680,
+        105
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "任务目标",
+      "rectTopLeft": [
+        990,
+        450,
+        680,
+        48
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "完成山门试炼 0/1",
+      "rectTopLeft": [
+        1100,
+        517,
+        570,
+        95
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼 · 演示任务",
+      "rectTopLeft": [
+        990,
+        625,
+        680,
+        50
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "任务奖励",
+      "rectTopLeft": [
+        990,
+        680,
+        680,
+        48
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "铜钱 ×100",
+      "rectTopLeft": [
+        995,
+        835,
+        207,
+        45
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "修为 ×80",
+      "rectTopLeft": [
+        1227,
+        835,
+        207,
+        45
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "回元葫芦 ×1",
+      "rectTopLeft": [
+        1458,
+        835,
+        207,
+        45
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回游历",
+      "rectTopLeft": [
+        1015,
+        908,
+        250,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "追踪任务",
+      "rectTopLeft": [
+        1385,
+        908,
+        280,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "主线 4 · 支线 3 · 日常 3",
+      "rectTopLeft": [
+        230,
+        930,
+        650,
+        45
+      ],
+      "fontPixels": 24,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "b1f708dd4aaab07a64fb39fff1fa714db997869a1e6eb563b741e971739314a0",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "quest": {
+    "id": "baseline",
+    "selectedQuestId": "daily03",
+    "category": "daily",
+    "trackedQuestId": "main02",
+    "visibleQuestIds": [
+      "daily01",
+      "daily02",
+      "daily03"
+    ],
+    "claimableCount": 2,
+    "claimableQuestIds": [
+      "side01",
+      "daily01"
+    ],
+    "quests": [
+      {
+        "id": "main01",
+        "category": "main",
+        "state": "claimed",
+        "progress": 1,
+        "displayProgress": 1,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "已领取",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 60
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "id": "main02",
+        "category": "main",
+        "state": "active",
+        "progress": 3,
+        "displayProgress": 3,
+        "targetCount": 8,
+        "targetMonsterId": "mob01",
+        "targetItemId": null,
+        "tracked": true,
+        "actionLabel": "取消追踪",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 100
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 80
+          },
+          {
+            "rewardId": "item_m10",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "main03",
+        "category": "main",
+        "state": "locked",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": "elite01",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "未解锁",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 160
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 120
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "main04",
+        "category": "main",
+        "state": "locked",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": "boss01",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "未解锁",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 280
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 240
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "side01",
+        "category": "side",
+        "state": "claimable",
+        "progress": 6,
+        "displayProgress": 6,
+        "targetCount": 6,
+        "targetMonsterId": "mob02",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "领取奖励",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 90
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 60
+          },
+          {
+            "rewardId": "item_c01",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "side02",
+        "category": "side",
+        "state": "active",
+        "progress": 2,
+        "displayProgress": 2,
+        "targetCount": 5,
+        "targetMonsterId": null,
+        "targetItemId": "m10",
+        "tracked": false,
+        "actionLabel": "追踪任务",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 60
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "side03",
+        "category": "side",
+        "state": "claimed",
+        "progress": 1,
+        "displayProgress": 1,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": "c01",
+        "tracked": false,
+        "actionLabel": "已领取",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 70
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "id": "daily01",
+        "category": "daily",
+        "state": "claimable",
+        "progress": 6,
+        "displayProgress": 6,
+        "targetCount": 6,
+        "targetMonsterId": "mob03",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "领取奖励",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          },
+          {
+            "rewardId": "item_m10",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "daily02",
+        "category": "daily",
+        "state": "daily_completed",
+        "progress": 4,
+        "displayProgress": 4,
+        "targetCount": 4,
+        "targetMonsterId": "mob04",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "今日已完成",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "daily03",
+        "category": "daily",
+        "state": "active",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "追踪任务",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 100
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 80
+          },
+          {
+            "rewardId": "item_c01",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_normal.png",
+      "sha256": "ad58f542cacdea60ef0e9bbae2d40819c7fa39a8a4ebedc1fc46d8d675ee27fa",
+      "sourceRecord": "records/reused-assets.json#card_normal"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/card_selected.png",
+      "sha256": "f8ad6f7d944af4f7c5b5c8daeb2d62ec45f977e579656fee7759d99f7b793260",
+      "sourceRecord": "records/reused-assets.json#card_selected"
+    },
+    {
+      "file": "assets/common/checkbox_off.png",
+      "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "sourceRecord": "records/reused-assets.json#checkbox_off"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/badge_taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceRecord": "records/reused-assets.json#badge_taiji"
+    },
+    {
+      "file": "assets/icons/icon_gourd.png",
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceRecord": "records/reused-assets.json#icon_gourd"
+    },
+    {
+      "file": "assets/icons/reward_coin_tile.png",
+      "sha256": "a01e72ecfb786f61d116f2960fd97d7386a083a9d97335ca9140598522f8c4d1",
+      "sourceRecord": "records/reused-assets.json#reward_coin_tile"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.312473+00:00"
+}

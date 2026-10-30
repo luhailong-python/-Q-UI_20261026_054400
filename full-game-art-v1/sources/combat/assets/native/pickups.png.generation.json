@@ -1,0 +1,86 @@
+{
+  "file": "assets/native/pickups.png",
+  "sha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "generatedAt": "2026-10-27T06:28:57.745943+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T06:29:19.817938+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/pickups.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17c06-d0d9-7582-9dd8-1c38f607cd68\\exec-70115b99-4093-4d7a-a66f-88ca44643758.png",
+    "imageDataOmittedFromText": true
+  },
+  "actualSubmittedToolArguments": {
+    "prompt": {
+      "savedTextFile": "records/prompts/pickups.txt",
+      "sha256": "6dc4b2a3b3cd102c903b77a91dfcb9ff57f2e156e36d905a09449477bbec3784"
+    },
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "artSource": "host_image",
+  "estimateUsd": null,
+  "costEvidence": "Builtin tool returned no pricing or cost information",
+  "visualReview": {
+    "returnedNativeActuallyViewed": true,
+    "nineObjectsPresent": true,
+    "allNineObjectKindsDistinct": true,
+    "sourceImageUnmodified": true,
+    "sourceEdgeMaxAlphaLTRB": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "notRuntimeSlicedByWorker": true,
+    "notes": [
+      "White/blue/green/red experience crystal colours distinguishable",
+      "Copper/silver/gold coins distinguishable, no written numerical values",
+      "Small pouch closed, large pouch partly open with coins",
+      "Large pouch exceeds requested65percent cell envelope; actual ownership/gutter and final padding must be checked during root export",
+      "Small coloured fringe visible in tool black-backed display requires numerical Alpha and light/dark review after export, not called clean Alpha by worker"
+    ]
+  }
+}

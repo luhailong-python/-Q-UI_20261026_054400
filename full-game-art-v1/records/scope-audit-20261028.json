@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-28T10:10:19.5980427Z",
+  "auditor": "scope_audit child agent",
+  "scope": "Local E-drive scope/integrity reconciliation; independent static viewing of battle proportion boards and ground offset preview; no new art or source changes",
+  "referenceCommit": "01f8c76e40f52b853117f436d6d3d08f80a41506",
+  "writesLimitedTo": "records/scope-audit-20261028.json",
+  "fDriveReadOrWritten": false,
+  "gitMutation": false,
+  "imagesGeneratedOrEdited": false,
+  "unityVerified": false,
+  "manifestSnapshot": {
+    "assembledAt": "2026-10-28T04:32:19.735173-04:00",
+    "runtimeImages": 191,
+    "preservedUI": 109,
+    "functionalUI": 22,
+    "nativeSources": 27,
+    "configuredActors": 11,
+    "walkClipCount": 0,
+    "allGameArtComplete": false
+  },
+  "integrity": {
+    "all191RuntimeImagesPresentAndShaMatch": true,
+    "all131ScreensPresentAndShaMatch": true,
+    "all27NativeSourcesPresentAndShaMatch": true,
+    "all131ScreensMatchExistingEOriginals": true,
+    "allManifestAssetSourceHashesMatch": true,
+    "fontAndOFLHashesMatch": true,
+    "problems": []
+  },
+  "scopeCoverage": {
+    "actors": "3 heroes + 6 normal enemies + 2 bosses; static body art present, including orig_mob05/orig_mob06 plus their portrait/target derivatives",
+    "abilities": "21 icons present",
+    "pickups": "XP white1/blue2/green10/red50 + money bronze1/silver2/gold5/pouch30/bag50",
+    "consumables": "4 present in original-base/icons: item_bomb,item_magnet,item_heal,item_regen",
+    "chest": "3 shared states closed/opening/open present",
+    "combat": "44 images: 12 projectile/throwable/orbital art +9 pickups +6 particle/warning assets +5 weapons/emitters +12 explosion/firefield phases",
+    "environment": "1 original native1254square top-down repeat ground, explicit technical256square repeat noise",
+    "utility": "gravity well, look indicator, soft shadow, white flash present",
+    "ui": "131 frozen screen/state designs retained,72 preserved UI assets and42 original-base assets in final map",
+    "approvedDemoExtensions": "10 quests and prior confirmed inventory/equipment/bestiary/settings variations retained",
+    "notRequiredBySource": "No extra town/multilevel/network screens; no additional body run/attack/cast/hurt/death sequence requirement"
+  },
+  "fonts": {
+    "fontCount": 2,
+    "totalBytes": 22295300,
+    "filesAndLicensesPresent": true,
+    "bodyFontActualCorpusCharacters": 746,
+    "bodyMissing": 0,
+    "titleMissing": 32,
+    "combinedFallbackMissing": 0,
+    "policy": "Whole-label fallback to Noto body font when MaShanZheng title lacks characters; no Windows font redistribution"
+  },
+  "actualStaticViewing": {
+    "files": [
+      "previews/battle-art-landscape.jpg",
+      "previews/battle-art-portrait.jpg",
+      "previews/ground-uv-offsets.jpg"
+    ],
+    "findings": [
+      "All11 actor identities visibly distinguishable on warm grey-blue ground at the documented review proportions in both orientations. Bosses are visibly larger; no obvious clipped body, matte rectangle or neighboring-cell fragment.",
+      "Jade,ivory,warm-gold body materials remain coherent; dark outline and color silhouette allow identification on the varied ground.",
+      "Four-offset ground preview has no prominent border,seam or lighting stripe at the shown inspection scale. A single tile naturally repeats some stone clusters."
+    ],
+    "limits": "Static inspection only. This agent did not view animation playback, pixel-inspect all191 images, certify exact seamlessness, observe moving ground, or inspect all projectile/effect overlap in crowded combat."
+  },
+  "priorReviewEvidence": {
+    "newStatic": "9 new static images +2 technical resources technicalPassed=true and visualReview.passed=true in new-static-exports",
+    "ground": "ground-tile-review passed=true for native and3x3 visible repeat; exact opposite-edge identity explicitly false",
+    "combatStatic": "combat-visual-review staticVisualAccepted=true; its old dynamicPlayback flags remain false",
+    "fxPlayback": "Later fx-playback-review passed=true for actual playback and stepping of both6-frame effects; supersedes older combat report playback-pending note",
+    "fonts": "Font preview previously actually viewed and coverage passed per font-sources"
+  },
+  "remaining": {
+    "walkRequired": 11,
+    "walkExportedLatest": 5,
+    "walkAllPassedLatest": false,
+    "finalManifestStale": true,
+    "missingFinalSteps": [
+      "Complete and actually accept all11 original walk loops. Existing5 exports do not establish5 accepted clips.",
+      "Refresh final-resource-manifest and asset CSV from latest adopted motion only after true review. Current final manifest still says0 clips.",
+      "Reconcile historical ACTOR_OBJECT_SCOPE/ENVIRONMENT_UI_SCOPE and combat-visual-review pending labels with later outputs and review records without deleting provenance.",
+      "Observe any remaining environment/actor/projectile composites and loop playback at normal/slow speed required by completion contract.",
+      "Create independent full-game delivery ZIP and verify archive contents/hash after final acceptance. No full-game-art-v1 delivery directory currently exists."
+    ],
+    "notAFinding": "No additional static scope deficit found by local inventory reconciliation; this is not a declaration of complete game art."
+  },
+  "evidence": [
+    {
+      "file": "records/actor-object-full-scope.json",
+      "sha256": "85b6023cf07d3618c4b07b376f097eb9fd4cceeced47822f6a798eae57ef20d0"
+    },
+    {
+      "file": "records/environment-ui-full-scope.json",
+      "sha256": "c808e8000ab5ed5ae0fcb9fd385fc88561455748ed13fd4f657f44515c3021fd"
+    },
+    {
+      "file": "records/final-resource-manifest.json",
+      "sha256": "7e2d8176ceabe926bb7137dc1372cba765c8b9b750c1939a0765512cb3c436db"
+    },
+    {
+      "file": "records/font-sources.json",
+      "sha256": "ba37b6776d3d8208d226d08894e52e3e5f9540b4f5b3529f6df58b8314bf2e06"
+    },
+    {
+      "file": "records/new-static-exports.json",
+      "sha256": "335df95525dd11ec5a3d57b7af6bb91a6dc41f579fc6653c91329a9ab158d529"
+    },
+    {
+      "file": "records/ground-tile-review.json",
+      "sha256": "4b7c22b3e71edd90a74405c85df704c7a73be7cc62c38d73bd94b159886fc6d9"
+    },
+    {
+      "file": "records/combat-visual-review.json",
+      "sha256": "a76e37485c31626cc3b4f2fd0bec9b8e74045f0b03a7a90b42e6cef72d0090b5"
+    },
+    {
+      "file": "records/fx-playback-review.json",
+      "sha256": "b8061a821c8e44b61ba1c338da055c68aa05ddf478fa047a944dc24be915e43a"
+    },
+    {
+      "file": "records/walk-exports.json",
+      "sha256": "1e7d8cbb7dc2a5b6b0d68590d6527e62f0fde34a1445ffab70ef0d652a221225"
+    },
+    {
+      "file": "records/battle-board-layout.json",
+      "sha256": "deadd9c5ec367fe3e9555c543a55637cb1aaa34e739474895a5d4d1119477a60"
+    }
+  ],
+  "allGameArtComplete": false
+}

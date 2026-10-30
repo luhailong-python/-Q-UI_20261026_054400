@@ -1,0 +1,60 @@
+{
+  "id": "xp_red_50",
+  "name": "朱砂灵晶 · 50",
+  "file": "assets/pickups/xp_red_50.png",
+  "function": "experience50",
+  "sha256": "e0e2bab3241146df0e54ad16685d5bbf61ea74508efd77f08e3f604da9c943f5",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    0,
+    434,
+    428,
+    378
+  ],
+  "sourceAnchorXY": [
+    220.5,
+    201.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.6778078291814946,
+  "offsetTopLeft": [
+    -21,
+    -8
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    33,
+    33,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

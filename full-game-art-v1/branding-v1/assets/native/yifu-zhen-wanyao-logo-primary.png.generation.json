@@ -1,0 +1,74 @@
+{
+  "file": "assets/native/yifu-zhen-wanyao-logo-primary.png",
+  "sha256": "9a38bb4f5ac6850890f239ed7036dada8ae9ae928d5c7d4eca25aee6c6711c5f",
+  "operation": "Native AI image output copied byte-identically; no artificial upscale or code-drawn replacement",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "actualSubmittedToolArguments": {
+    "prompt": "Use case: logo-brand.\nAsset type: finished original Chinese game title logo, isolated transparent PNG, suitable for a Daoist chibi survival roguelite game, both landscape and portrait menus.\nText VERBATIM, exactly five Simplified Chinese characters: 「一符镇万妖」. Top row reads 「一符」. Bottom row reads 「镇万妖」. Read in that order. Write 镇, NOT 鎮; 万, NOT 萬. No punctuation, English, subtitle or extra writing.\nInput image1 is our own original UI panel: use ONLY its jade/ivory/warm-gold color/material and rounded cloud ornament language, DO NOT copy or draw its rectangular panel. Input image2 is our own protagonist: use ONLY its exquisite 2D hand-painted Daoist chibi finish, cheerful adventurous energy and jade/gold materials, DO NOT draw any person or portrait.\nDesign: one cohesive compact two-row custom calligraphic wordmark, top two characters about 65 percent total width and bottom three characters about 95 percent total width. Five broad, chunky, energetic, readable brush-script characters with rounded confident ends and carefully separated inner counters. The text should dominate the logo and remain readable at a thumbnail width of 260px. Jade-green and celadon painted letter faces with ivory highlight bevels, a very thin warm-gold rim and a clear deep-jade outer silhouette for contrast on pale backgrounds. Premium fine 2D hand-painted lettering with restrained dimensional paint shading, NOT a glossy 3D render, NOT generic typesetting, not dark fantasy or martial-war MMO lettering. Give the strokes a little jaunty upward motion but no distorted unreadable strokes.\nA single small warm-ivory Taoist paper charm with a jade cap/cord and one simple cinnabar flowing abstract mark peeks diagonally from behind the upper-left/top row. The charm has NO written words or fake glyph blocks. It is the distinctive secondary symbol. Add ONE bold jade-and-ivory ruyi-cloud swoosh cradling the lettering below and curving gently up the lower right, suggesting a sweeping spell clearing a crowd. Small restrained warm-gold spark accents only. Keep decorations subordinate to text; airy, polished and charming. No people, monsters, weapons, skulls, dragons, wings, huge Tai Chi disc, lotus pedestal, frame, shield, scene, floor, square panel, decorative plaque or pedestal.\nComposition: one complete centered lockup in a landscape 3:2 canvas, wide and compact, all paper/ribbons/brush tips within frame and at least 7 percent clear margin on all sides. TRUE transparent RGBA background; transparent holes between all separated strokes. No white or colored backdrop, no checkerboard pixels, no background glow rectangle, no cast shadow on a ground plane. Return just ONE finished logo, not a contact sheet, mockup, UI screen or presentation board. Use native high resolution as the tool allows; do not add size labels.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\sources\\original-base\\assets\\ui-kit\\clean_panel_native.png",
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\final\\original-base\\heroes\\hero_daotong.png"
+    ],
+    "transparent_background": true
+  },
+  "actualReturnedInformation": {
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268 as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268\\exec-3ba9bdfa-9774-475b-ac48-b9c3fa62c89c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268\\exec-3ba9bdfa-9774-475b-ac48-b9c3fa62c89c.png",
+    "actualModel": null,
+    "actualQuality": null,
+    "toolDataOmitted": true
+  },
+  "promptFile": "prompts/logo-primary.txt",
+  "promptSha256": "642738111d5ed79eef04159b982212d0975592e4ea4f11e83ae4d8bda71f341b",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\sources\\original-base\\assets\\ui-kit\\clean_panel_native.png",
+      "sha256": "d45ccd3e77813621d9e50182f119ec1c9b02f52f78ac6e98926852e56ae19182",
+      "role": "actually viewed same-project original style/reference image",
+      "fromFDrive": false
+    },
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\final\\original-base\\heroes\\hero_daotong.png",
+      "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+      "role": "actually viewed same-project original style/reference image",
+      "fromFDrive": false
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "undisclosedFields": "Exposed tool has no model/quality controls and no identifying model/quality return metadata",
+  "generatedAtUtc": "2026-10-29T03:02:38.546861+00:00",
+  "generationTimeEvidence": "actual output file LastWriteTimeUtc; tool returns no timestamp field",
+  "recordedAtUtc": "2026-10-29T03:04:42.652360+00:00",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "sourceArtFromFDrive": false,
+  "unityVerified": false
+}

@@ -1,0 +1,51 @@
+{
+  "downloadedAtUtc": "2026-10-28T08:21:04.017559+00:00",
+  "fonts": [
+    {
+      "id": "noto-cjk-sc",
+      "family": "Noto Sans CJK SC",
+      "file": "NotoSansCJKsc-Regular.otf",
+      "repo": "notofonts/noto-cjk",
+      "commit": "165c01b46ea533872e002e0785ff17e44f6d97d8",
+      "path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "expectedBytes": 16437364,
+      "expectedGitBlobSha1": "dc15562470b4f842321894787a0d066879ccff8b",
+      "licensePath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "licenseUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/LICENSE",
+      "fontFile": "assets/fonts/noto-cjk-sc/NotoSansCJKsc-Regular.otf",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "fontBytes": 16437364,
+      "licenseFile": "assets/fonts/noto-cjk-sc/OFL.txt",
+      "licenseSha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "licenseBytes": 4301,
+      "downloadedAtUtc": "2026-10-28T08:20:52.088414+00:00",
+      "modified": false,
+      "license": "SIL Open Font License1.1",
+      "installationPerformed": false
+    },
+    {
+      "id": "ma-shan-zheng",
+      "family": "Ma Shan Zheng",
+      "file": "MaShanZheng-Regular.ttf",
+      "repo": "google/fonts",
+      "commit": "406197b91ff39a93061c2c2eeaee67ddf2ae1f0d",
+      "path": "ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "expectedBytes": 5857936,
+      "expectedGitBlobSha1": "11bbfb9867d70612158229d037e7a5f622bd0e38",
+      "licensePath": "ofl/mashanzheng/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "licenseUrl": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/OFL.txt",
+      "fontFile": "assets/fonts/ma-shan-zheng/MaShanZheng-Regular.ttf",
+      "fontSha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+      "fontBytes": 5857936,
+      "licenseFile": "assets/fonts/ma-shan-zheng/OFL.txt",
+      "licenseSha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "licenseBytes": 4397,
+      "downloadedAtUtc": "2026-10-28T08:21:04.017500+00:00",
+      "modified": false,
+      "license": "SIL Open Font License1.1",
+      "installationPerformed": false
+    }
+  ]
+}

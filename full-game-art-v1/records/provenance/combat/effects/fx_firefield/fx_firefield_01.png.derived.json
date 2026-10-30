@@ -1,0 +1,61 @@
+{
+  "id": "fx_firefield_01",
+  "name": "流火 · 阶段2",
+  "file": "assets/effects/fx_firefield/fx_firefield_01.png",
+  "function": "molotov persistent-fire visual replacement",
+  "sha256": "acfa11a84ffc8e5842a8495c2a90d680f0d48860fc24e7f2b3b2b0f3adc39a4a",
+  "size": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/fx_firefield.png",
+  "sourceSha256": "b08ad6c9ea2c10e39d459f68bdbd589f4d7a0859a7ae2dd0490c6891fa49c01f",
+  "sourceRectTopLeftXYWH": [
+    512,
+    0,
+    512,
+    512
+  ],
+  "sourceAnchorXY": [
+    257.0,
+    338.0
+  ],
+  "outputAnchorTopLeftXY": [
+    256,
+    352
+  ],
+  "pivot": [
+    0.5,
+    0.3125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "sharedUniformScale": 0.9455659574468085,
+  "offsetTopLeft": [
+    13,
+    32
+  ],
+  "visibleMarginsLTRB": [
+    35,
+    208,
+    34,
+    77
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "durationMs": 110,
+  "operation": "Distinct AI-painted phase crop, manually marked effect/ground anchor registration, ONE shared scale for all six frames, transparent fixed canvas",
+  "perFrameBBoxScaling": false,
+  "newMotionCreatedByProcessing": false,
+  "nativeDetailIncreased": false,
+  "unityVerified": false,
+  "status": "playback-review-pending"
+}

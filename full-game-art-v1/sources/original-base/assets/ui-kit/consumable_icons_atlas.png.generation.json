@@ -1,0 +1,54 @@
+{
+  "file": "assets/ui-kit/consumable_icons_atlas.png",
+  "sha256": "c19c8a2b34818c1ff510488fc84e20e2f47fd698f75decdce7006ac8b3c9acf7",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "generatedAt": "2026-10-27T02:22:18.133548+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T02:23:34.559165+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/consumable-icons-prompt.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17797-3fb9-7750-848d-cc6670539e64\\exec-0155b31f-7a3c-47a4-9191-cecbd61672fd.png",
+    "imageDataOmittedFromText": true
+  }
+}

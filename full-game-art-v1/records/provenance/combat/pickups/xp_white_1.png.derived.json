@@ -1,0 +1,60 @@
+{
+  "id": "xp_white_1",
+  "name": "乳白灵晶 · 1",
+  "file": "assets/pickups/xp_white_1.png",
+  "function": "experience1",
+  "sha256": "a5f6ac88a7e68fe956e70a2a4df9ef8519ff9efc6aacb47455a74339a19f4755",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    425,
+    434
+  ],
+  "sourceAnchorXY": [
+    223.5,
+    242.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7325538461538462,
+  "offsetTopLeft": [
+    -36,
+    -49
+  ],
+  "visibleMarginsLTRB": [
+    66,
+    33,
+    66,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

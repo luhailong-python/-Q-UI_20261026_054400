@@ -1,0 +1,11 @@
+{
+  "returnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268 as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268\\exec-f6412ced-fb1b-4ef3-80f9-034eb5e72076.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-1d1a-7e70-a40d-92378e616268\\exec-f6412ced-fb1b-4ef3-80f9-034eb5e72076.png",
+  "actualModel": null,
+  "actualQuality": null,
+  "toolDataOmitted": true
+}

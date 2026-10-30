@@ -1,0 +1,89 @@
+{
+  "id": "hero_daotong_walk",
+  "actor": "hero_daotong",
+  "name": "青云道童",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/hero_daotong/walk/hero_daotong_walk_00.png",
+      "sha256": "b2f67279f9e751851f81258fd41826e79d7fcc91693ba51b03cb440476cd6da2",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_00.png",
+      "sourceAnchorXY": [
+        730,
+        1156
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.7121714818266542
+    },
+    {
+      "file": "assets/motion/hero_daotong/walk/hero_daotong_walk_01.png",
+      "sha256": "6156c0c7f9e476a3b58fe1f9eb8fc8b1cf9e6c68f46784f4b1f59e1dff88226b",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_01.png",
+      "sourceAnchorXY": [
+        730,
+        1142
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.7121714818266542
+    },
+    {
+      "file": "assets/motion/hero_daotong/walk/hero_daotong_walk_02.png",
+      "sha256": "0f1c4d80251dbb8f13b54319e02c0da70dfe8fd04afc1415710208fc3a18271d",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_02_v3.png",
+      "sourceAnchorXY": [
+        730,
+        1182
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.7121714818266542
+    },
+    {
+      "file": "assets/motion/hero_daotong/walk/hero_daotong_walk_03.png",
+      "sha256": "fb4b40e18b1e292eb11e20d2c01d162fe43a0c163a19115962eeef109850f178",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_03.png",
+      "sourceAnchorXY": [
+        730,
+        1121
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.7121714818266542
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.7121714818266542,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png",
+  "referenceStaticHeightAlpha16": 768,
+  "loop": true,
+  "durationMs": 400,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/hero_daotong-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

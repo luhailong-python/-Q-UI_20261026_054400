@@ -1,0 +1,89 @@
+{
+  "id": "orig_boss01_walk",
+  "actor": "orig_boss01",
+  "name": "玄坛石尊",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/orig_boss01/walk/orig_boss01_walk_00.png",
+      "sha256": "2547f49d530beef6ec7290b3a1ced90f4257d0423754fbdd55df69454663a514",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss01\\orig_boss01_walk_00.png",
+      "sourceAnchorXY": [
+        745,
+        1165
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6285192127460169
+    },
+    {
+      "file": "assets/motion/orig_boss01/walk/orig_boss01_walk_01.png",
+      "sha256": "3bf9d636a64e29f958ebe2c87ee85ea927b25ec49efbc8782e23e9fb2b95414e",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss01\\orig_boss01_walk_01.png",
+      "sourceAnchorXY": [
+        745,
+        1159
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6285192127460169
+    },
+    {
+      "file": "assets/motion/orig_boss01/walk/orig_boss01_walk_02.png",
+      "sha256": "94a0b9c228ad3c2a0295eec1a9ec8349fd935f533288a39506de7197f6be3e5c",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss01\\orig_boss01_walk_02.png",
+      "sourceAnchorXY": [
+        745,
+        1175
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6285192127460169
+    },
+    {
+      "file": "assets/motion/orig_boss01/walk/orig_boss01_walk_03.png",
+      "sha256": "e0fc1adc000b50cd806e5c46a26238167bb02062f63e001d5a7e6ffc27bf5b43",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss01\\orig_boss01_walk_03.png",
+      "sourceAnchorXY": [
+        745,
+        1149
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6285192127460169
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6285192127460169,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_boss01_runtime_E.png",
+  "referenceStaticHeightAlpha16": 674,
+  "loop": true,
+  "durationMs": 800,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/orig_boss01-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

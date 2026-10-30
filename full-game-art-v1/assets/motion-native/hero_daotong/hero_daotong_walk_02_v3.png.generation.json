@@ -1,0 +1,74 @@
+{
+  "file": "assets/motion-native/hero_daotong/hero_daotong_walk_02_v3.png",
+  "sha256": "381e34e63946e94cdc227dc1d1bb1af147b867f13a3a7dd4e36d0b63051ad478",
+  "operation": "AI individual pose edit from approved original master; not image-to-video and not transformed still animation",
+  "actor": "hero_daotong",
+  "action": "walk",
+  "phase": 2,
+  "phaseRole": "right-contact",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/hero_daotong_walk_02_v3.txt",
+  "promptSha256": "f0a783f7d73ee73b99bb01fd3048a636a5a9e82489f68f3fe627b3328bef5ed7",
+  "actualSubmittedToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: one single full-body phase2 opposite-contact WALK cel for the attached original Daoist chibi swordsboy, on genuine transparent background. The image is the identity/costume/material reference, not a pose to copy. Preserve this exact boy's face, brown windswept hair, jade/gold headband, jade/ivory/gold robe, green hip gourd, boots, ONE jade sword in the same camera-near hand, and three-quarter view facing image RIGHT. Keep the upper-body size and head proportion very close to the reference; camera fixed, full character centered with clear margins. Critical leg pose: the CAMERA-NEAR LEG comes diagonally FORWARD TOWARD THE VIEWER and DOWN-LEFT; its large foremost dark green boot must be at IMAGE LEFT of the pelvis, fully grounded, visibly larger and lower than the far boot. The CAMERA-FAR leg extends BACK and IMAGE RIGHT, with its small rear boot higher and heel rising. The two legs must exchange foreground/background ownership compared with a right-front-foot stride. Show clear thigh, knee, trouser overlap and two distinct complete feet. This is a natural opposite-contact walking key, not a stationary straddle, jump, attack or sword slash. Carry the sword near the body at a modest forward/up angle with only gentle natural arm swing; do not replace walking with swinging a sword. Small robe/ribbon follow-through. Exact same painterly high-definition rounded chibi rendering, jade-green/ivory/warm-gold materials. No horizontal flip, no extra props/limbs, no ground shadow, no background, no text, no sprite sheet. One complete independently painted pose.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png",
+      "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+      "role": "identity/shape/costume master, actually viewed before AI edit",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-ba003cc8-debb-4128-a3eb-27b554b23c74.png",
+    "imageDataOmittedFromText": true,
+    "imageUrlType": "data:image/png;base64 (omitted; retained PNG has exact returned pixels)",
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-ba003cc8-debb-4128-a3eb-27b554b23c74.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "generatedAtUtc": "2026-10-28T10:15:39.101388+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T10:15:51.389498+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review",
+  "scope": "phase2 opposite-contact repair after second static reviewer found same foreground leg in phase0/2",
+  "actualToolReceipt": "records/motion/hero_daotong-phase2-v3-tool-receipt.json",
+  "actualToolReceiptSha256": "180a4d82f504e561838196bda7691e4639d5205f9e2347dd978d359cf5fd9054"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "hero_lingyi_walk",
+  "actor": "hero_lingyi",
+  "name": "清荷灵医",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/hero_lingyi/walk/hero_lingyi_walk_00.png",
+      "sha256": "f8d26f79e492d17d9b8206c5cd119b744d74ef439b608e00bfa08d41bee89961",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_00.png",
+      "sourceAnchorXY": [
+        740,
+        1194
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6650835532102023
+    },
+    {
+      "file": "assets/motion/hero_lingyi/walk/hero_lingyi_walk_01.png",
+      "sha256": "501302e9b38cf9413898944f027fabc90e1a659e981c9ce005b72bf8045cf6c9",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_01.png",
+      "sourceAnchorXY": [
+        735,
+        1165
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6650835532102023
+    },
+    {
+      "file": "assets/motion/hero_lingyi/walk/hero_lingyi_walk_02.png",
+      "sha256": "5d7538a675a48d9f5685173fc86235af1ff902723e1277a95c528e3932a59594",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_02_v3.png",
+      "sourceAnchorXY": [
+        720,
+        1195
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6650835532102023
+    },
+    {
+      "file": "assets/motion/hero_lingyi/walk/hero_lingyi_walk_03.png",
+      "sha256": "6bc34d6f3f5ddb899c870ee0a28d65417f7fb5ec319899233227a57f3b719d6a",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_03.png",
+      "sourceAnchorXY": [
+        730,
+        1141
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6650835532102023
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6650835532102023,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png",
+  "referenceStaticHeightAlpha16": 760,
+  "loop": true,
+  "durationMs": 400,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/hero_lingyi-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

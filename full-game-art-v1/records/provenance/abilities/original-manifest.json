@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "scope": "Ability icons only; existing UI frozen",
+  "runtimePngCount": 21,
+  "nativeAtlasCount": 4,
+  "newGeneratedAtlasCount": 3,
+  "assets": [
+    {
+      "abilityId": "lightsaber",
+      "iconId": "ability_lightsaber",
+      "originalChineseName": "回旋玉轮",
+      "file": "assets/icons/ability_lightsaber.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "6f37d05caafbe4ac3ca8dec2b89462222d8c7eb345cec451c347f405fb6e52f8",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Boomerang Abilities/Lightsaber Ability.prefab",
+      "sourceRuntimeClass": "BoomerangAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "按冷却向附近随机敌人投掷回旋法器；无敌则随机掷出，往返命中造成伤害和击退。",
+      "adaptationBoundaries": [
+        "Distinct prefabs share BoomerangAbility; do not merge count or icon."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "machete",
+      "iconId": "ability_machete",
+      "originalChineseName": "追风飞刃",
+      "file": "assets/icons/ability_machete.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "ccca6c88e29f51d6a7376536378d108b386740637dd8228c72b92af426f94dd2",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Boomerang Abilities/Machete Ability.prefab",
+      "sourceRuntimeClass": "BoomerangAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "与Lightsaber同属回旋法器；该prefab的伤害、击退、半径、投掷时间、冷却不同。",
+      "adaptationBoundaries": [
+        "Distinct prefabs share BoomerangAbility; do not merge count or icon."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "lifesteal",
+      "iconId": "ability_lifesteal",
+      "originalChineseName": "摄元诀",
+      "file": "assets/icons/ability_lifesteal.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "0cfddaf3735d19f9b5a2d79a9a57756f7371469bba18c4478d9ac85396cebf36",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Healing Abilities/Lifesteal Ability.prefab",
+      "sourceRuntimeClass": "LifestealAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "每次造成伤害事件触发概率判定，成功恢复固定recovery值；不是按伤害百分比等额吸血。",
+      "adaptationBoundaries": [
+        "Chance per OnDealDamage event heals fixed amount, not damage-proportional lifesteal."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "recovery",
+      "iconId": "icon_gourd",
+      "originalChineseName": "灵葫回元",
+      "file": "assets/icons/icon_gourd.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "0c315e057fa88e5ab14ec7905c214e362784778e2a2e283b49bcbfe043814435",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Healing Abilities/Recovery Ability.prefab",
+      "sourceRuntimeClass": "RecoveryAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按回血冷却自动恢复生命值；不消耗战斗道具库存，也不恢复灵力。",
+      "adaptationBoundaries": [
+        "Automatic health recovery, not mana or consumable inventory use."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "bat",
+      "iconId": "ability_bat",
+      "originalChineseName": "破邪木锏",
+      "file": "assets/icons/ability_bat.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "8bbc7172586350f0b80870c82c25dab0d8febbcedbe348da951052755bc274da",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Melee Abilities/Bat Ability.prefab",
+      "sourceRuntimeClass": "SlashAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "按冷却朝初始面向作扇弧挥击，旋转OverlapBox检查目标，每次挥击同一目标只伤害一次。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "dagger",
+      "iconId": "ability_dagger",
+      "originalChineseName": "绛纹短刃",
+      "file": "assets/icons/ability_dagger.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "6198ad1b34fc6ea5f50591b753fb242565508f38d584115ac20224a3908afaca",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Melee Abilities/Dagger Ability.prefab",
+      "sourceRuntimeClass": "DaggerAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "刺击命中后按bleedRate与bleedDuration追加周期伤害；目标死亡终止相应持续伤害。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "fixed_direction_stab",
+      "iconId": "icon_sword",
+      "originalChineseName": "剑诀",
+      "file": "assets/icons/icon_sword.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Melee Abilities/Fixed Direction Stab Ability.prefab",
+      "sourceRuntimeClass": "FixedDirectionStabAbility",
+      "inLevel1CandidatePool": false,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "只依据面向X正负作左右水平刺击，命中伤害和击退；不是自动索敌飞剑。",
+      "adaptationBoundaries": [
+        "Horizontal left/right stab, not homing flying swords."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "bazooka",
+      "iconId": "icon_thunder",
+      "originalChineseName": "天雷符",
+      "file": "assets/icons/icon_thunder.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Projectile Abilities/Bazooka Gun Ability.prefab",
+      "sourceRuntimeClass": "BazookaGunAbility",
+      "inLevel1CandidatePool": false,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "范围内寻找最近实体并转向瞄准，无目标则随机方向发射；爆炸投射物命中或飞行结束时产生范围伤害和击退。",
+      "adaptationBoundaries": [
+        "Periodic direct lightning strike is not Bazooka splash. icon_thunder is visual reinterpretation only; future copy should describe aimed explosive projectile. Frozen UI unchanged."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [
+        "Painted lightning motif and circular cinnabar decorative seal; no dynamic business text"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "machine_gun",
+      "iconId": "ability_machine_gun",
+      "originalChineseName": "回转符匣",
+      "file": "assets/icons/ability_machine_gun.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "9f021e62a64481874a36052bbea2e2f2914e8c49d7e2f4e7bfc82021df061a0f",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Projectile Abilities/Machine Gun Ability.prefab",
+      "sourceRuntimeClass": "MachineGunAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "发射器绕角色旋转，沿当前径向按弹夹连射；不是固定朝面向直线射击。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "shuriken",
+      "iconId": "ability_shuriken",
+      "originalChineseName": "连发风刃",
+      "file": "assets/icons/ability_shuriken.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "3107d07902db5904999cee7899d36fd8267129ac7eb53e7bed63a4177df2ca66",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Projectile Abilities/Shuriken Ability.prefab",
+      "sourceRuntimeClass": "GunAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "实际prefab绑定GunAbility，以firerate控制弹夹连发，沿角色面向发射；不是同名ShurikenAbility的shurikenDelay实现。",
+      "adaptationBoundaries": [
+        "Prefab m_Script is GunAbility; same-named ShurikenAbility source exists but is not this prefab binding."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "book",
+      "iconId": "ability_book",
+      "originalChineseName": "环身道卷",
+      "file": "assets/icons/ability_book.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "d2450f2df24528da8b7387ed487ee1024aa5d661b4226a8bb1650f73b870c805",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Proximity Abilities/Book Ability.prefab",
+      "sourceRuntimeClass": "BookAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "若干Book绕角色持续旋转，接触敌人时伤害和击退；数量升级可增加环绕物。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "grenade",
+      "iconId": "ability_grenade",
+      "originalChineseName": "爆裂丹珠",
+      "file": "assets/icons/ability_grenade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "8115c606df5e115045c15dc82c88935782ba23283900a7c5630ff26be5e448e1",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Throwable Abilities/Grenade Ability.prefab",
+      "sourceRuntimeClass": "GrenadeThrowableAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "向角色附近随机点抛出投掷物，爆裂后等角度发出fragmentCount枚碎片投射物。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "molotov",
+      "iconId": "ability_molotov",
+      "originalChineseName": "流火瓷瓶",
+      "file": "assets/icons/ability_molotov.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "8401f3dabcbaf3689ad3ddede98e46b43e9804eae79cffa52b5ded080e55a555",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Throwable Abilities/Molotov Ability.prefab",
+      "sourceRuntimeClass": "MolotovAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": true,
+      "behaviorZh": "抛向附近随机敌人或随机位置；落地生成有持续时长、半径和伤害频率的火区。",
+      "adaptationBoundaries": [],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "aoe_upgrade",
+      "iconId": "ability_aoe_upgrade",
+      "originalChineseName": "扩界玉璧",
+      "file": "assets/icons/ability_aoe_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "63d1c433d9de202468c8d40f72dc71c9a3de14d03d026eab471b05f2e8b447de",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/AOE Upgrade Ability.prefab",
+      "sourceRuntimeClass": "AOEUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置倍率提升已注册AOE数值；相关范围能力使用中且尚有升级时可出现。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "armor_upgrade",
+      "iconId": "icon_protection",
+      "originalChineseName": "护体罡气",
+      "file": "assets/icons/icon_protection.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Armor Upgrade Ability.prefab",
+      "sourceRuntimeClass": "ArmorUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置整数提升已注册护甲；不是主动限时护盾，也不是环身持续伤害。",
+      "adaptationBoundaries": [
+        "Passive armor upgrade, not timed shield or aura damage.",
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "cooldown_upgrade",
+      "iconId": "ability_cooldown_upgrade",
+      "originalChineseName": "息轮玉佩",
+      "file": "assets/icons/ability_cooldown_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "530b087f9fc05674cb2974a23bdd00aa5b6fe9dfdf8af26ed4b02247045b0de8",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Cooldown Upgrade Ability.prefab",
+      "sourceRuntimeClass": "CooldownUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置负比例缩短武器冷却；不等同回血间隔或耗蓝减少。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "damage_upgrade",
+      "iconId": "ability_damage_upgrade",
+      "originalChineseName": "破煞印",
+      "file": "assets/icons/ability_damage_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "21dd3076da90f2835e9f78a3cd824ef53ef96ae7c6fed5706507d72f3eee119c",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Damage Upgrade Ability.prefab",
+      "sourceRuntimeClass": "DamageUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置倍率提高已注册伤害；相关伤害能力使用中且尚有升级时可出现。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "ice_skate",
+      "iconId": "ability_ice_skate",
+      "originalChineseName": "逐风履",
+      "file": "assets/icons/ability_ice_skate.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "4478fd1e67885d90297c6fb4f8cbbbbcf55c075d1dfeb9942c74b59640ce1e20",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Ice Skate Ability.prefab",
+      "sourceRuntimeClass": "IceSkatesAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置倍率提升移动速度，选择后刷新移动阻力；不是冰冻或滑冰攻击。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "knockback_upgrade",
+      "iconId": "ability_knockback_upgrade",
+      "originalChineseName": "震退钟",
+      "file": "assets/icons/ability_knockback_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "fe3c7df65bd3683e8e6d79d0a75f1ef218c7f6e1ad93786bfb9032ed44e1eea4",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Knockback Upgrade Ability.prefab",
+      "sourceRuntimeClass": "KnockbackUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置倍率提高已注册击退强度；不是额外一次钟声范围攻击。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "projectile_count_upgrade",
+      "iconId": "ability_projectile_count_upgrade",
+      "originalChineseName": "分光玉签",
+      "file": "assets/icons/ability_projectile_count_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "3bbb1aa52773514984da2527d6470f0cf0e4471db64f8a853419af70af786fb5",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Projectile Count Upgrade Ability.prefab",
+      "sourceRuntimeClass": "ProjectileCountUpgradeAbility",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置整数增加已注册投射物数量，由各能力projectilesPer解释单位；不是所有武器无条件多发。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    },
+    {
+      "abilityId": "projectile_speed_upgrade",
+      "iconId": "ability_projectile_speed_upgrade",
+      "originalChineseName": "飞梭玉羽",
+      "file": "assets/icons/ability_projectile_speed_upgrade.png",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "38bae1d04db3c3027f7f5a5058056a671087cf95581b09f3c07e9b92657e2f37",
+      "sourcePrefab": "Assets/Prefabs/Abilities/Upgrade Abilities/Projectile Speed Upgrade Ability.prefab",
+      "sourceRuntimeClass": "ProjectileSpeedAbilityUpgrade",
+      "inLevel1CandidatePool": true,
+      "inCharacterStartingAbilities": false,
+      "behaviorZh": "按配置倍率提升已注册投射物速度；不直接提高角色移速、射频或伤害。",
+      "adaptationBoundaries": [
+        "Requires corresponding registered stat in use and configured upgrade levels remaining; not an independent active attack."
+      ],
+      "alpha": true,
+      "dynamicTextInArt": false,
+      "fixedDecorativeMarks": [],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteMode": "Single",
+      "imageType": "Simple",
+      "unityValidation": "pending future integration"
+    }
+  ],
+  "unityVerified": false
+}

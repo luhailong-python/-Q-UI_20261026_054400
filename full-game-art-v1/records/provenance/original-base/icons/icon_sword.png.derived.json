@@ -1,0 +1,96 @@
+{
+  "id": "icon_sword",
+  "name": "剑诀",
+  "file": "assets/icons/icon_sword.png",
+  "sha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+  "operation": "Non-overlapping atlas ownership crop, fixed uniform premultiplied-Lanczos downscale and transparent centering; no AI generation or redrawing",
+  "slicingMode": "equal-top-halves",
+  "derivedFrom": {
+    "file": "assets/ui-kit/ability_icons_atlas.png",
+    "sha256": "65189866ae6f00df20ba819fb09764363d5e25a33fe80f32314ac808b07b7dec",
+    "generationRecord": "assets/ui-kit/ability_icons_atlas.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    627,
+    627
+  ],
+  "sourceCellSize": [
+    627,
+    627
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    79,
+    37,
+    600,
+    615
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "minimumPadding": 32,
+  "requestedUniformScale": 0.5536332179930796,
+  "actualRasterScaleXY": [
+    0.5534290271132376,
+    0.5534290271132376
+  ],
+  "resizedWholeCellSize": [
+    347,
+    347
+  ],
+  "offsetTopLeft": [
+    4,
+    12
+  ],
+  "subjectBBoxAlpha16": [
+    48,
+    32,
+    336,
+    352
+  ],
+  "subjectMarginsLTRB": [
+    48,
+    32,
+    48,
+    32
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "mode": "RGBA",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "edgeVisiblePixelsAlpha16": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "outsideOutput": {
+    "nonzeroPixelsOutsideOutput": 0,
+    "alpha16OrHigherPixelsOutsideOutput": 0,
+    "maximumAlphaOutsideOutput": 0
+  },
+  "nativeDetailIncreased": false,
+  "newAIGeneration": false,
+  "unityVerified": false,
+  "sourceUsedOnlyFromThisOriginalBatch": true,
+  "createdAtUtc": "2026-10-26T21:56:20.915955-04:00",
+  "dynamicLabelIncluded": false,
+  "fixedDecorativeMarks": []
+}

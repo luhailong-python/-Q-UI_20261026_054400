@@ -1,0 +1,33 @@
+{
+  "id": "item_magnet",
+  "file": "assets/icons/item_magnet.png",
+  "sha256": "a62f3f05ccda0738f2a1d2f15ecd2dde9c0c928b1d95d56eed6008d3d6f2f362",
+  "derivedFrom": {
+    "file": "assets/ui-kit/consumable_icons_atlas.png",
+    "sha256": "c19c8a2b34818c1ff510488fc84e20e2f47fd698f75decdce7006ac8b3c9acf7",
+    "generationRecord": "assets/ui-kit/consumable_icons_atlas.png.generation.json"
+  },
+  "sourceRectLTRB": [
+    682,
+    0,
+    1254,
+    627
+  ],
+  "scale": 0.6189555125725339,
+  "offsetTopLeft": [
+    21,
+    -8
+  ],
+  "operation": "Original atlas ownership crop, uniform downscale and transparent placement; no new AI generation",
+  "nativeDetailIncreased": false,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

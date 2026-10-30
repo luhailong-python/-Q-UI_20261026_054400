@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: one single independently painted opposite-contact WALK cel of the attached original elderly Daoist mage. Genuine transparent background. The sole attached image is the identity, costume and style master. Preserve exact friendly elderly face, white hair and long beard, small jade Daoist crown, jade/ivory/warm-gold robes and belt, ONE jade staff held by the same camera-near hand at IMAGE LEFT, ONE gold flame-shaped talisman in the same other hand at IMAGE RIGHT. Same three-quarter view facing image RIGHT, fixed upper-body/head size and camera, clear margin around entire body. Required opposite walking contact: CAMERA-NEAR leg extends diagonally FORWARD TOWARD THE VIEWER AND DOWN-LEFT. Its large foreground jade/gold shoe must sit IMAGE LEFT of pelvis, visibly lower and larger and on the ground. CAMERA-FAR leg trails BACK AND IMAGE RIGHT, with smaller rear shoe higher and heel lifting. Lift/open the robe hem naturally enough that two trouser shins and their separate ownership are readable. Do not paint another right-front shoe with left leg behind. This is a calm walking contact, no jump/dance/static straddle. Arms remain naturally bent carrying staff/talisman, props move only slightly, staff tip is not a third foot. Preserve every costume material, fine hand-painted chibi texture and same face/proportions. No mirror, extra limb, missing hand, new prop, shadows, background, words or sheet. Single complete pose.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png"
+    ],
+    "transparent_background": true
+  },
+  "actualReturnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualReturnedInformation": {
+    "image_url": "data:image/png;base64 (omitted here; retained exact returned PNG file recorded by generation.json)",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-3442e43a-63e2-4c7f-98c1-9a2a64ee2ab6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "model": null,
+  "quality": null,
+  "reasonUnconfirmed": "Tool has no model or quality selectors and return exposes no identifying model/quality fields."
+}

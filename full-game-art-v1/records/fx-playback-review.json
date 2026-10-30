@@ -1,0 +1,108 @@
+{
+  "reviewedAtUtc": "2026-10-28T08:19:44.217692+00:00",
+  "reviewer": "root",
+  "passed": true,
+  "kind": "Actual local browser playback and manual frame stepping; not Unity validation",
+  "page": "original-monsters-v1/combat-fx-v1/previews/playback.html",
+  "all12ImagesLoaded": true,
+  "observedRunningStates": [
+    "explosion3/firefield2",
+    "explosion5/firefield1"
+  ],
+  "steppedFrameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "evidenceScreenshots": [
+    "previews/fx-playback-running-1.png",
+    "previews/fx-step-1.png",
+    "previews/fx-step-2.png",
+    "previews/fx-step-3.png",
+    "previews/fx-step-4.png",
+    "previews/fx-step-5.png",
+    "previews/fx-step-6.png"
+  ],
+  "visualFindings": [
+    "Both light and dark backgrounds checked at256px display from512px sources",
+    "Explosion develops from small core through peak, then dispersed cloud and final sparks; effect center remains coherent",
+    "Fire cloud base has stable ground contact after documented translation registration; flame shapes change in all6 frames",
+    "No visible frame crop, rectangular background, clone-only pose or neighboring-cell fragment",
+    "Six-phase painted FX are deliberately limited-frame; not claimed to be a fluid video clip or mathematically identical endpoint loop"
+  ],
+  "blockingIssues": [],
+  "sourceFramesUnchangedDuringReview": true,
+  "numericalFrameEvidence": [
+    {
+      "clip": "fx_explosion",
+      "frameSha256": [
+        "bf40c8af6a134bf2fe4d9139c5b9ce74f1fcc689ebc10ae84df00b0939e05458",
+        "c8ab6acd8136490ec0a3553b4f0ae5014b467398a5d205002a399ba48d76ca75",
+        "ce5063ce4a131ff1b47c31575de4ac82908b2e69c9bef6a97d1f591891d3a4b2",
+        "661274f016cc3a000e0e8ee335138f6b4a7119f52788ac3c98421affe6da6e0b",
+        "7a84cd4d2312ab13147564f817de994af529a28651abd32a7f74e27ab73a2d2b",
+        "79e45111d3aa88d54d85b1fef973d4827b7a9c045f4e66061d2f59855f6a6e49"
+      ],
+      "uniqueFrames": 6,
+      "sharedUniformScale": 0.9788898678414097,
+      "premultipliedMeanRGBDifferenceIncludingLastFirst": [
+        14.7867,
+        46.09,
+        43.9915,
+        39.8381,
+        8.6719,
+        1.7392
+      ],
+      "loopSeamRatioToOtherPairs": 0.057,
+      "loop": false,
+      "durationMs": 530
+    },
+    {
+      "clip": "fx_firefield",
+      "frameSha256": [
+        "1b6cbd5ca5f55e0e7818a3214415d5c36978f3a3f0b513184258da4e6eaa5eea",
+        "acfa11a84ffc8e5842a8495c2a90d680f0d48860fc24e7f2b3b2b0f3adc39a4a",
+        "0dc5f2653c409fa12d9e44b3cbed0720380dc30eae04b86bd5dcffff81030a6f",
+        "2314c1ca96e6235684b019cda0f9b0aa092f77d21c6b8a9b4c6eb3968b0241e8",
+        "7622700343fa42e39be7655d509ca828202a5fedaa063bfea14182c98462a0d0",
+        "bc1484d4a79895657fe571634e1273e255b04ffe5a7fdebee397e850446ff100"
+      ],
+      "uniqueFrames": 6,
+      "sharedUniformScale": 0.9455659574468085,
+      "premultipliedMeanRGBDifferenceIncludingLastFirst": [
+        12.4663,
+        10.4979,
+        13.5868,
+        10.7037,
+        12.5482,
+        7.7639
+      ],
+      "loopSeamRatioToOtherPairs": 0.649,
+      "loop": true,
+      "durationMs": 660
+    }
+  ],
+  "unityVerified": false,
+  "selfContainedFinalPage": {
+    "file": "previews/fx-playback.html",
+    "actuallyViewed": true,
+    "normalAndHalfSpeedObserved": true,
+    "actualImagesLoaded": 12,
+    "actualRunningFrameChangeCounts": [
+      4,
+      1018,
+      1019
+    ],
+    "actualObservedStates": [
+      "explosion3/firefield2",
+      "explosion6/firefield4",
+      "explosion1/firefield1"
+    ],
+    "sourcePixelsUnchanged": true,
+    "gravityWellLightDarkActuallyViewed": true,
+    "reviewedAtUtc": "2026-10-28T10:40:25.872518+00:00"
+  }
+}

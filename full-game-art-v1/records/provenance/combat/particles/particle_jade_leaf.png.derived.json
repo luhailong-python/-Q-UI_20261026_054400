@@ -1,0 +1,60 @@
+{
+  "id": "particle_jade_leaf",
+  "name": "玉叶碎光",
+  "file": "assets/particles/particle_jade_leaf.png",
+  "function": "death_or_chest",
+  "sha256": "56e3c7fe5a458283fb5224171f3b4dcb3868f3902f47647774c9627c3fea671a",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    1041,
+    0,
+    495,
+    502
+  ],
+  "sourceAnchorXY": [
+    241.5,
+    256.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.6706478873239436,
+  "offsetTopLeft": [
+    -34,
+    -44
+  ],
+  "visibleMarginsLTRB": [
+    58,
+    33,
+    58,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

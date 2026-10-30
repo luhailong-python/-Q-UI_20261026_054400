@@ -1,0 +1,60 @@
+{
+  "id": "xp_green_10",
+  "name": "翠玉灵晶 · 10",
+  "file": "assets/pickups/xp_green_10.png",
+  "function": "experience10",
+  "sha256": "961c72deaee3e7d2c622e7c001ad9c9123451e77962e81d41d9aadd215d164b6",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    810,
+    0,
+    444,
+    434
+  ],
+  "sourceAnchorXY": [
+    234.0,
+    243.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7002352941176471,
+  "offsetTopLeft": [
+    -36,
+    -42
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    36,
+    33,
+    35
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "icon_thunder",
+  "file": "assets/icons/icon_thunder.png",
+  "sha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+  "operation": "Byte-identical copy of this project original icon; original UI untouched",
+  "existingOriginalSource": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\icons\\icon_thunder.png",
+  "existingOriginalSha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+  "evidenceRecord": "records/existing-original-evidence/icon_thunder.derived.json",
+  "sourceAtlas": "assets/native/existing_abilities_atlas.png",
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fixedDecorativeMarks": [
+    "Painted lightning motif and circular cinnabar decorative seal; no dynamic business text"
+  ],
+  "unityVerified": false,
+  "nativeDetailIncreased": false
+}

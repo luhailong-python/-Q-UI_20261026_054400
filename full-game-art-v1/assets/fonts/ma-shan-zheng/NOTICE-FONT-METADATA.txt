@@ -1,0 +1,20 @@
+nameID 0
+Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
+
+nameID 1
+Ma Shan Zheng
+
+nameID 2
+Regular
+
+nameID 5
+Version 2.003
+
+nameID 6
+MaShanZheng-Regular
+
+nameID 13
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+
+nameID 14
+https://openfontlicense.org

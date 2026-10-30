@@ -1,0 +1,94 @@
+{
+  "actor": "orig_mob05",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\native\\orig_mob05.png",
+  "masterSha256": "4a22ea7f76e17bccc3b21ab841ad33179b7c967cec4b48753337986e5a085ed0",
+  "reviewedAtUtc": "2026-10-28T09:07:33.345786+00:00",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob05/orig_mob05_walk_00.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_03.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_02_v2.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_01.png"
+  ],
+  "anchors": [
+    {
+      "sourceTorsoX": 710,
+      "sourceGroundY": 1200,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "poseRoleObserved": "near-leg-forward-contact",
+      "anchorBasis": "Manually marked collarV/upper-torso midline and grounded boot sole contact; supporting boot identified visually, not cudgel/tassel or per-frame global bbox normalization",
+      "sha256": "a2bb6462057dcf65f23d9d15686e0b01f64578b7589f69223c759ab49d871e3b"
+    },
+    {
+      "sourceTorsoX": 735,
+      "sourceGroundY": 1212,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "poseRoleObserved": "far-picture-left-leg-raised-passing",
+      "anchorBasis": "Manually marked collarV/upper-torso midline and grounded boot sole contact; supporting boot identified visually, not cudgel/tassel or per-frame global bbox normalization",
+      "sha256": "0cf80941f4fb0fff1764207f894a728f720d3bd2b760bad9b7859535544c7d05"
+    },
+    {
+      "sourceTorsoX": 660,
+      "sourceGroundY": 1216,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "poseRoleObserved": "far-picture-left-leg-forward-low-contact",
+      "anchorBasis": "Manually marked collarV/upper-torso midline and grounded boot sole contact; supporting boot identified visually, not cudgel/tassel or per-frame global bbox normalization",
+      "sha256": "b4a264de026e4d6972585e57c8ecade731f97672aefbe3ff20361aa729b02b51"
+    },
+    {
+      "sourceTorsoX": 690,
+      "sourceGroundY": 1188,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "poseRoleObserved": "near-picture-right-leg-raised-passing",
+      "anchorBasis": "Manually marked collarV/upper-torso midline and grounded boot sole contact; supporting boot identified visually, not cudgel/tassel or per-frame global bbox normalization",
+      "sha256": "a6c9715665718f4d93d13927727e628679b9896667d769a1f96b555a343cf99d"
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedScope": "Native pose identity/anatomy and visible alternation only; not final registered playback acceptance",
+  "actuallyViewedSelectedFiles": [
+    "assets/motion-native/orig_mob05/orig_mob05_walk_00.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_03.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_02_v2.png",
+    "assets/motion-native/orig_mob05/orig_mob05_walk_01.png"
+  ],
+  "selectedOrderUsesRawPhaseNumbers": [
+    0,
+    3,
+    "2_v2",
+    1
+  ],
+  "rawMetadataPhaseLabelsAreIntentOnly": true,
+  "selectionReason": "Raw01 lifted near leg and raw03 lifted far leg, so order was chosen by observed pose. Raw02 retained same foreground leg as00;02_v2 explicitly swaps front/back screen-depth contact.",
+  "unselectedFiles": [
+    "assets/motion-native/orig_mob05/orig_mob05_walk_02.png"
+  ],
+  "blockingIssues": [],
+  "findings": [
+    "Four selected full-body poses retain same wooden face, wood armor, jade joints, ivory cloth, waist cord and cudgel ownership",
+    "Front/back projected boot contact swaps clearly between00 and02_v2",
+    "Passing frames lift different screen-side legs:03 lifts picture-left/far leg;01 lifts picture-right/near leg",
+    "Arms, cudgel angle and free hand position vary naturally rather than one frozen standing still; no torso/image mirroring",
+    "No missing or duplicated limbs, no visible subject clipping; all four native canvases1254square with realAlpha",
+    "Grounded sole points are marked separately from lifted feet, cudgel and tassel; all runtime frames still need ONE shared body scale and fixedcanvas registration"
+  ],
+  "nonBlockingNotes": [
+    "Raw01 lifted near boot clearance is modest but angled sole/knee is visible; confirm readability after downscale and actual looping",
+    "Near-zero-alpha colored RGB rim dots may appear in raw black-background tool rendering; actual alpha composite QA remains a separate final step"
+  ],
+  "dynamicPlaybackAccepted": false,
+  "unityVerified": false,
+  "sourceMethod": "Individual AI pose edits, each directly referencing sameoriginal master; notI2V, not a character sheet, not transformed-still animation"
+}

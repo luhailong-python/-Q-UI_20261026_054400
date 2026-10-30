@@ -1,0 +1,17 @@
+[
+  {
+    "actualInputFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\sources\\original-base\\assets\\ui-kit\\clean_panel_native.png",
+    "packagedFile": "sources/clean_panel_native.png",
+    "sha256": "d45ccd3e77813621d9e50182f119ec1c9b02f52f78ac6e98926852e56ae19182"
+  },
+  {
+    "actualInputFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\final\\original-base\\heroes\\hero_daotong.png",
+    "packagedFile": "sources/hero_daotong.png",
+    "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62"
+  },
+  {
+    "actualInputFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\branding-v1\\assets\\native\\yifu-zhen-wanyao-logo-primary.png",
+    "packagedFile": "assets/native/yifu-zhen-wanyao-logo-primary.png",
+    "sha256": "9a38bb4f5ac6850890f239ed7036dada8ae9ae928d5c7d4eca25aee6c6711c5f"
+  }
+]

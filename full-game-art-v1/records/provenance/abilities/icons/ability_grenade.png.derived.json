@@ -1,0 +1,71 @@
+{
+  "id": "ability_grenade",
+  "file": "assets/icons/ability_grenade.png",
+  "sha256": "8115c606df5e115045c15dc82c88935782ba23283900a7c5630ff26be5e448e1",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    535,
+    0,
+    512,
+    507
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    30,
+    8,
+    490,
+    474
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    2,
+    0,
+    0
+  ],
+  "uniformScale": 0.6824034334763949,
+  "actualRasterScaleXY": [
+    0.681640625,
+    0.6824457593688363
+  ],
+  "offsetTopLeft": [
+    15,
+    28
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    35,
+    33,
+    349,
+    352
+  ],
+  "subjectMarginsLTRB": [
+    35,
+    33,
+    35,
+    32
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

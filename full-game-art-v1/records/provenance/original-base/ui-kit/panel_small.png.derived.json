@@ -1,0 +1,29 @@
+{
+  "id": "panel_small",
+  "file": "assets/ui-kit/panel_small.png",
+  "sha256": "d98b10756f20121447a5ae9c7fe7129f70ecf9e515b4480e9a98714b74a84cc3",
+  "derivedFrom": {
+    "file": "assets/ui-kit/clean_panel_native.png",
+    "sha256": "d45ccd3e77813621d9e50182f119ec1c9b02f52f78ac6e98926852e56ae19182",
+    "generationRecord": "assets/ui-kit/clean_panel_native.png.generation.json"
+  },
+  "sourceRectLTRB": [
+    51,
+    118,
+    1486,
+    870
+  ],
+  "scale": 0.25,
+  "operation": "Crop and uniform downscale of original corner-only panel; nine-slice corner geometry stays intact",
+  "nativeDetailIncreased": false,
+  "borderLeftBottomRightTop": [
+    45,
+    45,
+    45,
+    45
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ]
+}

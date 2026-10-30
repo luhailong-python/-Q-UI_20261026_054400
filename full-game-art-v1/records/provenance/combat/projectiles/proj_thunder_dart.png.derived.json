@@ -1,0 +1,60 @@
+{
+  "id": "proj_thunder_dart",
+  "name": "天雷符弹",
+  "file": "assets/projectiles/proj_thunder_dart.png",
+  "function": "bazooka",
+  "sha256": "1cd66e4af1d77b2950736e4fc18ad7e925fa3cdcbcf514995ef539cd417b097c",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    1001,
+    0,
+    535,
+    501
+  ],
+  "sourceAnchorXY": [
+    261.5,
+    303.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.4502695035460993,
+  "offsetTopLeft": [
+    10,
+    -9
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    85,
+    33,
+    85
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

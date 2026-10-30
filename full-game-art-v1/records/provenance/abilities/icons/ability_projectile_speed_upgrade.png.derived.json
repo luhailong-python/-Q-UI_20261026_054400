@@ -1,0 +1,71 @@
+{
+  "id": "ability_projectile_speed_upgrade",
+  "file": "assets/icons/ability_projectile_speed_upgrade.png",
+  "sha256": "38bae1d04db3c3027f7f5a5058056a671087cf95581b09f3c07e9b92657e2f37",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_c.png",
+  "sourceSha256": "2ddae452c0fd20ffacf4e86bc80555eaedf2080fa2deeef938ead8cd6495f8fd",
+  "sourceRectTopLeftXYWH": [
+    991,
+    0,
+    545,
+    517
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    51,
+    168,
+    525,
+    378
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.6708860759493671,
+  "actualRasterScaleXY": [
+    0.671559633027523,
+    0.6711798839458414
+  ],
+  "offsetTopLeft": [
+    -1,
+    9
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    121,
+    351,
+    263
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    121,
+    33,
+    121
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 2,
+  "maxAlphaOutsideOutput": 1,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

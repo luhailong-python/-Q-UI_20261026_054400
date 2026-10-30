@@ -1,0 +1,89 @@
+{
+  "id": "orig_mob05_walk",
+  "actor": "orig_mob05",
+  "name": "桃木小傀",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/orig_mob05/walk/orig_mob05_walk_00.png",
+      "sha256": "dec97774bf980f4f9a3ec29872dc1b76afbcb177f7ddf57c090eba11db424388",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob05\\orig_mob05_walk_00.png",
+      "sourceAnchorXY": [
+        710,
+        1200
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6564948453608247
+    },
+    {
+      "file": "assets/motion/orig_mob05/walk/orig_mob05_walk_01.png",
+      "sha256": "9bcb55d93f447b129c6641d812c37b97c9cb0b3e05295db46fe42a97479d3c44",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob05\\orig_mob05_walk_03.png",
+      "sourceAnchorXY": [
+        735,
+        1212
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6564948453608247
+    },
+    {
+      "file": "assets/motion/orig_mob05/walk/orig_mob05_walk_02.png",
+      "sha256": "bb84b91c6158287988d3a761352ae75846c53d1f24edbc44eb1aa0c07ea3b50c",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob05\\orig_mob05_walk_02_v2.png",
+      "sourceAnchorXY": [
+        660,
+        1216
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6564948453608247
+    },
+    {
+      "file": "assets/motion/orig_mob05/walk/orig_mob05_walk_03.png",
+      "sha256": "6ec3bad7083089fed6de0a0b9bf744e119e380b452e2a3558dd3baf602d54d3a",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob05\\orig_mob05_walk_01.png",
+      "sourceAnchorXY": [
+        690,
+        1188
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6564948453608247
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6564948453608247,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\actors\\orig_mob05.png",
+  "referenceStaticHeightAlpha16": 768,
+  "loop": true,
+  "durationMs": 800,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/orig_mob05-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "emitter_talisman_case",
+  "name": "回转符匣实体",
+  "file": "assets/weapons/emitter_talisman_case.png",
+  "function": "machine_gun",
+  "sha256": "504c8b5c21a037f8f1c87cde8358abbd2e3f41961c20ad113573465222172e0d",
+  "size": [
+    512,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/weapons.png",
+  "sourceSha256": "bdc018345a918c0af8375ae2d23badf7a7c879cf5082684c2f89f37c0773f5b8",
+  "sourceRectTopLeftXYWH": [
+    0,
+    503,
+    524,
+    521
+  ],
+  "sourceAnchorXY": [
+    100,
+    247
+  ],
+  "outputAnchorTopLeftXY": [
+    104,
+    128
+  ],
+  "anchorMethod": "Manually marked physical grip; one static transform, suggested binding pivot",
+  "pivot": [
+    0.203125,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.9523199999999999,
+  "offsetTopLeft": [
+    9,
+    -107
+  ],
+  "visibleMarginsLTRB": [
+    52,
+    33,
+    58,
+    48
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

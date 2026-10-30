@@ -1,0 +1,71 @@
+{
+  "id": "ability_shuriken",
+  "file": "assets/icons/ability_shuriken.png",
+  "sha256": "3107d07902db5904999cee7899d36fd8267129ac7eb53e7bed63a4177df2ca66",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    1046,
+    507,
+    490,
+    517
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    43,
+    21,
+    460,
+    454
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "uniformScale": 0.7344110854503464,
+  "actualRasterScaleXY": [
+    0.7346938775510204,
+    0.7350096711798839
+  ],
+  "offsetTopLeft": [
+    8,
+    17
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    39,
+    33,
+    346,
+    351
+  ],
+  "subjectMarginsLTRB": [
+    39,
+    33,
+    38,
+    33
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 125,
+  "maxAlphaOutsideOutput": 1,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

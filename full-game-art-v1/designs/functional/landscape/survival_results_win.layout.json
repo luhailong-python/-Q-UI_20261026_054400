@@ -1,0 +1,384 @@
+{
+  "screen": "survival_results_win",
+  "title": "试炼告捷",
+  "orientation": "landscape",
+  "state": "win",
+  "file": "designs/landscape/survival_results_win.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "assets": [
+    {
+      "asset": "assets/ui-kit/panel_main.png",
+      "rectTopLeft": [
+        80,
+        80,
+        1760,
+        920
+      ],
+      "borderLeftBottomRightTop": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/title_plate.png",
+      "rectTopLeft": [
+        600,
+        48,
+        720,
+        150
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/heroes/hero_daotong.png",
+      "rectTopLeft": [
+        220,
+        230,
+        510,
+        660
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        850,
+        335,
+        410,
+        190
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1290,
+        335,
+        410,
+        190
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        850,
+        565,
+        410,
+        190
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1290,
+        565,
+        410,
+        190
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        850,
+        865,
+        350,
+        90
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    },
+    {
+      "asset": "assets/ui-kit/button_primary.png",
+      "rectTopLeft": [
+        1310,
+        865,
+        350,
+        90
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    }
+  ],
+  "texts": [
+    {
+      "text": "试炼告捷",
+      "rectTopLeft": [
+        670,
+        65,
+        580,
+        90
+      ],
+      "fontPixels": 58,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼",
+      "rectTopLeft": [
+        850,
+        225,
+        900,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "本局铜钱",
+      "rectTopLeft": [
+        875,
+        360,
+        360,
+        55
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "320",
+      "rectTopLeft": [
+        875,
+        430,
+        360,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "击败灵影",
+      "rectTopLeft": [
+        1315,
+        360,
+        360,
+        55
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "268",
+      "rectTopLeft": [
+        1315,
+        430,
+        360,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "造成伤害",
+      "rectTopLeft": [
+        875,
+        590,
+        360,
+        55
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "12,840",
+      "rectTopLeft": [
+        875,
+        660,
+        360,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "受到伤害",
+      "rectTopLeft": [
+        1315,
+        590,
+        360,
+        55
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "782",
+      "rectTopLeft": [
+        1315,
+        660,
+        360,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回游历",
+      "rectTopLeft": [
+        870,
+        870,
+        310,
+        80
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "再次试炼",
+      "rectTopLeft": [
+        1330,
+        870,
+        310,
+        80
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    }
+  ],
+  "primitives": [
+    {
+      "type": "solid-background",
+      "color": "#aac1ac",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ]
+    }
+  ],
+  "sha256": "475763c59c947c03617cc8e906c6ad636493face1f915bd57c4361edcd8b4eb8",
+  "content": {
+    "outcome": "win",
+    "statistics": {
+      "本局铜钱": "320",
+      "击败灵影": "268",
+      "造成伤害": "12,840",
+      "受到伤害": "782"
+    },
+    "sourceStatistics": [
+      "coins",
+      "kills",
+      "damageDealt",
+      "damageTaken"
+    ],
+    "allValuesIllustrative": true
+  },
+  "operation": "Static composition of original hand-painted PNGs and independent Chinese text",
+  "unityVerified": false
+}

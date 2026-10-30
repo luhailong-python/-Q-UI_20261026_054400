@@ -1,0 +1,33 @@
+{
+  "id": "item_regen",
+  "file": "assets/icons/item_regen.png",
+  "sha256": "5d41b6fc7a1fb601cbe8fad44c905c26c25fd37c9e1f4c5fd7df2029d3e5b9e7",
+  "derivedFrom": {
+    "file": "assets/ui-kit/consumable_icons_atlas.png",
+    "sha256": "c19c8a2b34818c1ff510488fc84e20e2f47fd698f75decdce7006ac8b3c9acf7",
+    "generationRecord": "assets/ui-kit/consumable_icons_atlas.png.generation.json"
+  },
+  "sourceRectLTRB": [
+    687,
+    627,
+    1254,
+    1254
+  ],
+  "scale": 0.6570841889117043,
+  "offsetTopLeft": [
+    -8,
+    12
+  ],
+  "operation": "Original atlas ownership crop, uniform downscale and transparent placement; no new AI generation",
+  "nativeDetailIncreased": false,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

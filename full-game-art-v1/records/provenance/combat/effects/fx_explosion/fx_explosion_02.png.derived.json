@@ -1,0 +1,61 @@
+{
+  "id": "fx_explosion_02",
+  "name": "爆裂 · 阶段3",
+  "file": "assets/effects/fx_explosion/fx_explosion_02.png",
+  "function": "grenade/bazooka visual enhancement",
+  "sha256": "ce5063ce4a131ff1b47c31575de4ac82908b2e69c9bef6a97d1f591891d3a4b2",
+  "size": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "sourceAtlas": "assets/native/fx_explosion.png",
+  "sourceSha256": "356a3b324ea126f4b4581a2bba08009ae04170ead1a397addee66db690e593b3",
+  "sourceRectTopLeftXYWH": [
+    1024,
+    0,
+    512,
+    512
+  ],
+  "sourceAnchorXY": [
+    254.0,
+    270.0
+  ],
+  "outputAnchorTopLeftXY": [
+    256,
+    256
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "sharedUniformScale": 0.9788898678414097,
+  "offsetTopLeft": [
+    7,
+    -8
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    44,
+    65,
+    51
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "durationMs": 90,
+  "operation": "Distinct AI-painted phase crop, manually marked effect/ground anchor registration, ONE shared scale for all six frames, transparent fixed canvas",
+  "perFrameBBoxScaling": false,
+  "newMotionCreatedByProcessing": false,
+  "nativeDetailIncreased": false,
+  "unityVerified": false,
+  "status": "playback-review-pending"
+}

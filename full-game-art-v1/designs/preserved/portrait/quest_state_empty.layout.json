@@ -1,0 +1,757 @@
+{
+  "screen": "quest_state_empty",
+  "title": "任务",
+  "orientation": "portrait",
+  "state": "quest_state_empty",
+  "file": "designs/portrait/quest_state_empty.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_portrait.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        941,
+        1672
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 70
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        50,
+        102,
+        980,
+        1758
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        215,
+        30,
+        650,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        916,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        125,
+        205,
+        269,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        406,
+        205,
+        269,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        686,
+        205,
+        269,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_scroll.png",
+      "rectTopLeft": [
+        480,
+        400,
+        120,
+        120
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        120,
+        850,
+        840,
+        740
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_compass.png",
+      "rectTopLeft": [
+        472,
+        950,
+        135,
+        135
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        135,
+        1670,
+        380,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary_disabled.png",
+      "rectTopLeft": [
+        565,
+        1670,
+        380,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "任务",
+      "rectTopLeft": [
+        295,
+        50,
+        490,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "主线",
+      "rectTopLeft": [
+        133,
+        209,
+        253,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "支线",
+      "rectTopLeft": [
+        414,
+        209,
+        253,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "日常",
+      "rectTopLeft": [
+        694,
+        209,
+        253,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼",
+      "rectTopLeft": [
+        140,
+        295,
+        430,
+        48
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "可领取 2",
+      "rectTopLeft": [
+        600,
+        295,
+        340,
+        48
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#a84c3f",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "暂无符合条件的任务",
+      "rectTopLeft": [
+        145,
+        540,
+        790,
+        60
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "调整分类或返回任务列表。",
+      "rectTopLeft": [
+        145,
+        615,
+        790,
+        50
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "从列表选择一项任务",
+      "rectTopLeft": [
+        160,
+        1130,
+        760,
+        70
+      ],
+      "fontPixels": 35,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "目标与奖励将在这里展示。",
+      "rectTopLeft": [
+        160,
+        1230,
+        760,
+        60
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回游历",
+      "rectTopLeft": [
+        160,
+        1678,
+        330,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "选择任务",
+      "rectTopLeft": [
+        590,
+        1678,
+        330,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "主线 4 · 支线 3 · 日常 3",
+      "rectTopLeft": [
+        145,
+        1790,
+        790,
+        45
+      ],
+      "fontPixels": 24,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "66cd2061a51d1629363b23eebd23c903be88c6e3a163c670ed0399a39d6f5f3d",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "quest": {
+    "id": "quest_empty",
+    "selectedQuestId": null,
+    "category": "side",
+    "trackedQuestId": "main02",
+    "visibleQuestIds": [],
+    "claimableCount": 2,
+    "claimableQuestIds": [
+      "side01",
+      "daily01"
+    ],
+    "quests": [
+      {
+        "id": "main01",
+        "category": "main",
+        "state": "claimed",
+        "progress": 1,
+        "displayProgress": 1,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "已领取",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 60
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "id": "main02",
+        "category": "main",
+        "state": "active",
+        "progress": 3,
+        "displayProgress": 3,
+        "targetCount": 8,
+        "targetMonsterId": "mob01",
+        "targetItemId": null,
+        "tracked": true,
+        "actionLabel": "取消追踪",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 100
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 80
+          },
+          {
+            "rewardId": "item_m10",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "main03",
+        "category": "main",
+        "state": "locked",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": "elite01",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "未解锁",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 160
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 120
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "main04",
+        "category": "main",
+        "state": "locked",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": "boss01",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "未解锁",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 280
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 240
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "side01",
+        "category": "side",
+        "state": "claimable",
+        "progress": 6,
+        "displayProgress": 6,
+        "targetCount": 6,
+        "targetMonsterId": "mob02",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "领取奖励",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 90
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 60
+          },
+          {
+            "rewardId": "item_c01",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "side02",
+        "category": "side",
+        "state": "active",
+        "progress": 2,
+        "displayProgress": 2,
+        "targetCount": 5,
+        "targetMonsterId": null,
+        "targetItemId": "m10",
+        "tracked": false,
+        "actionLabel": "追踪任务",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 60
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "side03",
+        "category": "side",
+        "state": "claimed",
+        "progress": 1,
+        "displayProgress": 1,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": "c01",
+        "tracked": false,
+        "actionLabel": "已领取",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 70
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "id": "daily01",
+        "category": "daily",
+        "state": "claimable",
+        "progress": 6,
+        "displayProgress": 6,
+        "targetCount": 6,
+        "targetMonsterId": "mob03",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "领取奖励",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          },
+          {
+            "rewardId": "item_m10",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "daily02",
+        "category": "daily",
+        "state": "daily_completed",
+        "progress": 4,
+        "displayProgress": 4,
+        "targetCount": 4,
+        "targetMonsterId": "mob04",
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "今日已完成",
+        "actionEnabled": false,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 80
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 50
+          },
+          {
+            "rewardId": "item_m06",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "daily03",
+        "category": "daily",
+        "state": "active",
+        "progress": 0,
+        "displayProgress": 0,
+        "targetCount": 1,
+        "targetMonsterId": null,
+        "targetItemId": null,
+        "tracked": false,
+        "actionLabel": "追踪任务",
+        "actionEnabled": true,
+        "rewards": [
+          {
+            "rewardId": "currency_copper",
+            "count": 100
+          },
+          {
+            "rewardId": "progress_cultivation",
+            "count": 80
+          },
+          {
+            "rewardId": "item_c01",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_portrait.png",
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_portrait.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_primary_disabled.png",
+      "sha256": "6b619c6c38adb5bee52f66d2854f950a9e760d9242ed628c935d1c0c5e4c1489",
+      "sourceRecord": "assets/common/button_primary_disabled.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/badge_compass.png",
+      "sha256": "1b415e8aaf92a22801e2413d6312648445140d3d399e73de60b89f17a0ad1b5c",
+      "sourceRecord": "records/reused-assets.json#badge_compass"
+    },
+    {
+      "file": "assets/icons/icon_scroll.png",
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceRecord": "records/reused-assets.json#icon_scroll"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.401903+00:00"
+}

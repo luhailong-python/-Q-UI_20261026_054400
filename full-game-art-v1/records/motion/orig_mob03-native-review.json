@@ -1,0 +1,97 @@
+{
+  "actor": "orig_mob03",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob03_runtime_E.png",
+  "masterSha256": "44d301453f2ce88371aa4c112e9ba5beafe95af4c7b695591f923eb59be9b3ef",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob03/orig_mob03_walk_00_v3.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_01.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_02.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "1c0ed922a33eb3de958491e905e7f5cfd1b45e308520deda50943f8b4afb9565",
+    "1e2d828c744118d962d6400d8bdc8c689db0c78414c62cdd1fed84b40a44df28",
+    "23f12256cdaf8d4ecb2dd415da5a943e360f70701af7c8f9b369aa0d99be80ec",
+    "72916d9965023f201420918ade21a0394ffe82a55c5df12134b49b33ff37aa76"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceAnchorXY": [
+        730,
+        695
+      ],
+      "definition": "Manually observed rigid paper-shell center excluding ornaments",
+      "supportNote": "Left sway extreme; two separate complete side ribbons and three tassels curve left. v3 uses original identity master plus same-project phase1 rigid-shell framing support.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceAnchorXY": [
+        680,
+        650
+      ],
+      "definition": "Manually observed rigid paper-shell center excluding ornaments",
+      "supportNote": "Left trailing tassel fibers with near-vertical chains and downward side ribbons; genuine passing intermediate.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceAnchorXY": [
+        585,
+        670
+      ],
+      "definition": "Manually observed rigid paper-shell center excluding ornaments",
+      "supportNote": "Right sway extreme; three tassel chains pivot right and both side ribbons bend right.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceAnchorXY": [
+        680,
+        660
+      ],
+      "definition": "Manually observed rigid paper-shell center excluding ornaments",
+      "supportNote": "Opposite passing intermediate: chains near vertical, fiber tails curl right, left ribbon rises into arc.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "hover-walk",
+  "passed": true,
+  "passedMeaning": "Native identity, complete anatomy and genuinely distinct articulated poses only. NOT registered playback, loop seam, body-scale stability or Unity acceptance.",
+  "reviewedAtUtc": "2026-10-28T10:26:21.716251+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_mob03/orig_mob03_walk_00_v3.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_01.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_02.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "No legs or hands added; hanging lantern is intentionally not a biped.",
+    "First pose v3 preserves complete ribbons; original0 larger shell/fork-like folded ribbon discarded, v2 right ribbon incomplete discarded.",
+    "Selected phase0v3 was AI repaired with original master plus same-project phase1 shell/framing support, both actual references recorded.",
+    "Native framing shifts remain; anchors identify rigid paper-shell center rather than tassel or full alpha-bbox bottom.",
+    "Native phase0v3 has tight complete ribbon-tip margins; final common downscale must leave clear output safety margin."
+  ],
+  "phaseObservations": [
+    "Left sway extreme; two separate complete side ribbons and three tassels curve left. v3 uses original identity master plus same-project phase1 rigid-shell framing support.",
+    "Left trailing tassel fibers with near-vertical chains and downward side ribbons; genuine passing intermediate.",
+    "Right sway extreme; three tassel chains pivot right and both side ribbons bend right.",
+    "Opposite passing intermediate: chains near vertical, fiber tails curl right, left ribbon rises into arc."
+  ],
+  "excludedFiles": [
+    "assets/motion-native/orig_mob03/orig_mob03_walk_00.png",
+    "assets/motion-native/orig_mob03/orig_mob03_walk_00_v2.png"
+  ],
+  "remainingReview": [
+    "Final common-scale physical registration, actual normal/slow playback, seam continuity and visible size pop",
+    "True light/dark composites and game-size silhouette review",
+    "Unity import remains next phase, unverified"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits; original master always attached; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false,
+  "newImagesGeneratedInReview": false
+}

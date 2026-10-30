@@ -1,0 +1,60 @@
+{
+  "id": "particle_gold_spark",
+  "name": "暖金星火",
+  "file": "assets/particles/particle_gold_spark.png",
+  "function": "hit_or_collect",
+  "sha256": "d2bceab20e0eb647b50261966c05d2c5e0a18ea8c3b9a89e2affa9f786629644",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    549,
+    0,
+    492,
+    502
+  ],
+  "sourceAnchorXY": [
+    218.5,
+    256.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.6851223021582734,
+  "offsetTopLeft": [
+    -22,
+    -47
+  ],
+  "visibleMarginsLTRB": [
+    35,
+    33,
+    35,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

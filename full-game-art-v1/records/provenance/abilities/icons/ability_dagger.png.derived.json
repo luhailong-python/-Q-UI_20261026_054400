@@ -1,0 +1,71 @@
+{
+  "id": "ability_dagger",
+  "file": "assets/icons/ability_dagger.png",
+  "sha256": "6198ad1b34fc6ea5f50591b753fb242565508f38d584115ac20224a3908afaca",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    522,
+    507,
+    524,
+    517
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    32,
+    42,
+    479,
+    454
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "uniformScale": 0.7114093959731543,
+  "actualRasterScaleXY": [
+    0.7118320610687023,
+    0.7117988394584139
+  ],
+  "offsetTopLeft": [
+    10,
+    16
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    32,
+    46,
+    351,
+    339
+  ],
+  "subjectMarginsLTRB": [
+    32,
+    46,
+    33,
+    45
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

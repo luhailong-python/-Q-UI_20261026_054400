@@ -1,0 +1,60 @@
+{
+  "id": "boom_jade_ring",
+  "name": "回旋玉轮本体",
+  "file": "assets/projectiles/boom_jade_ring.png",
+  "function": "lightsaber",
+  "sha256": "46120a2bc276579e129e52993c78583005584e9b010738795ea14e338500fa99",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_b.png",
+  "sourceSha256": "3c3325a7d474553e231b4ef8ef3853951c2ed8f9348353b852531a2854c80d9b",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    513,
+    496
+  ],
+  "sourceAnchorXY": [
+    260.0,
+    251.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.4388571428571429,
+  "offsetTopLeft": [
+    14,
+    18
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    37,
+    33,
+    36
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

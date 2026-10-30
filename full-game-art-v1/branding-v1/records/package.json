@@ -1,0 +1,161 @@
+{
+  "builtAtUtc": "2026-10-29T03:14:15.034988+00:00",
+  "file": "delivery/yifu_zhen_wanyao_branding_v1.zip",
+  "bytes": 14970990,
+  "sha256": "5c1a0ebbfce6863362b6cb9cd55ac1bdbcad86dcc88c7cf5f63b9810cd7a95d9",
+  "entryCount": 30,
+  "crcPassed": true,
+  "allEntryHashesPassed": true,
+  "entries": [
+    {
+      "file": "assets/manifest.csv",
+      "sha256": "b076164687772d40c871c0b92592e5e80d1b1e6a27495d6ba29aef5d0631c802",
+      "bytes": 1844
+    },
+    {
+      "file": "assets/native/yifu-zhen-wanyao-brand-emblem.png",
+      "sha256": "9d98c987b5bb91977ef0e837c11d578f43e3ed7314d611876a29857de78fc389",
+      "bytes": 2161356
+    },
+    {
+      "file": "assets/native/yifu-zhen-wanyao-brand-emblem.png.generation.json",
+      "sha256": "061afd50db947d51674028814f39f571f9cf5aa12427a0058498866e6dbc2c59",
+      "bytes": 5190
+    },
+    {
+      "file": "assets/native/yifu-zhen-wanyao-logo-primary.png",
+      "sha256": "9a38bb4f5ac6850890f239ed7036dada8ae9ae928d5c7d4eca25aee6c6711c5f",
+      "bytes": 2766896
+    },
+    {
+      "file": "assets/native/yifu-zhen-wanyao-logo-primary.png.generation.json",
+      "sha256": "8e716a9ba3b8afff6db1d148ae35741d1ea4a003acceca37b76b73da246c867f",
+      "bytes": 6422
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-128w.png",
+      "sha256": "f1b1a1aba9c64641c9c8b36204e9d97442fb863e513d49d7c6508489bb72cff7",
+      "bytes": 29868
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-256w.png",
+      "sha256": "a50d17b5abed447acc2e579fbb1981089fb86c28fdef0753bd65a34c1c93f9c1",
+      "bytes": 97131
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-512w.png",
+      "sha256": "6a6c42aa17425e0296d242340dd04a453f9e9d5704632ac7e44f5af0f2a8990e",
+      "bytes": 332652
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem.png",
+      "sha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "bytes": 2175109
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary-1200w.png",
+      "sha256": "9fc47f8a38b4a05969e405c408f002ad79d3dfe1b3fd810876cd0a96fe339759",
+      "bytes": 1187161
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary-768w.png",
+      "sha256": "e2cf3744de0d8b9bba2497aa265f74d9bdfd506a804d17d5aef2efc4b3ae361c",
+      "bytes": 506918
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary.png",
+      "sha256": "d82510c49589471d5174d373189fd26d6031f8802e47b3d269b0a71b5718582d",
+      "bytes": 2242286
+    },
+    {
+      "file": "BRAND_BRIEF.md",
+      "sha256": "3a3ce08a437ca3ea5489d52cbfcb7256acc9382f5642fecbf196ca2171e84510",
+      "bytes": 1566
+    },
+    {
+      "file": "previews/brand-light-dark.jpg",
+      "sha256": "be4f34b9096b98ca39a0ecf48271bfaf546456bafb70c253c5fc1d95791e2945",
+      "bytes": 475013
+    },
+    {
+      "file": "previews/logo-primary-light-dark.jpg",
+      "sha256": "c9cdba2bfd11966f9e4a9d7b83a91ddc961774a2025a6792087b82bf161bc5db",
+      "bytes": 460338
+    },
+    {
+      "file": "prompts/brand-emblem.txt",
+      "sha256": "33cf3be189fc6da666b7d4efdfc598964f6d49967041cccc07368d3e1803c7e6",
+      "bytes": 2105
+    },
+    {
+      "file": "prompts/logo-primary.txt",
+      "sha256": "642738111d5ed79eef04159b982212d0975592e4ea4f11e83ae4d8bda71f341b",
+      "bytes": 2862
+    },
+    {
+      "file": "README.md",
+      "sha256": "23cec181b36c00a2057a6091237da641f5c324507a27f802b1401b8fdf6701e2",
+      "bytes": 2322
+    },
+    {
+      "file": "records/acceptance.json",
+      "sha256": "fe6fe0671c8d0cc942276a9d3490b852e6f06db7bae6cd727e0c9e1e2cfceae8",
+      "bytes": 4430
+    },
+    {
+      "file": "records/brand-assets.json",
+      "sha256": "e12b9e2ac8a9053b0023af55cc0564f417023abc398db857d1351814fd0a35f3",
+      "bytes": 7705
+    },
+    {
+      "file": "records/brand-emblem-args.json",
+      "sha256": "4f33a159be61f58febb9e979aa58be3fe79de4b8cad611abdc2c00e67da0bec5",
+      "bytes": 2330
+    },
+    {
+      "file": "records/brand-emblem-receipt.json",
+      "sha256": "cb40a3f2d65d2ad7087d4dd474c81659130b6476c108192d336c38120551e94f",
+      "bytes": 845
+    },
+    {
+      "file": "records/logo-primary-args.json",
+      "sha256": "8d41460acc8147a8e4e3abd71368520ec65a82692e6f5b487a6289ef1d4d0213",
+      "bytes": 3216
+    },
+    {
+      "file": "records/logo-primary-receipt.json",
+      "sha256": "c1208591943dd55e7b12b0e2cdede98bbe39c043597ebe7d7d9da128b1e68a2f",
+      "bytes": 845
+    },
+    {
+      "file": "records/reference-map.json",
+      "sha256": "8552706157e7e551b3cfe605d88984c50cfbd387ebef530edd27e3ee0c3c6845",
+      "bytes": 915
+    },
+    {
+      "file": "source/export_brand_assets.py",
+      "sha256": "0139291dd88e48677f43b6eecc43ddfb71e9a9df4df9a6a27c2a3ea6452d065e",
+      "bytes": 4535
+    },
+    {
+      "file": "source/finalize_brand_delivery.py",
+      "sha256": "9643bc34f7eae9fd0d9a99e70eeed71bb00dcd7a37c21fb1fefbdd713a169f46",
+      "bytes": 7164
+    },
+    {
+      "file": "source/record_brand_image.py",
+      "sha256": "39dafcbeed6249b9449e8829e2f91cb6d7ee747d2403b46de715a18b26c23410",
+      "bytes": 2491
+    },
+    {
+      "file": "sources/clean_panel_native.png",
+      "sha256": "d45ccd3e77813621d9e50182f119ec1c9b02f52f78ac6e98926852e56ae19182",
+      "bytes": 1952755
+    },
+    {
+      "file": "sources/hero_daotong.png",
+      "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+      "bytes": 662413
+    }
+  ]
+}

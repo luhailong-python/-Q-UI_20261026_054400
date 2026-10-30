@@ -1,0 +1,64 @@
+{
+  "id": "orig_boss01_walk_03",
+  "name": "玄坛石尊 行走4",
+  "file": "assets/motion/orig_boss01/walk/orig_boss01_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_boss01",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss01\\orig_boss01_walk_03.png",
+  "sourceSha256": "04bc91cb12846559aede81c8176811f83fa6d17aede55f831ac0826e62def097",
+  "sha256": "e0fc1adc000b50cd806e5c46a26238167bb02062f63e001d5a7e6ffc27bf5b43",
+  "sourceAnchorXY": [
+    745,
+    1149
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6285192127460169,
+  "actualRasterScaleXY": [
+    0.6283891547049442,
+    0.6283891547049442
+  ],
+  "offsetTopLeft": [
+    44,
+    174
+  ],
+  "visibleMarginsLTRB": [
+    66,
+    236,
+    209,
+    128
+  ],
+  "durationMs": 200,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_boss01-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6285192127460169,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

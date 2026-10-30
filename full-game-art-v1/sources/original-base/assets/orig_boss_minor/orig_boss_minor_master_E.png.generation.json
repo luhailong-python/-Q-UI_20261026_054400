@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "orig_boss_minor",
+  "name": "铜铃卫",
+  "role": "minor boss",
+  "originalRequestId": "orig_elite01",
+  "roleMappingNote": "Generation prompt described an elite construct; root subsequently assigned this exact unchanged art to the minor-boss role after GitHub functionality audit. No new generation or pixel change occurred for this role mapping.",
+  "operation": "AI_generated_native_master_byte_copy",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "sourceNativePath": "C:/Users/luyua/.codex/generated_images/01a178ab-c6e7-7eb2-bd95-6199c794fb2a/exec-a34ff034-3a7f-481d-b536-988e42f85836.png",
+  "file": "assets/orig_boss_minor/orig_boss_minor_master_E.png",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept.\nAsset type: original single full-body master for a high-definition 2D Daoist chibi game enemy, true transparent PNG.\nCreate a wholly original elite construct called 铜铃卫, the Bronze Bell Sentinel. Its LARGE ROUND BRONZE BELL SHELL IS ITS ENTIRE TORSO AND FACE: two large stern but cute eyes and a small serious mouth are directly sculpted into the bell's front metal surface. NO human or animal head, no person inside, no separate head above the bell. The ring-shaped bell handle on the top is its crown. Rounded jade-green cloud-pattern shoulder armor connects to two short sturdy arms. One arm carries a SMALL bronze mallet, the other carries a ROUND celadon jade shield with restrained cloud carving and a fine warm-gold rim. Two very short thick legs end in rounded jade-stone feet, both fully visible below the bell rim. A restrained ivory waist binding and a little warm-gold ornament may accent its shell; keep its bell shape unmistakable. It is slightly imposing as an elite enemy, yet plump, charming and chibi. Clear separate silhouette for crown handle, each arm, mallet, circular shield, bell rim and both feet. No extra weapons, no fur, no wings, no creature riding it.\nStyle: finished exquisite 2D high-definition Chinese Daoist Q-version hand-painted fantasy game art. Round full volumes, delicate fine hand-painted light and shade, soft bronze with restrained warm-gold sheen, celadon/jade/teal cloud motifs, subtle ivory details. Crisp graceful contours, high readability and carefully controlled detail. Not a 3D render, plastic toy, photorealism, vector icon, pixel art or distressed junk metal.\nCamera and pose: one subject, elevated three-quarter view facing screen bottom-right (E), calm grounded battle-ready stance, mallet lowered but visible, shield held to the side without covering the eyes. Square composition. Leave AT LEAST 12 percent truly transparent clear space on all FOUR edges around the entire silhouette including crown, mallet, shield and feet. No cropped extremities. Real Alpha transparent background, no floor, scenery, text, letters, numbers, UI, border, card, cast-shadow puddle, watermark, diagram or multiple poses. No external reference image is supplied and no existing character is to be copied. The gpt-image-2.5-sunburst/max configuration is a target only; it must not appear as artwork text.",
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "referenceImages": [],
+  "referenceInputParametersOmitted": [
+    "referenced_image_paths",
+    "num_last_images_to_include"
+  ],
+  "externalImageInputUsed": false,
+  "FDriveImageInputUsed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed builtin tool exposes no model/quality parameters and returned neither actual model nor quality.",
+  "requestStartedAt": "2026-10-26T15:42:52.067Z",
+  "toolReturnedAt": "2026-10-26T15:43:58.490Z",
+  "receipt": "records/generation/orig_boss_minor/tool-receipt.json",
+  "prompt": "records/generation/orig_boss_minor/prompt.txt",
+  "runtimeResamplingApplied": false,
+  "nativePreserved": true,
+  "unityVerified": false,
+  "animationClaimed": false,
+  "generatedAtObservedFromNativeFileMtime": "2026-10-26T15:43:58.137717+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "exportSize": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "8f07673716f4d36e367fa4beb05a3eab2e96fbc91eafb27e1aed825f9d42980c",
+  "pixelSha256": "7381481a8a1dd5ebb9c8863dcf5cb4ba7b22acfe8dad50b6befb6a0b706e8d27",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    0,
+    27,
+    1223,
+    1254
+  ],
+  "visibleBBoxAlpha16": [
+    81,
+    87,
+    1220,
+    1125
+  ],
+  "visibleMarginsLTRB": [
+    81,
+    87,
+    34,
+    129
+  ],
+  "visibleMarginsFractionLTRB": [
+    0.0645933014354067,
+    0.06937799043062201,
+    0.02711323763955343,
+    0.10287081339712918
+  ],
+  "canvasPaddingApplied": false,
+  "sourceNativeSha256": "8f07673716f4d36e367fa4beb05a3eab2e96fbc91eafb27e1aed825f9d42980c",
+  "byteIdenticalToNative": true,
+  "visuallyInspected": true,
+  "visualReviewNotes": [
+    "Single original construct, readable Daoist jade/ivory/warm-gold hand-painted identity",
+    "Whole silhouette visible with no clipped extremities",
+    "No external image inputs; no F reference or copied-F art used",
+    "Native source retained unchanged; root will unify runtime framing and >=12% safety margin"
+  ],
+  "nativeSafetyMarginTarget12PercentPassed": false,
+  "checkedAt": "2026-10-26T15:46:13.448482+00:00"
+}

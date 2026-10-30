@@ -1,0 +1,870 @@
+{
+  "screen": "08-dialog-exit",
+  "title": "结束本次游历？",
+  "orientation": "landscape",
+  "state": "confirmation_exit",
+  "file": "designs/landscape/08-dialog-exit.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        45,
+        45,
+        600,
+        170
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_taiji.png",
+      "rectTopLeft": [
+        65,
+        67,
+        115,
+        115
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        195,
+        110,
+        400,
+        40
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        195,
+        110,
+        312,
+        40
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        195,
+        163,
+        400,
+        34
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        195,
+        163,
+        268,
+        34
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        720,
+        45,
+        490,
+        90
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        1590,
+        55,
+        270,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/characters/hero_demo.png",
+      "rectTopLeft": [
+        790,
+        375,
+        350,
+        460
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/portrait_ring.png",
+      "rectTopLeft": [
+        90,
+        760,
+        230,
+        230
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_compass.png",
+      "rectTopLeft": [
+        143,
+        813,
+        124,
+        124
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1360,
+        840,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_sword.png",
+      "rectTopLeft": [
+        1370,
+        850,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1540,
+        770,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_talisman.png",
+      "rectTopLeft": [
+        1550,
+        780,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/cooldown_mask.png",
+      "rectTopLeft": [
+        1548,
+        778,
+        124,
+        124
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1720,
+        840,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        1730,
+        850,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 135
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        460,
+        205,
+        1000,
+        685
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        730,
+        595,
+        460,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        560,
+        740,
+        350,
+        90
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        1010,
+        740,
+        350,
+        90
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 145
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        450,
+        260,
+        1020,
+        565
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/notice_icon.png",
+      "rectTopLeft": [
+        925,
+        330,
+        70,
+        70
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        530,
+        670,
+        415,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        975,
+        670,
+        415,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "无名道友  Lv.12",
+      "rectTopLeft": [
+        195,
+        55,
+        400,
+        50
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "气血  998 / 1,280",
+      "rectTopLeft": [
+        195,
+        110,
+        400,
+        40
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 2,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "灵力  240 / 360",
+      "rectTopLeft": [
+        195,
+        163,
+        400,
+        34
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 2,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼  ·  02:35",
+      "rectTopLeft": [
+        740,
+        62,
+        450,
+        55
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "暂停",
+      "rectTopLeft": [
+        1615,
+        63,
+        220,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "拖动移动",
+      "rectTopLeft": [
+        55,
+        995,
+        310,
+        45
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "剑诀",
+      "rectTopLeft": [
+        1360,
+        984,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "符术",
+      "rectTopLeft": [
+        1540,
+        914,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "3",
+      "rectTopLeft": [
+        1540,
+        795,
+        140,
+        70
+      ],
+      "fontPixels": 43,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "灵葫",
+      "rectTopLeft": [
+        1720,
+        984,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "暂歇片刻",
+      "rectTopLeft": [
+        540,
+        260,
+        840,
+        90
+      ],
+      "fontPixels": 58,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼",
+      "rectTopLeft": [
+        550,
+        385,
+        820,
+        65
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "游历时间  02:35  ·  道童等级 12",
+      "rectTopLeft": [
+        535,
+        475,
+        850,
+        65
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "继续游历",
+      "rectTopLeft": [
+        755,
+        603,
+        410,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "设置",
+      "rectTopLeft": [
+        585,
+        748,
+        300,
+        80
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回主界面",
+      "rectTopLeft": [
+        1035,
+        748,
+        300,
+        80
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "结束本次游历？",
+      "rectTopLeft": [
+        520,
+        430,
+        880,
+        90
+      ],
+      "fontPixels": 48,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回主界面后，本次游历将结束。\n已获得的收获仍会保留。",
+      "rectTopLeft": [
+        525,
+        560,
+        870,
+        140
+      ],
+      "fontPixels": 28,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "继续游历",
+      "rectTopLeft": [
+        555,
+        678,
+        365,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "确认返回",
+      "rectTopLeft": [
+        1000,
+        678,
+        365,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    }
+  ],
+  "sha256": "b7ea673b7471ce5908a094f1df494eae856eb9eac6e2ada2b3574c5c08a59798",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/characters/hero_demo.png",
+      "sha256": "daa2ed747fc003ab41bc6c4de779916c2614b092ccfd9702e52b1e118b453712",
+      "sourceRecord": "assets/characters/hero_demo.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/cooldown_mask.png",
+      "sha256": "ce551906cc4d6de1f6caabbb71f154e2c444d28811a5a30e63388864ad66e7de",
+      "sourceRecord": "records/ui-auxiliary-assets.json#cooldown_mask"
+    },
+    {
+      "file": "assets/common/notice_icon.png",
+      "sha256": "cbf6754ffe44bbbbf2c6fc31e27153e22b07debcd9072ac55188ed388aff510b",
+      "sourceRecord": "records/reused-assets.json#notice_icon"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/portrait_ring.png",
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "sourceRecord": "records/reused-assets.json#portrait_ring"
+    },
+    {
+      "file": "assets/common/slider_fill.png",
+      "sha256": "6613b6f5a4ac1d03e1e92082efc92fd61c339b98d04523ac2a289bdac75acf0f",
+      "sourceRecord": "records/reused-assets.json#slider_fill"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "f35d337bd76d4481db6636aba64172c0d86621fbddc043f3af1c6f7e1ae9697f",
+      "sourceRecord": "records/reused-assets.json#slider_track"
+    },
+    {
+      "file": "assets/icons/badge_compass.png",
+      "sha256": "1b415e8aaf92a22801e2413d6312648445140d3d399e73de60b89f17a0ad1b5c",
+      "sourceRecord": "records/reused-assets.json#badge_compass"
+    },
+    {
+      "file": "assets/icons/badge_taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceRecord": "records/reused-assets.json#badge_taiji"
+    },
+    {
+      "file": "assets/icons/icon_gourd.png",
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceRecord": "records/reused-assets.json#icon_gourd"
+    },
+    {
+      "file": "assets/icons/icon_sword.png",
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "sourceRecord": "records/reused-assets.json#icon_sword"
+    },
+    {
+      "file": "assets/icons/icon_talisman.png",
+      "sha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "sourceRecord": "records/reused-assets.json#icon_talisman"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.222169+00:00"
+}

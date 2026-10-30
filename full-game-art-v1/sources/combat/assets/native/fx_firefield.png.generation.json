@@ -1,0 +1,89 @@
+{
+  "file": "assets/native/fx_firefield.png",
+  "sha256": "b08ad6c9ea2c10e39d459f68bdbd589f4d7a0859a7ae2dd0490c6891fa49c01f",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "generatedAt": "2026-10-27T06:25:38.522424+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T06:26:08.695415+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/fx_firefield.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17c06-fb12-7182-8d7b-4629ee8d1fd6\\exec-21c7eadd-ef6d-470f-834f-f8662544271a.png",
+    "imageDataOmittedFromText": true
+  },
+  "actualSubmittedToolArguments": {
+    "promptTextFile": "records/prompts/fx_firefield.txt",
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "promptFileSha256": "ea4e0c52c47afb3ed6aa8a3b6aab1aee7c38f278ee3d5f3797029f8bc4e5f7f0",
+  "initialTechnicalInspection": {
+    "nativeSize": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      253
+    ],
+    "edgeMaxAlphaLTRB": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "rowSeamAlphaY500to520": [
+      0,
+      1
+    ]
+  },
+  "initialVisualInspection": {
+    "actuallyViewedToolReturnedImage": true,
+    "sixDifferentPaintedTemporalPhases": true,
+    "loopPlaybackVerified": false,
+    "frameRegistrationVerified": false,
+    "note": "Six genuine distinct flame contour phases and broadly steady jade-cloud oval. Native effect width exceeds requested65percent in several cells; technical ownership slicing and common-scale export needed. No slice performed by this worker."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "file": "assets/native/fx_explosion.png",
+  "sha256": "356a3b324ea126f4b4581a2bba08009ae04170ead1a397addee66db690e593b3",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "generatedAt": "2026-10-27T06:25:36.919971+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T06:26:07.868827+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/fx_explosion.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17c06-d0d9-7582-9dd8-1c38f607cd68\\exec-303c30b4-6cc3-47bb-b9e8-7dbbbeb12739.png",
+    "imageDataOmittedFromText": true
+  },
+  "actualSubmittedToolArguments": {
+    "prompt": {
+      "savedTextFile": "records/prompts/fx_explosion.txt",
+      "sha256": "f1c79d0a24366d37158e741881c47a45c2af97dd2906c667a62d23396d6e73f6"
+    },
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "artSource": "host_image",
+  "estimateUsd": null,
+  "costEvidence": "Builtin tool returned no pricing or cost information",
+  "visualReview": {
+    "nativeReturnedImageActuallyViewed": true,
+    "sixDistinctChronologicalPhasesPresent": true,
+    "notCharacterBodyAnimation": true,
+    "notProgramTransformedSingleFrame": true,
+    "sourceImageUnmodified": true,
+    "phaseReview": [
+      "small ignition kernel",
+      "compact cloud-petal release",
+      "largest flame and jade-chip burst",
+      "opened cloud/flame lobes with emptying centre",
+      "sparse late clouds chips and sparks",
+      "three tiny terminal glints"
+    ],
+    "sourceEdgeMaxAlphaLTRB": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "note": "Maximum stages exceed requested central65percent envelope, but subject remains visually isolated; root to use shared centre, uniform scale, true transparent ownership gutters and padding. Numeric slicing/playback not performed by this worker."
+  }
+}

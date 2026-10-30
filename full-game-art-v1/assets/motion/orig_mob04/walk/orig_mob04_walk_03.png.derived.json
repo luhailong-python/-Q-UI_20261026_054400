@@ -1,0 +1,64 @@
+{
+  "id": "orig_mob04_walk_03",
+  "name": "竹甲小妖 行走4",
+  "file": "assets/motion/orig_mob04/walk/orig_mob04_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_mob04",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob04\\orig_mob04_walk_03.png",
+  "sourceSha256": "6036e5ac4b054bb8ddb11983b25e5e3bac71b11530810ae12b6572336700d003",
+  "sha256": "3e020ed30b7faf0b3848f5a77913bad084255cd7f0297b63006f192536b4b20a",
+  "sourceAnchorXY": [
+    610,
+    1147
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6786500888099467,
+  "actualRasterScaleXY": [
+    0.6786283891547049,
+    0.6786283891547049
+  ],
+  "offsetTopLeft": [
+    98,
+    118
+  ],
+  "visibleMarginsLTRB": [
+    193,
+    153,
+    111,
+    116
+  ],
+  "durationMs": 150,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_mob04-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6786500888099467,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

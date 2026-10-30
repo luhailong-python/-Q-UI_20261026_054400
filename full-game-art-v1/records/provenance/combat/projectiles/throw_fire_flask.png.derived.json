@@ -1,0 +1,60 @@
+{
+  "id": "throw_fire_flask",
+  "name": "流火瓷瓶本体",
+  "file": "assets/projectiles/throw_fire_flask.png",
+  "function": "molotov",
+  "sha256": "c23a9c52c6f38883e0ad7876904f9516a7e1e9e1d38eb27d7341f6696cb942bf",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    1025,
+    501,
+    511,
+    523
+  ],
+  "sourceAnchorXY": [
+    283.0,
+    237.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.570251497005988,
+  "offsetTopLeft": [
+    -33,
+    -7
+  ],
+  "visibleMarginsLTRB": [
+    34,
+    33,
+    34,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ability_book",
+  "file": "assets/icons/ability_book.png",
+  "sha256": "d2450f2df24528da8b7387ed487ee1024aa5d661b4226a8bb1650f73b870c805",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_b.png",
+  "sourceSha256": "469d938e53c21eaa33aab341bca78b0cb59e451a16ad63e542e317c13c2b46f5",
+  "sourceRectTopLeftXYWH": [
+    534,
+    0,
+    491,
+    510
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    11,
+    76,
+    473,
+    472
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "uniformScale": 0.6883116883116883,
+  "actualRasterScaleXY": [
+    0.6883910386965377,
+    0.6882352941176471
+  ],
+  "offsetTopLeft": [
+    25,
+    4
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    56,
+    351,
+    329
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    56,
+    33,
+    55
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

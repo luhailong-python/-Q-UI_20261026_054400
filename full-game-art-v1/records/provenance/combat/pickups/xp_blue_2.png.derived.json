@@ -1,0 +1,60 @@
+{
+  "id": "xp_blue_2",
+  "name": "天青灵晶 · 2",
+  "file": "assets/pickups/xp_blue_2.png",
+  "function": "experience2",
+  "sha256": "a68b01c6bbbccde0f413b0ea7efc62eeb30bce0d2bf0a9b21a569c0cb7e6717c",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    425,
+    0,
+    385,
+    434
+  ],
+  "sourceAnchorXY": [
+    202.5,
+    242.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7325538461538462,
+  "offsetTopLeft": [
+    -20,
+    -49
+  ],
+  "visibleMarginsLTRB": [
+    66,
+    33,
+    65,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

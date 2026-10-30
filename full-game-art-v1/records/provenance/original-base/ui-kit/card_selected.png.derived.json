@@ -1,0 +1,43 @@
+{
+  "id": "card_selected",
+  "file": "assets/ui-kit/card_selected.png",
+  "sha256": "8976ed85831ffb503181aef04285409bedfb5a5ae6dfd1c9a6cc0098ab184bd0",
+  "width": 475,
+  "height": 704,
+  "sourceRectLTRB": [
+    1062,
+    45,
+    1521,
+    733
+  ],
+  "offset": [
+    8,
+    8
+  ],
+  "derivedFrom": {
+    "file": "assets/ui-kit/ui_kit_atlas.png",
+    "sha256": "ea01c36a6801bbccd0017677f4cf3f2ece1e670c6c6f99d54358422c85c4c30d",
+    "generationRecord": "assets/ui-kit/ui_kit_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": "Ownership crop and transparent canvas padding; source artwork pixels unscaled",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "imageType": "Simple",
+  "notNewAIGeneration": true,
+  "alphaRange": [
+    0,
+    254
+  ]
+}

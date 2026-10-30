@@ -1,0 +1,60 @@
+{
+  "id": "particle_cinnabar_flame",
+  "name": "朱砂火舌",
+  "file": "assets/particles/particle_cinnabar_flame.png",
+  "function": "burning",
+  "sha256": "c304ce97c0c7547a61b7b68529d2e82258d0ab74bfc56076f53c417c0842d23b",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    0,
+    502,
+    511,
+    522
+  ],
+  "sourceAnchorXY": [
+    259.5,
+    241.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.6567724137931035,
+  "offsetTopLeft": [
+    -43,
+    -30
+  ],
+  "visibleMarginsLTRB": [
+    65,
+    33,
+    66,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

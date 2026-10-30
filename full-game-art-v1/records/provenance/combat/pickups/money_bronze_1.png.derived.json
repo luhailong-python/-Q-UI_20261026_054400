@@ -1,0 +1,60 @@
+{
+  "id": "money_bronze_1",
+  "name": "铜钱 · 1",
+  "file": "assets/pickups/money_bronze_1.png",
+  "function": "money1",
+  "sha256": "42fa946344561529cb0b7319d19d9a0f8bf2bb8ffb02213f2c51d559a54e3a6a",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    428,
+    434,
+    407,
+    378
+  ],
+  "sourceAnchorXY": [
+    199.0,
+    208.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7325538461538462,
+  "offsetTopLeft": [
+    -18,
+    -24
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    33,
+    33,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

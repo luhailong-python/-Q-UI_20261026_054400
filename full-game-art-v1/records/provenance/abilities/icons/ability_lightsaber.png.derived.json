@@ -1,0 +1,71 @@
+{
+  "id": "ability_lightsaber",
+  "file": "assets/icons/ability_lightsaber.png",
+  "sha256": "6f37d05caafbe4ac3ca8dec2b89462222d8c7eb345cec451c347f405fb6e52f8",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_c.png",
+  "sourceSha256": "2ddae452c0fd20ffacf4e86bc80555eaedf2080fa2deeef938ead8cd6495f8fd",
+  "sourceRectTopLeftXYWH": [
+    0,
+    517,
+    513,
+    507
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    48,
+    55,
+    464,
+    424
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "uniformScale": 0.7644230769230769,
+  "actualRasterScaleXY": [
+    0.7641325536062378,
+    0.7652859960552268
+  ],
+  "offsetTopLeft": [
+    -4,
+    9
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    51,
+    350,
+    333
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    51,
+    34,
+    51
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 14,
+  "maxAlphaOutsideOutput": 1,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

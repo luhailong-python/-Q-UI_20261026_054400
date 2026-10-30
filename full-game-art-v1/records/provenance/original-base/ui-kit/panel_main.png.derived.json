@@ -1,0 +1,43 @@
+{
+  "id": "panel_main",
+  "file": "assets/ui-kit/panel_main.png",
+  "sha256": "d97f410d20a07a1e06b43d6890dcf7d98f4b36b06d6e8a6662932c464e13267c",
+  "width": 604,
+  "height": 627,
+  "sourceRectLTRB": [
+    17,
+    85,
+    605,
+    696
+  ],
+  "offset": [
+    8,
+    8
+  ],
+  "derivedFrom": {
+    "file": "assets/ui-kit/ui_kit_atlas.png",
+    "sha256": "ea01c36a6801bbccd0017677f4cf3f2ece1e670c6c6f99d54358422c85c4c30d",
+    "generationRecord": "assets/ui-kit/ui_kit_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": "Ownership crop and transparent canvas padding; source artwork pixels unscaled",
+  "borderLeftBottomRightTop": [
+    100,
+    100,
+    100,
+    100
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "imageType": "Sliced",
+  "notNewAIGeneration": true,
+  "alphaRange": [
+    0,
+    254
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "throw_grenade",
+  "name": "爆裂丹珠本体",
+  "file": "assets/projectiles/throw_grenade.png",
+  "function": "grenade",
+  "sha256": "a1ae432a3dfecf8d5f3f34d3c4b05cc0ce0640807ad07f82eec47c2b5b3fa6c1",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    0,
+    501,
+    532,
+    523
+  ],
+  "sourceAnchorXY": [
+    267.0,
+    234.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.5161626016260163,
+  "offsetTopLeft": [
+    -10,
+    7
+  ],
+  "visibleMarginsLTRB": [
+    49,
+    33,
+    49,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

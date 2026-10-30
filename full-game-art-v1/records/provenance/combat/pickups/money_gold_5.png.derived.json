@@ -1,0 +1,60 @@
+{
+  "id": "money_gold_5",
+  "name": "金钱 · 5",
+  "file": "assets/pickups/money_gold_5.png",
+  "function": "money5",
+  "sha256": "07143095f7d02acfddbbbe073ea2d63aceababf4e26a58dfd23d17c740a4cef3",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    0,
+    812,
+    427,
+    442
+  ],
+  "sourceAnchorXY": [
+    220.5,
+    219.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.718732075471698,
+  "offsetTopLeft": [
+    -31,
+    -30
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    32,
+    33,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

@@ -1,0 +1,80 @@
+{
+  "file": "assets/native/ability_pack_c.png",
+  "sha256": "2ddae452c0fd20ffacf4e86bc80555eaedf2080fa2deeef938ead8cd6495f8fd",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "generatedAt": "2026-10-27T00:19:48.630338-04:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T00:20:13.877058-04:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/ability_pack_c.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a178ac-262c-7420-ab6b-7598d83edfa7\\exec-b13b11ae-9fc0-42ed-9cef-106269b2f86f.png",
+    "imageDataOmittedFromText": true
+  },
+  "visualReview": {
+    "actuallyViewedLocalNative": true,
+    "nativeImageUnmodified": true,
+    "fiveObjectsPresent": true,
+    "layout": "3 columns, 2 rows; bottom-right has no visible object",
+    "lastCellAlphaRange": [
+      0,
+      1
+    ],
+    "verticalGutter505to520AlphaRange": [
+      0,
+      1
+    ],
+    "technicalNote": "Native atlas carries near-zero alpha (up to1) in nominal empty/gutter pixels. Solid subjects remain separated. Prompt70percent cell/safety padding was not uniformly followed; slice by actual ownership, then technical export padding/scale as needed. No slice or rescale performed by this worker."
+  },
+  "promptFileSha256": "876b10d9fd3147dcb287875118eddd5555257b48b3b97631696f16af4842582e",
+  "actualSubmittedToolArguments": {
+    "prompt": {
+      "savedTextFile": "records/prompts/ability_pack_c.txt",
+      "whitespaceNote": "Saved full prompt; transport may trim surrounding whitespace"
+    },
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "selectorDisclosure": "model and quality null mean no selector was exposed or submitted; they are not actual named tool arguments."
+}

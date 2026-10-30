@@ -1,0 +1,89 @@
+{
+  "file": "assets/native/particles.png",
+  "sha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "generatedAt": "2026-10-27T06:28:34.594316+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T06:28:59.458327+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/particles.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17c06-fb12-7182-8d7b-4629ee8d1fd6\\exec-9279909d-5671-430f-b1b6-d9cb014f6f22.png",
+    "imageDataOmittedFromText": true
+  },
+  "actualSubmittedToolArguments": {
+    "promptTextFile": "records/prompts/particles.txt",
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "promptFileSha256": "fb05ddefe4659cf9e3d22b0f116f6e599702f8a7200f941555ab02660f1d39b2",
+  "initialTechnicalInspection": {
+    "nativeSize": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      254
+    ],
+    "edgeMaxAlphaLTRB": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "rowSeamY500to519AlphaRange": [
+      0,
+      1
+    ]
+  },
+  "initialVisualInspection": {
+    "actuallyViewedToolReturnedImage": true,
+    "sixParticlesPresent": true,
+    "chargeStripHorizontalNoArrow": true,
+    "particleSequenceNotAnimation": true,
+    "note": "Native cloud/strip span exceeds prompt size target in places. Technical ownership slicing/downscale/padding required; not done by this worker. True alpha soft glow preserved; source unchanged."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "file": "assets/native/ability_pack_a.png",
+  "sha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "generatedAt": "2026-10-27T04:19:00.526535+00:00",
+  "generationTimeEvidence": "Source output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAt": "2026-10-27T04:19:15.734747+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated from text; byte-identical copy into project",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host manages model and quality; exposed tool has no selector and returned no identifying metadata",
+  "prompt": "records/prompts/ability_pack_a.txt",
+  "references": [],
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17797-3fb9-7750-848d-cc6670539e64\\exec-64e12192-3ec8-4e77-8bb6-5a20c65ed753.png",
+    "imageDataOmittedFromText": true
+  },
+  "promptFileSha256": "ec924fbae1021b46394d48d68eac67b959e1d84547b04b3d3b78fe799209209f",
+  "actualSubmittedToolArguments": {
+    "prompt": {
+      "savedTextFile": "records/prompts/ability_pack_a.txt",
+      "whitespaceNote": "Saved full prompt; transport may trim surrounding whitespace"
+    },
+    "transparent_background": true,
+    "referenced_image_paths": "omitted",
+    "num_last_images_to_include": "omitted"
+  },
+  "selectorDisclosure": "model and quality null mean no selector was exposed or submitted; they are not actual named tool arguments."
+}

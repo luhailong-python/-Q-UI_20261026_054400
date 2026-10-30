@@ -1,0 +1,64 @@
+{
+  "id": "orig_mob03_walk_01",
+  "name": "灯芯小魅 行走2",
+  "file": "assets/motion/orig_mob03/walk/orig_mob03_walk_01.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_mob03",
+  "action": "walk",
+  "phase": 1,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob03\\orig_mob03_walk_01.png",
+  "sourceSha256": "1e2d828c744118d962d6400d8bdc8c689db0c78414c62cdd1fed84b40a44df28",
+  "sha256": "9b7dd0343f601c9cf6f9737d0b0db8652d9e1ae3ecc4352f63eb947663ab095f",
+  "sourceAnchorXY": [
+    680,
+    650
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    512
+  ],
+  "sharedUniformScale": 0.6726760563380282,
+  "actualRasterScaleXY": [
+    0.6730462519936204,
+    0.6730462519936204
+  ],
+  "offsetTopLeft": [
+    54,
+    75
+  ],
+  "visibleMarginsLTRB": [
+    129,
+    177,
+    172,
+    207
+  ],
+  "durationMs": 150,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_mob03-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6726760563380282,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

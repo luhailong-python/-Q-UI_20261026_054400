@@ -1,0 +1,71 @@
+{
+  "id": "ability_machine_gun",
+  "file": "assets/icons/ability_machine_gun.png",
+  "sha256": "9f021e62a64481874a36052bbea2e2f2914e8c49d7e2f4e7bfc82021df061a0f",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_b.png",
+  "sourceSha256": "469d938e53c21eaa33aab341bca78b0cb59e451a16ad63e542e317c13c2b46f5",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    534,
+    510
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    29,
+    73,
+    518,
+    465
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "uniformScale": 0.6503067484662577,
+  "actualRasterScaleXY": [
+    0.649812734082397,
+    0.6509803921568628
+  ],
+  "offsetTopLeft": [
+    14,
+    16
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    64,
+    351,
+    319
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    64,
+    33,
+    65
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

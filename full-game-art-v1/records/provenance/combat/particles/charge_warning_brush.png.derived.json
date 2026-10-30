@@ -1,0 +1,60 @@
+{
+  "id": "charge_warning_brush",
+  "name": "冲锋预警笔触",
+  "file": "assets/particles/charge_warning_brush.png",
+  "function": "boss_charge",
+  "sha256": "ced4bd4dfb1608a2466b0bffc2a1fd64f2f813ee92b1eb01889cfd556d589534",
+  "size": [
+    512,
+    128
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    958,
+    502,
+    578,
+    522
+  ],
+  "sourceAnchorXY": [
+    313.5,
+    248.0
+  ],
+  "outputAnchorTopLeftXY": [
+    256,
+    64
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.9336470588235294,
+  "offsetTopLeft": [
+    -37,
+    -167
+  ],
+  "visibleMarginsLTRB": [
+    48,
+    32,
+    49,
+    32
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

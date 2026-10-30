@@ -1,0 +1,1172 @@
+{
+  "screen": "04-inventory-page2",
+  "title": "背包",
+  "orientation": "portrait",
+  "state": "page_2",
+  "file": "designs/portrait/04-inventory-page2.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_portrait.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        941,
+        1672
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 55
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        50,
+        102,
+        980,
+        1758
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        215,
+        30,
+        650,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        916,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        115,
+        205,
+        204,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        330,
+        205,
+        204,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        546,
+        205,
+        204,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        762,
+        205,
+        204,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        142,
+        330,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_crystal_tile.png",
+      "rectTopLeft": [
+        154,
+        340,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slot_selection.png",
+      "rectTopLeft": [
+        142,
+        330,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        347,
+        330,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_crystal_tile.png",
+      "rectTopLeft": [
+        359,
+        340,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        552,
+        330,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_talisman.png",
+      "rectTopLeft": [
+        564,
+        340,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        757,
+        330,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_mooncake_tile.png",
+      "rectTopLeft": [
+        769,
+        340,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        142,
+        535,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_scroll.png",
+      "rectTopLeft": [
+        154,
+        545,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        347,
+        535,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        359,
+        545,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        552,
+        535,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_talisman.png",
+      "rectTopLeft": [
+        564,
+        545,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        757,
+        535,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_taiji.png",
+      "rectTopLeft": [
+        769,
+        545,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        142,
+        740,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_mooncake_tile.png",
+      "rectTopLeft": [
+        154,
+        750,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        347,
+        740,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_compass.png",
+      "rectTopLeft": [
+        359,
+        750,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        552,
+        740,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_lotus.png",
+      "rectTopLeft": [
+        564,
+        750,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        757,
+        740,
+        180,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_crystal_tile.png",
+      "rectTopLeft": [
+        769,
+        750,
+        156,
+        146
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        115,
+        975,
+        850,
+        535
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/reward_crystal_tile.png",
+      "rectTopLeft": [
+        165,
+        1020,
+        130,
+        130
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        135,
+        1605,
+        235,
+        78
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary_disabled.png",
+      "rectTopLeft": [
+        710,
+        1605,
+        235,
+        78
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        140,
+        1720,
+        350,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary_disabled.png",
+      "rectTopLeft": [
+        560,
+        1720,
+        380,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "背包",
+      "rectTopLeft": [
+        295,
+        50,
+        490,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "全部",
+      "rectTopLeft": [
+        123,
+        209,
+        188,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "装备",
+      "rectTopLeft": [
+        338,
+        209,
+        188,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "道具",
+      "rectTopLeft": [
+        554,
+        209,
+        188,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "材料",
+      "rectTopLeft": [
+        770,
+        209,
+        188,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "20",
+      "rectTopLeft": [
+        162,
+        468,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "7",
+      "rectTopLeft": [
+        367,
+        468,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "9",
+      "rectTopLeft": [
+        572,
+        468,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "2",
+      "rectTopLeft": [
+        777,
+        468,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "6",
+      "rectTopLeft": [
+        162,
+        673,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "3",
+      "rectTopLeft": [
+        367,
+        673,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "4",
+      "rectTopLeft": [
+        572,
+        673,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "5",
+      "rectTopLeft": [
+        777,
+        673,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "3",
+      "rectTopLeft": [
+        162,
+        878,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "2",
+      "rectTopLeft": [
+        367,
+        878,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "4",
+      "rectTopLeft": [
+        572,
+        878,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "16",
+      "rectTopLeft": [
+        777,
+        878,
+        146,
+        37
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "细灵晶",
+      "rectTopLeft": [
+        320,
+        1015,
+        570,
+        70
+      ],
+      "fontPixels": 40,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "材料  ·  持有 20",
+      "rectTopLeft": [
+        320,
+        1105,
+        570,
+        55
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "晶光清澈，灵气初凝。\n可用于装备强化。",
+      "rectTopLeft": [
+        165,
+        1215,
+        750,
+        150
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "用途：初阶装备强化材料。",
+      "rectTopLeft": [
+        165,
+        1400,
+        750,
+        65
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "容量 24 / 80  ·  显示 24 件",
+      "rectTopLeft": [
+        140,
+        1535,
+        800,
+        50
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "上一页",
+      "rectTopLeft": [
+        160,
+        1613,
+        185,
+        68
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "第 2 / 2 页",
+      "rectTopLeft": [
+        400,
+        1615,
+        280,
+        50
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "下一页",
+      "rectTopLeft": [
+        735,
+        1613,
+        185,
+        68
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "整理",
+      "rectTopLeft": [
+        165,
+        1728,
+        300,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "用途已展开",
+      "rectTopLeft": [
+        585,
+        1728,
+        330,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "456da53b3e3665c835d632c6d63aed995b8bb71f2cd60cf80f25fdea0e015b0e",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "inventory": {
+    "catalog": "records/inventory-content.json",
+    "category": "all",
+    "page": 2,
+    "pages": 2,
+    "occupiedSlots": 24,
+    "visibleItemIds": [
+      "m03",
+      "m04",
+      "m05",
+      "c05",
+      "m06",
+      "c06",
+      "c07",
+      "m07",
+      "c08",
+      "m08",
+      "m09",
+      "m10"
+    ],
+    "selectedItemId": "m03",
+    "used": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_portrait.png",
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_portrait.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/button_secondary_disabled.png",
+      "sha256": "05fac93dd91faf4fca5cf4e759eee0c6536b57da250e2ab149ce557bae32476f",
+      "sourceRecord": "assets/common/button_secondary_disabled.png.generation.json"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/item_slot_tile.png",
+      "sha256": "e169239dce633412d6bfddfb91fd7a337d67f2efb27d9b9ade6ae1e496c306e0",
+      "sourceRecord": "records/reused-assets.json#item_slot_tile"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/slot_selection.png",
+      "sha256": "b2b403c507f3e51ab3f07499f07df566f007f269a261065b55b68e507c03da37",
+      "sourceRecord": "records/ui-auxiliary-assets.json#slot_selection"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/badge_compass.png",
+      "sha256": "1b415e8aaf92a22801e2413d6312648445140d3d399e73de60b89f17a0ad1b5c",
+      "sourceRecord": "records/reused-assets.json#badge_compass"
+    },
+    {
+      "file": "assets/icons/badge_lotus.png",
+      "sha256": "15f4ad1ea7ac089d4fefe25f2fae3d46cc459996639afb8192aee3bd84ca0429",
+      "sourceRecord": "records/reused-assets.json#badge_lotus"
+    },
+    {
+      "file": "assets/icons/badge_taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceRecord": "records/reused-assets.json#badge_taiji"
+    },
+    {
+      "file": "assets/icons/icon_gourd.png",
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceRecord": "records/reused-assets.json#icon_gourd"
+    },
+    {
+      "file": "assets/icons/icon_scroll.png",
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceRecord": "records/reused-assets.json#icon_scroll"
+    },
+    {
+      "file": "assets/icons/icon_talisman.png",
+      "sha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "sourceRecord": "records/reused-assets.json#icon_talisman"
+    },
+    {
+      "file": "assets/icons/reward_crystal_tile.png",
+      "sha256": "0cdd4ef4c8838409317d55a4217b3ffb286673920886cc979aa3395cc8d35d55",
+      "sourceRecord": "records/reused-assets.json#reward_crystal_tile"
+    },
+    {
+      "file": "assets/icons/reward_mooncake_tile.png",
+      "sha256": "4c4de1f818220aa09c31bda174d0ff78678ee397367022794c43859ebdd45f51",
+      "sourceRecord": "records/reused-assets.json#reward_mooncake_tile"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.263861+00:00"
+}

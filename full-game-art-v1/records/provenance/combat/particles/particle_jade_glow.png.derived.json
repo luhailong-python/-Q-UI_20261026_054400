@@ -1,0 +1,60 @@
+{
+  "id": "particle_jade_glow",
+  "name": "柔玉光点",
+  "file": "assets/particles/particle_jade_glow.png",
+  "function": "generic",
+  "sha256": "4620e103b5368a4b64904520f6c630ede9565e2423ab5af1fb556d4aae174f86",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    511,
+    502,
+    447,
+    522
+  ],
+  "sourceAnchorXY": [
+    255.5,
+    244.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.961939393939394,
+  "offsetTopLeft": [
+    -118,
+    -107
+  ],
+  "visibleMarginsLTRB": [
+    34,
+    32,
+    34,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

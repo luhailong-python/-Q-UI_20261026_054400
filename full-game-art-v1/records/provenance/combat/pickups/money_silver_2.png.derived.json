@@ -1,0 +1,60 @@
+{
+  "id": "money_silver_2",
+  "name": "银钱 · 2",
+  "file": "assets/pickups/money_silver_2.png",
+  "function": "money2",
+  "sha256": "2ba5bf6d0df6c2c16fceb3ab5a08179b525e96a9fadecb5f86ea594d960f28dc",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    835,
+    434,
+    419,
+    378
+  ],
+  "sourceAnchorXY": [
+    210.5,
+    207.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7269618320610687,
+  "offsetTopLeft": [
+    -25,
+    -23
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    32,
+    33,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

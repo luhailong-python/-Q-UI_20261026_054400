@@ -1,0 +1,314 @@
+{
+  "screen": "locale_dropdown_open",
+  "title": "语言设置",
+  "orientation": "landscape",
+  "state": "dropdown_open",
+  "file": "designs/landscape/locale_dropdown_open.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "assets": [
+    {
+      "asset": "assets/ui-kit/panel_main.png",
+      "rectTopLeft": [
+        80,
+        80,
+        1760,
+        920
+      ],
+      "borderLeftBottomRightTop": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/title_plate.png",
+      "rectTopLeft": [
+        600,
+        48,
+        720,
+        150
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        535,
+        290,
+        850,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        535,
+        415,
+        850,
+        110
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        535,
+        530,
+        850,
+        110
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        535,
+        645,
+        850,
+        110
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        535,
+        880,
+        850,
+        90
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    }
+  ],
+  "texts": [
+    {
+      "text": "语言设置",
+      "rectTopLeft": [
+        670,
+        65,
+        580,
+        90
+      ],
+      "fontPixels": 58,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "当前语言",
+      "rectTopLeft": [
+        535,
+        190,
+        850,
+        65
+      ],
+      "fontPixels": 35,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "简体中文",
+      "rectTopLeft": [
+        555,
+        295,
+        810,
+        90
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "English",
+      "rectTopLeft": [
+        635,
+        433,
+        710,
+        75
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "简体中文",
+      "rectTopLeft": [
+        635,
+        548,
+        710,
+        75
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "繁體中文",
+      "rectTopLeft": [
+        635,
+        663,
+        710,
+        75
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "选择语言后立即切换",
+      "rectTopLeft": [
+        535,
+        790,
+        850,
+        65
+      ],
+      "fontPixels": 29,
+      "fontRole": "body",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回设置",
+      "rectTopLeft": [
+        555,
+        885,
+        810,
+        80
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "primitives": [
+    {
+      "type": "ellipse",
+      "rectTopLeft": [
+        565,
+        449,
+        40,
+        40
+      ],
+      "fill": "#f9f0d5",
+      "outline": "#ae8b50",
+      "strokePixels": 2,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "ellipse",
+      "rectTopLeft": [
+        565,
+        564,
+        40,
+        40
+      ],
+      "fill": "#2c6b51",
+      "outline": "#ae8b50",
+      "strokePixels": 2,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "ellipse",
+      "rectTopLeft": [
+        565,
+        679,
+        40,
+        40
+      ],
+      "fill": "#f9f0d5",
+      "outline": "#ae8b50",
+      "strokePixels": 2,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    }
+  ],
+  "sha256": "fe2f34182a478d15f69bbdf8a85277280bce2cd1be89d914a4e327452cdf602d",
+  "content": {
+    "options": [
+      "English",
+      "简体中文",
+      "繁體中文"
+    ],
+    "selected": "简体中文",
+    "applyImmediately": true,
+    "saveButtonInvented": false
+  },
+  "operation": "Static composition of original hand-painted PNGs and independent Chinese text",
+  "unityVerified": false
+}

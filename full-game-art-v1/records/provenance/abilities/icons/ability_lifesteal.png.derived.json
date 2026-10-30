@@ -1,0 +1,71 @@
+{
+  "id": "ability_lifesteal",
+  "file": "assets/icons/ability_lifesteal.png",
+  "sha256": "0cfddaf3735d19f9b5a2d79a9a57756f7371469bba18c4478d9ac85396cebf36",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    1047,
+    0,
+    489,
+    507
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    21,
+    59,
+    438,
+    483
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.75,
+  "actualRasterScaleXY": [
+    0.7505112474437627,
+    0.7495069033530573
+  ],
+  "offsetTopLeft": [
+    20,
+    -12
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    36,
+    33,
+    349,
+    350
+  ],
+  "subjectMarginsLTRB": [
+    36,
+    33,
+    35,
+    34
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 5,
+  "maxAlphaOutsideOutput": 1,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

@@ -1,0 +1,74 @@
+{
+  "file": "assets/motion-native/hero_lingyi/hero_lingyi_walk_02_v3.png",
+  "sha256": "9a7752f5ba5459328622a63eaf9d3459602c2cb4a79f89404934041b59e111ac",
+  "operation": "AI individual pose edit from approved original master; not image-to-video and not transformed still animation",
+  "actor": "hero_lingyi",
+  "action": "walk",
+  "phase": 2,
+  "phaseRole": "right-contact",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/hero_lingyi_walk_02_v3.txt",
+  "promptSha256": "4fa08a21d5f555f8f22ed466e6fe6d18810a36d2a293a7eee70f1de1b98d9d3e",
+  "actualSubmittedToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: ONE opposite-contact WALK cel of the attached original Daoist chibi healer girl on genuine transparent background. Use this original as the sole identity/costume/style reference. Preserve the exact smiling face, dark braided hair, jade lotus hair ornament, ivory/jade flowing dress with gold edging, two complete hands cradling the SAME jade healing gourd at chest height, green bow boots and three-quarter body view facing image RIGHT. Fixed camera and upper-body/head scale consistent with the reference. Required leg anatomy: CAMERA-NEAR leg clearly moves FORWARD diagonally TOWARD THE VIEWER AND DOWN-LEFT. Its nearer large jade boot must be at IMAGE LEFT below the pelvis, fully contacting the ground and lower than the rear boot. CAMERA-FAR leg trails diagonally BACK AND IMAGE RIGHT with small boot higher and rear heel lifting. Make the left/down foreground shin and its connection visible below the skirt; let the hem open naturally enough to see that the two legs have exchanged front/back ownership. Do not repeat a foreground boot projecting right while other foot trails left. A short calm walking contact, not a jump, dance, static wide stance or running leap. Gentle braid/hem follow-through, hands keep holding gourd, very modest shoulder motion. Preserve same high-definition rounded chibi hand-painted jade/ivory/warm-gold detail, same view and lighting. Complete body plus margins, no clipping, no horizontal flip, no shadow/background, no other objects, no text, no spritesheet.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png",
+      "sha256": "10cd58ca8f0c3fc2965ba93efd45af192cc31c6416ca2ce6819082632bc07498",
+      "role": "identity/shape/costume master, actually viewed before AI edit",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-b80cb0bf-913e-4270-9e41-da6ff15fdb6f.png",
+    "imageDataOmittedFromText": true,
+    "imageUrlType": "data:image/png;base64 (omitted; retained PNG has exact returned pixels)",
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-b80cb0bf-913e-4270-9e41-da6ff15fdb6f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "generatedAtUtc": "2026-10-28T10:17:04.855639+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T10:17:30.144469+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review",
+  "scope": "phase2 opposite-contact repair after second static reviewer found same foreground leg in phase0/2",
+  "actualToolReceipt": "records/motion/hero_lingyi-phase2-v3-tool-receipt.json",
+  "actualToolReceiptSha256": "0c7e36676d3b9e5e5b43e70448108ac4d55f273f4793f8a9793e1b77ec7175bc"
+}

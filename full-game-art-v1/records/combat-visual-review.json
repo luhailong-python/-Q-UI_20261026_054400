@@ -1,0 +1,1242 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T08:02:46.905333+00:00",
+  "reviewer": "extra_melee_art independent static visual QA",
+  "scope": "Contact-sheet static inspection of32 standalone sprites and12 effect phases plus7 runtime PNG samples; numerical RGBA/size/hash/margin read of44runtime PNG. Not a dynamic playback or Unity validation.",
+  "passed": true,
+  "staticVisualAccepted": true,
+  "runtimePngCount": 44,
+  "staticSpriteCount": 32,
+  "effectFrameCount": 12,
+  "actuallyViewedContactSheets": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\previews\\static-light-dark.jpg",
+      "sha256": "09f6cc1720bd44219f96ee1dae42b7058f74b6d2703ab64a10d3cd158a4a9902",
+      "detail": "original pixels requested from view_image"
+    },
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\previews\\fx_explosion-contact.jpg",
+      "sha256": "7cc99d42b7ab5ef88fc82837bf782913096947f646a98a99406a7c1285904bbe",
+      "detail": "original pixels requested from view_image"
+    },
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\previews\\fx_firefield-contact.jpg",
+      "sha256": "2b1948faa347259efb9a9eeb4e1cf2de6f4b5e268101ff617873f8f754b00fb4",
+      "detail": "original pixels requested from view_image"
+    }
+  ],
+  "actuallyViewedRuntimeSamples": [
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\pickups\\money_bronze_1.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\pickups\\xp_blue_2.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\projectiles\\proj_thunder_dart.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\weapons\\weapon_sword.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\particles\\charge_warning_brush.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\effects\\fx_explosion\\fx_explosion_02.png",
+    "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\effects\\fx_firefield\\fx_firefield_03.png"
+  ],
+  "imagesActuallyViewedCount": 10,
+  "checks": [
+    {
+      "id": "proj_wind_blade",
+      "file": "assets/projectiles/proj_wind_blade.png",
+      "sha256": "8043087092865d0dfe445a61c1ad1c1ec083e85eaf90cd9605c0b5c72cc1071d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        33,
+        33,
+        34
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "proj_jade_bolt",
+      "file": "assets/projectiles/proj_jade_bolt.png",
+      "sha256": "c40b50c818fd5c62291847ae4426db968cf5adc8f85a87994f2ad5f1596ade54",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        99,
+        32,
+        98
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "proj_thunder_dart",
+      "file": "assets/projectiles/proj_thunder_dart.png",
+      "sha256": "1cd66e4af1d77b2950736e4fc18ad7e925fa3cdcbcf514995ef539cd417b097c",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        85,
+        33,
+        85
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "throw_grenade",
+      "file": "assets/projectiles/throw_grenade.png",
+      "sha256": "a1ae432a3dfecf8d5f3f34d3c4b05cc0ce0640807ad07f82eec47c2b5b3fa6c1",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        49,
+        33,
+        49,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "proj_jade_fragment",
+      "file": "assets/projectiles/proj_jade_fragment.png",
+      "sha256": "512bd57baff1636a54d6605ae3ab08eab11920e1b0a55fb2a2eb23bc1ad4f320",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        53,
+        32,
+        53
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "throw_fire_flask",
+      "file": "assets/projectiles/throw_fire_flask.png",
+      "sha256": "c23a9c52c6f38883e0ad7876904f9516a7e1e9e1d38eb27d7341f6696cb942bf",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        34,
+        33,
+        34,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "boom_jade_ring",
+      "file": "assets/projectiles/boom_jade_ring.png",
+      "sha256": "46120a2bc276579e129e52993c78583005584e9b010738795ea14e338500fa99",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        37,
+        33,
+        36
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "boom_flying_knife",
+      "file": "assets/projectiles/boom_flying_knife.png",
+      "sha256": "d1cf30f89a09dc6c585857687419b6f8b6e2674e003ae3f39117915a99731c1b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        85,
+        33,
+        83
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "orbit_dao_book",
+      "file": "assets/projectiles/orbit_dao_book.png",
+      "sha256": "d28f06925fd7212399d361d0bbc9936b9cd3c25954ce20ebbcd6a2eb26fe962d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        41,
+        33,
+        41
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "enemy_paper_dart",
+      "file": "assets/projectiles/enemy_paper_dart.png",
+      "sha256": "ec72a292d897263b2e050c2198cc85d0e3f6addb9049d650347db0531d78fdfd",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        83,
+        33,
+        84
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "enemy_return_disc",
+      "file": "assets/projectiles/enemy_return_disc.png",
+      "sha256": "c3b63ea6d2a28d6315a89680a6ea4ba84d2df0ab171a079ea77ed0c36548a55f",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        42,
+        33,
+        43
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "enemy_lob_orb_pending",
+      "file": "assets/projectiles/enemy_lob_orb_pending.png",
+      "sha256": "c3048216d96c064ac0f4a68605dc88c3fc1eb1d2650580b09f1e6c86f9502200",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        65,
+        32,
+        66
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "xp_white_1",
+      "file": "assets/pickups/xp_white_1.png",
+      "sha256": "a5f6ac88a7e68fe956e70a2a4df9ef8519ff9efc6aacb47455a74339a19f4755",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        66,
+        33,
+        66,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "xp_blue_2",
+      "file": "assets/pickups/xp_blue_2.png",
+      "sha256": "a68b01c6bbbccde0f413b0ea7efc62eeb30bce0d2bf0a9b21a569c0cb7e6717c",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        66,
+        33,
+        65,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "xp_green_10",
+      "file": "assets/pickups/xp_green_10.png",
+      "sha256": "961c72deaee3e7d2c622e7c001ad9c9123451e77962e81d41d9aadd215d164b6",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        36,
+        33,
+        35
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "xp_red_50",
+      "file": "assets/pickups/xp_red_50.png",
+      "sha256": "e0e2bab3241146df0e54ad16685d5bbf61ea74508efd77f08e3f604da9c943f5",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        33,
+        33,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "money_bronze_1",
+      "file": "assets/pickups/money_bronze_1.png",
+      "sha256": "42fa946344561529cb0b7319d19d9a0f8bf2bb8ffb02213f2c51d559a54e3a6a",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        33,
+        33,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "money_silver_2",
+      "file": "assets/pickups/money_silver_2.png",
+      "sha256": "2ba5bf6d0df6c2c16fceb3ab5a08179b525e96a9fadecb5f86ea594d960f28dc",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        32,
+        33,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "money_gold_5",
+      "file": "assets/pickups/money_gold_5.png",
+      "sha256": "07143095f7d02acfddbbbe073ea2d63aceababf4e26a58dfd23d17c740a4cef3",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        32,
+        32,
+        33,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "money_pouch_30",
+      "file": "assets/pickups/money_pouch_30.png",
+      "sha256": "dc47ddbee80c0d247a30043b33e2ad68ce517cc9a68413089f4e103c8c3a1f9c",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        38,
+        33,
+        38,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "money_bag_50",
+      "file": "assets/pickups/money_bag_50.png",
+      "sha256": "e3a0e5dd65282c29eb8546395dccae439ecc4c90f1cf33a05dfd66a566c5ed1b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        36,
+        32,
+        35
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "particle_ivory_cloud",
+      "file": "assets/particles/particle_ivory_cloud.png",
+      "sha256": "955f0748155dc363e4f7f7f948a26c17bb9a1ee3715edf481ff7f71ec751f393",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        63,
+        33,
+        62
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "particle_gold_spark",
+      "file": "assets/particles/particle_gold_spark.png",
+      "sha256": "d2bceab20e0eb647b50261966c05d2c5e0a18ea8c3b9a89e2affa9f786629644",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        253
+      ],
+      "visibleMarginsLTRB": [
+        35,
+        33,
+        35,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "particle_jade_leaf",
+      "file": "assets/particles/particle_jade_leaf.png",
+      "sha256": "56e3c7fe5a458283fb5224171f3b4dcb3868f3902f47647774c9627c3fea671a",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        58,
+        33,
+        58,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "particle_cinnabar_flame",
+      "file": "assets/particles/particle_cinnabar_flame.png",
+      "sha256": "c304ce97c0c7547a61b7b68529d2e82258d0ab74bfc56076f53c417c0842d23b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        65,
+        33,
+        66,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "particle_jade_glow",
+      "file": "assets/particles/particle_jade_glow.png",
+      "sha256": "4620e103b5368a4b64904520f6c630ede9565e2423ab5af1fb556d4aae174f86",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        34,
+        32,
+        34,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "charge_warning_brush",
+      "file": "assets/particles/charge_warning_brush.png",
+      "sha256": "ced4bd4dfb1608a2466b0bffc2a1fd64f2f813ee92b1eb01889cfd556d589534",
+      "size": [
+        512,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        253
+      ],
+      "visibleMarginsLTRB": [
+        48,
+        32,
+        49,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "weapon_sword",
+      "file": "assets/weapons/weapon_sword.png",
+      "sha256": "077a687b95e6c9d7fd759741852a76f2305429818728ab0d2840db6d89e1ee78",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        37,
+        75,
+        60,
+        32
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "weapon_mace",
+      "file": "assets/weapons/weapon_mace.png",
+      "sha256": "1040446925a3c73236c3c42fabd48ce2e71deb28543e6703cc98dece06a5b4a0",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        55,
+        133,
+        38
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "weapon_dagger",
+      "file": "assets/weapons/weapon_dagger.png",
+      "sha256": "d640cbad3bda0acc871c36275c43d9545a92a0f0ffdb8f9b7be0d55557634711",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        44,
+        60,
+        68,
+        33
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "emitter_talisman_case",
+      "file": "assets/weapons/emitter_talisman_case.png",
+      "sha256": "504c8b5c21a037f8f1c87cde8358abbd2e3f41961c20ad113573465222172e0d",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        52,
+        33,
+        58,
+        48
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "emitter_thunder_launcher",
+      "file": "assets/weapons/emitter_thunder_launcher.png",
+      "sha256": "45ad79659394f9e8d68e2e30e36174a85f3cc5c63a641ee66fd46860a59b144a",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        68,
+        32,
+        127,
+        71
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_00",
+      "file": "assets/effects/fx_explosion/fx_explosion_00.png",
+      "sha256": "bf40c8af6a134bf2fe4d9139c5b9ce74f1fcc689ebc10ae84df00b0939e05458",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        251
+      ],
+      "visibleMarginsLTRB": [
+        218,
+        200,
+        206,
+        201
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_01",
+      "file": "assets/effects/fx_explosion/fx_explosion_01.png",
+      "sha256": "c8ab6acd8136490ec0a3553b4f0ae5014b467398a5d205002a399ba48d76ca75",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        138,
+        141,
+        132,
+        146
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_02",
+      "file": "assets/effects/fx_explosion/fx_explosion_02.png",
+      "sha256": "ce5063ce4a131ff1b47c31575de4ac82908b2e69c9bef6a97d1f591891d3a4b2",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        33,
+        44,
+        65,
+        51
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_03",
+      "file": "assets/effects/fx_explosion/fx_explosion_03.png",
+      "sha256": "661274f016cc3a000e0e8ee335138f6b4a7119f52788ac3c98421affe6da6e0b",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        55,
+        44,
+        44,
+        71
+      ],
+      "edgeMaxAlphaLTRB": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_04",
+      "file": "assets/effects/fx_explosion/fx_explosion_04.png",
+      "sha256": "7a84cd4d2312ab13147564f817de994af529a28651abd32a7f74e27ab73a2d2b",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        104,
+        116,
+        100,
+        121
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_explosion_05",
+      "file": "assets/effects/fx_explosion/fx_explosion_05.png",
+      "sha256": "79e45111d3aa88d54d85b1fef973d4827b7a9c045f4e66061d2f59855f6a6e49",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        239
+      ],
+      "visibleMarginsLTRB": [
+        217,
+        215,
+        218,
+        211
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fx_firefield_00",
+      "file": "assets/effects/fx_firefield/fx_firefield_00.png",
+      "sha256": "1b6cbd5ca5f55e0e7818a3214415d5c36978f3a3f0b513184258da4e6eaa5eea",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        34,
+        165,
+        35,
+        79
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "fx_firefield_01",
+      "file": "assets/effects/fx_firefield/fx_firefield_01.png",
+      "sha256": "acfa11a84ffc8e5842a8495c2a90d680f0d48860fc24e7f2b3b2b0f3adc39a4a",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        35,
+        208,
+        34,
+        77
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "fx_firefield_02",
+      "file": "assets/effects/fx_firefield/fx_firefield_02.png",
+      "sha256": "0dc5f2653c409fa12d9e44b3cbed0720380dc30eae04b86bd5dcffff81030a6f",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        36,
+        150,
+        34,
+        78
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "fx_firefield_03",
+      "file": "assets/effects/fx_firefield/fx_firefield_03.png",
+      "sha256": "2314c1ca96e6235684b019cda0f9b0aa092f77d21c6b8a9b4c6eb3968b0241e8",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        35,
+        192,
+        34,
+        79
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "fx_firefield_04",
+      "file": "assets/effects/fx_firefield/fx_firefield_04.png",
+      "sha256": "7622700343fa42e39be7655d509ca828202a5fedaa063bfea14182c98462a0d0",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        35,
+        165,
+        34,
+        78
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "fx_firefield_05",
+      "file": "assets/effects/fx_firefield/fx_firefield_05.png",
+      "sha256": "bc1484d4a79895657fe571634e1273e255b04ffe5a7fdebee397e850446ff100",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        35,
+        178,
+        33,
+        77
+      ],
+      "edgeMaxAlphaLTRB": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "id": "fx_explosion",
+      "distinctFrameHashes": 6,
+      "frameCount": 6,
+      "sharedScaleCount": 1,
+      "frameCanvas": [
+        512,
+        512
+      ],
+      "durationMs": 530,
+      "loopClaimInMetadata": false,
+      "playbackReviewedByThisAgent": false
+    },
+    {
+      "id": "fx_firefield",
+      "distinctFrameHashes": 6,
+      "frameCount": 6,
+      "sharedScaleCount": 1,
+      "frameCanvas": [
+        512,
+        512
+      ],
+      "durationMs": 660,
+      "loopClaimInMetadata": true,
+      "playbackReviewedByThisAgent": false
+    }
+  ],
+  "findings": [
+    "All32 named standalone assets are present on the light-ivory/dark-jade contact board; projectile, throwable, boomerang/orbital, pickup, particle, weapon and emitter silhouettes are distinct and names match the displayed categories.",
+    "Jade/ivory/warm-gold hand-painted material and rounded Daoist forms are coherent; enemy dart/disc/orb use readable cinnabar/bronze distinction without changing existing UI.",
+    "At contact-sheet scale no visible rectangular background, checkerboard, neighboring-cell remnant, cut weapon tip, clipped coin or clipped effect phase was observed.",
+    "Four experience colors and five money tiers are distinguishable. Copper/silver/gold inner coin holes show the real composited background, without a visible red fill in the contact sheet.",
+    "Explosion phase order is visually plausible: small core, expansion, full burst, broken outward cloud, sparse residual pieces, final sparks. Firefield retains a ground ellipse with separately painted flame forms; still sheets alone cannot certify loop seam or timing.",
+    "Manifest uses fixed512square canvases and one shared scale per six-frame effect group; registration translations are documented separately from art generation.",
+    "Raw PNG viewer can display saturated RGB rim dots carried by extremely low Alpha; those are not judged visible dirt from the raw black rendering. The actual light/dark composites were the basis for edge acceptance."
+  ],
+  "blockingIssues": [],
+  "nonBlockingNotes": [
+    {
+      "id": "enemy_lob_orb_pending",
+      "note": "Explicitly named as an art proposal; upstream throwable-prefab binding remains unresolved. This review does not promote it to source-confirmed or fully integrated."
+    },
+    {
+      "id": "charge_warning_brush_integration",
+      "note": "Narrow neutral brush is intact and readable as a static asset. Length, tint, combat-background contrast and actual SpriteRenderer pivot require later integration validation."
+    },
+    {
+      "id": "fx_playback_pending",
+      "note": "Root must review real playback, stage4-to5 pacing, firefield6-to1 seam and ground/root stability before approving animated use."
+    }
+  ],
+  "dynamicPlaybackReviewed": false,
+  "dynamicPlaybackAccepted": false,
+  "unityVerified": false,
+  "fDriveArtRead": false,
+  "imageOrUIFilesModified": false,
+  "assetManifestSha256": "be50968e06d14fda369c720dff02301c8c47484392cb1221849dbaaa4b597b90"
+}

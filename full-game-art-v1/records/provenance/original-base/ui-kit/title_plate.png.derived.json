@@ -1,0 +1,43 @@
+{
+  "id": "title_plate",
+  "file": "assets/ui-kit/title_plate.png",
+  "sha256": "adc27cb8bdb50b39e78413a4b1e9f19d50ec0cff07be80b6b1277bd6385e8a2c",
+  "width": 562,
+  "height": 152,
+  "sourceRectLTRB": [
+    31,
+    791,
+    577,
+    927
+  ],
+  "offset": [
+    8,
+    8
+  ],
+  "derivedFrom": {
+    "file": "assets/ui-kit/ui_kit_atlas.png",
+    "sha256": "ea01c36a6801bbccd0017677f4cf3f2ece1e670c6c6f99d54358422c85c4c30d",
+    "generationRecord": "assets/ui-kit/ui_kit_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": "Ownership crop and transparent canvas padding; source artwork pixels unscaled",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "imageType": "Simple",
+  "notNewAIGeneration": true,
+  "alphaRange": [
+    0,
+    253
+  ]
+}

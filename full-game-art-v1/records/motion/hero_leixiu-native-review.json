@@ -1,0 +1,205 @@
+{
+  "actor": "hero_leixiu",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+  "masterSha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+  "selectedFiles": [
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_00.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_01.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_02_v3.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "c597ba82339d1f2aa1f4741a49ff693c6ddc0a5a878984e18ac9b6a052484c04",
+    "92ba95a6836ec5ca26b3f51829dc1b6dabd0e548209399a39fe2cee76da8149f",
+    "740281b3c29f7bb1daec4a833ffdd9bbf0f664d7d38cf6a35e0cd219b1ad179f",
+    "e572bdedaf900322bdd7d28028d8edf2b846928ca0bf8c18d448cc9d09b15326"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceTorsoX": 740,
+      "sourceGroundY": 1180,
+      "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+      "supportNote": "Forward contact step with both shoes separated; staff and talisman stay in same hands",
+      "approximatePixelTolerance": 10
+    },
+    {
+      "phase": 1,
+      "sourceTorsoX": 720,
+      "sourceGroundY": 1180,
+      "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+      "supportNote": "Rear shoe raised/bent while front shoe remains support; hem and shoe angle differ",
+      "approximatePixelTolerance": 10
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 730,
+      "sourceGroundY": 1194,
+      "definition": "Manually observed chest/head axis and foremost planted shoe sole plane; not bbox-center normalization",
+      "supportNote": "v3 visibly plants the LARGE camera-near boot DOWN-LEFT of pelvis; small camera-far boot trails BACK/RIGHT higher with heel rising. Two shins/thigh overlap differs from phase0.",
+      "approximatePixelTolerance": 10
+    },
+    {
+      "phase": 3,
+      "sourceTorsoX": 720,
+      "sourceGroundY": 1141,
+      "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+      "supportNote": "Front shoe lifted toward viewer/right showing sole; image-left shoe is planted support, not staff tip",
+      "approximatePixelTolerance": 10
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Native identity/anatomy and repaired opposite-contact key only. Does not approve common-scale playback, foot sliding, exact leg phase timing, endpoint seam or Unity.",
+  "reviewedAtUtc": "2026-10-28T10:22:19.478206+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_00.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_01.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png",
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "Same face/hair/clothing, same original jade/ivory/gold material and props; no body turn, missing limb or extra weapon seen",
+    "Four files contain distinct knee/boot articulation and hem/ornament changes; they are not copies of one standing image moved by code",
+    "Feet/props remain complete on the native canvas; registration must retain one uniform body scale across the four poses",
+    "Raw-view brightRGB at very low alpha should be judged on true light/dark compositing in parent QA",
+    "Both hands are occupied by staff/talisman, restricting arm-swing amplitude; registered playback still needs to prove a readable walk.",
+    "Second review rejects old phase2 leg ownership: Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+    "Replaced only phase2 with independent builtin AI v3 edit from original master. v3 visibly plants the LARGE camera-near boot DOWN-LEFT of pelvis; small camera-far boot trails BACK/RIGHT higher with heel rising. Two shins/thigh overlap differs from phase0. Face/costume marks, two hands and prop ownership retained; no mirror or extra limb."
+  ],
+  "phaseObservations": [
+    "Forward contact step with both shoes separated; staff and talisman stay in same hands",
+    "Rear shoe raised/bent while front shoe remains support; hem and shoe angle differ",
+    "v3 visibly plants the LARGE camera-near boot DOWN-LEFT of pelvis; small camera-far boot trails BACK/RIGHT higher with heel rising. Two shins/thigh overlap differs from phase0.",
+    "Front shoe lifted toward viewer/right showing sole; image-left shoe is planted support, not staff tip"
+  ],
+  "excludedFiles": [
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png"
+  ],
+  "remainingReview": [
+    "Loop playback and contact/near-far alternation readability at game size",
+    "One shared scale and planted-foot registration from physical anchor proposals; no per-frame size normalization",
+    "Small head/robe drawing variation between independently painted poses, evaluate visible pop before final acceptance"
+  ],
+  "phaseOwnershipCaution": "Long robes partially occlude near/far knee ownership; foot contact/lift is visible, but this native review does not overclaim a validated gait cycle.",
+  "sourceRoute": "builtin image_gen individual pose edits, all from same approved master; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false,
+  "newImagesGeneratedInReview": true,
+  "priorNativeReviewSnapshots": [
+    {
+      "supersededAtUtc": "2026-10-28T10:22:19.478206+00:00",
+      "reason": "Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+      "record": {
+        "actor": "hero_leixiu",
+        "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+        "masterSha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+        "selectedFiles": [
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_00.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_01.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_03.png"
+        ],
+        "selectedFileSha256": [
+          "c597ba82339d1f2aa1f4741a49ff693c6ddc0a5a878984e18ac9b6a052484c04",
+          "92ba95a6836ec5ca26b3f51829dc1b6dabd0e548209399a39fe2cee76da8149f",
+          "9ecc5c61c0ddd26be92bf1ecc1d64b6857b4fa0dc326f3eccad7b9ef9548c639",
+          "e572bdedaf900322bdd7d28028d8edf2b846928ca0bf8c18d448cc9d09b15326"
+        ],
+        "anchors": [
+          {
+            "phase": 0,
+            "sourceTorsoX": 740,
+            "sourceGroundY": 1180,
+            "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+            "supportNote": "Forward contact step with both shoes separated; staff and talisman stay in same hands",
+            "approximatePixelTolerance": 10
+          },
+          {
+            "phase": 1,
+            "sourceTorsoX": 720,
+            "sourceGroundY": 1180,
+            "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+            "supportNote": "Rear shoe raised/bent while front shoe remains support; hem and shoe angle differ",
+            "approximatePixelTolerance": 10
+          },
+          {
+            "phase": 2,
+            "sourceTorsoX": 735,
+            "sourceGroundY": 1138,
+            "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+            "supportNote": "Opposite contact key with forward grounded shoe and rear leg more flexed; props unchanged",
+            "approximatePixelTolerance": 10
+          },
+          {
+            "phase": 3,
+            "sourceTorsoX": 720,
+            "sourceGroundY": 1141,
+            "definition": "Manually observed torso/head axis and planted-shoe sole plane, not whole-alpha bbox center/bottom",
+            "supportNote": "Front shoe lifted toward viewer/right showing sole; image-left shoe is planted support, not staff tip",
+            "approximatePixelTolerance": 10
+          }
+        ],
+        "animationKind": "walk",
+        "passed": true,
+        "passedMeaning": "Native four-pose identity/anatomy/real articulated changes reviewed. Does NOT approve registered playback, loop seam, foot sliding or Unity integration.",
+        "reviewedAtUtc": "2026-10-28T08:57:13.433623+00:00",
+        "actuallyViewedNativeFiles": [
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_00.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_01.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png",
+          "assets/motion-native/hero_leixiu/hero_leixiu_walk_03.png"
+        ],
+        "masterActuallyViewedBeforeEdits": true,
+        "blockingIssues": [],
+        "findings": [
+          "Same face/hair/clothing, same original jade/ivory/gold material and props; no body turn, missing limb or extra weapon seen",
+          "Four files contain distinct knee/boot articulation and hem/ornament changes; they are not copies of one standing image moved by code",
+          "Feet/props remain complete on the native canvas; registration must retain one uniform body scale across the four poses",
+          "Raw-view brightRGB at very low alpha should be judged on true light/dark compositing in parent QA",
+          "Both hands are occupied by staff/talisman, restricting arm-swing amplitude; registered playback still needs to prove a readable walk."
+        ],
+        "phaseObservations": [
+          "Forward contact step with both shoes separated; staff and talisman stay in same hands",
+          "Rear shoe raised/bent while front shoe remains support; hem and shoe angle differ",
+          "Opposite contact key with forward grounded shoe and rear leg more flexed; props unchanged",
+          "Front shoe lifted toward viewer/right showing sole; image-left shoe is planted support, not staff tip"
+        ],
+        "excludedFiles": [],
+        "remainingReview": [
+          "Loop playback and contact/near-far alternation readability at game size",
+          "One shared scale and planted-foot registration from physical anchor proposals; no per-frame size normalization",
+          "Small head/robe drawing variation between independently painted poses, evaluate visible pop before final acceptance"
+        ],
+        "phaseOwnershipCaution": "Long robes partially occlude near/far knee ownership; foot contact/lift is visible, but this native review does not overclaim a validated gait cycle.",
+        "sourceRoute": "builtin image_gen individual pose edits, all from same approved master; not I2V",
+        "unityVerified": false,
+        "bodyFramesRegistered": false,
+        "newImagesGeneratedInReview": false
+      }
+    }
+  ],
+  "secondReviewRepair": {
+    "reviewedAtUtc": "2026-10-28T10:22:19.478206+00:00",
+    "reviewer": "scope_audit independent static review",
+    "oldSelectedFile": "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png",
+    "oldReasonRejected": "Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+    "newSelectedFile": "assets/motion-native/hero_leixiu/hero_leixiu_walk_02_v3.png",
+    "referencePolicy": "Only own original master attached, actually viewed before edit",
+    "newPoseActuallyViewed": true,
+    "sameHandPropsPreserved": true,
+    "oppositeContactStaticReadabilityAccepted": true,
+    "uniformScalePreview": "previews/walk/static-second-review-v3-common-scale.jpg",
+    "residualLimit": "Small source framing/upper-body size variance remains between cels; this accepts the corrected articulated key pose only. Root must evaluate registered normal/slow playback and any justified camera calibration before final acceptance.",
+    "playbackAccepted": false
+  },
+  "playbackAccepted": false,
+  "latestActuallyViewedFiles": [
+    "assets/motion-native/hero_leixiu/hero_leixiu_walk_02_v3.png",
+    "previews/walk/hero_leixiu/contact.jpg",
+    "previews/walk/static-second-review-lowerbody.jpg",
+    "previews/walk/static-second-review-v3-common-scale.jpg"
+  ]
+}

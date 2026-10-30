@@ -1,0 +1,33 @@
+{
+  "id": "chest_opening",
+  "file": "assets/props/chest_opening.png",
+  "sha256": "f090151c1e26ddda45f12f3c49aa9ad3a6f7bfddfdb267bf83ef1094ae56b5c0",
+  "derivedFrom": {
+    "file": "assets/ui-kit/chest_states_atlas.png",
+    "sha256": "23d8f6e1bf34c9f5e21986383de3fb03d1270c4cc2090ba63a3ae04209d12ffe",
+    "generationRecord": "assets/ui-kit/chest_states_atlas.png.generation.json"
+  },
+  "sourceRectLTRB": [
+    724,
+    0,
+    1448,
+    724
+  ],
+  "scale": 0.5990639625585024,
+  "offsetTopLeft": [
+    26,
+    48
+  ],
+  "operation": "Original atlas ownership crop, uniform downscale and transparent placement; no new AI generation",
+  "nativeDetailIncreased": false,
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

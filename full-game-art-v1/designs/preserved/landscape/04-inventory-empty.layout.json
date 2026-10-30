@@ -1,0 +1,861 @@
+{
+  "screen": "04-inventory-empty",
+  "title": "背包",
+  "orientation": "landscape",
+  "state": "empty",
+  "file": "designs/landscape/04-inventory-empty.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 55
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        90,
+        100,
+        1740,
+        918
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        615,
+        30,
+        690,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        1756,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        220,
+        215,
+        228,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        460,
+        215,
+        228,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        701,
+        215,
+        228,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        942,
+        215,
+        228,
+        75
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        250,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        395,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        540,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        685,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        830,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        975,
+        320,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        250,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        395,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        540,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        685,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        830,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        975,
+        465,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        250,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        395,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        540,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        685,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        830,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        975,
+        610,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        250,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        395,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        540,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        685,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        830,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/item_slot_tile.png",
+      "rectTopLeft": [
+        975,
+        755,
+        125,
+        125
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        1230,
+        310,
+        510,
+        555
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_scroll.png",
+      "rectTopLeft": [
+        1420,
+        405,
+        120,
+        120
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary_disabled.png",
+      "rectTopLeft": [
+        850,
+        900,
+        290,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary_disabled.png",
+      "rectTopLeft": [
+        1315,
+        900,
+        330,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "背包",
+      "rectTopLeft": [
+        695,
+        50,
+        530,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "全部",
+      "rectTopLeft": [
+        228,
+        219,
+        212,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "装备",
+      "rectTopLeft": [
+        468,
+        219,
+        212,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "道具",
+      "rectTopLeft": [
+        709,
+        219,
+        212,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "材料",
+      "rectTopLeft": [
+        950,
+        219,
+        212,
+        71
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "行囊空空",
+      "rectTopLeft": [
+        1260,
+        580,
+        450,
+        80
+      ],
+      "fontPixels": 44,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "游历所得将收纳于此。",
+      "rectTopLeft": [
+        1260,
+        675,
+        450,
+        65
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "容量 0 / 80  ·  暂无物品  ·  1/1 页",
+      "rectTopLeft": [
+        245,
+        930,
+        600,
+        55
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "整理",
+      "rectTopLeft": [
+        875,
+        908,
+        240,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "使用",
+      "rectTopLeft": [
+        1340,
+        908,
+        280,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "f733be99a0331885e2d96339e86c74e32307225e0264153c5164432acbb02b91",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "inventory": {
+    "catalog": "records/inventory-content.json",
+    "category": "all",
+    "page": 1,
+    "pages": 1,
+    "occupiedSlots": 0,
+    "visibleItemIds": [],
+    "selectedItemId": null,
+    "used": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_primary_disabled.png",
+      "sha256": "6b619c6c38adb5bee52f66d2854f950a9e760d9242ed628c935d1c0c5e4c1489",
+      "sourceRecord": "assets/common/button_primary_disabled.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/button_secondary_disabled.png",
+      "sha256": "05fac93dd91faf4fca5cf4e759eee0c6536b57da250e2ab149ce557bae32476f",
+      "sourceRecord": "assets/common/button_secondary_disabled.png.generation.json"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/item_slot_tile.png",
+      "sha256": "e169239dce633412d6bfddfb91fd7a337d67f2efb27d9b9ade6ae1e496c306e0",
+      "sourceRecord": "records/reused-assets.json#item_slot_tile"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    },
+    {
+      "file": "assets/icons/icon_scroll.png",
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceRecord": "records/reused-assets.json#icon_scroll"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.197598+00:00"
+}

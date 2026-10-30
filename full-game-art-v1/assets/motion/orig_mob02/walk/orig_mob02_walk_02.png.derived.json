@@ -1,0 +1,64 @@
+{
+  "id": "orig_mob02_walk_02",
+  "name": "苔玉小魁 行走3",
+  "file": "assets/motion/orig_mob02/walk/orig_mob02_walk_02.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_mob02",
+  "action": "walk",
+  "phase": 2,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_02_v2.png",
+  "sourceSha256": "b87738cb5263915218dcc0af0c045d0974c709bc2dfaa94b76b600a4c61447da",
+  "sha256": "3180e48e442f2a304590b5bcfa69fc8f5cc5f9468fa21e016d8582c7c396b839",
+  "sourceAnchorXY": [
+    710,
+    1214
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6691418563922942,
+  "actualRasterScaleXY": [
+    0.6690590111642744,
+    0.6690590111642744
+  ],
+  "offsetTopLeft": [
+    37,
+    84
+  ],
+  "visibleMarginsLTRB": [
+    146,
+    117,
+    262,
+    123
+  ],
+  "durationMs": 200,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_mob02-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6691418563922942,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

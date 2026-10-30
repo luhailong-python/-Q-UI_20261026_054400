@@ -1,0 +1,166 @@
+{
+  "id": "orig_boss_minor_runtime_E",
+  "monsterId": "orig_boss_minor",
+  "name": "铜铃卫",
+  "purpose": "runtime",
+  "file": "assets/runtime/orig_boss_minor_runtime_E.png",
+  "sha256": "f718cc687a20f74808e121af3178d330a67466b357854b024e6bc23986de8e09",
+  "operation": "Technical static sprite export: uniform downscale and transparent canvas placement, without re-painting or model generation",
+  "artSource": "existing_original_master_generated_in_this_batch",
+  "newAIGeneration": false,
+  "nativeDetailIncreased": false,
+  "derivedFrom": {
+    "file": "assets/orig_boss_minor/orig_boss_minor_master_E.png",
+    "sha256": "8f07673716f4d36e367fa4beb05a3eab2e96fbc91eafb27e1aed825f9d42980c",
+    "generationRecord": "assets/orig_boss_minor/orig_boss_minor_master_E.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "transform": {
+    "requestedUniformScale": 0.6727254601314547,
+    "actualRasterScaleXY": [
+      0.6730462519936204,
+      0.6730462519936204
+    ],
+    "resizedWholeSourceCanvas": [
+      844,
+      844
+    ],
+    "offsetTopLeft": [
+      74,
+      139
+    ],
+    "sourceSubjectBBoxAlpha16": [
+      81,
+      87,
+      1220,
+      1125
+    ],
+    "resizedSubjectBBoxAlpha16": [
+      54,
+      59,
+      821,
+      757
+    ],
+    "outputAnchorTopLeftPx": [
+      512,
+      896
+    ],
+    "pivotBottomLeftNormalized": [
+      0.5,
+      0.125
+    ],
+    "resampling": "Premultiplied RGBA (Pillow RGBa), Lanczos, unpremultiply; no new drawn pixels",
+    "perFrameBboxRegistration": false,
+    "wholeSourceCanvasPlacement": true,
+    "outsideOutput": {
+      "nonzeroPixelsOutsideOutput": 0,
+      "alpha16OrHigherPixelsOutsideOutput": 0,
+      "maximumAlphaOutsideOutput": 0,
+      "interpretation": "Original whole canvas is uniformly resized and placed. Only areas beyond the output canvas may be clipped; visible subject Alpha>=16 must remain complete. Native source retains all pixels."
+    }
+  },
+  "sourceMeasurements": {
+    "canvas": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      0,
+      27,
+      1223,
+      1254
+    ],
+    "subjectBBoxAlpha16": [
+      81,
+      87,
+      1220,
+      1125
+    ],
+    "subjectMarginsLTRB": [
+      81,
+      87,
+      34,
+      129
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.0645933014354067,
+      0.06937799043062201,
+      0.02711323763955343,
+      0.10287081339712918
+    ],
+    "alpha1To15Pixels": 16651,
+    "alphaExactly1Pixels": 8048,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 1
+  },
+  "measurements": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      74,
+      157,
+      897,
+      983
+    ],
+    "subjectBBoxAlpha16": [
+      128,
+      198,
+      895,
+      896
+    ],
+    "subjectMarginsLTRB": [
+      128,
+      198,
+      129,
+      128
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.125,
+      0.193359375,
+      0.1259765625,
+      0.125
+    ],
+    "alpha1To15Pixels": 7441,
+    "alphaExactly1Pixels": 3099,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 0
+  },
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "direction": "E",
+  "staticPoseOnly": true,
+  "unityVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Preserved native generation record is authoritative; export does not fill missing model/quality from configuration.",
+  "exportedAtUtc": "2026-10-27T02:08:39.103872+00:00"
+}

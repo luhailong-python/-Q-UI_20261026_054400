@@ -1,0 +1,340 @@
+{
+  "screen": "03-character-appearance",
+  "title": "角色·外观",
+  "orientation": "landscape",
+  "state": "appearance_default_selected_and_equipped",
+  "file": "designs/landscape/03-character-appearance.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 55
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        90,
+        100,
+        1740,
+        918
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        615,
+        30,
+        690,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        1756,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/characters/hero_demo.png",
+      "rectTopLeft": [
+        290,
+        245,
+        510,
+        690
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_selected.png",
+      "rectTopLeft": [
+        1050,
+        425,
+        670,
+        180
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/characters/hero_demo.png",
+      "rectTopLeft": [
+        1090,
+        448,
+        110,
+        135
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        1065,
+        900,
+        290,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary_disabled.png",
+      "rectTopLeft": [
+        1410,
+        900,
+        310,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "角色·外观",
+      "rectTopLeft": [
+        695,
+        50,
+        530,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "当前外观",
+      "rectTopLeft": [
+        1070,
+        305,
+        650,
+        80
+      ],
+      "fontPixels": 44,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "默认道装",
+      "rectTopLeft": [
+        1240,
+        445,
+        420,
+        65
+      ],
+      "fontPixels": 42,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "已穿戴",
+      "rectTopLeft": [
+        1240,
+        530,
+        420,
+        45
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "left",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "金发带 · 玉绿道袍",
+      "rectTopLeft": [
+        1080,
+        655,
+        600,
+        60
+      ],
+      "fontPixels": 33,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "山行清逸，守心如初。",
+      "rectTopLeft": [
+        1080,
+        745,
+        600,
+        60
+      ],
+      "fontPixels": 28,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回角色",
+      "rectTopLeft": [
+        1090,
+        908,
+        240,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "当前已穿戴",
+      "rectTopLeft": [
+        1435,
+        908,
+        260,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "ee1e204804b84ed055c9ec034fb9cd5b50f1f70daff0f6f8cad46ff19ebc08e0",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_landscape.png",
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_landscape.png.generation.json"
+    },
+    {
+      "file": "assets/characters/hero_demo.png",
+      "sha256": "daa2ed747fc003ab41bc6c4de779916c2614b092ccfd9702e52b1e118b453712",
+      "sourceRecord": "assets/characters/hero_demo.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary_disabled.png",
+      "sha256": "6b619c6c38adb5bee52f66d2854f950a9e760d9242ed628c935d1c0c5e4c1489",
+      "sourceRecord": "assets/common/button_primary_disabled.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_selected.png",
+      "sha256": "f8ad6f7d944af4f7c5b5c8daeb2d62ec45f977e579656fee7759d99f7b793260",
+      "sourceRecord": "records/reused-assets.json#card_selected"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.192342+00:00"
+}

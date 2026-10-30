@@ -1,0 +1,60 @@
+{
+  "id": "boom_flying_knife",
+  "name": "追风飞刃本体",
+  "file": "assets/projectiles/boom_flying_knife.png",
+  "function": "machete",
+  "sha256": "d1cf30f89a09dc6c585857687419b6f8b6e2674e003ae3f39117915a99731c1b",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_b.png",
+  "sourceSha256": "3c3325a7d474553e231b4ef8ef3853951c2ed8f9348353b852531a2854c80d9b",
+  "sourceRectTopLeftXYWH": [
+    513,
+    0,
+    527,
+    496
+  ],
+  "sourceAnchorXY": [
+    266.0,
+    291.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.42325333333333337,
+  "offsetTopLeft": [
+    15,
+    5
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    85,
+    33,
+    83
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

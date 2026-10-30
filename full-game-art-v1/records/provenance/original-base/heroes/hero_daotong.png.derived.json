@@ -1,0 +1,174 @@
+{
+  "id": "hero_daotong",
+  "name": "道童",
+  "file": "assets/heroes/hero_daotong.png",
+  "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+  "width": 1024,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "operation": "Non-overlapping transparent-gap atlas ownership crop, uniform premultiplied-Lanczos downscale and transparent padding; no model call or new native detail",
+  "derivedFrom": {
+    "file": "assets/ui-kit/hero_roster_atlas.png",
+    "sha256": "a63d5e30490d4bc0917471b96a40030a127d2abb910e08492eb8c88914762404",
+    "generationRecord": "assets/ui-kit/hero_roster_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    530,
+    1024
+  ],
+  "sourceCellSize": [
+    530,
+    1024
+  ],
+  "sourceMeasurements": {
+    "canvas": [
+      530,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      254
+    ],
+    "alphaBBoxNonzero": [
+      0,
+      0,
+      530,
+      998
+    ],
+    "subjectBBoxAlpha16": [
+      12,
+      145,
+      515,
+      942
+    ],
+    "subjectMarginsLTRB": [
+      12,
+      145,
+      15,
+      82
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.022641509433962263,
+      0.1416015625,
+      0.02830188679245283,
+      0.080078125
+    ],
+    "alpha1To15Pixels": 28544,
+    "alphaExactly1Pixels": 15870,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 1
+  },
+  "transform": {
+    "requestedUniformScale": 0.9636135508155583,
+    "actualRasterScaleXY": [
+      0.9641509433962264,
+      0.9638671875
+    ],
+    "resizedWholeSourceCanvas": [
+      511,
+      987
+    ],
+    "offsetTopLeft": [
+      258,
+      -12
+    ],
+    "sourceSubjectBBoxAlpha16": [
+      12,
+      145,
+      515,
+      942
+    ],
+    "resizedSubjectBBoxAlpha16": [
+      11,
+      140,
+      497,
+      908
+    ],
+    "outputAnchorTopLeftPx": [
+      512,
+      896
+    ],
+    "pivotBottomLeftNormalized": [
+      0.5,
+      0.125
+    ],
+    "resampling": "Premultiplied RGBA (Pillow RGBa), Lanczos, unpremultiply; no new drawn pixels",
+    "perFrameBboxRegistration": false,
+    "wholeSourceCanvasPlacement": true,
+    "outsideOutput": {
+      "nonzeroPixelsOutsideOutput": 61,
+      "alpha16OrHigherPixelsOutsideOutput": 0,
+      "maximumAlphaOutsideOutput": 1,
+      "interpretation": "Original whole canvas is uniformly resized and placed. Only areas beyond the output canvas may be clipped; visible subject Alpha>=16 must remain complete. Native source retains all pixels."
+    }
+  },
+  "measurements": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      258,
+      0,
+      769,
+      950
+    ],
+    "subjectBBoxAlpha16": [
+      269,
+      128,
+      755,
+      896
+    ],
+    "subjectMarginsLTRB": [
+      269,
+      128,
+      269,
+      128
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.2626953125,
+      0.125,
+      0.2626953125,
+      0.125
+    ],
+    "alpha1To15Pixels": 25400,
+    "alphaExactly1Pixels": 14174,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 1
+  },
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "staticBodyOnly": true,
+  "newAIGeneration": false,
+  "upscaled": false,
+  "unityVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "exportedAtUtc": "2026-10-27T02:30:14.266137+00:00"
+}

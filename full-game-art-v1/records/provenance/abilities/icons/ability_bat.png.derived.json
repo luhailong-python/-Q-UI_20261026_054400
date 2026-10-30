@@ -1,0 +1,71 @@
+{
+  "id": "ability_bat",
+  "file": "assets/icons/ability_bat.png",
+  "sha256": "8bbc7172586350f0b80870c82c25dab0d8febbcedbe348da951052755bc274da",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    0,
+    507,
+    522,
+    517
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    55,
+    31,
+    491,
+    488
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "uniformScale": 0.6958424507658644,
+  "actualRasterScaleXY": [
+    0.6954022988505747,
+    0.6963249516441006
+  ],
+  "offsetTopLeft": [
+    2,
+    12
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    40,
+    33,
+    343,
+    352
+  ],
+  "subjectMarginsLTRB": [
+    40,
+    33,
+    41,
+    32
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

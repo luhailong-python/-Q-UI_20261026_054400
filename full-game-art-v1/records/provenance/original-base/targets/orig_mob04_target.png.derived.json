@@ -1,0 +1,199 @@
+{
+  "id": "orig_mob04_target",
+  "monsterId": "orig_mob04",
+  "name": "竹甲小妖",
+  "purpose": "target",
+  "file": "assets/targets/orig_mob04_target.png",
+  "sha256": "e6165b35fb808d3af4a8fb0c9dbd6a3b13dd0b8b9190f68a5901125fca382482",
+  "operation": "Technical static sprite export: uniform downscale and transparent canvas placement, without re-painting or model generation",
+  "artSource": "existing_original_master_generated_in_this_batch",
+  "newAIGeneration": false,
+  "nativeDetailIncreased": false,
+  "derivedFrom": {
+    "file": "assets/orig_mob04/orig_mob04_master_E.png",
+    "sha256": "f5d3dc8b8c0f1bf3f0845d346cb32401a7fd469702d838f6710a3be4500caf8d",
+    "generationRecord": "assets/orig_mob04/orig_mob04_master_E.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "transform": {
+    "requestedUniformScale": 0.5,
+    "actualRasterScaleXY": [
+      0.5,
+      0.5
+    ],
+    "resizedWholeSourceCanvas": [
+      256,
+      256
+    ],
+    "offsetTopLeft": [
+      0,
+      0
+    ],
+    "outputAnchorTopLeftPx": [
+      128,
+      128
+    ],
+    "pivotBottomLeftNormalized": [
+      0.5,
+      0.5
+    ],
+    "resampling": "Premultiplied RGBA Lanczos downscale from the 512 portrait",
+    "sourceExportFile": "assets/portraits/orig_mob04_portrait.png",
+    "portraitTransformToNative": {
+      "requestedUniformScale": 0.33069973621883736,
+      "actualRasterScaleXY": [
+        0.3309409888357257,
+        0.3309409888357257
+      ],
+      "resizedWholeSourceCanvas": [
+        415,
+        415
+      ],
+      "offsetTopLeft": [
+        20,
+        55
+      ],
+      "sourceSubjectBBoxAlpha16": [
+        175,
+        28,
+        1250,
+        1185
+      ],
+      "resizedSubjectBBoxAlpha16": [
+        58,
+        9,
+        414,
+        393
+      ],
+      "outputAnchorTopLeftPx": [
+        256,
+        256
+      ],
+      "pivotBottomLeftNormalized": [
+        0.5,
+        0.5
+      ],
+      "resampling": "Premultiplied RGBA (Pillow RGBa), Lanczos, unpremultiply; no new drawn pixels",
+      "perFrameBboxRegistration": false,
+      "wholeSourceCanvasPlacement": true,
+      "outsideOutput": {
+        "nonzeroPixelsOutsideOutput": 0,
+        "alpha16OrHigherPixelsOutsideOutput": 0,
+        "maximumAlphaOutsideOutput": 0,
+        "interpretation": "Original whole canvas is uniformly resized and placed. Only areas beyond the output canvas may be clipped; visible subject Alpha>=16 must remain complete. Native source retains all pixels."
+      }
+    }
+  },
+  "sourceMeasurements": {
+    "canvas": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      0,
+      9,
+      1254,
+      1236
+    ],
+    "subjectBBoxAlpha16": [
+      175,
+      28,
+      1250,
+      1185
+    ],
+    "subjectMarginsLTRB": [
+      175,
+      28,
+      4,
+      69
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.13955342902711323,
+      0.022328548644338118,
+      0.003189792663476874,
+      0.05502392344497608
+    ],
+    "alpha1To15Pixels": 40019,
+    "alphaExactly1Pixels": 22279,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 1
+  },
+  "measurements": {
+    "canvas": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBoxNonzero": [
+      36,
+      30,
+      219,
+      226
+    ],
+    "subjectBBoxAlpha16": [
+      39,
+      32,
+      217,
+      224
+    ],
+    "subjectMarginsLTRB": [
+      39,
+      32,
+      39,
+      32
+    ],
+    "subjectMarginFractionsLTRB": [
+      0.15234375,
+      0.125,
+      0.15234375,
+      0.125
+    ],
+    "alpha1To15Pixels": 1322,
+    "alphaExactly1Pixels": 384,
+    "highChromaPartialAlphaPixels": 0,
+    "highChromaPartialAlphaDefinition": "maxRGB-minRGB>=160 and 16<=Alpha<200; an inspection symptom, not an automatic dirt verdict",
+    "edgeMaxAlpha": 0
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "direction": "E",
+  "staticPoseOnly": true,
+  "unityVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Preserved native generation record is authoritative; export does not fill missing model/quality from configuration.",
+  "exportedAtUtc": "2026-10-27T02:08:38.808895+00:00",
+  "derivedFromImmediate": {
+    "file": "assets/portraits/orig_mob04_portrait.png",
+    "sha256": "6ce4193df05b3197becde424c6e80052a0b5bed32fbd108e24b65bd66b1d5f3d",
+    "size": [
+      512,
+      512
+    ]
+  }
+}

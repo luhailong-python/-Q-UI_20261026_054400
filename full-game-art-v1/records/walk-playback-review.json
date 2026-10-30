@@ -1,0 +1,355 @@
+{
+  "reviewedAtUtc": "2026-10-28T10:32:47.787802+00:00",
+  "reviewer": "root",
+  "actors": [
+    {
+      "actor": "hero_daotong",
+      "accepted": true,
+      "frameSha256": [
+        "b2f67279f9e751851f81258fd41826e79d7fcc91693ba51b03cb440476cd6da2",
+        "6156c0c7f9e476a3b58fe1f9eb8fc8b1cf9e6c68f46784f4b1f59e1dff88226b",
+        "0f1c4d80251dbb8f13b54319e02c0da70dfe8fd04afc1415710208fc3a18271d",
+        "fb4b40e18b1e292eb11e20d2c01d162fe43a0c163a19115962eeef109850f178"
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "selectedNativeReview": "records/motion/hero_daotong-native-review.json",
+      "contactPreview": "previews/walk/hero_daotong/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v3 restores opposite foreground boot contact, jade sword remains same hand and carried close to torso; small head/hem differences remain within stepped hand-drawn style at display size.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "hero_lingyi",
+      "accepted": true,
+      "frameSha256": [
+        "f8d26f79e492d17d9b8206c5cd119b744d74ef439b608e00bfa08d41bee89961",
+        "501302e9b38cf9413898944f027fabc90e1a659e981c9ce005b72bf8045cf6c9",
+        "5d7538a675a48d9f5685173fc86235af1ff902723e1277a95c528e3932a59594",
+        "6bc34d6f3f5ddb899c870ee0a28d65417f7fb5ec319899233227a57f3b719d6a"
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "selectedNativeReview": "records/motion/hero_lingyi-native-review.json",
+      "contactPreview": "previews/walk/hero_lingyi/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v3 exposes opposite foreground shin/boot; gourd, braid and lotus retained. Phase2 head is slightly smaller, recorded as native drawing variation; not per-frame body resizing.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "hero_leixiu",
+      "accepted": true,
+      "frameSha256": [
+        "e7ce7798072fd2357b6038f17e3f0bee9937bc7c697b87b6e75bdfc1c215b771",
+        "cc37d7dfb3b2af1db0372f5b69e4db84be64d9e5ad80c70795e84963295c36a4",
+        "7851f46405e3e0585f2fc3aa00db4ad8e2ee94132a63992f8cae9851cc686a46",
+        "822573f7f43f3146de50795cc98d32fed2783efcf9f02651e3b4e5de3306fc44"
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "selectedNativeReview": "records/motion/hero_leixiu-native-review.json",
+      "contactPreview": "previews/walk/hero_leixiu/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v3 alternates contact boot, staff and talisman stay same hands. Existing phases1/3 slightly smaller in framing; no severe full-body zoom jump seen at composite game scale.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob01",
+      "accepted": true,
+      "frameSha256": [
+        "88cc655926bda41f3ea3b3ab4dc3ba357b3f1345543c6794f41f075c20b658b4",
+        "617f580e063c9c4c88adfc88d947e33fcc3275c871ab2447854b2fdfb478aa11",
+        "1066035a39c588bffb8c5521666cb10d02c4b16859b7f6b16cfe6c5983781158",
+        "fb2ec7a7377cbabfd1d50391c1a9c7104d69d82db42d9bb1c570edf8719a7ff0"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_mob01-native-review.json",
+      "contactPreview": "previews/walk/orig_mob01/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v3 changes foreground paper boot; phases1/3 lift different folded feet. Red face marks, folded hood and jade ribbons consistent.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob02",
+      "accepted": true,
+      "frameSha256": [
+        "57de05a1a9ef06c20b3d471e96ae58fedcd7c067680ca01c118930d529a20df6",
+        "a9a387b8239840067b2601a1d5b777d96762abc256af8980f78a30a94a8ed86e",
+        "3180e48e442f2a304590b5bcfa69fc8f5cc5f9468fa21e016d8582c7c396b839",
+        "3616cc925ad9d6c4519122aaed2115948f54bfbb1b0470961e86e2d988240ffc"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_mob02-native-review.json",
+      "contactPreview": "previews/walk/orig_mob02/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v2 restores opposite contact; phase3_v2 repairs cuff from wrong arm back to viewer-left. Cuff remains same side across final four cels.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob03",
+      "accepted": true,
+      "frameSha256": [
+        "860b1f49cacd8563129f65894c291006b063f2b3d674b5a3c6c62891d539a331",
+        "9b7dd0343f601c9cf6f9737d0b0db8652d9e1ae3ecc4352f63eb947663ab095f",
+        "2e107cca431eb180852197c3f0ba8b6563a9cfbcf6c617b413be449e24e0a18e",
+        "452599e9ca08194af47766a659e40c463a8d363d9a5530aaeff19fb4c126a65c"
+      ],
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "selectedNativeReview": "records/motion/orig_mob03-native-review.json",
+      "contactPreview": "previews/walk/orig_mob03/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "Floating shell remains original identity without invented legs; two ribbons and three tassels change articulated direction; repaired00_v3 shell size matches other phases closely.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob04",
+      "accepted": true,
+      "frameSha256": [
+        "4627ea114ae5822c3e0f4d996106c2b4c461e1c6d5658cfb973d0e81953338fe",
+        "42d274bddaa6d5ca0beca4585046771bbabc7c91d2d3ed3bcb4fe7e71551bfcc",
+        "8b29596c492590cac222ed56ab3ff64640dc34916e963ef8928050516f35bf87",
+        "3e020ed30b7faf0b3848f5a77913bad084255cd7f0297b63006f192536b4b20a"
+      ],
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "selectedNativeReview": "records/motion/orig_mob04-native-review.json",
+      "contactPreview": "previews/walk/orig_mob04/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v2 alternates near/far boots, passing poses lift different feet; shield remains viewer-left and bamboo staff viewer-right.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob05",
+      "accepted": true,
+      "frameSha256": [
+        "dec97774bf980f4f9a3ec29872dc1b76afbcb177f7ddf57c090eba11db424388",
+        "9bcb55d93f447b129c6641d812c37b97c9cb0b3e05295db46fe42a97479d3c44",
+        "bb84b91c6158287988d3a761352ae75846c53d1f24edbc44eb1aa0c07ea3b50c",
+        "6ec3bad7083089fed6de0a0b9bf744e119e380b452e2a3558dd3baf602d54d3a"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_mob05-native-review.json",
+      "contactPreview": "previews/walk/orig_mob05/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "Selected00/raw03/02_v2/raw01 sequence alternates contact and lift; wooden staff stays same hand and jade knee ornaments retain identity.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_mob06",
+      "accepted": true,
+      "frameSha256": [
+        "9bf3192b6c33a696255d69b4d34d97a58a2a92e8ab1d46bf905982a1ef75c31e",
+        "46f593c0a2aeb9cee7a20366c92720b658f33ae05f98d153ee49ef663857a5d0",
+        "a123e7d5a8773be96192a2bd69d5469961ec26b433b7a08f528770fa516a2cdf",
+        "600b83f1c984e75bb822709758903bf262c6f9f483ae36d482b19e7ebfcc9d3b"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_mob06-native-review.json",
+      "contactPreview": "previews/walk/orig_mob06/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "Opposite foreground paws and passing lifted soles visible, club same side, horns/armor/beads retained.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_boss_minor",
+      "accepted": true,
+      "frameSha256": [
+        "2fdf695ed330076952876abd143c10526be18ccf31b23bc3feb2280ddfa37cbd",
+        "045018c1614e85186dd3aab733ba8a0c303cd8c6d923028614cdbe5da8bc6208",
+        "c14a39d3b7fae23d506a3b96249d5a377d458bdeed4ce4a968b091f62cbc6d0b",
+        "9fdf5917eda47f57f42e29c68954df7a42f462915ae3821fcdbd8af25d69f527"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_boss_minor-native-review.json",
+      "contactPreview": "previews/walk/orig_boss_minor/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "phase2_v3 restores hammer-side contact opposite shield-side contact; shield and hammer stay on their original sides.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    },
+    {
+      "actor": "orig_boss01",
+      "accepted": true,
+      "frameSha256": [
+        "2547f49d530beef6ec7290b3a1ced90f4257d0423754fbdd55df69454663a514",
+        "3bf9d636a64e29f958ebe2c87ee85ea927b25ec49efbc8782e23e9fb2b95414e",
+        "94a0b9c228ad3c2a0295eec1a9ec8349fd935f533288a39506de7197f6be3e5c",
+        "e0fc1adc000b50cd806e5c46a26238167bb02062f63e001d5a7e6ffc27bf5b43"
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "selectedNativeReview": "records/motion/orig_boss01-native-review.json",
+      "contactPreview": "previews/walk/orig_boss01/contact.jpg",
+      "reviewedNormalSpeed": true,
+      "reviewedHalfSpeed": true,
+      "reviewMethod": "All four registered cels actually viewed on light/dark contact boards; current11-identity live browser composite observed at1x and0.5x, with repeated frame changes and full-page snapshots; not a video-motion smoothness claim.",
+      "findings": [
+        "Two contact and two passing poses alternate actual stone boots; large hammer, round shield and throne-like head ornament retained.",
+        "No visible crop, solid rectangular matte, stray neighboring actor, missing appendage or mirror-only half-cycle in the adopted cels."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Deliberately stepped four-key-cel loop, small original drawing variation; not fluid I2V or Unity validation."
+      ]
+    }
+  ],
+  "all11Reviewed": true,
+  "normalAndHalfSpeedPages": [
+    "previews/playback.html",
+    "previews/composite-playback.html"
+  ],
+  "observedLiveComposite": {
+    "allImagesLoaded": 58,
+    "identities": 11,
+    "normalRunningFrameChanges": [
+      973,
+      1056
+    ],
+    "halfSpeedRunningFrameChanges": [
+      1056,
+      1271,
+      1275
+    ],
+    "normalPoseSnapshots": [
+      "4/4/4/2/2/4/4/2/2/2/2",
+      "1/1/1/3/3/1/1/3/3/3/3"
+    ],
+    "halfSpeedPoseSnapshots": [
+      "1/1/1/1/1/1/1/1/1/1/1",
+      "2/2/2/1/1/4/4/1/1/1/1",
+      "1/1/1/3/3/2/2/3/3/3/3"
+    ]
+  },
+  "automatedHeadFitAdopted": false,
+  "perFrameBBoxScaleNormalization": false,
+  "unityVerified": false
+}

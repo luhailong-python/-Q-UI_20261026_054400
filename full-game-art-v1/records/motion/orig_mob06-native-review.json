@@ -1,0 +1,82 @@
+{
+  "actor": "orig_mob06",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\native\\orig_mob06.png",
+  "masterSha256": "eb60f1756d059d9def29ceee4d4b9ddad7d34f146c28888f1b9e2c02e97e05b2",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob06/orig_mob06_walk_00.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_01.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_02.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "fcc0e2acd632111d25bdd3a82086565d3a5e5baff16b8f727aad2a56107c5b74",
+    "ec3e8378d52dcef79a60bb42dded23a6fba32737b45bd819ab0aca773ecfbbba",
+    "7f7e5afc54cd178c88c42866285631088fbcd6c8e6035872a1d13a1e2d53c060",
+    "2fc9adc7932002afe722f23578aa32123b22476700c45f77b45fefbc06902a6b"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceTorsoX": 790,
+      "sourceGroundY": 1192,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-right foreground foot plants ahead, viewer-left foot trails; stone club remains in viewer-left hand.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceTorsoX": 780,
+      "sourceGroundY": 1165,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-left rear foot lifts with flexed knee while viewer-right foot supports.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 780,
+      "sourceGroundY": 1190,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-left foreground foot is now extended and planted, viewer-right foot smaller and trailing.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceTorsoX": 780,
+      "sourceGroundY": 1173,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-left foot rises with visible sole; viewer-right foot supports, opposite lifted side from phase1.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Four native articulated poses and identity checked only; registered playback is not yet approved.",
+  "reviewedAtUtc": "2026-10-28T10:16:02.468254+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_mob06/orig_mob06_walk_00.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_01.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_02.png",
+    "assets/motion-native/orig_mob06/orig_mob06_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "Native cels contain real leg articulation, including opposite fore/aft contact and different-side lifted passing feet.",
+    "Face, horns, head/torso ratio, costume and carried objects retained; no mirrored frame or transformed still used.",
+    "Alpha seen over light background; final dark/light playback remains required."
+  ],
+  "phaseObservations": [
+    "Viewer-right foreground foot plants ahead, viewer-left foot trails; stone club remains in viewer-left hand.",
+    "Viewer-left rear foot lifts with flexed knee while viewer-right foot supports.",
+    "Viewer-left foreground foot is now extended and planted, viewer-right foot smaller and trailing.",
+    "Viewer-left foot rises with visible sole; viewer-right foot supports, opposite lifted side from phase1."
+  ],
+  "excludedFiles": [],
+  "remainingReview": [
+    "Normal and half-speed looping on light/dark backgrounds",
+    "Scale, foot placement, seam and continuity at display size"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false
+}

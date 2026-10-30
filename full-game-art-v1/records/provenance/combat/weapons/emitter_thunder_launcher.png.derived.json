@@ -1,0 +1,60 @@
+{
+  "id": "emitter_thunder_launcher",
+  "name": "雷符发射器",
+  "file": "assets/weapons/emitter_thunder_launcher.png",
+  "function": "bazooka",
+  "sha256": "45ad79659394f9e8d68e2e30e36174a85f3cc5c63a641ee66fd46860a59b144a",
+  "size": [
+    512,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/weapons.png",
+  "sourceSha256": "bdc018345a918c0af8375ae2d23badf7a7c879cf5082684c2f89f37c0773f5b8",
+  "sourceRectTopLeftXYWH": [
+    524,
+    503,
+    557,
+    521
+  ],
+  "sourceAnchorXY": [
+    106,
+    267
+  ],
+  "outputAnchorTopLeftXY": [
+    104,
+    128
+  ],
+  "anchorMethod": "Manually marked physical grip; one static transform, suggested binding pivot",
+  "pivot": [
+    0.203125,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.8002689075630253,
+  "offsetTopLeft": [
+    19,
+    -86
+  ],
+  "visibleMarginsLTRB": [
+    68,
+    32,
+    127,
+    71
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

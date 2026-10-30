@@ -1,0 +1,60 @@
+{
+  "id": "proj_wind_blade",
+  "name": "连发风刃弹体",
+  "file": "assets/projectiles/proj_wind_blade.png",
+  "function": "shuriken",
+  "sha256": "8043087092865d0dfe445a61c1ad1c1ec083e85eaf90cd9605c0b5c72cc1071d",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    501,
+    501
+  ],
+  "sourceAnchorXY": [
+    271.5,
+    288.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.5189754768392371,
+  "offsetTopLeft": [
+    -13,
+    -22
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    33,
+    33,
+    34
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

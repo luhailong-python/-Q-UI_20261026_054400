@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: one single full-body phase2 opposite-contact WALK cel for the attached original Daoist chibi swordsboy, on genuine transparent background. The image is the identity/costume/material reference, not a pose to copy. Preserve this exact boy's face, brown windswept hair, jade/gold headband, jade/ivory/gold robe, green hip gourd, boots, ONE jade sword in the same camera-near hand, and three-quarter view facing image RIGHT. Keep the upper-body size and head proportion very close to the reference; camera fixed, full character centered with clear margins. Critical leg pose: the CAMERA-NEAR LEG comes diagonally FORWARD TOWARD THE VIEWER and DOWN-LEFT; its large foremost dark green boot must be at IMAGE LEFT of the pelvis, fully grounded, visibly larger and lower than the far boot. The CAMERA-FAR leg extends BACK and IMAGE RIGHT, with its small rear boot higher and heel rising. The two legs must exchange foreground/background ownership compared with a right-front-foot stride. Show clear thigh, knee, trouser overlap and two distinct complete feet. This is a natural opposite-contact walking key, not a stationary straddle, jump, attack or sword slash. Carry the sword near the body at a modest forward/up angle with only gentle natural arm swing; do not replace walking with swinging a sword. Small robe/ribbon follow-through. Exact same painterly high-definition rounded chibi rendering, jade-green/ivory/warm-gold materials. No horizontal flip, no extra props/limbs, no ground shadow, no background, no text, no sprite sheet. One complete independently painted pose.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png"
+    ],
+    "transparent_background": true
+  },
+  "actualReturnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualReturnedInformation": {
+    "image_url": "data:image/png;base64 (omitted here; retained exact returned PNG file recorded by generation.json)",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-ba003cc8-debb-4128-a3eb-27b554b23c74.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "model": null,
+  "quality": null,
+  "reasonUnconfirmed": "Tool has no model or quality selectors and return exposes no identifying model/quality fields."
+}

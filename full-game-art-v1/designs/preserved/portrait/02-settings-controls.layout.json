@@ -1,0 +1,511 @@
+{
+  "screen": "02-settings-controls",
+  "title": "设置",
+  "orientation": "portrait",
+  "state": "controls_tab",
+  "file": "designs/portrait/02-settings-controls.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_portrait.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        941,
+        1672
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/overlay_dim.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "stretch",
+      "borderLeftBottomRightTop": null,
+      "alpha": 100
+    },
+    {
+      "asset": "assets/common/panel_main.png",
+      "rectTopLeft": [
+        50,
+        102,
+        980,
+        1758
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/title_plate.png",
+      "rectTopLeft": [
+        215,
+        30,
+        650,
+        128
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/close.png",
+      "rectTopLeft": [
+        916,
+        72,
+        76,
+        76
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        125,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        406,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        686,
+        205,
+        269,
+        80
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/checkbox_off.png",
+      "rectTopLeft": [
+        835,
+        360,
+        80,
+        80
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/checkbox_on.png",
+      "rectTopLeft": [
+        835,
+        600,
+        80,
+        80
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/checkbox_on.png",
+      "rectTopLeft": [
+        835,
+        840,
+        80,
+        80
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        150,
+        1170,
+        690,
+        30
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        150,
+        1170,
+        518,
+        30
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_thumb.png",
+      "rectTopLeft": [
+        642,
+        1158,
+        53,
+        53
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        170,
+        1430,
+        740,
+        100
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_primary.png",
+      "rectTopLeft": [
+        170,
+        1580,
+        740,
+        110
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "设置",
+      "rectTopLeft": [
+        295,
+        50,
+        490,
+        80
+      ],
+      "fontPixels": 57,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "声音",
+      "rectTopLeft": [
+        133,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "画面",
+      "rectTopLeft": [
+        414,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "操作",
+      "rectTopLeft": [
+        694,
+        209,
+        253,
+        76
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "固定摇杆",
+      "rectTopLeft": [
+        150,
+        365,
+        655,
+        70
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "技能范围提示",
+      "rectTopLeft": [
+        150,
+        605,
+        655,
+        70
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "自动面向目标",
+      "rectTopLeft": [
+        150,
+        845,
+        655,
+        70
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "摇杆透明度",
+      "rectTopLeft": [
+        150,
+        1085,
+        780,
+        55
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "75%",
+      "rectTopLeft": [
+        845,
+        1150,
+        90,
+        60
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "拖动摇杆移动，轻触技能释放。",
+      "rectTopLeft": [
+        150,
+        1325,
+        780,
+        65
+      ],
+      "fontPixels": 26,
+      "fontRole": "body",
+      "color": "#627163",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "恢复默认",
+      "rectTopLeft": [
+        195,
+        1438,
+        690,
+        90
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "保存设置",
+      "rectTopLeft": [
+        195,
+        1588,
+        690,
+        100
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    }
+  ],
+  "sha256": "22b904a28d9b424205c81b0bfc0b473e2a2f37b852d5deb98c8ea15a69f1cfaa",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_portrait.png",
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_portrait.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "sourceRecord": "records/reused-assets.json#button_primary"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/checkbox_off.png",
+      "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "sourceRecord": "records/reused-assets.json#checkbox_off"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "35cf5de473b3a6273b1e81113bf4f26852950f9057d1e15382ced690e6af250c",
+      "sourceRecord": "records/reused-assets.json#checkbox_on"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "sourceRecord": "records/reused-assets.json#close"
+    },
+    {
+      "file": "assets/common/overlay_dim.png",
+      "sha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "sourceRecord": "records/ui-auxiliary-assets.json#overlay_dim"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "sourceRecord": "records/reused-assets.json#panel_main"
+    },
+    {
+      "file": "assets/common/slider_fill.png",
+      "sha256": "6613b6f5a4ac1d03e1e92082efc92fd61c339b98d04523ac2a289bdac75acf0f",
+      "sourceRecord": "records/reused-assets.json#slider_fill"
+    },
+    {
+      "file": "assets/common/slider_thumb.png",
+      "sha256": "9cab35f55f601663f5f0020600e5815b81de09e303262ddda4be2571207d2aef",
+      "sourceRecord": "records/reused-assets.json#slider_thumb"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "f35d337bd76d4481db6636aba64172c0d86621fbddc043f3af1c6f7e1ae9697f",
+      "sourceRecord": "records/reused-assets.json#slider_track"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "sourceRecord": "records/reused-assets.json#title_plate"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.241384+00:00"
+}

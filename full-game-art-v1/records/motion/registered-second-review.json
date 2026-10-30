@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T10:26:40.970255+00:00",
+  "reviewer": "scope_audit independent registered static second review",
+  "walkExportSnapshot": {
+    "exportedAtUtc": "2026-10-28T10:26:10.189831+00:00",
+    "exportedCount": 9,
+    "sha256": "f99564ba887687b1f6bec6a252fadf30082cdd9435a2fe1f5eb8f604c47f5410"
+  },
+  "scope": "Actually viewed6 newly exported4-pose contact sheets on light ivory and dark jade; no live animation watched by this reviewer. Body target actors168px/normal monsters135px considered when judging minor cel variation.",
+  "actors": [
+    {
+      "actor": "hero_daotong",
+      "contactFile": "previews/walk/hero_daotong/contact.jpg",
+      "contactSha256": "a9a9fbee700f915573011151bbf0d667246a926a70666859c4475b8ada486bff",
+      "identityAndLegFindings": "Face,hair,headband,gourd and sword stay consistent; sword stays in same camera-near hand. v3 phase2 has large left/down near boot and right/back far boot, visibly unlike phase0 right-front contact. Phases1/3 show different raised/support feet.",
+      "scaleFindings": "Head/torso has mild independent drawing variation, phase3 reads a little smaller than0 and phase2 has a taller extended leg silhouette. No abrupt static camera zoom demanding redraw found. Check actual loop at168px body height; do not equalize whole-body bbox because leg extension is real.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_02_v3.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_daotong\\hero_daotong_walk_03.png"
+      ],
+      "runtimeFrameSha256": [
+        "b2f67279f9e751851f81258fd41826e79d7fcc91693ba51b03cb440476cd6da2",
+        "6156c0c7f9e476a3b58fe1f9eb8fc8b1cf9e6c68f46784f4b1f59e1dff88226b",
+        "0f1c4d80251dbb8f13b54319e02c0da70dfe8fd04afc1415710208fc3a18271d",
+        "fb4b40e18b1e292eb11e20d2c01d162fe43a0c163a19115962eeef109850f178"
+      ]
+    },
+    {
+      "actor": "hero_lingyi",
+      "contactFile": "previews/walk/hero_lingyi/contact.jpg",
+      "contactSha256": "9bbe5f90d749d9a12b3ab084d14ab5adc9987c887d307c11ba505e131b67ea1a",
+      "identityAndLegFindings": "Same face,lotus hair ornament,braids,costume and two-handed gourd carry. New phase2 front shin/large left-down shoe and small right-back shoe make opposite contact visible; other phases retained.",
+      "scaleFindings": "Phase2 head/upper-body appears modestly smaller than0/1 and similar to3. At target168px body this is a few-pixel concern rather than a changed identity. Actual playback should determine whether rigid face-region camera registration is needed; no bbox-per-frame normalization.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_02_v3.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_03.png"
+      ],
+      "runtimeFrameSha256": [
+        "f8d26f79e492d17d9b8206c5cd119b744d74ef439b608e00bfa08d41bee89961",
+        "501302e9b38cf9413898944f027fabc90e1a659e981c9ce005b72bf8045cf6c9",
+        "5d7538a675a48d9f5685173fc86235af1ff902723e1277a95c528e3932a59594",
+        "6bc34d6f3f5ddb899c870ee0a28d65417f7fb5ec319899233227a57f3b719d6a"
+      ]
+    },
+    {
+      "actor": "hero_leixiu",
+      "contactFile": "previews/walk/hero_leixiu/contact.jpg",
+      "contactSha256": "d29f721bae0f957b9bb25bbfa6ddddbcf39daf58c247d279fea0cde41c812ff6",
+      "identityAndLegFindings": "Staff remains image-left/camera-near hand; gold talisman remains other hand. Crown,white face/beard,jade belt and embroidered robe consistent. v3 phase2 left/down foreground contact is distinct from0, and there are exactly two shoes independent of staff tip.",
+      "scaleFindings": "Existing phases1/3 are slightly smaller/narrower through face and torso than0/2. This is the strongest scale-consistency concern of the6 reviewed groups but static review alone does not prove a loop pop. Root should watch168px normal/slow loop and use a manually verified rigid face/ear region for camera registration if needed.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_02_v3.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_03.png"
+      ],
+      "runtimeFrameSha256": [
+        "e7ce7798072fd2357b6038f17e3f0bee9937bc7c697b87b6e75bdfc1c215b771",
+        "cc37d7dfb3b2af1db0372f5b69e4db84be64d9e5ad80c70795e84963295c36a4",
+        "7851f46405e3e0585f2fc3aa00db4ad8e2ee94132a63992f8cae9851cc686a46",
+        "822573f7f43f3146de50795cc98d32fed2783efcf9f02651e3b4e5de3306fc44"
+      ]
+    },
+    {
+      "actor": "orig_mob01",
+      "contactFile": "previews/walk/orig_mob01/contact.jpg",
+      "contactSha256": "0437b32f30bf940abc1d8768c50004bac1e584253a777f9ff319bebe9dcf2ff0",
+      "identityAndLegFindings": "Ivory folded-paper material,jade eyes,cinnabar motifs,tall curled hat and ribbon ownership preserved. v3 phase2 large foreground paper boot is down-left and small rear boot right/up. Passing1/3 articulate different paper feet; no new organic leg or extra limb.",
+      "scaleFindings": "Hat/head dimensions remain visually close; hat/ribbon swing and lower-paper overlap vary as expected. No static gross source-zoom mismatch. Root must check the support-order timing in playback because ivory folds lack a color-coded limb identity.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob01\\orig_mob01_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob01\\orig_mob01_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob01\\orig_mob01_walk_02_v3.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob01\\orig_mob01_walk_03_v2.png"
+      ],
+      "runtimeFrameSha256": [
+        "88cc655926bda41f3ea3b3ab4dc3ba357b3f1345543c6794f41f075c20b658b4",
+        "617f580e063c9c4c88adfc88d947e33fcc3275c871ab2447854b2fdfb478aa11",
+        "1066035a39c588bffb8c5521666cb10d02c4b16859b7f6b16cfe6c5983781158",
+        "fb2ec7a7377cbabfd1d50391c1a9c7104d69d82db42d9bb1c570edf8719a7ff0"
+      ]
+    },
+    {
+      "actor": "orig_mob02",
+      "contactFile": "previews/walk/orig_mob02/contact.jpg",
+      "contactSha256": "e2f056e039aa10b561452dbaa34df88269ab7c3051d2699be9c10ad14aaa778d",
+      "identityAndLegFindings": "Current contact shows decorated jade/gold wrist bracer on same camera-near/image-left arm in all4 phases; bare opposite stone forearm remains opposite. Horns,leaf sprout,eyes,cracks,scarf and stone material preserved. Contact0/2 use different foreground feet; passing1/3 visibly lift different feet.",
+      "scaleFindings": "Small head/leaf and arm drawing differences remain, without a large static torso/head size jump at135px monster body. Keep current art for playback review; no need to redraw solely because of different arm reach.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_02_v2.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03_v2.png"
+      ],
+      "runtimeFrameSha256": [
+        "57de05a1a9ef06c20b3d471e96ae58fedcd7c067680ca01c118930d529a20df6",
+        "a9a387b8239840067b2601a1d5b777d96762abc256af8980f78a30a94a8ed86e",
+        "3180e48e442f2a304590b5bcfa69fc8f5cc5f9468fa21e016d8582c7c396b839",
+        "3616cc925ad9d6c4519122aaed2115948f54bfbb1b0470961e86e2d988240ffc"
+      ]
+    },
+    {
+      "actor": "orig_mob06",
+      "contactFile": "previews/walk/orig_mob06/contact.jpg",
+      "contactSha256": "33e6e34c7c695d5fb35a42664ee22ed576b57d1dee3940992793f4d52970e518",
+      "identityAndLegFindings": "Same dark fur,ivory face,horns,jade armor,waist cloth and stone mace remain; mace stays in image-left/camera-near hand. Contact0/2 visibly swap large foreground foot, phases1/3 lift different feet and sole visible in3.",
+      "scaleFindings": "Broad head/torso dimensions are stable in contact; minor fur tufts,teeth and knee folds vary. No obvious camera-size pop requiring static redraw. At135px monster body keep for actual loop review.",
+      "staticDisposition": "retain current selection for actual registered playback review",
+      "mandatoryStaticRedrawFound": false,
+      "playbackAccepted": false,
+      "oneCommonScale": true,
+      "cameraCalibrationFactors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectedNativeFiles": [
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob06\\orig_mob06_walk_00.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob06\\orig_mob06_walk_01.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob06\\orig_mob06_walk_02.png",
+        "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob06\\orig_mob06_walk_03.png"
+      ],
+      "runtimeFrameSha256": [
+        "9bf3192b6c33a696255d69b4d34d97a58a2a92e8ab1d46bf905982a1ef75c31e",
+        "46f593c0a2aeb9cee7a20366c92720b658f33ae05f98d153ee49ef663857a5d0",
+        "a123e7d5a8773be96192a2bd69d5469961ec26b433b7a08f528770fa516a2cdf",
+        "600b83f1c984e75bb822709758903bf262c6f9f483ae36d482b19e7ebfcc9d3b"
+      ]
+    }
+  ],
+  "sizePolicy": "Do not normalize per-frame alpha/body bbox. Any correction must be justified by fixed camera scale using manually verified rigid face/skull/ear landmarks, retain recorded transforms and compare real playback. No measure_head_scale factor adopted by this agent.",
+  "allPlaybackAccepted": false,
+  "unityVerified": false,
+  "globalScriptsModified": false,
+  "finalizerReadOnlyAudit": {
+    "file": "source/finalize_delivery.py",
+    "sha256AtAudit": "e736d936417b59f8d362a369c12bb9365c9f36a78d093a2011cf0d6c6593bf46",
+    "fontFieldIssue": "Initial fonts/file/sha256 field mismatch was reported; root already changed to fontFiles/fontFile/fontSha256 on reread, so closed.",
+    "remainingFindings": [
+      {
+        "priority": "high",
+        "issue": "Current code trusts walk all11Passed and clip playbackAccepted without requiring current walk-playback-review evidence matching adopted frame hashes; stale booleans can survive content changes.",
+        "fixSuggestion": "Require existing playback review, matching actor set and runtime/native frame digests/current clip metadata."
+      },
+      {
+        "priority": "high",
+        "issue": "No cross-check that every adopted current runtime walk PNG is in m.assets and package paths. If assemble is stale,11 accepted clips can coexist with missing packaged runtime frames.",
+        "fixSuggestion": "Require manifest walk-frame identity/hash equality with walk.assets; add every verified runtime frame path explicitly."
+      },
+      {
+        "priority": "medium",
+        "issue": "Preview package white-list excludes actual evidence PNGs and second-review technical JPGs/APNGs even though records cite them.",
+        "fixSuggestion": "Package all approved review evidence by explicit references or entire previews directory excluding rejected native images."
+      },
+      {
+        "priority": "medium",
+        "issue": "oldUI131ByteIdentical derives from failure-string substring UI, so digest/missing designs errors can leave it true.",
+        "fixSuggestion": "Track131-screen copy+original hash result explicitly."
+      },
+      {
+        "priority": "medium",
+        "issue": "11-clip count alone does not enforce unique exact required actor set.",
+        "fixSuggestion": "Compare clip actor set and count against fixed11 configured identities."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "weapon_mace",
+  "name": "木锏实体",
+  "file": "assets/weapons/weapon_mace.png",
+  "function": "bat",
+  "sha256": "1040446925a3c73236c3c42fabd48ce2e71deb28543e6703cc98dece06a5b4a0",
+  "size": [
+    512,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/weapons.png",
+  "sourceSha256": "bdc018345a918c0af8375ae2d23badf7a7c879cf5082684c2f89f37c0773f5b8",
+  "sourceRectTopLeftXYWH": [
+    548,
+    0,
+    465,
+    503
+  ],
+  "sourceAnchorXY": [
+    112,
+    253
+  ],
+  "outputAnchorTopLeftXY": [
+    104,
+    128
+  ],
+  "anchorMethod": "Manually marked physical grip; one static transform, suggested binding pivot",
+  "pivot": [
+    0.203125,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.8605301204819277,
+  "offsetTopLeft": [
+    8,
+    -90
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    55,
+    133,
+    38
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

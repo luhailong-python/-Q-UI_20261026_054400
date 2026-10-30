@@ -1,0 +1,96 @@
+{
+  "actor": "orig_mob04",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob04_runtime_E.png",
+  "masterSha256": "dbdfd25234153a928d16ec21e4b72dda01b5a85a2656ed7013923e88883e23b6",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob04/orig_mob04_walk_00.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_01.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_02_v2.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_03.png"
+  ],
+  "selectedFileSha256": [
+    "e573e0f2b1f26eb23dcc60553b210439ac4d8c724107a14632d27f12c6864d6c",
+    "cfc05c19033d4f2acc0fc40c3d57408754cc1bf19b1105a8873f55f1ff292d56",
+    "4f6421800269fc2b4271cfe6a4298277e37c881623c2f8ca6cd2d3d86a11e0d2",
+    "6036e5ac4b054bb8ddb11983b25e5e3bac71b11530810ae12b6572336700d003"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceAnchorXY": [
+        625,
+        1170
+      ],
+      "definition": "Manually observed torso axis and planted wooden sole plane; not alpha-bbox bottom",
+      "supportNote": "Screen-right boot low/planted forward, screen-left rear boot trails; contact step.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceAnchorXY": [
+        620,
+        1140
+      ],
+      "definition": "Manually observed torso axis and planted wooden sole plane; not alpha-bbox bottom",
+      "supportNote": "Screen-right boot supports underneath; screen-left boot bent up behind, narrower passing stance.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceAnchorXY": [
+        610,
+        1172
+      ],
+      "definition": "Manually observed torso axis and planted wooden sole plane; not alpha-bbox bottom",
+      "supportNote": "Selected v2: SCREEN-LEFT large foreground boot planted lowest, SCREEN-RIGHT far boot smaller and lifted rear. Explicitly opposite contact geometry from phase0.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceAnchorXY": [
+        610,
+        1147
+      ],
+      "definition": "Manually observed torso axis and planted wooden sole plane; not alpha-bbox bottom",
+      "supportNote": "SCREEN-LEFT boot supports, SCREEN-RIGHT knee lifted forward and tipped boot sole visible. Opposite support/passing geometry from phase1.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Native identity, complete anatomy and genuinely distinct articulated poses only. NOT registered playback, loop seam, body-scale stability or Unity acceptance.",
+  "reviewedAtUtc": "2026-10-28T10:26:21.990201+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_mob04/orig_mob04_walk_00.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_01.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_02_v2.png",
+    "assets/motion-native/orig_mob04/orig_mob04_walk_03.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "This bamboo goblin has two actual legs in master and uses walk, not hover.",
+    "Wicker shield stays viewer-left, leafy bamboo staff stays viewer-right across all selected poses; hands remain attached.",
+    "Phase02 initial attempt repeats right-foot contact and is excluded; targeted v2 successfully reverses planted foot.",
+    "All four selected frames show actual knee/foot articulation and cloth changes. No translated or scaled still invents another pose.",
+    "One common body scale and physical sole plane are required; head/camera microvariation must still be checked during playback."
+  ],
+  "phaseObservations": [
+    "Screen-right boot low/planted forward, screen-left rear boot trails; contact step.",
+    "Screen-right boot supports underneath; screen-left boot bent up behind, narrower passing stance.",
+    "Selected v2: SCREEN-LEFT large foreground boot planted lowest, SCREEN-RIGHT far boot smaller and lifted rear. Explicitly opposite contact geometry from phase0.",
+    "SCREEN-LEFT boot supports, SCREEN-RIGHT knee lifted forward and tipped boot sole visible. Opposite support/passing geometry from phase1."
+  ],
+  "excludedFiles": [
+    "assets/motion-native/orig_mob04/orig_mob04_walk_02.png"
+  ],
+  "remainingReview": [
+    "Final common-scale physical registration, actual normal/slow playback, seam continuity and visible size pop",
+    "True light/dark composites and game-size silhouette review",
+    "Unity import remains next phase, unverified"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits; original master always attached; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false,
+  "newImagesGeneratedInReview": false
+}

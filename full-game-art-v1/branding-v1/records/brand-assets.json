@@ -1,0 +1,308 @@
+{
+  "generatedAtUtc": "2026-10-29T03:12:42.099333+00:00",
+  "gameName": "一符镇万妖",
+  "language": "zh-Hans",
+  "brandId": "yifu-zhen-wanyao",
+  "nativeOriginals": [
+    {
+      "file": "assets/native/yifu-zhen-wanyao-logo-primary.png",
+      "sha256": "9a38bb4f5ac6850890f239ed7036dada8ae9ae928d5c7d4eca25aee6c6711c5f",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "assets/native/yifu-zhen-wanyao-brand-emblem.png",
+      "sha256": "9d98c987b5bb91977ef0e837c11d578f43e3ed7314d611876a29857de78fc389",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary.png",
+      "sha256": "d82510c49589471d5174d373189fd26d6031f8802e47b3d269b0a71b5718582d",
+      "source": "assets/native/yifu-zhen-wanyao-logo-primary.png",
+      "sourceSha256": "9a38bb4f5ac6850890f239ed7036dada8ae9ae928d5c7d4eca25aee6c6711c5f",
+      "size": [
+        1680,
+        1120
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleMarginsLTRB": [
+        122,
+        145,
+        122,
+        142
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Native artwork placed at1:1 pixel scale on a larger transparent safety canvas; no painted content changed",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "nativeScale": 1,
+      "offsetTopLeft": [
+        72,
+        48
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary-1200w.png",
+      "sha256": "9fc47f8a38b4a05969e405c408f002ad79d3dfe1b3fd810876cd0a96fe339759",
+      "source": "assets/yifu-zhen-wanyao-logo-primary.png",
+      "sourceSha256": "d82510c49589471d5174d373189fd26d6031f8802e47b3d269b0a71b5718582d",
+      "size": [
+        1200,
+        800
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        87,
+        103,
+        87,
+        102
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Premultiplied-alpha Lanczos downscale; no AI generation or invented detail",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "sourceScaleXY": [
+        0.7142857142857143,
+        0.7142857142857143
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-logo-primary-768w.png",
+      "sha256": "e2cf3744de0d8b9bba2497aa265f74d9bdfd506a804d17d5aef2efc4b3ae361c",
+      "source": "assets/yifu-zhen-wanyao-logo-primary.png",
+      "sourceSha256": "d82510c49589471d5174d373189fd26d6031f8802e47b3d269b0a71b5718582d",
+      "size": [
+        768,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        55,
+        66,
+        55,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Premultiplied-alpha Lanczos downscale; no AI generation or invented detail",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "sourceScaleXY": [
+        0.45714285714285713,
+        0.45714285714285713
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem.png",
+      "sha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "source": "assets/native/yifu-zhen-wanyao-brand-emblem.png",
+      "sourceSha256": "9d98c987b5bb91977ef0e837c11d578f43e3ed7314d611876a29857de78fc389",
+      "size": [
+        1392,
+        1392
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        105,
+        132,
+        85,
+        122
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Native artwork placed at1:1 pixel scale on a larger transparent safety canvas; no painted content changed",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "nativeScale": 1,
+      "offsetTopLeft": [
+        69,
+        69
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-512w.png",
+      "sha256": "6a6c42aa17425e0296d242340dd04a453f9e9d5704632ac7e44f5af0f2a8990e",
+      "source": "assets/yifu-zhen-wanyao-brand-emblem.png",
+      "sourceSha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        38,
+        48,
+        31,
+        44
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Premultiplied-alpha Lanczos downscale; no AI generation or invented detail",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "sourceScaleXY": [
+        0.367816091954023,
+        0.367816091954023
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-256w.png",
+      "sha256": "a50d17b5abed447acc2e579fbb1981089fb86c28fdef0753bd65a34c1c93f9c1",
+      "source": "assets/yifu-zhen-wanyao-brand-emblem.png",
+      "sourceSha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        19,
+        24,
+        15,
+        22
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Premultiplied-alpha Lanczos downscale; no AI generation or invented detail",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "sourceScaleXY": [
+        0.1839080459770115,
+        0.1839080459770115
+      ]
+    },
+    {
+      "file": "assets/yifu-zhen-wanyao-brand-emblem-128w.png",
+      "sha256": "f1b1a1aba9c64641c9c8b36204e9d97442fb863e513d49d7c6508489bb72cff7",
+      "source": "assets/yifu-zhen-wanyao-brand-emblem.png",
+      "sourceSha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleMarginsLTRB": [
+        9,
+        12,
+        7,
+        11
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": "Premultiplied-alpha Lanczos downscale; no AI generation or invented detail",
+      "nativeDetailIncreased": false,
+      "unityVerified": false,
+      "sourceScaleXY": [
+        0.09195402298850575,
+        0.09195402298850575
+      ]
+    }
+  ],
+  "frozenExistingGameAssetsChanged": false,
+  "runtimeTextBakedIntoLogoOnly": "一符镇万妖",
+  "toolRoute": "builtin image_gen",
+  "actualModel": null,
+  "actualQuality": null,
+  "unityVerified": false
+}

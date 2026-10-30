@@ -1,0 +1,64 @@
+{
+  "id": "orig_mob06_walk_01",
+  "name": "玄甲山魈 行走2",
+  "file": "assets/motion/orig_mob06/walk/orig_mob06_walk_01.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_mob06",
+  "action": "walk",
+  "phase": 1,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob06\\orig_mob06_walk_01.png",
+  "sourceSha256": "ec3e8378d52dcef79a60bb42dded23a6fba32737b45bd819ab0aca773ecfbbba",
+  "sha256": "46f593c0a2aeb9cee7a20366c92720b658f33ae05f98d153ee49ef663857a5d0",
+  "sourceAnchorXY": [
+    780,
+    1165
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6953230209281165,
+  "actualRasterScaleXY": [
+    0.6953748006379585,
+    0.6953748006379585
+  ],
+  "offsetTopLeft": [
+    -30,
+    86
+  ],
+  "visibleMarginsLTRB": [
+    79,
+    146,
+    262,
+    126
+  ],
+  "durationMs": 200,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_mob06-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6953230209281165,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

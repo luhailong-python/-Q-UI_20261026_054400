@@ -1,0 +1,64 @@
+{
+  "id": "hero_leixiu_walk_03",
+  "name": "玄霆道人 行走4",
+  "file": "assets/motion/hero_leixiu/walk/hero_leixiu_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "hero_leixiu",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_03.png",
+  "sourceSha256": "e572bdedaf900322bdd7d28028d8edf2b846928ca0bf8c18d448cc9d09b15326",
+  "sha256": "822573f7f43f3146de50795cc98d32fed2783efcf9f02651e3b4e5de3306fc44",
+  "sourceAnchorXY": [
+    720,
+    1141
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6668062827225131,
+  "actualRasterScaleXY": [
+    0.6666666666666666,
+    0.6666666666666666
+  ],
+  "offsetTopLeft": [
+    32,
+    135
+  ],
+  "visibleMarginsLTRB": [
+    219,
+    200,
+    334,
+    124
+  ],
+  "durationMs": 100,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/hero_leixiu-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6668062827225131,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

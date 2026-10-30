@@ -1,0 +1,60 @@
+{
+  "id": "particle_ivory_cloud",
+  "name": "象牙云瓣",
+  "file": "assets/particles/particle_ivory_cloud.png",
+  "function": "death_or_generic",
+  "sha256": "955f0748155dc363e4f7f7f948a26c17bb9a1ee3715edf481ff7f71ec751f393",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/particles.png",
+  "sourceSha256": "a98972a2255b6874be0b98c9922ac22ae68e9191badc9e773c26f0f98b9cae1e",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    549,
+    502
+  ],
+  "sourceAnchorXY": [
+    277.0,
+    260.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.4908865979381443,
+  "offsetTopLeft": [
+    -8,
+    1
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    63,
+    33,
+    62
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

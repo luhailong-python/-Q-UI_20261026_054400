@@ -1,0 +1,60 @@
+{
+  "id": "money_pouch_30",
+  "name": "小钱袋 · 30",
+  "file": "assets/pickups/money_pouch_30.png",
+  "function": "money30",
+  "sha256": "dc47ddbee80c0d247a30043b33e2ad68ce517cc9a68413089f4e103c8c3a1f9c",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/pickups.png",
+  "sourceSha256": "00ce7fadccf0b0f5cceaff8ae70effc78b8babf44667f71de97d2167e69fccf0",
+  "sourceRectTopLeftXYWH": [
+    427,
+    812,
+    382,
+    442
+  ],
+  "sourceAnchorXY": [
+    200.0,
+    218.0
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.7106865671641791,
+  "offsetTopLeft": [
+    -14,
+    -27
+  ],
+  "visibleMarginsLTRB": [
+    38,
+    33,
+    38,
+    33
+  ],
+  "maxAlphaOutsideOutput": 1,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

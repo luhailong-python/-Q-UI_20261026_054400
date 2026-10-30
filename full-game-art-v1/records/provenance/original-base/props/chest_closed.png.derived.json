@@ -1,0 +1,33 @@
+{
+  "id": "chest_closed",
+  "file": "assets/props/chest_closed.png",
+  "sha256": "e6ea6057fe8369fc53e19cf7ab70e47b2cb4cd23291545f31339f20fcbe72682",
+  "derivedFrom": {
+    "file": "assets/ui-kit/chest_states_atlas.png",
+    "sha256": "23d8f6e1bf34c9f5e21986383de3fb03d1270c4cc2090ba63a3ae04209d12ffe",
+    "generationRecord": "assets/ui-kit/chest_states_atlas.png.generation.json"
+  },
+  "sourceRectLTRB": [
+    0,
+    0,
+    724,
+    724
+  ],
+  "scale": 0.5990639625585024,
+  "offsetTopLeft": [
+    27,
+    48
+  ],
+  "operation": "Original atlas ownership crop, uniform downscale and transparent placement; no new AI generation",
+  "nativeDetailIncreased": false,
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

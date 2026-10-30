@@ -1,0 +1,703 @@
+{
+  "screen": "survival_hud_normal",
+  "title": "生存游历",
+  "orientation": "landscape",
+  "state": "normal",
+  "file": "designs/landscape/survival_hud_normal.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "assets": [
+    {
+      "asset": "assets/context/bg_courtyard_landscape.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        1672,
+        941
+      ],
+      "resampling": "Display adaptation only, not newly generated native detail"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        35,
+        35,
+        620,
+        220
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        715,
+        40,
+        675,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        1580,
+        60,
+        270,
+        85
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    },
+    {
+      "asset": "assets/heroes/hero_daotong.png",
+      "rectTopLeft": [
+        800,
+        410,
+        340,
+        470
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/runtime/orig_mob01_runtime_E.png",
+      "rectTopLeft": [
+        360,
+        335,
+        240,
+        240
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/runtime/orig_mob02_runtime_E.png",
+      "rectTopLeft": [
+        1290,
+        355,
+        260,
+        260
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/runtime/orig_mob03_runtime_E.png",
+      "rectTopLeft": [
+        450,
+        650,
+        230,
+        230
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/runtime/orig_mob04_runtime_E.png",
+      "rectTopLeft": [
+        1180,
+        625,
+        235,
+        235
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1190,
+        855,
+        140,
+        140
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/icons/item_bomb.png",
+      "rectTopLeft": [
+        1210,
+        870,
+        100,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1360,
+        855,
+        140,
+        140
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/icons/item_magnet.png",
+      "rectTopLeft": [
+        1380,
+        870,
+        100,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1530,
+        855,
+        140,
+        140
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/icons/item_heal.png",
+      "rectTopLeft": [
+        1550,
+        870,
+        100,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_small.png",
+      "rectTopLeft": [
+        1700,
+        855,
+        140,
+        140
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/icons/item_regen.png",
+      "rectTopLeft": [
+        1720,
+        870,
+        100,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    }
+  ],
+  "texts": [
+    {
+      "text": "青云道童 · Lv.12",
+      "rectTopLeft": [
+        85,
+        55,
+        500,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "气血 998 / 1,280",
+      "rectTopLeft": [
+        85,
+        110,
+        500,
+        40
+      ],
+      "fontPixels": 24,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "经验 246 / 400",
+      "rectTopLeft": [
+        85,
+        199,
+        500,
+        36
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "02:35  ·  击杀 36  ·  铜钱 128",
+      "rectTopLeft": [
+        755,
+        56,
+        595,
+        60
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "暂停",
+      "rectTopLeft": [
+        1600,
+        65,
+        230,
+        75
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "WASD / 摇杆移动",
+      "rectTopLeft": [
+        55,
+        1025,
+        350,
+        40
+      ],
+      "fontPixels": 24,
+      "fontRole": "body",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "2",
+      "rectTopLeft": [
+        1284,
+        952,
+        36,
+        31
+      ],
+      "fontPixels": 22,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "震雷珠",
+      "rectTopLeft": [
+        1180,
+        998,
+        160,
+        38
+      ],
+      "fontPixels": 24,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "1",
+      "rectTopLeft": [
+        1454,
+        952,
+        36,
+        31
+      ],
+      "fontPixels": 22,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "聚灵铃",
+      "rectTopLeft": [
+        1350,
+        998,
+        160,
+        38
+      ],
+      "fontPixels": 24,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "2",
+      "rectTopLeft": [
+        1624,
+        952,
+        36,
+        31
+      ],
+      "fontPixels": 22,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "回春果",
+      "rectTopLeft": [
+        1520,
+        998,
+        160,
+        38
+      ],
+      "fontPixels": 24,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "2",
+      "rectTopLeft": [
+        1794,
+        952,
+        36,
+        31
+      ],
+      "fontPixels": 22,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "温元丹",
+      "rectTopLeft": [
+        1690,
+        998,
+        160,
+        38
+      ],
+      "fontPixels": 24,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "Z  /  X  /  C  /  V",
+      "rectTopLeft": [
+        1200,
+        1035,
+        640,
+        35
+      ],
+      "fontPixels": 23,
+      "fontRole": "body",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    }
+  ],
+  "primitives": [
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        85,
+        160,
+        500,
+        32
+      ],
+      "fill": "#264e43",
+      "outline": "#bd9e60",
+      "strokePixels": 2,
+      "cornerRadius": 16,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        89,
+        164,
+        384,
+        24
+      ],
+      "fill": "#a34d42",
+      "outline": null,
+      "strokePixels": 0,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        85,
+        235,
+        500,
+        16
+      ],
+      "fill": "#264e43",
+      "outline": "#bd9e60",
+      "strokePixels": 2,
+      "cornerRadius": 8,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        89,
+        239,
+        303,
+        8
+      ],
+      "fill": "#5b96a0",
+      "outline": null,
+      "strokePixels": 0,
+      "cornerRadius": 4,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "ellipse",
+      "rectTopLeft": [
+        80,
+        790,
+        220,
+        220
+      ],
+      "fill": "#cbd7c4",
+      "outline": "#d2b36a",
+      "strokePixels": 6,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "ellipse",
+      "rectTopLeft": [
+        145,
+        855,
+        90,
+        90
+      ],
+      "fill": "#729e89",
+      "outline": "#b7c9b2",
+      "strokePixels": 3,
+      "cornerRadius": 12,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        1284,
+        953,
+        36,
+        31
+      ],
+      "fill": "#1d4b3c",
+      "outline": "#c8ad73",
+      "strokePixels": 1,
+      "cornerRadius": 7,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        1454,
+        953,
+        36,
+        31
+      ],
+      "fill": "#1d4b3c",
+      "outline": "#c8ad73",
+      "strokePixels": 1,
+      "cornerRadius": 7,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        1624,
+        953,
+        36,
+        31
+      ],
+      "fill": "#1d4b3c",
+      "outline": "#c8ad73",
+      "strokePixels": 1,
+      "cornerRadius": 7,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    },
+    {
+      "type": "rounded-rect",
+      "rectTopLeft": [
+        1794,
+        953,
+        36,
+        31
+      ],
+      "fill": "#1d4b3c",
+      "outline": "#c8ad73",
+      "strokePixels": 1,
+      "cornerRadius": 7,
+      "operation": "Elementary UI geometry, not AI or hand-painted art"
+    }
+  ],
+  "sha256": "867e7e1e7c4f594d06af4553a9f562dc322cbdf26f48f88d34c179b393d5e686",
+  "content": {
+    "health": [
+      998,
+      1280
+    ],
+    "experience": [
+      246,
+      400
+    ],
+    "level": 12,
+    "kills": 36,
+    "coins": 128,
+    "elapsed": "02:35",
+    "itemIds": [
+      "item_bomb",
+      "item_magnet",
+      "item_heal",
+      "item_regen"
+    ],
+    "itemCounts": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "emptySlotCountHidden": false,
+    "autoAttack": true,
+    "activeSkillButtons": false,
+    "artIsStatic": true,
+    "allValuesIllustrative": true
+  },
+  "operation": "Static composition of original hand-painted PNGs and independent Chinese text",
+  "unityVerified": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "card_normal",
+  "file": "assets/ui-kit/card_normal.png",
+  "sha256": "67142fc5227eedc474c31c5afa05ff61041e970db8f6a85bac05f42496026deb",
+  "width": 475,
+  "height": 704,
+  "sourceRectLTRB": [
+    610,
+    52,
+    1046,
+    724
+  ],
+  "offset": [
+    19,
+    8
+  ],
+  "derivedFrom": {
+    "file": "assets/ui-kit/ui_kit_atlas.png",
+    "sha256": "ea01c36a6801bbccd0017677f4cf3f2ece1e670c6c6f99d54358422c85c4c30d",
+    "generationRecord": "assets/ui-kit/ui_kit_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": "Ownership crop and transparent canvas padding; source artwork pixels unscaled",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "imageType": "Simple",
+  "notNewAIGeneration": true,
+  "alphaRange": [
+    0,
+    254
+  ]
+}

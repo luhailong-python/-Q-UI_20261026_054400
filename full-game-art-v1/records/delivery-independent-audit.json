@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-28T10:41:21.158738+00:00",
+  "auditor": "scope_audit independent read-only delivery audit",
+  "scope": "Current disk hashes, adopted-frame/manifest/review linkage and finalizer package logic. No image editing, runtime export, global script change, new playback approval or Unity validation.",
+  "readOnlyOutsideThisRecord": true,
+  "counts": {
+    "runtimeImages": 235,
+    "screens": 131,
+    "nativeSources": 27,
+    "walkFrames": 44,
+    "walkClips": 11,
+    "uniqueRequiredActors": 11,
+    "previewFilesCurrentlyIncludedByFinalizer": 78
+  },
+  "actualChecks": {
+    "all235Runtime131Screen27NativeHashesMatch": true,
+    "all131OriginalEUIHashesMatchFrozenCopies": true,
+    "nativeReviewSelectedFilesMatchCurrent44FrameSources": true,
+    "current44NativeGenerationDigestsAndPromptFilesMatch": true,
+    "all11CurrentPlaybackEvidenceMatchesFrameSha256AndDurationOrder": true,
+    "bothFontAndOFLCurrentHashesMatch": true,
+    "manifestMotionFileHashMapEqualsCurrent44WalkAssets": true,
+    "allRequiredActorsUniqueAndCovered": true,
+    "walkAndManifestClipsBoth11": true,
+    "walkAll11Passed": true,
+    "manifestWalkAllPassed": true,
+    "manifestAllGameArtComplete": true
+  },
+  "finalizerPreviousFindingsClosed": {
+    "fontSchema": "Uses fontFiles/fontFile/fontSha256 and licenseFile/licenseSha256, checks count2 and fallback coverage.",
+    "currentPlaybackEvidence": "Requires each accepted current actor entry with exact ordered runtime frameSHA and duration list.",
+    "motionManifestPackaging": "Requires exact current44-frame file/hash dictionary in manifest before packaging; package paths include all manifest runtime PNGs.",
+    "actorIdentityCoverage": "Requires length11 plus exact fixed11 actor set; duplicate/missing identity fails.",
+    "uiBoolean": "Dedicated ui_ok checks131 copies and original-source hashes; report overrides old string-derived initializer with ui_ok.",
+    "previewEvidence": "Includes every file under previews recursively, currently78; no former JPG/html whitelist exclusion."
+  },
+  "blockingFindings": [],
+  "readyForFinalizerPackaging": true,
+  "visualEvidenceBoundary": "Root recorded actual11-identity normal/half-speed playback and composites. This agent verifies current SHA/duration linkage to that record, without claiming independent live playback observation.",
+  "limitations": [
+    "This record does not imply Unity,shader,prefab,device or business integration.",
+    "Archive itself is to be created and CRC/hash-tested by finalizer; no ZIP build was run by this read-only audit."
+  ],
+  "evidenceSnapshots": [
+    {
+      "file": "source/finalize_delivery.py",
+      "sha256": "e736d936417b59f8d362a369c12bb9365c9f36a78d093a2011cf0d6c6593bf46"
+    },
+    {
+      "file": "records/final-resource-manifest.json",
+      "sha256": "342fd2812d6ea1aaed058633cafd03b386d913c9eb459ddc9dca3c16a17e4f46"
+    },
+    {
+      "file": "records/walk-exports.json",
+      "sha256": "87bb6a1735e2a17f8bca0e194945a3b709f91370ea296152fa3202bf5f0d926d"
+    },
+    {
+      "file": "records/walk-playback-review.json",
+      "sha256": "ce6a42dfe0e1f07afadbf59e2d98e0f123d572de02ef771fa171f85b1c5eb4db"
+    },
+    {
+      "file": "records/font-sources.json",
+      "sha256": "ba37b6776d3d8208d226d08894e52e3e5f9540b4f5b3529f6df58b8314bf2e06"
+    },
+    {
+      "file": "records/final-acceptance.json",
+      "sha256": "fed3a8d7dc6f1ea4517d81eb84f8c83379a394685f9c56141c437b9004ba29bf"
+    }
+  ]
+}

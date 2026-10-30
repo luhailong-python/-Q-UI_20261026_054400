@@ -1,0 +1,1501 @@
+{
+  "schemaVersion": 1,
+  "exportedAtUtc": "2026-10-28T08:16:28.496045+00:00",
+  "scope": "G new9 static art derivatives plus2 explicitly authorized technical resources. Existing O/oldUI untouched.",
+  "runtimeFileCount": 11,
+  "newStaticArtPNGCount": 9,
+  "technicalPNGCount": 2,
+  "newAIGenerationCalls": 0,
+  "noAnimationCreated": true,
+  "assets": [
+    {
+      "id": "orig_mob05_runtime",
+      "name": "桃木小傀",
+      "purpose": "runtime",
+      "file": "assets/actors/orig_mob05.png",
+      "sha256": "7dcbd5709f7c73ffbdbab1bd47ad7520166d88963aa81dc239685c80dcc30e71",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob05.png",
+      "sourceSha256": "4a22ea7f76e17bccc3b21ab841ad33179b7c967cec4b48753337986e5a085ed0",
+      "sourceGenerationRecord": "assets/native/orig_mob05.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "visibleMarginsLTRB": [
+          171,
+          41,
+          270,
+          48
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 10383
+      },
+      "transform": {
+        "requestedUniformScale": 0.6592274678111588,
+        "actualRasterScaleXY": [
+          0.6594896331738437,
+          0.6594896331738437
+        ],
+        "resizedWholeOwnershipCanvas": [
+          827,
+          827
+        ],
+        "offsetTopLeft": [
+          131,
+          101
+        ],
+        "sourceAnchorXY": [
+          577.5,
+          1206
+        ],
+        "outputAnchorTopLeftXY": [
+          512,
+          896
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "anchorDefinition": "Static complete-body Alpha>=16 bbox bottom, horizontally centered; this does not register an animation",
+        "pivotBottomLeft": [
+          0.5,
+          0.125
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          244,
+          128,
+          780,
+          896
+        ],
+        "visibleMarginsLTRB": [
+          244,
+          128,
+          244,
+          128
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 3951
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:27.898322+00:00"
+    },
+    {
+      "id": "orig_mob05_portrait",
+      "name": "桃木小傀",
+      "purpose": "portrait",
+      "file": "assets/portraits/orig_mob05.png",
+      "sha256": "d41f18418e67ba8948e6cdfa7731730a89cad98b5d98e24cd5950aae41e60c32",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob05.png",
+      "sourceSha256": "4a22ea7f76e17bccc3b21ab841ad33179b7c967cec4b48753337986e5a085ed0",
+      "sourceGenerationRecord": "assets/native/orig_mob05.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "visibleMarginsLTRB": [
+          171,
+          41,
+          270,
+          48
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 10383
+      },
+      "transform": {
+        "requestedUniformScale": 0.3296137339055794,
+        "actualRasterScaleXY": [
+          0.3293460925039872,
+          0.3293460925039872
+        ],
+        "resizedWholeOwnershipCanvas": [
+          413,
+          413
+        ],
+        "offsetTopLeft": [
+          66,
+          51
+        ],
+        "sourceAnchorXY": [
+          577.5,
+          623.5
+        ],
+        "outputAnchorTopLeftXY": [
+          256,
+          256
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          122,
+          64,
+          390,
+          448
+        ],
+        "visibleMarginsLTRB": [
+          122,
+          64,
+          122,
+          64
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 717
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:27.935470+00:00"
+    },
+    {
+      "id": "orig_mob05_target",
+      "name": "桃木小傀",
+      "purpose": "target",
+      "file": "assets/targets/orig_mob05.png",
+      "sha256": "8e722752e5ccfb36ea2bb045e0988d419b2e19a5bf4aeca92f806c31e5a1e277",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob05.png",
+      "sourceSha256": "4a22ea7f76e17bccc3b21ab841ad33179b7c967cec4b48753337986e5a085ed0",
+      "sourceGenerationRecord": "assets/native/orig_mob05.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "visibleMarginsLTRB": [
+          171,
+          41,
+          270,
+          48
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 10383
+      },
+      "transform": {
+        "requestedUniformScale": 0.16378899241699837,
+        "actualRasterScaleXY": [
+          0.1634768740031898,
+          0.1634768740031898
+        ],
+        "resizedWholeOwnershipCanvas": [
+          205,
+          205
+        ],
+        "offsetTopLeft": [
+          34,
+          26
+        ],
+        "sourceAnchorXY": [
+          577.5,
+          623.5
+        ],
+        "outputAnchorTopLeftXY": [
+          128,
+          128
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          171,
+          41,
+          984,
+          1206
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          62,
+          32,
+          195,
+          224
+        ],
+        "visibleMarginsLTRB": [
+          62,
+          32,
+          61,
+          32
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 230
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:27.972041+00:00"
+    },
+    {
+      "id": "orig_mob06_runtime",
+      "name": "玄甲山魈",
+      "purpose": "runtime",
+      "file": "assets/actors/orig_mob06.png",
+      "sha256": "042b1eb1ea478e4163355b2b30aa003c639883cb9a8df0c2b5851c97b35194c6",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob06.png",
+      "sourceSha256": "eb60f1756d059d9def29ceee4d4b9ddad7d34f146c28888f1b9e2c02e97e05b2",
+      "sourceGenerationRecord": "assets/native/orig_mob06.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "visibleMarginsLTRB": [
+          184,
+          128,
+          159,
+          129
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 9318
+      },
+      "transform": {
+        "requestedUniformScale": 0.7703109327983951,
+        "actualRasterScaleXY": [
+          0.7703349282296651,
+          0.7703349282296651
+        ],
+        "resizedWholeOwnershipCanvas": [
+          966,
+          966
+        ],
+        "offsetTopLeft": [
+          19,
+          29
+        ],
+        "sourceAnchorXY": [
+          639.5,
+          1125
+        ],
+        "outputAnchorTopLeftXY": [
+          512,
+          896
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "anchorDefinition": "Static complete-body Alpha>=16 bbox bottom, horizontally centered; this does not register an animation",
+        "pivotBottomLeft": [
+          0.5,
+          0.125
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          161,
+          128,
+          863,
+          896
+        ],
+        "visibleMarginsLTRB": [
+          161,
+          128,
+          161,
+          128
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 4970
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.104743+00:00"
+    },
+    {
+      "id": "orig_mob06_portrait",
+      "name": "玄甲山魈",
+      "purpose": "portrait",
+      "file": "assets/portraits/orig_mob06.png",
+      "sha256": "c6a39623052f64527babf0350ff4e8103983a563c2a0034337bbd04f175e9163",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob06.png",
+      "sourceSha256": "eb60f1756d059d9def29ceee4d4b9ddad7d34f146c28888f1b9e2c02e97e05b2",
+      "sourceGenerationRecord": "assets/native/orig_mob06.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "visibleMarginsLTRB": [
+          184,
+          128,
+          159,
+          129
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 9318
+      },
+      "transform": {
+        "requestedUniformScale": 0.38377090752777815,
+        "actualRasterScaleXY": [
+          0.3835725677830941,
+          0.3835725677830941
+        ],
+        "resizedWholeOwnershipCanvas": [
+          481,
+          481
+        ],
+        "offsetTopLeft": [
+          11,
+          16
+        ],
+        "sourceAnchorXY": [
+          639.5,
+          626.5
+        ],
+        "outputAnchorTopLeftXY": [
+          256,
+          256
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          81,
+          65,
+          431,
+          448
+        ],
+        "visibleMarginsLTRB": [
+          81,
+          65,
+          81,
+          64
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 915
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.167962+00:00"
+    },
+    {
+      "id": "orig_mob06_target",
+      "name": "玄甲山魈",
+      "purpose": "target",
+      "file": "assets/targets/orig_mob06.png",
+      "sha256": "261ede6ddab93f27fb77e31a151f6c4901ce31dbb34ed98d8681eede09ded71b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/orig_mob06.png",
+      "sourceSha256": "eb60f1756d059d9def29ceee4d4b9ddad7d34f146c28888f1b9e2c02e97e05b2",
+      "sourceGenerationRecord": "assets/native/orig_mob06.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceMeasurements": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "visibleMarginsLTRB": [
+          184,
+          128,
+          159,
+          129
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 9318
+      },
+      "transform": {
+        "requestedUniformScale": 0.19257773319959878,
+        "actualRasterScaleXY": [
+          0.19218500797448165,
+          0.19218500797448165
+        ],
+        "resizedWholeOwnershipCanvas": [
+          241,
+          241
+        ],
+        "offsetTopLeft": [
+          5,
+          7
+        ],
+        "sourceAnchorXY": [
+          639.5,
+          626.5
+        ],
+        "outputAnchorTopLeftXY": [
+          128,
+          128
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          184,
+          128,
+          1095,
+          1125
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 0,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 0
+        }
+      },
+      "measurements": {
+        "size": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          40,
+          32,
+          216,
+          224
+        ],
+        "visibleMarginsLTRB": [
+          40,
+          32,
+          40,
+          32
+        ],
+        "edgeMaxAlphaLTRB": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExactly1Pixels": 264
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.192312+00:00"
+    },
+    {
+      "id": "fx_gravity_well",
+      "name": "地面引力井",
+      "purpose": "static_effect",
+      "file": "assets/effects/fx_gravity_well.png",
+      "sha256": "96a3c08991e1e2edf65064cbd00f477de73a7f5fab09efd793117ffba95dcc58",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/utility_effects.png",
+      "sourceSha256": "d6f600fb14a06a933fe9c9cb6da9c2612e07a4a57b4c3a134e02606e3732a91e",
+      "sourceGenerationRecord": "assets/native/utility_effects.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        0,
+        724,
+        825
+      ],
+      "sourceMeasurements": {
+        "size": [
+          724,
+          825
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "visibleBBoxAlpha16": [
+          72,
+          146,
+          646,
+          676
+        ],
+        "visibleMarginsLTRB": [
+          72,
+          146,
+          78,
+          149
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "alphaExactly1Pixels": 16652
+      },
+      "transform": {
+        "requestedUniformScale": 0.7804878048780488,
+        "actualRasterScaleXY": [
+          0.7803867403314917,
+          0.7806060606060606
+        ],
+        "resizedWholeOwnershipCanvas": [
+          565,
+          644
+        ],
+        "offsetTopLeft": [
+          -24,
+          -64
+        ],
+        "sourceAnchorXY": [
+          359.0,
+          411.0
+        ],
+        "outputAnchorTopLeftXY": [
+          256,
+          256
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          72,
+          146,
+          646,
+          676
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 474,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 1
+        }
+      },
+      "measurements": {
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "visibleBBoxAlpha16": [
+          32,
+          50,
+          480,
+          463
+        ],
+        "visibleMarginsLTRB": [
+          32,
+          50,
+          32,
+          49
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "alphaExactly1Pixels": 9764
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.250400+00:00"
+    },
+    {
+      "id": "look_indicator",
+      "name": "朝向指示环",
+      "purpose": "utility",
+      "file": "assets/utility/look_indicator.png",
+      "sha256": "81bf7e7bbe598932ec05e90e3fe52f8d341218145b065fc6f603693f64ccfe41",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/utility_effects.png",
+      "sourceSha256": "d6f600fb14a06a933fe9c9cb6da9c2612e07a4a57b4c3a134e02606e3732a91e",
+      "sourceGenerationRecord": "assets/native/utility_effects.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        724,
+        0,
+        530,
+        825
+      ],
+      "sourceMeasurements": {
+        "size": [
+          530,
+          825
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          74,
+          238,
+          470,
+          575
+        ],
+        "visibleMarginsLTRB": [
+          74,
+          238,
+          60,
+          250
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 16142
+      },
+      "transform": {
+        "requestedUniformScale": 0.48484848484848486,
+        "actualRasterScaleXY": [
+          0.4849056603773585,
+          0.48484848484848486
+        ],
+        "resizedWholeOwnershipCanvas": [
+          257,
+          400
+        ],
+        "offsetTopLeft": [
+          -4,
+          -69
+        ],
+        "sourceAnchorXY": [
+          272.0,
+          406.5
+        ],
+        "outputAnchorTopLeftXY": [
+          128,
+          128
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          74,
+          238,
+          470,
+          575
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 174,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 1
+        }
+      },
+      "measurements": {
+        "size": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBBoxAlpha16": [
+          32,
+          46,
+          224,
+          210
+        ],
+        "visibleMarginsLTRB": [
+          32,
+          46,
+          32,
+          46
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 2956
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.265373+00:00"
+    },
+    {
+      "id": "soft_shadow",
+      "name": "通用接地阴影",
+      "purpose": "utility",
+      "file": "assets/utility/soft_shadow.png",
+      "sha256": "d01216ac22db74fde4d0c72d6e4d60711a9d5a9f7e7775bc5ce62cf107fcfdd0",
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceAtlas": "assets/native/utility_effects.png",
+      "sourceSha256": "d6f600fb14a06a933fe9c9cb6da9c2612e07a4a57b4c3a134e02606e3732a91e",
+      "sourceGenerationRecord": "assets/native/utility_effects.png.generation.json",
+      "sourceRectTopLeftXYWH": [
+        0,
+        825,
+        724,
+        429
+      ],
+      "sourceMeasurements": {
+        "size": [
+          724,
+          429
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          133
+        ],
+        "visibleBBoxAlpha16": [
+          111,
+          142,
+          586,
+          267
+        ],
+        "visibleMarginsLTRB": [
+          111,
+          142,
+          138,
+          162
+        ],
+        "edgeMaxAlphaLTRB": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "alphaExactly1Pixels": 11888
+      },
+      "transform": {
+        "requestedUniformScale": 0.9431578947368421,
+        "actualRasterScaleXY": [
+          0.9433701657458563,
+          0.9440559440559441
+        ],
+        "resizedWholeOwnershipCanvas": [
+          683,
+          405
+        ],
+        "offsetTopLeft": [
+          -73,
+          -65
+        ],
+        "sourceAnchorXY": [
+          348.5,
+          204.5
+        ],
+        "outputAnchorTopLeftXY": [
+          256,
+          128
+        ],
+        "sourceSubjectBBoxAlpha16": [
+          111,
+          142,
+          586,
+          267
+        ],
+        "anchorDefinition": "Static visible-subject center",
+        "pivotBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "resampling": "Premultiplied-alpha Pillow RGBa Lanczos, then unpremultiply; never upscale",
+        "wholeSourceOrOwnershipCanvasPlaced": true,
+        "perFrameBBoxScaling": false,
+        "sourcePixelsDeletedToCleanEdges": false,
+        "outsideOutput": {
+          "nonzeroAlphaPixels": 3916,
+          "visibleAlpha16Pixels": 0,
+          "maxAlpha": 2
+        }
+      },
+      "measurements": {
+        "size": [
+          512,
+          256
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          133
+        ],
+        "visibleBBoxAlpha16": [
+          32,
+          69,
+          480,
+          187
+        ],
+        "visibleMarginsLTRB": [
+          32,
+          69,
+          32,
+          69
+        ],
+        "edgeMaxAlphaLTRB": [
+          2,
+          1,
+          2,
+          1
+        ],
+        "alphaExactly1Pixels": 6876
+      },
+      "operation": "Technical ownership crop/one uniform downscale/transparent placement of existing same-project original art; no AI edit or newly drawn details",
+      "newAIGeneration": false,
+      "nativeDetailIncreased": false,
+      "staticOnly": true,
+      "animationClaimed": false,
+      "sourceArtFromFDrive": false,
+      "unityVerified": false,
+      "exportedAtUtc": "2026-10-28T08:16:28.289980+00:00"
+    }
+  ],
+  "technicalAssets": [
+    {
+      "id": "env_repeat_noise",
+      "name": "确定性灰度噪声数据",
+      "file": "assets/technical/env_repeat_noise.png",
+      "sha256": "68d8906fdf2a973487c9a872d54ef5fc0be917ed746ed896b1a795bda036e4b3",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "L",
+      "alpha": false,
+      "category": "technical_data_not_handpainted_art",
+      "source": "Explicitly authorized deterministic technical data generation",
+      "newAIGeneration": false,
+      "nativePaintingClaimed": false,
+      "algorithm": {
+        "library": "numpy",
+        "version": "2.4.4",
+        "generator": "Generator(PCG64)",
+        "seed": 2026102801,
+        "call": "integers(low=0, high=256, size=(256,256), dtype=uint8)",
+        "rangeInclusive": [
+          0,
+          255
+        ]
+      },
+      "sourceScript": "source/export_new_statics.py",
+      "sourceScriptSha256": "82c68b680a8a764271cb9491f7d4b9fd3c52d4377578f7d126cbaa12d2608d5b",
+      "purpose": "Source infinite-background shader noise texture slot; contains random scalar data rather than level art",
+      "unityImportSuggestions": {
+        "textureType": "Default",
+        "sRGB": false,
+        "wrapMode": "Repeat",
+        "filterMode": "Bilinear",
+        "maxSize": 256,
+        "compression": "None for initial verification",
+        "mipmaps": "Review with shader scale and platform; not Unity-verified"
+      },
+      "unityVerified": false
+    },
+    {
+      "id": "flash_white",
+      "name": "全屏白闪基础色块",
+      "file": "assets/utility/flash_white.png",
+      "sha256": "508e92238640e05034d4f6ac7d906a3288e82dbe047b7e8f55ff4d993a7523ef",
+      "size": [
+        4,
+        4
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ],
+      "category": "basic_geometry_not_handpainted_art",
+      "source": "Explicitly authorized opaque-white primitive",
+      "newAIGeneration": false,
+      "nativePaintingClaimed": false,
+      "algorithm": "Pillow Image.new RGBA4x4 with every pixel(255,255,255,255)",
+      "sourceScript": "source/export_new_statics.py",
+      "sourceScriptSha256": "82c68b680a8a764271cb9491f7d4b9fd3c52d4377578f7d126cbaa12d2608d5b",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "purpose": "Source full-screen white flash sprite; opacity/fade controlled by future Unity integration",
+      "unityImportSuggestions": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "meshType": "Full Rect",
+        "imageType": "Simple",
+        "compression": "None",
+        "mipmap": false
+      },
+      "unityVerified": false
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "assets/native/orig_mob05.png",
+      "sha256": "4a22ea7f76e17bccc3b21ab841ad33179b7c967cec4b48753337986e5a085ed0",
+      "unchangedAfterExport": true
+    },
+    {
+      "file": "assets/native/orig_mob06.png",
+      "sha256": "eb60f1756d059d9def29ceee4d4b9ddad7d34f146c28888f1b9e2c02e97e05b2",
+      "unchangedAfterExport": true
+    },
+    {
+      "file": "assets/native/utility_effects.png",
+      "sha256": "d6f600fb14a06a933fe9c9cb6da9c2612e07a4a57b4c3a134e02606e3732a91e",
+      "unchangedAfterExport": true,
+      "nominalEqualQuartersUsed": false,
+      "ownershipSplitXY": [
+        724,
+        825
+      ],
+      "emptyOwnershipRect": [
+        724,
+        825,
+        530,
+        429
+      ],
+      "emptyVisibleAlpha16Pixels": 0,
+      "emptyMaxAlpha": 1,
+      "seamMaxAlpha": 1
+    }
+  ],
+  "warnings": [
+    {
+      "id": "native_edge_alpha",
+      "file": "assets/native/orig_mob05.png",
+      "value": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "visibleThreshold": 16,
+      "blocking": false,
+      "meaning": "Source preserved; raw-view brightRGB at alpha1 is not automatically a visible dirty edge."
+    },
+    {
+      "id": "native_edge_alpha",
+      "file": "assets/native/orig_mob06.png",
+      "value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "visibleThreshold": 16,
+      "blocking": false,
+      "meaning": "Source preserved; raw-view brightRGB at alpha1 is not automatically a visible dirty edge."
+    },
+    {
+      "id": "shadow_opacity_target",
+      "file": "assets/utility/soft_shadow.png",
+      "value": 133,
+      "requestedApproxMaxAlpha": 89,
+      "blocking": false,
+      "meaning": "Retained original generated translucent shadow; approximately52percent source opacity vs35percent prompt target. Runtime tint alpha is a future suggestion, not a validated Unity result."
+    }
+  ],
+  "errors": [],
+  "technicalPassed": true,
+  "visualReview": {
+    "status": "passed-with-recorded-nonblocking-alpha-notes",
+    "reviewedAtUtc": "2026-10-28T08:16:53.263203+00:00",
+    "actuallyViewed": [
+      "assets/native/orig_mob05.png",
+      "assets/native/orig_mob06.png",
+      "previews/new-statics-light-dark.jpg"
+    ],
+    "scope": "Both1254px native actors inspected at tool-presented resolution; final9 derivative contact cells on light ivory and dark jade. Not per-pixel QA or Unity integration.",
+    "passed": true,
+    "findings": [
+      "Faces, hands, feet and held weapons remain complete; two actor silhouettes distinct",
+      "No obvious dirty colored rim, neighboring atlas fragment, checkerboard or rectangular matte on final light/dark composites",
+      "Gravity well transparent center and outer alpha reveal both backgrounds correctly",
+      "Direction ring center is transparent; one pointer remains present",
+      "Shadow is soft genuinely translucent; darker than35percent target but source opacity retained and documented"
+    ],
+    "blockingIssues": [],
+    "unityVerified": false
+  },
+  "preview": "previews/new-statics-light-dark.jpg",
+  "unityVerified": false
+}

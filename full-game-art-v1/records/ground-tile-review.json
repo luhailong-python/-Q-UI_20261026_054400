@@ -1,0 +1,86 @@
+{
+  "createdAtUtc": "2026-10-28T08:04:21.906995+00:00",
+  "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\native\\env_battle_ground_01.png",
+  "sha256": "1ed2d2eae867411ecf1a6688554392e4794c416ad8e002b689f382d4c8b88c5b",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "numericSeamChecks": {
+    "leftRightMeanAbsRGB": 11.144869804382324,
+    "topBottomMeanAbsRGB": 11.169590950012207,
+    "internalHorizontalMeanAbsRGB": 7.096189498901367,
+    "internalVerticalMeanAbsRGB": 8.506721496582031,
+    "leftRightToInternalMeanRatio": 1.570542812347412,
+    "topBottomToInternalMeanRatio": 1.3130311965942383,
+    "leftRightToInternalColumnP95Ratio": 1.3780171871185303,
+    "topBottomToInternalRowP95Ratio": 1.1504135131835938,
+    "internalColumnMeanP95": 8.087613105773926,
+    "internalRowMeanP95": 9.709197044372559,
+    "lumaStd": 17.736363890307103
+  },
+  "seamTolerancePolicy": "Diagnostic compare against internal mean and95th-percentile whole-line gradients; numbers are symptoms, final decision requires actual3x3 visual review. No pixels blended/wrapped/retouched by processing.",
+  "preview": {
+    "file": "previews/ground-tiled-3x3.jpg",
+    "operation": "Byte-preserved source repeated3x3 at native size then reduced to1536² for inspection; not new generated detail",
+    "sourceCompositeSize": [
+      3762,
+      3762
+    ],
+    "outputSize": [
+      1536,
+      1536
+    ]
+  },
+  "actualVisualReviewCompleted": true,
+  "passed": true,
+  "status": "visual_repeat_accepted_native1254_not_exact_pixel_seamless_claim",
+  "unityVerified": false,
+  "actuallyViewed": [
+    "assets/native/env_battle_ground_01.png (builtin returned image)",
+    "previews/ground-tiled-3x3.jpg"
+  ],
+  "reviewedAtUtc": "2026-10-28T08:05:35.586622+00:00",
+  "acceptanceScope": "Native ground-art and3x3 visible repeat only; no Unity shader, camera movement, actor-overlay readability or device acceptance claimed",
+  "visualFindings": [
+    "Top-down opaque warm-grey/blue-grey hand-painted soil/flat-stone texture; low-contrast sparse pale jade moss",
+    "No sky, perspective, building, center emblem, road, text, border or collision obstacle",
+    "Actual3x3 native repetition (reduced inspection preview) has no prominent straight seam or lighting band at either join pair; periodic repeated stone clusters remain visible as expected for one tile",
+    "Natural rock variation across edges is acceptable at inspection scale; opposite edge pixels are NOT numerically identical"
+  ],
+  "diagnosticThresholds": {
+    "leftRightToInternalMeanRatioMaximum": 2.0,
+    "topBottomToInternalMeanRatioMaximum": 2.0,
+    "policy": "2x limit is a local diagnostic acceptance bound, not an industry standard or proof of exact seamlessness. Visual3x3 review required as well."
+  },
+  "warnings": [
+    {
+      "id": "native-size-below-prompt-target",
+      "value": [
+        1254,
+        1254
+      ],
+      "requested": [
+        2048,
+        2048
+      ],
+      "file": "assets/native/env_battle_ground_01.png",
+      "action": "Keep original native pixels; no upscale or claimed2048-native detail"
+    },
+    {
+      "id": "opposite-edge-not-identical",
+      "value": {
+        "leftRightMeanAbsRGB": 11.144869804382324,
+        "topBottomMeanAbsRGB": 11.169590950012207
+      },
+      "threshold": 0,
+      "file": "assets/native/env_battle_ground_01.png",
+      "action": "Accepted as natural hand-painted visual repeat; do not label mathematically exact pixel-periodic tile"
+    }
+  ],
+  "AIRepairRequired": false,
+  "imageProcessingPerformed": "Source bytes unchanged. Only native3x3 repetition and downscaled JPEG preview; no seam blending, smoothing, recolor or program-drawn terrain.",
+  "nativeDetailIncreased": false,
+  "referenceImagesUsed": [],
+  "sourceArtFromFDrive": false
+}

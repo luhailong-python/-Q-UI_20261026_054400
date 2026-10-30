@@ -1,0 +1,60 @@
+{
+  "id": "orbit_dao_book",
+  "name": "环身道卷本体",
+  "file": "assets/projectiles/orbit_dao_book.png",
+  "function": "book",
+  "sha256": "d28f06925fd7212399d361d0bbc9936b9cd3c25954ce20ebbcd6a2eb26fe962d",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_b.png",
+  "sourceSha256": "3c3325a7d474553e231b4ef8ef3853951c2ed8f9348353b852531a2854c80d9b",
+  "sourceRectTopLeftXYWH": [
+    1040,
+    0,
+    496,
+    496
+  ],
+  "sourceAnchorXY": [
+    247.0,
+    270.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.4556555023923445,
+  "offsetTopLeft": [
+    15,
+    5
+  ],
+  "visibleMarginsLTRB": [
+    32,
+    41,
+    33,
+    41
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

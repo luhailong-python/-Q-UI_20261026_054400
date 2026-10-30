@@ -1,0 +1,522 @@
+{
+  "screen": "character_select_insufficient",
+  "title": "道友出战",
+  "orientation": "portrait",
+  "state": "insufficient",
+  "file": "designs/portrait/character_select_insufficient.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "assets": [
+    {
+      "asset": "assets/ui-kit/panel_main.png",
+      "rectTopLeft": [
+        44,
+        80,
+        992,
+        1760
+      ],
+      "borderLeftBottomRightTop": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/title_plate.png",
+      "rectTopLeft": [
+        180,
+        48,
+        720,
+        150
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        100,
+        330,
+        280,
+        415
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/heroes/hero_daotong.png",
+      "rectTopLeft": [
+        130,
+        398,
+        220,
+        215
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        400,
+        330,
+        280,
+        415
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/heroes/hero_lingyi.png",
+      "rectTopLeft": [
+        430,
+        398,
+        220,
+        215
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_selected.png",
+      "rectTopLeft": [
+        700,
+        330,
+        280,
+        415
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/heroes/hero_leixiu.png",
+      "rectTopLeft": [
+        730,
+        398,
+        220,
+        215
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/panel_surface.png",
+      "rectTopLeft": [
+        125,
+        835,
+        830,
+        665
+      ],
+      "borderLeftBottomRightTop": [
+        90,
+        90,
+        90,
+        90
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/heroes/hero_leixiu.png",
+      "rectTopLeft": [
+        160,
+        975,
+        300,
+        360
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        135,
+        1645,
+        350,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": true
+    },
+    {
+      "asset": "assets/ui-kit/button_secondary.png",
+      "rectTopLeft": [
+        545,
+        1645,
+        400,
+        100
+      ],
+      "borderLeftBottomRightTop": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "renderMode": "Sliced",
+      "interactableSuggested": false
+    }
+  ],
+  "texts": [
+    {
+      "text": "道友出战",
+      "rectTopLeft": [
+        250,
+        65,
+        580,
+        90
+      ],
+      "fontPixels": 58,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "铜钱 320",
+      "rectTopLeft": [
+        140,
+        220,
+        800,
+        55
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "right",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "青云道童",
+      "rectTopLeft": [
+        120,
+        590,
+        240,
+        50
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "已拥有",
+      "rectTopLeft": [
+        120,
+        643,
+        240,
+        40
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "清荷灵医",
+      "rectTopLeft": [
+        420,
+        590,
+        240,
+        50
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "已拥有",
+      "rectTopLeft": [
+        420,
+        643,
+        240,
+        40
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "玄霆道人",
+      "rectTopLeft": [
+        720,
+        590,
+        240,
+        50
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "待解锁",
+      "rectTopLeft": [
+        720,
+        643,
+        240,
+        40
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "玄霆道人",
+      "rectTopLeft": [
+        185,
+        870,
+        710,
+        65
+      ],
+      "fontPixels": 43,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "气血  1160",
+      "rectTopLeft": [
+        500,
+        975,
+        375,
+        55
+      ],
+      "fontPixels": 31,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "护甲  2",
+      "rectTopLeft": [
+        500,
+        1057,
+        375,
+        55
+      ],
+      "fontPixels": 31,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "身法  95",
+      "rectTopLeft": [
+        500,
+        1139,
+        375,
+        55
+      ],
+      "fontPixels": 31,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "福缘  20",
+      "rectTopLeft": [
+        500,
+        1221,
+        375,
+        55
+      ],
+      "fontPixels": 31,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "初始道法：天雷符",
+      "rectTopLeft": [
+        180,
+        1370,
+        720,
+        60
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "返回游历",
+      "rectTopLeft": [
+        155,
+        1650,
+        310,
+        90
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "铜钱不足",
+      "rectTopLeft": [
+        565,
+        1650,
+        360,
+        90
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#607364",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "primitives": [
+    {
+      "type": "solid-background",
+      "color": "#aac1ac",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    }
+  ],
+  "sha256": "e7f4170408cef970feb5baf444867e96177e0900a8fcca00b067327467bd661f",
+  "content": {
+    "selectedHeroId": "hero_leixiu",
+    "walletCoins": 320,
+    "unlockPrice": 800,
+    "state": "insufficient",
+    "heroes": [
+      {
+        "id": "hero_daotong",
+        "name": "青云道童",
+        "hp": 1280,
+        "armor": 4,
+        "speed": 105,
+        "luck": 10,
+        "ability": "剑诀",
+        "owned": true
+      },
+      {
+        "id": "hero_lingyi",
+        "name": "清荷灵医",
+        "hp": 1080,
+        "armor": 3,
+        "speed": 100,
+        "luck": 15,
+        "ability": "灵葫回元",
+        "owned": true
+      },
+      {
+        "id": "hero_leixiu",
+        "name": "玄霆道人",
+        "hp": 1160,
+        "armor": 2,
+        "speed": 95,
+        "luck": 20,
+        "ability": "天雷符",
+        "owned": false,
+        "price": 800
+      }
+    ],
+    "unlockAllowed": false,
+    "dataIllustrative": true,
+    "sourceBehavior": "Choose owned character or buy unowned character when currency is sufficient"
+  },
+  "operation": "Static composition of original hand-painted PNGs and independent Chinese text",
+  "unityVerified": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hero_lingyi_walk_03",
+  "name": "清荷灵医 行走4",
+  "file": "assets/motion/hero_lingyi/walk/hero_lingyi_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "hero_lingyi",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_lingyi\\hero_lingyi_walk_03.png",
+  "sourceSha256": "f56b025bc13c2873ebb96bd96f5a9f47c7c9d04cdbea39743d060588cf9a8049",
+  "sha256": "6bc34d6f3f5ddb899c870ee0a28d65417f7fb5ec319899233227a57f3b719d6a",
+  "sourceAnchorXY": [
+    730,
+    1141
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6650835532102023,
+  "actualRasterScaleXY": [
+    0.6650717703349283,
+    0.6650717703349283
+  ],
+  "offsetTopLeft": [
+    26,
+    137
+  ],
+  "visibleMarginsLTRB": [
+    229,
+    196,
+    347,
+    115
+  ],
+  "durationMs": 100,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/hero_lingyi-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6650835532102023,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

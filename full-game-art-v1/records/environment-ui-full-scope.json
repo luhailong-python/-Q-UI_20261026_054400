@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-28T07:47:16.624384+00:00",
+  "repository": "https://github.com/matthiasbroske/VampireSurvivorsClone",
+  "commit": "01f8c76e40f52b853117f436d6d3d08f80a41506",
+  "scope": "Read-only full-game environment/UI coverage audit; writes only this JSON and ENVIRONMENT_UI_SCOPE.md. No art or existing UI changed.",
+  "readImagesFromFDrive": false,
+  "copiedUpstreamImages": false,
+  "newAIGeneration": false,
+  "unityRunOrIntegrationPerformed": false,
+  "gitMutationPerformed": false,
+  "counts": {
+    "enabledBuildScenes": 2,
+    "enabledGameplayScenes": 1,
+    "configuredLevelBlueprintFiles": 2,
+    "runtimeBoundGameplayBlueprints": 1,
+    "nonRuntimeTestLevelConfigs": 1,
+    "sourceRequiredPhysicalObstacleEnvironmentSets": 0,
+    "requiredNewHandPaintedGroundTextures": 1,
+    "technicalNoiseTexturesForCurrentShader": 1,
+    "oldScreenPNGs": 109,
+    "newScreenPNGs": 22,
+    "combinedFrozenScreenPNGs": 131,
+    "newWholeUIScreenGapsInCoreFlow": 0
+  },
+  "levelBindings": [
+    {
+      "buildIndex": 0,
+      "scene": "Assets/Scenes/Game/Main Menu.unity",
+      "role": "menu"
+    },
+    {
+      "buildIndex": 1,
+      "scene": "Assets/Scenes/Game/Level 1.unity",
+      "role": "only playable runtime arena",
+      "levelBlueprint": "Assets/Blueprints/Levels/Level 1.asset",
+      "levelBlueprintGuid": "ace7cd4ef65de4d9787fe14e2a0f8c92",
+      "mainTextureGuid": "42b11be826072496a9d57814c0ca6576",
+      "mainTexturePathFromMeta": "Assets/Textures/Backgrounds/DirtTile.png",
+      "materialGuid": "4d3d0c09b4f934051bde33d1bd75cb3c",
+      "shader": "Assets/Shaders/InfiniteTile.shader",
+      "noiseTextureGuid": "76b38aee702424d75bd6b7bafce3dfb2",
+      "noiseTexturePathFromMeta": "Assets/Textures/Noise/WhiteNoise256.png",
+      "sourceAvoidRepetition": true,
+      "sourceTextureScale": 4.5
+    },
+    {
+      "scene": null,
+      "levelBlueprint": "Assets/Blueprints/Levels/Test Level.asset",
+      "role": "unbound test config, not second playable stage",
+      "levelBlueprintGuid": "6dd215ba104914044aefbcbc17340963",
+      "texturePathFromMeta": "Assets/Textures/Backgrounds/DirtTileReddish.png"
+    },
+    {
+      "scene": "Assets/Scenes/Character Set Generation/Character Set Generation.unity",
+      "role": "tool scene from tree; not enabled in BuildSettings; no new game-level art scope"
+    }
+  ],
+  "sourceEnvironmentBehavior": "Camera-sized MeshRenderer uses world XY UVs; periodically blends reset offsets; optional noise picks2 random offsets for anti-repetition. Ground must remain coherent under repeat and random offsets.",
+  "existingCourtBackgrounds": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\context\\bg_courtyard_landscape.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "actuallyViewed": true,
+      "acceptedUse": "UI scenery/background retained unchanged",
+      "notAcceptedAs": "continuous top-down battlefield texture",
+      "visualReason": "Sky, horizon/vanishing point, upright buildings, distinctive central taiji medallion and unmatched opposite edges; no repeat seam/panning acceptance exists."
+    },
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\context\\bg_courtyard_portrait.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "actuallyViewed": true,
+      "acceptedUse": "UI scenery/background retained unchanged",
+      "notAcceptedAs": "continuous top-down battlefield texture",
+      "visualReason": "Sky, horizon/vanishing point, upright buildings, distinctive central taiji medallion and unmatched opposite edges; no repeat seam/panning acceptance exists."
+    }
+  ],
+  "requiredNewEnvironmentAssets": [
+    {
+      "id": "env_battle_ground_01",
+      "category": "hand-painted environment",
+      "count": 1,
+      "status": "missing-at-audit",
+      "suggestedOutput": "assets/environment/env_battle_ground_01.png",
+      "sourceSlot": "LevelBlueprint.backgroundTexture / InfiniteBackground _MainTex",
+      "sizeRecommendation": [
+        2048,
+        2048
+      ],
+      "alpha": false,
+      "camera": "top-down orthographic continuous ground",
+      "contract": "Seamless left/right and top/bottom, even low-contrast warm-grey/jade stone or soil; no sky/horizon/building/front-facing wall/fixed central medallion/characters/UI/text. Important ground features must survive random UV offsets. Native generation size and any rescale declared.",
+      "acceptance": [
+        "3x3 repeat board, both edge pairs visually inspected",
+        "Pan/offset in both1920x1080 and1080x1920 compositions with new actors/projectiles for readability",
+        "No false corridor/collision blocks painted into a collision-free arena",
+        "No claim of Unity shader verification"
+      ],
+      "unitySuggestion": "Texture Default, opaque, Repeat U/V, Bilinear; Mipmap/compression evaluated at real camera scale in later Unity. Starting _Scale4.5 is source evidence, not tested new art setting."
+    },
+    {
+      "id": "env_repeat_noise",
+      "category": "technical data texture",
+      "count": 1,
+      "status": "not-delivered-in-current-original-packages",
+      "suggestedOutput": "assets/environment/env_repeat_noise.png",
+      "sourceSlot": "Infinite Background.mat _NoiseTex; current WhiteNoise256",
+      "sizeRecommendation": [
+        256,
+        256
+      ],
+      "alpha": false,
+      "contract": "Own authored neutral single-channel/RGB noise data, Repeat. Record technical generation/data origin separately from hand-painted art. If later implementation disables avoid-repetition, mark this conditional rather than a missing second map.",
+      "acceptance": [
+        "Clearly tagged data texture, no copied upstream pixel data",
+        "Noise edge/pattern tested only as data; correct color-space/import choice pending shader integration"
+      ],
+      "unitySuggestion": "Texture Default, Repeat U/V; linear/sRGB choice needs shader integration validation, not blindly assume original metadata is ideal."
+    }
+  ],
+  "utilityAndOptionalEnvironmentSlots": [
+    {
+      "id": "look_indicator",
+      "sourceRequired": true,
+      "finding": "Character moves lookIndicator to lookDirection*radius; source has SpriteRenderer. A small neutral ring/marker can be supplied or mapped to an existing same-project simple sprite. No separate directional animation required.",
+      "currentStatus": "standalone runtime binding not enumerated in original manifests; needs explicit alias/export mapping, not a new full screen",
+      "recommendation": "128x128 or256x256 transparent marker, center pivot, Simple, no baked arrow rotation if source only translates; alpha check."
+    },
+    {
+      "id": "full_screen_flash",
+      "sourceRequired": true,
+      "finding": "EntityManager.Flash drives a white full-screen SpriteRenderer color over0.25sec; existing dim overlay is a different role. One neutral white texel/sprite or standard engine primitive is sufficient.",
+      "currentStatus": "integration geometry contract needed; not a new hand-painted full-screen image/animation",
+      "recommendation": "Record white full-rect geometry/1x1 or4x4 white sprite, no mipmap; scale/alpha by future Unity."
+    },
+    {
+      "id": "actor_shadow",
+      "sourceRequired": false,
+      "finding": "No dedicated runtime shadow sprite/ground shadow object or environmental cast shadows found in enabled scenes/source. A soft ellipse can be optional original embellishment, not required to call source-level map complete."
+    },
+    {
+      "id": "terrain_props_obstacles_boundaries",
+      "sourceRequired": false,
+      "finding": "No Tilemap/terrain object, wall/tree/rock/obstacle map configuration found in enabled Level1. Do not automatically add collision scenery, map borders, towns or extra levels."
+    }
+  ],
+  "uiFlowCoverage": [
+    {
+      "flow": "Main menu/start",
+      "status": "existing-preview-covered",
+      "oldScreenIds": [
+        "01-main"
+      ],
+      "newScreenIds": [],
+      "note": "Starts character selection; no new game title or logo invented."
+    },
+    {
+      "flow": "Character selection/ownership/copper purchase",
+      "status": "covered-by-new22",
+      "oldScreenIds": [
+        "03-character",
+        "03-character-appearance"
+      ],
+      "newScreenIds": [
+        "character_select_owned",
+        "character_select_buyable",
+        "character_select_insufficient"
+      ],
+      "note": "3 Chinese statics/body originals plus initial ability icons; source click buying only changes ownership, owned click starts scene1. Old demo attributes retained, new screens are source-faithful reference."
+    },
+    {
+      "flow": "Battle HUD/mobile and PC input",
+      "status": "covered-by-new22-and-existing-pause",
+      "oldScreenIds": [
+        "05-battle",
+        "05-battle-critical"
+      ],
+      "newScreenIds": [
+        "survival_hud_normal",
+        "survival_hud_empty"
+      ],
+      "note": "health/exp/level/kills/coins/timer and4 consumable slots; no3 active skill buttons inferred from frozen demo HUD."
+    },
+    {
+      "flow": "Level-up selection",
+      "status": "covered-by-new22",
+      "oldScreenIds": [],
+      "newScreenIds": [
+        "levelup_three",
+        "levelup_four",
+        "levelup_one"
+      ],
+      "note": "Immediate card selection/resume. Zero candidates closes and spawns failsafe chest; no dedicated empty choice page, reroll, skip or confirm UI required."
+    },
+    {
+      "flow": "Pause/resume/return",
+      "status": "existing-preview-covered",
+      "oldScreenIds": [
+        "06-pause",
+        "08-dialog-exit"
+      ],
+      "newScreenIds": [],
+      "note": "Source swap play/pause sprite and show/hide pauseMenu; current art may express this as text on existing button. UI state implementation remains future."
+    },
+    {
+      "flow": "Win/loss results",
+      "status": "covered-by-new22",
+      "oldScreenIds": [
+        "07-results",
+        "07-results-failed"
+      ],
+      "newScreenIds": [
+        "survival_results_win",
+        "survival_results_loss"
+      ],
+      "note": "Use source four stats coins/kills/dealt/taken; old demo result text is frozen."
+    },
+    {
+      "flow": "Locale selection",
+      "status": "covered-by-new22",
+      "oldScreenIds": [
+        "02-settings"
+      ],
+      "newScreenIds": [
+        "locale_dropdown_open"
+      ],
+      "note": "English/简体中文/繁體中文 are text/font localization; immediate switch, no source Save requirement. UI art is language independent, not3 baked copies."
+    },
+    {
+      "flow": "Settings/audio/display/control toggles",
+      "status": "existing-demo-extension-preserved",
+      "oldScreenIds": [
+        "02-settings",
+        "02-settings-display",
+        "02-settings-controls",
+        "08-dialog-restore",
+        "08-dialog-discard",
+        "08-feedback-settings-saved"
+      ],
+      "newScreenIds": [],
+      "note": "Already designed; not all have upstream business behavior. No redesign."
+    },
+    {
+      "flow": "Quests/equipment/inventory/bestiary/encounter",
+      "status": "user-confirmed-demo-extension-preserved",
+      "oldScreenIds": [
+        "03-character-equipment",
+        "03-character-skills",
+        "04-inventory",
+        "04-inventory-consumables",
+        "04-inventory-empty",
+        "04-inventory-equipment",
+        "04-inventory-materials",
+        "04-inventory-page2",
+        "10-bestiary-boss",
+        "10-bestiary-detail-boss01",
+        "10-bestiary-detail-elite01",
+        "10-bestiary-detail-mob01",
+        "10-bestiary-detail-mob02",
+        "10-bestiary-detail-mob03",
+        "10-bestiary-detail-mob04",
+        "10-bestiary-elite",
+        "10-bestiary-ordinary",
+        "10-bestiary-overview",
+        "11-encounter-boss",
+        "11-encounter-ordinary",
+        "quest_detail_daily01",
+        "quest_detail_daily02",
+        "quest_detail_daily03",
+        "quest_detail_main01",
+        "quest_detail_main02",
+        "quest_detail_main03",
+        "quest_detail_main04",
+        "quest_detail_side01",
+        "quest_detail_side02",
+        "quest_detail_side03",
+        "quest_reward_failure",
+        "quest_reward_success",
+        "quest_state_available",
+        "quest_state_claimed",
+        "quest_state_empty",
+        "quest_state_locked",
+        "quest_state_ready",
+        "quest_tracker_collapsed",
+        "quest_tracker_expanded"
+      ],
+      "newScreenIds": [],
+      "note": "10 quests and their states, filters, catalog, encounters remain separate demo scope; elite label does not prove extra upstream monster class. No automatic MMO/town/social expansion."
+    },
+    {
+      "flow": "Shop/permanent upgrade",
+      "status": "source-label-only-no-new-art-obligation",
+      "oldScreenIds": [],
+      "newScreenIds": [],
+      "note": "Scene buttons have labels but empty click persistent calls, no complete source flow; do not invent new screens or shop assets."
+    }
+  ],
+  "uiPreservationPolicy": "All109+22 screens frozen; future source-faithful binding uses added22 for corrected behavior. Do not rewrite frozen demo UI to remove its extended menus/stats.",
+  "dynamicTextAndFontBoundary": {
+    "previewFontsActuallyReadInComposer": [
+      "C:/Windows/Fonts/STKAITI.TTF",
+      "C:/Windows/Fonts/msyh.ttc"
+    ],
+    "fontFilesIncludedByThisAudit": false,
+    "runtimeFontRecommendation": "Bundle/choose a font with verified distribution rights covering English, Simplified and Traditional Chinese; use dynamic text/TMP in later integration. This audit neither grants Windows-font redistribution rights nor changes current rendered previews.",
+    "newBakedLocaleScreensRequired": false
+  },
+  "localEvidence": [
+    {
+      "file": "ProjectSettings/EditorBuildSettings.asset",
+      "line": 9,
+      "needle": "path: Assets/Scenes/Game/Main Menu.unity",
+      "sha256": "49a991230b800cc57a1f1787ce9b7373d8d6b4dbde316d7aaf9a4d3fd0e61c8f",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/ProjectSettings/EditorBuildSettings.asset#L9",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "ProjectSettings/EditorBuildSettings.asset",
+      "line": 12,
+      "needle": "path: Assets/Scenes/Game/Level 1.unity",
+      "sha256": "49a991230b800cc57a1f1787ce9b7373d8d6b4dbde316d7aaf9a4d3fd0e61c8f",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/ProjectSettings/EditorBuildSettings.asset#L12",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scenes/Game/Level 1.unity",
+      "line": 19397,
+      "needle": "levelBlueprint: {fileID: 11400000, guid: ace7cd4ef65de4d9787fe14e2a0f8c92",
+      "sha256": "fb1ea90eec1fd0d868adcbfae96af037ef6353dc8ad6edb75f5755f356622794",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scenes/Game/Level%201.unity#L19397",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scenes/Game/Level 1.unity",
+      "line": 19477,
+      "needle": "m_Name: Infinite Background",
+      "sha256": "fb1ea90eec1fd0d868adcbfae96af037ef6353dc8ad6edb75f5755f356622794",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scenes/Game/Level%201.unity#L19477",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scenes/Game/Level 1.unity",
+      "line": 19571,
+      "needle": "backgroundMaterial:",
+      "sha256": "fb1ea90eec1fd0d868adcbfae96af037ef6353dc8ad6edb75f5755f356622794",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scenes/Game/Level%201.unity#L19571",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Blueprints/Levels/Level 1.asset",
+      "line": 16,
+      "needle": "backgroundTexture:",
+      "sha256": "f6455cae1735d0aba1282eb0536902270aa9ceaacd266a211c1028feaab29b18",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Blueprints/Levels/Level%201.asset#L16",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Blueprints/Levels/Test Level.asset",
+      "line": 16,
+      "needle": "backgroundTexture:",
+      "sha256": "a974ecff757b99caa1120029999964aff9c38ba39c5bcca09b1f606ecc2280a2",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Blueprints/Levels/Test%20Level.asset#L16",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Utilities/InfiniteBackground.cs",
+      "line": 30,
+      "needle": "backgroundMaterial.mainTexture = backgroundTexture",
+      "sha256": "b3119381660ff3ae9d9a864f36c5b6ad1015ae72a6055740422d5181361b5cd7",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Utilities/InfiniteBackground.cs#L30",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Utilities/InfiniteBackground.cs",
+      "line": 23,
+      "needle": "transform.localScale = screenSizeWorldSpace",
+      "sha256": "b3119381660ff3ae9d9a864f36c5b6ad1015ae72a6055740422d5181361b5cd7",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Utilities/InfiniteBackground.cs#L23",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Utilities/InfiniteBackground.cs",
+      "line": 31,
+      "needle": "_Shockwave",
+      "sha256": "b3119381660ff3ae9d9a864f36c5b6ad1015ae72a6055740422d5181361b5cd7",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Utilities/InfiniteBackground.cs#L31",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Utilities/InfiniteBackground.cs",
+      "line": 33,
+      "needle": "_ResetOffset",
+      "sha256": "b3119381660ff3ae9d9a864f36c5b6ad1015ae72a6055740422d5181361b5cd7",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Utilities/InfiniteBackground.cs#L33",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Utilities/CharacterCamera.cs",
+      "line": 15,
+      "needle": "orthographicSize",
+      "sha256": "5377298b3de683b1ea81e60935282cf22e46ed3bf69c0d7fe9268fbd589d756f",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Utilities/CharacterCamera.cs#L15",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Main Menu/CharacterSelector.cs",
+      "line": 33,
+      "needle": "SceneManager.LoadScene(1)",
+      "sha256": "434ac74fe84c9d45ff1957357a072c7c425c8e67387956ca9e31ada60d1159aa",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Main%20Menu/CharacterSelector.cs#L33",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Main Menu/CharacterCard.cs",
+      "line": 97,
+      "needle": "public void Selected()",
+      "sha256": "89d7bfd28d62ea225029a51bd6ecaf36f157f4018be549abecf7c53eef18e1db",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Main%20Menu/CharacterCard.cs#L97",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/UI/AbilitySelectionDialog.cs",
+      "line": 40,
+      "needle": "displayedAbilities.Count > 0",
+      "sha256": "dd217df43d4cdfbd6820c0e32ffc55502d283f51d46e5d8249ab7e4da55b14ba",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/UI/AbilitySelectionDialog.cs#L40",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/UI/PauseMenu.cs",
+      "line": 16,
+      "needle": "public void PlayPause()",
+      "sha256": "7511ed428feebc673208a7335b699fa6746bb3dbaa8cd2f8ef4456bc8a1abc8d",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/UI/PauseMenu.cs#L16",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/UI/GameOverDialog.cs",
+      "line": 23,
+      "needle": "damageTaken.text",
+      "sha256": "ab170236793de89b240be96c59445baaeade3cdcd4da72dca7f71be216ed6873",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/UI/GameOverDialog.cs#L23",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Localization/LocaleDropdown.cs",
+      "line": 25,
+      "needle": "LocalizationSettings.SelectedLocale =",
+      "sha256": "9f322a2e759daebe6da7e787c7280acdbf7022a9a6e307346fa4b59b180120a7",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Localization/LocaleDropdown.cs#L25",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Monsters/EntityManager.cs",
+      "line": 157,
+      "needle": "private IEnumerator Flash()",
+      "sha256": "15d589f36d546c2d1e34af714275e1110504d21d61d4449ab40827817f23ba2a",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Monsters/EntityManager.cs#L157",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Monsters/EntityManager.cs",
+      "line": 130,
+      "needle": "infiniteBackground.Shockwave",
+      "sha256": "15d589f36d546c2d1e34af714275e1110504d21d61d4449ab40827817f23ba2a",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Monsters/EntityManager.cs#L130",
+      "readRoute": "local_text"
+    },
+    {
+      "file": "Assets/Scripts/Character/Character.cs",
+      "line": 111,
+      "needle": "lookIndicator.transform.localPosition",
+      "sha256": "97707108e98a3c253e87b527b79367d12215e53a9f583ba7a2f404fc72215a88",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Scripts/Character/Character.cs#L111",
+      "readRoute": "local_text"
+    }
+  ],
+  "remoteTextEvidence": [
+    {
+      "file": "Assets/Materials/Infinite Background.mat.meta",
+      "sha256": "7f3c64b16ddcdf98fb0be596121a2e6a4a9e54e7cf5df2ef08332336345e1d5e",
+      "line": 2,
+      "finding": "guid: 4d3d0c09b4f934051bde33d1bd75cb3c",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Materials/Infinite%20Background.mat.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Materials/Infinite Background.mat",
+      "sha256": "085504217351864fe50d8fffe449f606af2950128ac2babc55c8290541c0eef4",
+      "line": 53,
+      "finding": "_NoiseTex references GUID76b38aee702424d75bd6b7bafce3dfb2; _MainTex GUID42b11be826072496a9d57814c0ca6576 at45; _AvoidRepitition=1 at66; _Scale=4.5 at83",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Materials/Infinite%20Background.mat#L53",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Shaders/InfiniteTile.shader",
+      "sha256": "d3a463fea01f86d49b06c37e162d0bec98e47339d86d2be9c3e280ab42a0b3ea",
+      "line": 92,
+      "finding": "uv=(i.worldPosition+_ResetOffset)/_Scale; noise offset blend107..144; direct sample149",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Shaders/InfiniteTile.shader#L92",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Blueprints/Levels/Level 1.asset.meta",
+      "sha256": "35e474f3087c188315b61f1101727e24d6f948d2b8bb9363baea9e09cf05e115",
+      "line": 2,
+      "finding": "guid ace7cd4ef65de4d9787fe14e2a0f8c92",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Blueprints/Levels/Level%201.asset.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Blueprints/Levels/Test Level.asset.meta",
+      "sha256": "e6c5688677f3e72ad82b92af6a453eecba74156fb1986b1dbf7b20308168acd0",
+      "line": 2,
+      "finding": "guid6dd215ba104914044aefbcbc17340963",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Blueprints/Levels/Test%20Level.asset.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Textures/Backgrounds/DirtTile.png.meta",
+      "sha256": "b86c7d98434a52c4072d14c49674841852fab8246d88ad06c6d73b9f585ec705",
+      "line": 2,
+      "finding": "guid42b11be826072496a9d57814c0ca6576; max2048 filterBilinear wrapRepeat",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Textures/Backgrounds/DirtTile.png.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Textures/Backgrounds/DirtTileReddish.png.meta",
+      "sha256": "9584df977be10f8885dd38a069a7b9f0879308d5a811dee9970f9c16d4f77a5c",
+      "line": 2,
+      "finding": "guidef38aa5dbbc5a456591de268af081efc; Test Level only",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Textures/Backgrounds/DirtTileReddish.png.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Textures/Backgrounds/DirtTileWhite.png.meta",
+      "sha256": "9eecab28369d0f8f30f4df01d800a6146efbfe7e60b683191ab263469eda80cf",
+      "line": 2,
+      "finding": "guidd50c4000c654f40ec942ab7f2211a77f; no enabled-Level1 binding found",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Textures/Backgrounds/DirtTileWhite.png.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Textures/Noise/WhiteNoise256.png.meta",
+      "sha256": "30062f0f580acc2db07f9de74b1b54422f8570cb4e15b7180b186dc4a9ac14a6",
+      "line": 2,
+      "finding": "guid76b38aee702424d75bd6b7bafce3dfb2; current material NoiseTex",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Textures/Noise/WhiteNoise256.png.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    },
+    {
+      "file": "Assets/Textures/Noise/PerlinNoise512.jpeg.meta",
+      "sha256": "a4fdc8e96cb47f6c2276875c99c22aa0680a03ecb203943dc81f122e22496c6d",
+      "line": 2,
+      "finding": "guid28e134ddbf4444c6d8108baf5e5c18a9; not the bound background NoiseTex",
+      "url": "https://github.com/matthiasbroske/VampireSurvivorsClone/blob/01f8c76e40f52b853117f436d6d3d08f80a41506/Assets/Textures/Noise/PerlinNoise512.jpeg.meta#L2",
+      "readRoute": "exact_commit_raw_text_in_memory; no image bytes downloaded"
+    }
+  ],
+  "remainingAcceptanceLimits": [
+    "Only2 owned courtyard backgrounds actually viewed; no exhaustive original131-screen visual reacceptance performed in this audit",
+    "UI coverage is functional/index/metadata audit, not Unity implementation validation",
+    "Terrain texture+noise data and explicit utility mappings still required before art scope can close",
+    "Actor/object/motion and other art completion are audited separately by sibling agent"
+  ],
+  "status": "environment_gap_confirmed_ui_core_flow_covered",
+  "historicalScopeSnapshot": true,
+  "currentStatusRecord": "records/final-acceptance.json"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "orig_mob02_walk",
+  "actor": "orig_mob02",
+  "name": "苔玉小魁",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/orig_mob02/walk/orig_mob02_walk_00.png",
+      "sha256": "57de05a1a9ef06c20b3d471e96ae58fedcd7c067680ca01c118930d529a20df6",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_00.png",
+      "sourceAnchorXY": [
+        710,
+        1192
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6691418563922942
+    },
+    {
+      "file": "assets/motion/orig_mob02/walk/orig_mob02_walk_01.png",
+      "sha256": "a9a387b8239840067b2601a1d5b777d96762abc256af8980f78a30a94a8ed86e",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_01.png",
+      "sourceAnchorXY": [
+        710,
+        1222
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6691418563922942
+    },
+    {
+      "file": "assets/motion/orig_mob02/walk/orig_mob02_walk_02.png",
+      "sha256": "3180e48e442f2a304590b5bcfa69fc8f5cc5f9468fa21e016d8582c7c396b839",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_02_v2.png",
+      "sourceAnchorXY": [
+        710,
+        1214
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6691418563922942
+    },
+    {
+      "file": "assets/motion/orig_mob02/walk/orig_mob02_walk_03.png",
+      "sha256": "3616cc925ad9d6c4519122aaed2115948f54bfbb1b0470961e86e2d988240ffc",
+      "durationMs": 200,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_mob02\\orig_mob02_walk_03_v2.png",
+      "sourceAnchorXY": [
+        710,
+        1195
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6691418563922942
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6691418563922942,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob02_runtime_E.png",
+  "referenceStaticHeightAlpha16": 768,
+  "loop": true,
+  "durationMs": 800,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/orig_mob02-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

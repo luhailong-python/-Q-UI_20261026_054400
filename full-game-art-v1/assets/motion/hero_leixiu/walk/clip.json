@@ -1,0 +1,89 @@
+{
+  "id": "hero_leixiu_walk",
+  "actor": "hero_leixiu",
+  "name": "玄霆道人",
+  "action": "walk",
+  "animationKind": "walk",
+  "frames": [
+    {
+      "file": "assets/motion/hero_leixiu/walk/hero_leixiu_walk_00.png",
+      "sha256": "e7ce7798072fd2357b6038f17e3f0bee9937bc7c697b87b6e75bdfc1c215b771",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_00.png",
+      "sourceAnchorXY": [
+        740,
+        1180
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6668062827225131
+    },
+    {
+      "file": "assets/motion/hero_leixiu/walk/hero_leixiu_walk_01.png",
+      "sha256": "cc37d7dfb3b2af1db0372f5b69e4db84be64d9e5ad80c70795e84963295c36a4",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_01.png",
+      "sourceAnchorXY": [
+        720,
+        1180
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6668062827225131
+    },
+    {
+      "file": "assets/motion/hero_leixiu/walk/hero_leixiu_walk_02.png",
+      "sha256": "7851f46405e3e0585f2fc3aa00db4ad8e2ee94132a63992f8cae9851cc686a46",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_02_v3.png",
+      "sourceAnchorXY": [
+        730,
+        1194
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6668062827225131
+    },
+    {
+      "file": "assets/motion/hero_leixiu/walk/hero_leixiu_walk_03.png",
+      "sha256": "822573f7f43f3146de50795cc98d32fed2783efcf9f02651e3b4e5de3306fc44",
+      "durationMs": 100,
+      "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\hero_leixiu\\hero_leixiu_walk_03.png",
+      "sourceAnchorXY": [
+        720,
+        1141
+      ],
+      "cameraCalibrationFactor": 1.0,
+      "actualUniformScale": 0.6668062827225131
+    }
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6668062827225131,
+  "scaleReferencePhase": 0,
+  "staticReference": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+  "referenceStaticHeightAlpha16": 768,
+  "loop": true,
+  "durationMs": 400,
+  "artSource": "builtin image_gen individual pose edits from one original master; not I2V",
+  "nativePoseReview": "records/motion/hero_leixiu-native-review.json",
+  "playbackAccepted": true,
+  "unityVerified": false,
+  "cameraCalibrationFactors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "oneCommonScale": true,
+  "cameraCalibrationEvidence": "records/motion-head-calibration.json",
+  "registrationDisclosure": "One common scale from reference pose and physical root registration. Unapproved automated head-fit proposals are not applied. Actual source-to-output scales are recorded; no per-frame leg/bbox-size normalization.",
+  "playbackReview": "records/walk-playback-review.json"
+}

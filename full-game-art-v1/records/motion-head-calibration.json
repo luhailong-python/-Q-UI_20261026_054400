@@ -1,0 +1,6005 @@
+{
+  "scope": "Tentative technical camera-zoom correction from head only, not anatomical pose scaling",
+  "actors": [
+    {
+      "actor": "hero_daotong",
+      "selectedFiles": [
+        "assets/motion-native/hero_daotong/hero_daotong_walk_00.png",
+        "assets/motion-native/hero_daotong/hero_daotong_walk_01.png",
+        "assets/motion-native/hero_daotong/hero_daotong_walk_02_v2.png",
+        "assets/motion-native/hero_daotong/hero_daotong_walk_03.png"
+      ],
+      "referencePhase": 0,
+      "method": "NCC of rigid head/helmet interior at1/8resolution; translation search±8analysispx; no whole-body/leg-bbox height normalization",
+      "templateSize": [
+        38,
+        34
+      ],
+      "headRegionRelativeTop": [
+        0.1,
+        0.35
+      ],
+      "records": [
+        {
+          "phase": 0,
+          "relativeHeadScale": 1.0,
+          "score": 1.0,
+          "applied": false,
+          "reason": "reference rigid head/helmet phase",
+          "suggested": false
+        },
+        {
+          "phase": 1,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 1.01,
+          "score": 0.9774759411811829,
+          "scoreAt1": 0.9238027334213257,
+          "scoreImprovement": 0.05367320775985718,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.6620228290557861,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.6600643992424011,
+              "offsetYX": [
+                -5,
+                -2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.6920459270477295,
+              "offsetYX": [
+                -4,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.6897196173667908,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7247535586357117,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.7424848079681396,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7583487629890442,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7729249000549316,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7913120985031128,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.8098171353340149,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8437564969062805,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8474556803703308,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8973135948181152,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8870241641998291,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.941008985042572,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9518348574638367,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9238027334213257,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9774759411811829,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.916943371295929,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9478276968002319,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9046879410743713,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.8888709545135498,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.8691745400428772,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.8508970141410828,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8256672024726868,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8082341551780701,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.7885303497314453,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.7662198543548584,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.7302667498588562,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.7268980741500854,
+              "offsetYX": [
+                6,
+                1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.7044314742088318,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.6906914710998535,
+              "offsetYX": [
+                7,
+                0
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.6783726215362549,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.6626179814338684,
+              "offsetYX": [
+                6,
+                1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.6532301306724548,
+              "offsetYX": [
+                7,
+                2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.6315309405326843,
+              "offsetYX": [
+                8,
+                1
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.6289875507354736,
+              "offsetYX": [
+                8,
+                2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.6090766787528992,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.5932426452636719,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.5550026893615723,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.5702049732208252,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.5337412357330322,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.4972345232963562,
+              "offsetYX": [
+                8,
+                4
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.48763272166252136,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.48213866353034973,
+              "offsetYX": [
+                7,
+                2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.4764882028102875,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.47675395011901855,
+              "offsetYX": [
+                7,
+                2
+              ]
+            }
+          ],
+          "suggested": false
+        },
+        {
+          "phase": 2,
+          "relativeHeadScale": 1.15,
+          "bestCandidateFactor": 1.15,
+          "score": 0.8844865560531616,
+          "scoreAt1": 0.6816506385803223,
+          "scoreImprovement": 0.20283591747283936,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.5630840063095093,
+              "offsetYX": [
+                -8,
+                0
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.5643892288208008,
+              "offsetYX": [
+                -8,
+                0
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.5591201782226562,
+              "offsetYX": [
+                -8,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.5613676905632019,
+              "offsetYX": [
+                -8,
+                0
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.5604276061058044,
+              "offsetYX": [
+                -7,
+                6
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.5726310014724731,
+              "offsetYX": [
+                -6,
+                6
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.5725861191749573,
+              "offsetYX": [
+                -6,
+                6
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.5855116844177246,
+              "offsetYX": [
+                -5,
+                4
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.5875282883644104,
+              "offsetYX": [
+                -5,
+                5
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.6007369756698608,
+              "offsetYX": [
+                -4,
+                2
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.6049716472625732,
+              "offsetYX": [
+                -5,
+                5
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.6205158233642578,
+              "offsetYX": [
+                -4,
+                3
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.6262139678001404,
+              "offsetYX": [
+                -4,
+                5
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.6425043940544128,
+              "offsetYX": [
+                -3,
+                3
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.6521483659744263,
+              "offsetYX": [
+                -3,
+                6
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.6645513772964478,
+              "offsetYX": [
+                -2,
+                5
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.6816506385803223,
+              "offsetYX": [
+                -2,
+                6
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.6909225583076477,
+              "offsetYX": [
+                -1,
+                4
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.7191106677055359,
+              "offsetYX": [
+                -2,
+                5
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.7192471623420715,
+              "offsetYX": [
+                -2,
+                5
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.758055567741394,
+              "offsetYX": [
+                -1,
+                5
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.7674205899238586,
+              "offsetYX": [
+                0,
+                5
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.7899599671363831,
+              "offsetYX": [
+                0,
+                5
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.7909355759620667,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8131627440452576,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8247022032737732,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8270086646080017,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8603183031082153,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8696465492248535,
+              "offsetYX": [
+                2,
+                5
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8833932280540466,
+              "offsetYX": [
+                2,
+                5
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8637576699256897,
+              "offsetYX": [
+                3,
+                5
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8844865560531616,
+              "offsetYX": [
+                3,
+                5
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8531877398490906,
+              "offsetYX": [
+                3,
+                5
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.8712589144706726,
+              "offsetYX": [
+                4,
+                5
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.8478766083717346,
+              "offsetYX": [
+                3,
+                5
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.8498157262802124,
+              "offsetYX": [
+                4,
+                6
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.840013325214386,
+              "offsetYX": [
+                4,
+                5
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.833234429359436,
+              "offsetYX": [
+                5,
+                7
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.831193745136261,
+              "offsetYX": [
+                5,
+                6
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.8154855966567993,
+              "offsetYX": [
+                6,
+                7
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.8171718716621399,
+              "offsetYX": [
+                6,
+                6
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.793731689453125,
+              "offsetYX": [
+                6,
+                7
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.797394335269928,
+              "offsetYX": [
+                6,
+                7
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.7845883965492249,
+              "offsetYX": [
+                6,
+                7
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.7769579887390137,
+              "offsetYX": [
+                7,
+                7
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.7723398208618164,
+              "offsetYX": [
+                7,
+                7
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.7541221380233765,
+              "offsetYX": [
+                8,
+                7
+              ]
+            }
+          ],
+          "suggested": true
+        },
+        {
+          "phase": 3,
+          "relativeHeadScale": 1.02,
+          "bestCandidateFactor": 1.02,
+          "score": 0.9274454116821289,
+          "scoreAt1": 0.9007558822631836,
+          "scoreImprovement": 0.026689529418945312,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.6206392049789429,
+              "offsetYX": [
+                -7,
+                -2
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.6321582794189453,
+              "offsetYX": [
+                -7,
+                -2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.6526124477386475,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.6583845019340515,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.6839425563812256,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.6935076713562012,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7139233946800232,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7252423167228699,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7406987547874451,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.7539838552474976,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.767535924911499,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.7847900986671448,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8047614693641663,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8180388808250427,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8558645248413086,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.8509716987609863,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9007558822631836,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.8708449602127075,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9274454116821289,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9048938155174255,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9179319143295288,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9014818072319031,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9035952687263489,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.8734159469604492,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.882937490940094,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8462417125701904,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8471360802650452,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8146229386329651,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.7898651957511902,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.7725494503974915,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.7541724443435669,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.7402774095535278,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.7176012992858887,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.7081787586212158,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.6848579049110413,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.6657921671867371,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.653943657875061,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.638225793838501,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.6273571252822876,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.6135841012001038,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.6028743982315063,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.5888262391090393,
+              "offsetYX": [
+                7,
+                0
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.5719172358512878,
+              "offsetYX": [
+                8,
+                3
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.5675323009490967,
+              "offsetYX": [
+                8,
+                -1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.5516294240951538,
+              "offsetYX": [
+                8,
+                2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.548096239566803,
+              "offsetYX": [
+                8,
+                -1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.5332556962966919,
+              "offsetYX": [
+                8,
+                2
+              ]
+            }
+          ],
+          "suggested": true
+        }
+      ],
+      "needsVisualReview": true,
+      "notMotionGeneration": true,
+      "approvedByVisualReview": false,
+      "rejectionReason": "NCC can confuse a changed pose/ornament with zoom; actual contact review rejected large factors. No automatic factor adopted; final source poses retain one shared scale."
+    },
+    {
+      "actor": "hero_leixiu",
+      "selectedFiles": [
+        "assets/motion-native/hero_leixiu/hero_leixiu_walk_00.png",
+        "assets/motion-native/hero_leixiu/hero_leixiu_walk_01.png",
+        "assets/motion-native/hero_leixiu/hero_leixiu_walk_02.png",
+        "assets/motion-native/hero_leixiu/hero_leixiu_walk_03.png"
+      ],
+      "referencePhase": 0,
+      "method": "NCC of rigid head/helmet interior at1/8resolution; translation search±8analysispx; no whole-body/leg-bbox height normalization",
+      "templateSize": [
+        40,
+        36
+      ],
+      "headRegionRelativeTop": [
+        0.1,
+        0.35
+      ],
+      "records": [
+        {
+          "phase": 0,
+          "relativeHeadScale": 1.0,
+          "score": 1.0,
+          "applied": false,
+          "reason": "reference rigid head/helmet phase",
+          "suggested": false
+        },
+        {
+          "phase": 1,
+          "relativeHeadScale": 1.16,
+          "bestCandidateFactor": 1.16,
+          "score": 0.9772570133209229,
+          "scoreAt1": 0.8637972474098206,
+          "scoreImprovement": 0.1134597659111023,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.7610240578651428,
+              "offsetYX": [
+                -5,
+                -3
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7636942863464355,
+              "offsetYX": [
+                -5,
+                -3
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7697065472602844,
+              "offsetYX": [
+                -5,
+                -3
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7723018527030945,
+              "offsetYX": [
+                -5,
+                -3
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7760669589042664,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.7822150588035583,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7862962484359741,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7930397987365723,
+              "offsetYX": [
+                -5,
+                -3
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7952383756637573,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.8038311004638672,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8056179881095886,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8176984786987305,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.822064220905304,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8354071974754333,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8456176519393921,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.8512731194496155,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.8637972474098206,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.8639733791351318,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.8803352117538452,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.88116455078125,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.8943091034889221,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9120302200317383,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9168106317520142,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9289204478263855,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9357171654701233,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9438835382461548,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9442232251167297,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9650914072990417,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.9639260172843933,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9705753922462463,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.9721699357032776,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.9588225483894348,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.9772570133209229,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.9617998003959656,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.9624722003936768,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.9609216451644897,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.9427465200424194,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.9449304938316345,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.9322507381439209,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.9208825826644897,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.9131737947463989,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.9076929092407227,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.8934071660041809,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.891014814376831,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.8827773928642273,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.8726476430892944,
+              "offsetYX": [
+                6,
+                1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.8671246767044067,
+              "offsetYX": [
+                6,
+                1
+              ]
+            }
+          ],
+          "suggested": true
+        },
+        {
+          "phase": 2,
+          "relativeHeadScale": 1.13,
+          "bestCandidateFactor": 1.13,
+          "score": 0.9729394316673279,
+          "scoreAt1": 0.8756658434867859,
+          "scoreImprovement": 0.09727358818054199,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.768858015537262,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7746351957321167,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7810156345367432,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7828283309936523,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7908889651298523,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.7958927750587463,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7987770438194275,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.8072583079338074,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.8118509650230408,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.8193494081497192,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8242980241775513,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8346308469772339,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8390586376190186,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8506430983543396,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8576086163520813,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.8657112717628479,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.8756658434867859,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.8871995806694031,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.8942623734474182,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9029058814048767,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9174739718437195,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9200505018234253,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9318228960037231,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9411537051200867,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9472642540931702,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9547418355941772,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9695339202880859,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9529847502708435,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.9710565209388733,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9729394316673279,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.9575635194778442,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.9726907014846802,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.9526655673980713,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.9552744626998901,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.9453346729278564,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.9314893484115601,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.9290471076965332,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.9099109768867493,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.9091421365737915,
+              "offsetYX": [
+                5,
+                -1
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.8992083668708801,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.8965871334075928,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.8856903910636902,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.8806319832801819,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.8756805658340454,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.8677029609680176,
+              "offsetYX": [
+                6,
+                0
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.8648955821990967,
+              "offsetYX": [
+                7,
+                0
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.8589605689048767,
+              "offsetYX": [
+                7,
+                1
+              ]
+            }
+          ],
+          "suggested": true
+        },
+        {
+          "phase": 3,
+          "relativeHeadScale": 1.19,
+          "bestCandidateFactor": 1.19,
+          "score": 0.9720931053161621,
+          "scoreAt1": 0.8273088335990906,
+          "scoreImprovement": 0.14478427171707153,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.7470942139625549,
+              "offsetYX": [
+                -7,
+                -5
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7492122054100037,
+              "offsetYX": [
+                -7,
+                -4
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7566795945167542,
+              "offsetYX": [
+                -6,
+                -4
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7604734897613525,
+              "offsetYX": [
+                -6,
+                -4
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7675843238830566,
+              "offsetYX": [
+                -6,
+                -4
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.773888111114502,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7747902274131775,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7783961892127991,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7825231552124023,
+              "offsetYX": [
+                -6,
+                -5
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.7876400351524353,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.7895423173904419,
+              "offsetYX": [
+                -5,
+                -5
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.7966160178184509,
+              "offsetYX": [
+                -4,
+                -4
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8003755807876587,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8066593408584595,
+              "offsetYX": [
+                -5,
+                -4
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8138012886047363,
+              "offsetYX": [
+                -4,
+                -4
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.8199389576911926,
+              "offsetYX": [
+                -4,
+                -4
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.8273088335990906,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.834461510181427,
+              "offsetYX": [
+                -4,
+                -4
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.8436884880065918,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.8515399694442749,
+              "offsetYX": [
+                -3,
+                -4
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.860185980796814,
+              "offsetYX": [
+                -3,
+                -4
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.8697389960289001,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.8787990808486938,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.8864466547966003,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8937298655509949,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9059470891952515,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9087816476821899,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9230555295944214,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.9307181239128113,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9336550831794739,
+              "offsetYX": [
+                0,
+                -3
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.9513810873031616,
+              "offsetYX": [
+                0,
+                -3
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.9538715481758118,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.9629105925559998,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.9672282338142395,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.9572691917419434,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.9720931053161621,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.963911771774292,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.9661763906478882,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.9614157676696777,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.9524415135383606,
+              "offsetYX": [
+                3,
+                -2
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.9478152394294739,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.9416588544845581,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.9406305551528931,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.9314212799072266,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.9254559874534607,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.9154778718948364,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.9098041653633118,
+              "offsetYX": [
+                5,
+                -1
+              ]
+            }
+          ],
+          "suggested": true
+        }
+      ],
+      "needsVisualReview": true,
+      "notMotionGeneration": true,
+      "approvedByVisualReview": false,
+      "rejectionReason": "NCC can confuse a changed pose/ornament with zoom; actual contact review rejected large factors. No automatic factor adopted; final source poses retain one shared scale."
+    },
+    {
+      "actor": "hero_lingyi",
+      "selectedFiles": [
+        "assets/motion-native/hero_lingyi/hero_lingyi_walk_00.png",
+        "assets/motion-native/hero_lingyi/hero_lingyi_walk_01.png",
+        "assets/motion-native/hero_lingyi/hero_lingyi_walk_02.png",
+        "assets/motion-native/hero_lingyi/hero_lingyi_walk_03.png"
+      ],
+      "referencePhase": 0,
+      "method": "NCC of rigid head/helmet interior at1/8resolution; translation search±8analysispx; no whole-body/leg-bbox height normalization",
+      "templateSize": [
+        40,
+        36
+      ],
+      "headRegionRelativeTop": [
+        0.1,
+        0.35
+      ],
+      "records": [
+        {
+          "phase": 0,
+          "relativeHeadScale": 1.0,
+          "score": 1.0,
+          "applied": false,
+          "reason": "reference rigid head/helmet phase",
+          "suggested": false
+        },
+        {
+          "phase": 1,
+          "relativeHeadScale": 1.04,
+          "bestCandidateFactor": 1.04,
+          "score": 0.977148711681366,
+          "scoreAt1": 0.9339314103126526,
+          "scoreImprovement": 0.04321730136871338,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.6843615770339966,
+              "offsetYX": [
+                -7,
+                1
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.687358021736145,
+              "offsetYX": [
+                -7,
+                1
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7013468742370605,
+              "offsetYX": [
+                -6,
+                1
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7111985087394714,
+              "offsetYX": [
+                -7,
+                0
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7217679619789124,
+              "offsetYX": [
+                -6,
+                0
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.7374932169914246,
+              "offsetYX": [
+                -6,
+                0
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7494526505470276,
+              "offsetYX": [
+                -6,
+                0
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.761557400226593,
+              "offsetYX": [
+                -5,
+                0
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7705498933792114,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.7895166277885437,
+              "offsetYX": [
+                -4,
+                0
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8030388951301575,
+              "offsetYX": [
+                -4,
+                0
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8321452140808105,
+              "offsetYX": [
+                -4,
+                0
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8429754376411438,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8715344071388245,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8957607746124268,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9292928576469421,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9339314103126526,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.956672191619873,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9757454991340637,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9389841556549072,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.977148711681366,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9545974731445312,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.937778651714325,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9293661713600159,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9184519052505493,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8881432414054871,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.879946231842041,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8564447164535522,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8258450627326965,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8130624294281006,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.7892643809318542,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.780109703540802,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.7579789161682129,
+              "offsetYX": [
+                3,
+                -1
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.7511761784553528,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.7290040254592896,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.720564067363739,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.7089990973472595,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.6945725083351135,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.6890754103660583,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.6751402616500854,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.6698509454727173,
+              "offsetYX": [
+                4,
+                0
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.6578377485275269,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.6474305987358093,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.6433184146881104,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.632297933101654,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.62694251537323,
+              "offsetYX": [
+                7,
+                -2
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.6241005659103394,
+              "offsetYX": [
+                7,
+                -1
+              ]
+            }
+          ],
+          "suggested": true
+        },
+        {
+          "phase": 2,
+          "relativeHeadScale": 1.07,
+          "bestCandidateFactor": 1.07,
+          "score": 0.9830949306488037,
+          "scoreAt1": 0.8651571273803711,
+          "scoreImprovement": 0.11793780326843262,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.6456895470619202,
+              "offsetYX": [
+                -8,
+                0
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.6557480096817017,
+              "offsetYX": [
+                -7,
+                -1
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.6656297445297241,
+              "offsetYX": [
+                -7,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.6776785254478455,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.691275417804718,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.7052066326141357,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7105161547660828,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7258066534996033,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7313005924224854,
+              "offsetYX": [
+                -5,
+                -2
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.7441741824150085,
+              "offsetYX": [
+                -5,
+                0
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.7548263072967529,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.7750868201255798,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.7798154354095459,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.7991926670074463,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.8253864645957947,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.840292751789093,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.8651571273803711,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.8757247924804688,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9015571475028992,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.927743136882782,
+              "offsetYX": [
+                -2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9474126100540161,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9593075513839722,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9549168944358826,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9830949306488037,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9418144226074219,
+              "offsetYX": [
+                0,
+                -2
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9661597013473511,
+              "offsetYX": [
+                1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9426822662353516,
+              "offsetYX": [
+                1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9327300190925598,
+              "offsetYX": [
+                1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.9043300151824951,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9144170880317688,
+              "offsetYX": [
+                2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8795033693313599,
+              "offsetYX": [
+                3,
+                -3
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8769737482070923,
+              "offsetYX": [
+                3,
+                -3
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8411149978637695,
+              "offsetYX": [
+                4,
+                -3
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.8320407867431641,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.8099738955497742,
+              "offsetYX": [
+                3,
+                -2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.7829548716545105,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.7749892473220825,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.7542251348495483,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.7469915151596069,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.7295898795127869,
+              "offsetYX": [
+                5,
+                -2
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.7259981036186218,
+              "offsetYX": [
+                5,
+                -2
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.7077318429946899,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.6964756846427917,
+              "offsetYX": [
+                5,
+                -2
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.6914271116256714,
+              "offsetYX": [
+                5,
+                -2
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.6772424578666687,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.6709420680999756,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.6593887209892273,
+              "offsetYX": [
+                7,
+                -3
+              ]
+            }
+          ],
+          "suggested": true
+        },
+        {
+          "phase": 3,
+          "relativeHeadScale": 1.03,
+          "bestCandidateFactor": 1.03,
+          "score": 0.9753910303115845,
+          "scoreAt1": 0.9386149048805237,
+          "scoreImprovement": 0.03677612543106079,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.6780029535293579,
+              "offsetYX": [
+                -7,
+                -1
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.682517945766449,
+              "offsetYX": [
+                -7,
+                -2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.6996395587921143,
+              "offsetYX": [
+                -7,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7068608403205872,
+              "offsetYX": [
+                -7,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7243931889533997,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.737269937992096,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.7483277320861816,
+              "offsetYX": [
+                -6,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.7694886326789856,
+              "offsetYX": [
+                -5,
+                -1
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.7761064171791077,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.7983811497688293,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8091359734535217,
+              "offsetYX": [
+                -5,
+                -2
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8368622660636902,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8468186259269714,
+              "offsetYX": [
+                -4,
+                -3
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.8840156197547913,
+              "offsetYX": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.9103659391403198,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9291816353797913,
+              "offsetYX": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9386149048805237,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9483392238616943,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9534681439399719,
+              "offsetYX": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9753910303115845,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9633611440658569,
+              "offsetYX": [
+                -1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9501699209213257,
+              "offsetYX": [
+                0,
+                -3
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9638486504554749,
+              "offsetYX": [
+                0,
+                -3
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9395052790641785,
+              "offsetYX": [
+                1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9302496910095215,
+              "offsetYX": [
+                1,
+                -3
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8996652960777283,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8819272518157959,
+              "offsetYX": [
+                2,
+                -3
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8545179963111877,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8346120119094849,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8167995810508728,
+              "offsetYX": [
+                2,
+                -2
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.7923778295516968,
+              "offsetYX": [
+                3,
+                -3
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.7817381024360657,
+              "offsetYX": [
+                3,
+                -3
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.7621849179267883,
+              "offsetYX": [
+                3,
+                -2
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.7492970824241638,
+              "offsetYX": [
+                4,
+                -4
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.7351307272911072,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.7200199961662292,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.7094123959541321,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.7003669142723083,
+              "offsetYX": [
+                4,
+                -1
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.689743161201477,
+              "offsetYX": [
+                4,
+                -2
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.6774888038635254,
+              "offsetYX": [
+                5,
+                -1
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.6734194755554199,
+              "offsetYX": [
+                5,
+                -2
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.6599340438842773,
+              "offsetYX": [
+                6,
+                -4
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.6475680470466614,
+              "offsetYX": [
+                6,
+                -3
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.6425683498382568,
+              "offsetYX": [
+                6,
+                -2
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.6380271315574646,
+              "offsetYX": [
+                7,
+                -4
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.6338923573493958,
+              "offsetYX": [
+                7,
+                -4
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.624803364276886,
+              "offsetYX": [
+                7,
+                -4
+              ]
+            }
+          ],
+          "suggested": true
+        }
+      ],
+      "needsVisualReview": true,
+      "notMotionGeneration": true,
+      "approvedByVisualReview": false,
+      "rejectionReason": "NCC can confuse a changed pose/ornament with zoom; actual contact review rejected large factors. No automatic factor adopted; final source poses retain one shared scale."
+    },
+    {
+      "actor": "orig_mob01",
+      "selectedFiles": [
+        "assets/motion-native/orig_mob01/orig_mob01_walk_00.png",
+        "assets/motion-native/orig_mob01/orig_mob01_walk_01.png",
+        "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png",
+        "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png"
+      ],
+      "referencePhase": 0,
+      "method": "NCC of rigid head/helmet interior at1/8resolution; translation search±8analysispx; no whole-body/leg-bbox height normalization",
+      "templateSize": [
+        41,
+        36
+      ],
+      "headRegionRelativeTop": [
+        0.1,
+        0.35
+      ],
+      "records": [
+        {
+          "phase": 0,
+          "relativeHeadScale": 1.0,
+          "score": 1.0,
+          "applied": false,
+          "reason": "reference rigid head/helmet phase",
+          "suggested": false
+        },
+        {
+          "phase": 1,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 0.99,
+          "score": 0.9883518815040588,
+          "scoreAt1": 0.9769838452339172,
+          "scoreImprovement": 0.011368036270141602,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.8935523629188538,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.9009014368057251,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.9040986895561218,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.9119687676429749,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.9272620677947998,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.9297563433647156,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.9268447756767273,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.9413889646530151,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.9399487376213074,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.9474451541900635,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.9444636106491089,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.9636645317077637,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.974144697189331,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9689329266548157,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.9753126502037048,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9883518815040588,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9769838452339172,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9636016488075256,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9697709679603577,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9639953970909119,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9526286721229553,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9358584880828857,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9322489500045776,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.927247941493988,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9170277714729309,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9120216369628906,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.910532534122467,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9009096026420593,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8920491933822632,
+              "offsetYX": [
+                2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8891820311546326,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8851508498191833,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8788301348686218,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8720057010650635,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.8729989528656006,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.8664619326591492,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.8576081395149231,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.8561164736747742,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.8534305691719055,
+              "offsetYX": [
+                6,
+                3
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.848904550075531,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.8423105478286743,
+              "offsetYX": [
+                5,
+                0
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.8383179903030396,
+              "offsetYX": [
+                7,
+                3
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.8327893614768982,
+              "offsetYX": [
+                7,
+                3
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.8268542289733887,
+              "offsetYX": [
+                6,
+                1
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.8213565349578857,
+              "offsetYX": [
+                7,
+                2
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.814785361289978,
+              "offsetYX": [
+                8,
+                4
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.8134765028953552,
+              "offsetYX": [
+                7,
+                1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.8057215809822083,
+              "offsetYX": [
+                6,
+                1
+              ]
+            }
+          ],
+          "suggested": false
+        },
+        {
+          "phase": 2,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 1.01,
+          "score": 0.9897496700286865,
+          "scoreAt1": 0.9699761867523193,
+          "scoreImprovement": 0.019773483276367188,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.874293863773346,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.8867820501327515,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.8944326639175415,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.9051487445831299,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.9083282351493835,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.9107744097709656,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.9231078028678894,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.9330852031707764,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.9316579699516296,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.9358551502227783,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.9407269358634949,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.9506771564483643,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.9577231407165527,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9652848839759827,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.9758449196815491,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9854316711425781,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9699761867523193,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9897496700286865,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.988919198513031,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9743740558624268,
+              "offsetYX": [
+                0,
+                -1
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9656620025634766,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9640359878540039,
+              "offsetYX": [
+                1,
+                1
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9546142816543579,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9389249682426453,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9303743243217468,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9265629649162292,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9261473417282104,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9098925590515137,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.9098699688911438,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9088650345802307,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8949540853500366,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8921111822128296,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8912699818611145,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.8843785524368286,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.8790035843849182,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.8731428384780884,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.8718115091323853,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.8642109632492065,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.860683262348175,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.8559672236442566,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.8547792434692383,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.8485113382339478,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.8401167988777161,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.8384142518043518,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.8320556879043579,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.8293408751487732,
+              "offsetYX": [
+                6,
+                1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.8222344517707825,
+              "offsetYX": [
+                6,
+                2
+              ]
+            }
+          ],
+          "suggested": false
+        },
+        {
+          "phase": 3,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 1.0,
+          "score": 0.9880994558334351,
+          "scoreAt1": 0.9880994558334351,
+          "scoreImprovement": 0.0,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.8711599707603455,
+              "offsetYX": [
+                -4,
+                0
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.8729560971260071,
+              "offsetYX": [
+                -4,
+                -1
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.8808944821357727,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.8811582326889038,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.9008412957191467,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.9120216369628906,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.9055197834968567,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.9132535457611084,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.9226660132408142,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.929233193397522,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.9381705522537231,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.9425586462020874,
+              "offsetYX": [
+                -1,
+                1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.9488346576690674,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9637381434440613,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.961925745010376,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9678793549537659,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9880994558334351,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9825146198272705,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9726507663726807,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9797494411468506,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.974128246307373,
+              "offsetYX": [
+                0,
+                1
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9561130404472351,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9530202746391296,
+              "offsetYX": [
+                1,
+                1
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9536024332046509,
+              "offsetYX": [
+                1,
+                2
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.9536038041114807,
+              "offsetYX": [
+                1,
+                1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.9373860359191895,
+              "offsetYX": [
+                1,
+                1
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.9317836761474609,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.9306135773658752,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.922003984451294,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.9117511510848999,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.9095653295516968,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.9133676886558533,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.9004265069961548,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.8995488286018372,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.8982715606689453,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.8916446566581726,
+              "offsetYX": [
+                4,
+                3
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.8886639475822449,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.8818498849868774,
+              "offsetYX": [
+                5,
+                3
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.8802027702331543,
+              "offsetYX": [
+                5,
+                3
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.8755295276641846,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.8720565438270569,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.8660498857498169,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.8623453378677368,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.8610319495201111,
+              "offsetYX": [
+                6,
+                3
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.852010190486908,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.8507916927337646,
+              "offsetYX": [
+                6,
+                2
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.8449046611785889,
+              "offsetYX": [
+                7,
+                3
+              ]
+            }
+          ],
+          "suggested": false
+        }
+      ],
+      "needsVisualReview": true,
+      "notMotionGeneration": true,
+      "approvedByVisualReview": false,
+      "rejectionReason": "NCC can confuse a changed pose/ornament with zoom; actual contact review rejected large factors. No automatic factor adopted; final source poses retain one shared scale."
+    },
+    {
+      "actor": "orig_mob05",
+      "selectedFiles": [
+        "assets/motion-native/orig_mob05/orig_mob05_walk_00.png",
+        "assets/motion-native/orig_mob05/orig_mob05_walk_03.png",
+        "assets/motion-native/orig_mob05/orig_mob05_walk_02_v2.png",
+        "assets/motion-native/orig_mob05/orig_mob05_walk_01.png"
+      ],
+      "referencePhase": 0,
+      "method": "NCC of rigid head/helmet interior at1/8resolution; translation search±8analysispx; no whole-body/leg-bbox height normalization",
+      "templateSize": [
+        41,
+        36
+      ],
+      "headRegionRelativeTop": [
+        0.1,
+        0.35
+      ],
+      "records": [
+        {
+          "phase": 0,
+          "relativeHeadScale": 1.0,
+          "score": 1.0,
+          "applied": false,
+          "reason": "reference rigid head/helmet phase",
+          "suggested": false
+        },
+        {
+          "phase": 1,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 1.01,
+          "score": 0.9565037488937378,
+          "scoreAt1": 0.9362128973007202,
+          "scoreImprovement": 0.020290851593017578,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.7597152590751648,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7652457356452942,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.77090984582901,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7777635455131531,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7872974276542664,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.797939121723175,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.8035518527030945,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.8137659430503845,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.8184322118759155,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.8333750367164612,
+              "offsetYX": [
+                -2,
+                1
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.844072699546814,
+              "offsetYX": [
+                -2,
+                1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.8688691258430481,
+              "offsetYX": [
+                -2,
+                1
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.8788626790046692,
+              "offsetYX": [
+                -2,
+                1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9014642238616943,
+              "offsetYX": [
+                -1,
+                1
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.911702573299408,
+              "offsetYX": [
+                -1,
+                2
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9176062345504761,
+              "offsetYX": [
+                -1,
+                2
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9362128973007202,
+              "offsetYX": [
+                0,
+                2
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9565037488937378,
+              "offsetYX": [
+                0,
+                2
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9242403507232666,
+              "offsetYX": [
+                1,
+                2
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9506284594535828,
+              "offsetYX": [
+                1,
+                2
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.947198748588562,
+              "offsetYX": [
+                1,
+                2
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.9081140756607056,
+              "offsetYX": [
+                1,
+                2
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.9221318960189819,
+              "offsetYX": [
+                2,
+                2
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.9110832810401917,
+              "offsetYX": [
+                2,
+                2
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8841816186904907,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8702256083488464,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8621935248374939,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.84959876537323,
+              "offsetYX": [
+                2,
+                3
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8378307223320007,
+              "offsetYX": [
+                2,
+                3
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8264718651771545,
+              "offsetYX": [
+                2,
+                2
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8127054572105408,
+              "offsetYX": [
+                3,
+                3
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8074427843093872,
+              "offsetYX": [
+                3,
+                3
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8044348955154419,
+              "offsetYX": [
+                3,
+                3
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.7993108034133911,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.7892628312110901,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.7820023894309998,
+              "offsetYX": [
+                4,
+                3
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.782050371170044,
+              "offsetYX": [
+                4,
+                3
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.7742010354995728,
+              "offsetYX": [
+                4,
+                3
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.7705734372138977,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.7683853507041931,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.7662649154663086,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.7669272422790527,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.7675833106040955,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.762714147567749,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.7620576620101929,
+              "offsetYX": [
+                5,
+                2
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.7672016620635986,
+              "offsetYX": [
+                5,
+                1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.7643529176712036,
+              "offsetYX": [
+                5,
+                1
+              ]
+            }
+          ],
+          "suggested": false
+        },
+        {
+          "phase": 2,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 0.99,
+          "score": 0.9723742604255676,
+          "scoreAt1": 0.9357361197471619,
+          "scoreImprovement": 0.03663814067840576,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.7742997407913208,
+              "offsetYX": [
+                -3,
+                2
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7785735726356506,
+              "offsetYX": [
+                -3,
+                2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7914849519729614,
+              "offsetYX": [
+                -3,
+                3
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7928815484046936,
+              "offsetYX": [
+                -3,
+                2
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.7941259741783142,
+              "offsetYX": [
+                -3,
+                2
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.8082600235939026,
+              "offsetYX": [
+                -2,
+                3
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.8147422075271606,
+              "offsetYX": [
+                -3,
+                3
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.8333997130393982,
+              "offsetYX": [
+                -3,
+                3
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.8485663533210754,
+              "offsetYX": [
+                -3,
+                4
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.877464234828949,
+              "offsetYX": [
+                -3,
+                4
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.8779613971710205,
+              "offsetYX": [
+                -3,
+                4
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.9064030647277832,
+              "offsetYX": [
+                -2,
+                4
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.9275813698768616,
+              "offsetYX": [
+                -2,
+                3
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9244322776794434,
+              "offsetYX": [
+                -2,
+                3
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.946831226348877,
+              "offsetYX": [
+                -1,
+                5
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9723742604255676,
+              "offsetYX": [
+                -1,
+                4
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9357361197471619,
+              "offsetYX": [
+                -1,
+                4
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9514714479446411,
+              "offsetYX": [
+                0,
+                4
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9512388706207275,
+              "offsetYX": [
+                0,
+                4
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9193571209907532,
+              "offsetYX": [
+                0,
+                5
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9053577780723572,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.8896118402481079,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.8721890449523926,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.8526079654693604,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8442186117172241,
+              "offsetYX": [
+                1,
+                4
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8320252895355225,
+              "offsetYX": [
+                2,
+                6
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8285359740257263,
+              "offsetYX": [
+                2,
+                5
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8241273760795593,
+              "offsetYX": [
+                2,
+                5
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8106285333633423,
+              "offsetYX": [
+                2,
+                5
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8070736527442932,
+              "offsetYX": [
+                1,
+                5
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.7980592846870422,
+              "offsetYX": [
+                2,
+                6
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8026253581047058,
+              "offsetYX": [
+                2,
+                6
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.7944290041923523,
+              "offsetYX": [
+                2,
+                6
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.7830557823181152,
+              "offsetYX": [
+                2,
+                6
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.772296667098999,
+              "offsetYX": [
+                3,
+                6
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.772310197353363,
+              "offsetYX": [
+                3,
+                6
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.7701740264892578,
+              "offsetYX": [
+                3,
+                6
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.7614345550537109,
+              "offsetYX": [
+                3,
+                7
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.7582932710647583,
+              "offsetYX": [
+                3,
+                6
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.749417781829834,
+              "offsetYX": [
+                4,
+                7
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.748349666595459,
+              "offsetYX": [
+                4,
+                7
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.7482240796089172,
+              "offsetYX": [
+                4,
+                6
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.7470221519470215,
+              "offsetYX": [
+                4,
+                7
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.7443111538887024,
+              "offsetYX": [
+                4,
+                6
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.7372456192970276,
+              "offsetYX": [
+                4,
+                6
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.7386996150016785,
+              "offsetYX": [
+                5,
+                7
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.7382596731185913,
+              "offsetYX": [
+                5,
+                7
+              ]
+            }
+          ],
+          "suggested": false
+        },
+        {
+          "phase": 3,
+          "relativeHeadScale": 1.0,
+          "bestCandidateFactor": 1.01,
+          "score": 0.9753965139389038,
+          "scoreAt1": 0.9635854363441467,
+          "scoreImprovement": 0.01181107759475708,
+          "applied": false,
+          "reason": "Rigid head/helmet template scale fit; legs, ground and full-body bbox are excluded from scale score",
+          "curve": [
+            {
+              "factor": 0.84,
+              "score": 0.7799842357635498,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.85,
+              "score": 0.7859900593757629,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.86,
+              "score": 0.7876526117324829,
+              "offsetYX": [
+                -4,
+                -2
+              ]
+            },
+            {
+              "factor": 0.87,
+              "score": 0.7963407635688782,
+              "offsetYX": [
+                -3,
+                -2
+              ]
+            },
+            {
+              "factor": 0.88,
+              "score": 0.8086887001991272,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.89,
+              "score": 0.8154074549674988,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.9,
+              "score": 0.8209852576255798,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.91,
+              "score": 0.8389013409614563,
+              "offsetYX": [
+                -3,
+                0
+              ]
+            },
+            {
+              "factor": 0.92,
+              "score": 0.8506344556808472,
+              "offsetYX": [
+                -3,
+                -1
+              ]
+            },
+            {
+              "factor": 0.93,
+              "score": 0.8680931925773621,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.94,
+              "score": 0.886989951133728,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.95,
+              "score": 0.9126192927360535,
+              "offsetYX": [
+                -2,
+                0
+              ]
+            },
+            {
+              "factor": 0.96,
+              "score": 0.9025118947029114,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 0.97,
+              "score": 0.9436004161834717,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.98,
+              "score": 0.9545710682868958,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 0.99,
+              "score": 0.9300923347473145,
+              "offsetYX": [
+                -2,
+                -1
+              ]
+            },
+            {
+              "factor": 1.0,
+              "score": 0.9635854363441467,
+              "offsetYX": [
+                -1,
+                0
+              ]
+            },
+            {
+              "factor": 1.01,
+              "score": 0.9753965139389038,
+              "offsetYX": [
+                -1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.02,
+              "score": 0.9343544244766235,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.03,
+              "score": 0.9556593894958496,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.04,
+              "score": 0.9338800311088562,
+              "offsetYX": [
+                0,
+                0
+              ]
+            },
+            {
+              "factor": 1.05,
+              "score": 0.8958932757377625,
+              "offsetYX": [
+                1,
+                1
+              ]
+            },
+            {
+              "factor": 1.06,
+              "score": 0.8945721983909607,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.07,
+              "score": 0.8765130639076233,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.08,
+              "score": 0.8656905293464661,
+              "offsetYX": [
+                1,
+                -1
+              ]
+            },
+            {
+              "factor": 1.09,
+              "score": 0.8472330570220947,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.1,
+              "score": 0.8451474905014038,
+              "offsetYX": [
+                1,
+                0
+              ]
+            },
+            {
+              "factor": 1.11,
+              "score": 0.8331290483474731,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.12,
+              "score": 0.8293965458869934,
+              "offsetYX": [
+                2,
+                1
+              ]
+            },
+            {
+              "factor": 1.13,
+              "score": 0.8273972272872925,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.14,
+              "score": 0.8108755350112915,
+              "offsetYX": [
+                2,
+                0
+              ]
+            },
+            {
+              "factor": 1.15,
+              "score": 0.8031594157218933,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.16,
+              "score": 0.8015897870063782,
+              "offsetYX": [
+                3,
+                0
+              ]
+            },
+            {
+              "factor": 1.17,
+              "score": 0.801959216594696,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.18,
+              "score": 0.7919901609420776,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.19,
+              "score": 0.7797261476516724,
+              "offsetYX": [
+                3,
+                2
+              ]
+            },
+            {
+              "factor": 1.2,
+              "score": 0.7778280973434448,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.21,
+              "score": 0.7754675149917603,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.22,
+              "score": 0.7727449536323547,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.23,
+              "score": 0.7667004466056824,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.24,
+              "score": 0.764543354511261,
+              "offsetYX": [
+                3,
+                1
+              ]
+            },
+            {
+              "factor": 1.25,
+              "score": 0.7598912119865417,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.26,
+              "score": 0.7597445845603943,
+              "offsetYX": [
+                4,
+                2
+              ]
+            },
+            {
+              "factor": 1.27,
+              "score": 0.7606285810470581,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.28,
+              "score": 0.7576709389686584,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.29,
+              "score": 0.7535572648048401,
+              "offsetYX": [
+                4,
+                1
+              ]
+            },
+            {
+              "factor": 1.3,
+              "score": 0.7508764863014221,
+              "offsetYX": [
+                5,
+                2
+              ]
+            }
+          ],
+          "suggested": false
+        }
+      ],
+      "needsVisualReview": true,
+      "notMotionGeneration": true,
+      "approvedByVisualReview": false,
+      "rejectionReason": "NCC can confuse a changed pose/ornament with zoom; actual contact review rejected large factors. No automatic factor adopted; final source poses retain one shared scale."
+    }
+  ]
+}

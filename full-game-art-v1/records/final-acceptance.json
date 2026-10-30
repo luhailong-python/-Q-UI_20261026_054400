@@ -1,0 +1,29 @@
+{
+  "reviewedAtUtc": "2026-10-28T10:40:34.893502+00:00",
+  "scope": "Fixed-commit complete image/UI art scope plus previously confirmed demo quests; Unity intentionally next stage",
+  "allGameArtComplete": true,
+  "failures": [],
+  "runtimeImageCount": 235,
+  "designScreenCount": 131,
+  "bodyIdentityCount": 11,
+  "walkClipCount": 11,
+  "walkFrameCount": 44,
+  "all11WalksAccepted": true,
+  "checkedImageEntries": 393,
+  "oldUI131ByteIdentical": true,
+  "actualVisualEvidence": [
+    "records/walk-playback-review.json",
+    "records/fx-playback-review.json",
+    "records/ground-tile-review.json",
+    "records/composite-playback-review.json",
+    "records/scope-audit-20261028.json"
+  ],
+  "limitations": [
+    "Four independently AI-painted key cels per identity: deliberately stepped stylized loops, not fluid video or additional action families.",
+    "Native image-generation model and quality selectors/returns are undisclosed; configured targets are not verified actual model metadata.",
+    "Ground native size1254x1254; opposite edges differ numerically, visually reviewed repeat rather than mathematically identical seams.",
+    "Unity import, shader, prefabs, scene, behavior, controls, device performance and production localization remain next stage."
+  ],
+  "unityVerified": false,
+  "gitCommittedOrPublished": false
+}

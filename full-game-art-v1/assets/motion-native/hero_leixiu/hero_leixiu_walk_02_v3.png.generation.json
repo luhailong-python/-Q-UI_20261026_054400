@@ -1,0 +1,74 @@
+{
+  "file": "assets/motion-native/hero_leixiu/hero_leixiu_walk_02_v3.png",
+  "sha256": "740281b3c29f7bb1daec4a833ffdd9bbf0f664d7d38cf6a35e0cd219b1ad179f",
+  "operation": "AI individual pose edit from approved original master; not image-to-video and not transformed still animation",
+  "actor": "hero_leixiu",
+  "action": "walk",
+  "phase": 2,
+  "phaseRole": "right-contact",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "prompt": "records/prompts/hero_leixiu_walk_02_v3.txt",
+  "promptSha256": "2b7688a1c54abbf1a9e5d8ad2c5253ce39626ccfa5a10c7628e324147fd4d863",
+  "actualSubmittedToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: one single independently painted opposite-contact WALK cel of the attached original elderly Daoist mage. Genuine transparent background. The sole attached image is the identity, costume and style master. Preserve exact friendly elderly face, white hair and long beard, small jade Daoist crown, jade/ivory/warm-gold robes and belt, ONE jade staff held by the same camera-near hand at IMAGE LEFT, ONE gold flame-shaped talisman in the same other hand at IMAGE RIGHT. Same three-quarter view facing image RIGHT, fixed upper-body/head size and camera, clear margin around entire body. Required opposite walking contact: CAMERA-NEAR leg extends diagonally FORWARD TOWARD THE VIEWER AND DOWN-LEFT. Its large foreground jade/gold shoe must sit IMAGE LEFT of pelvis, visibly lower and larger and on the ground. CAMERA-FAR leg trails BACK AND IMAGE RIGHT, with smaller rear shoe higher and heel lifting. Lift/open the robe hem naturally enough that two trouser shins and their separate ownership are readable. Do not paint another right-front shoe with left leg behind. This is a calm walking contact, no jump/dance/static straddle. Arms remain naturally bent carrying staff/talisman, props move only slightly, staff tip is not a third foot. Preserve every costume material, fine hand-painted chibi texture and same face/proportions. No mirror, extra limb, missing hand, new prop, shadows, background, words or sheet. Single complete pose.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "selectorEvidence": "Tool exposes no model/quality selectors and returns no identifying metadata",
+  "references": [
+    {
+      "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+      "sha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+      "role": "identity/shape/costume master, actually viewed before AI edit",
+      "sameProjectOriginal": true
+    }
+  ],
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-3442e43a-63e2-4c7f-98c1-9a2a64ee2ab6.png",
+    "imageDataOmittedFromText": true,
+    "imageUrlType": "data:image/png;base64 (omitted; retained PNG has exact returned pixels)",
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-3442e43a-63e2-4c7f-98c1-9a2a64ee2ab6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "generatedAtUtc": "2026-10-28T10:18:24.675079+00:00",
+  "generationTimeEvidence": "Output-file LastWriteTimeUtc; tool returned no time field",
+  "recordedAtUtc": "2026-10-28T10:18:48.140898+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceArtFromFDrive": false,
+  "adoptedForPlayback": false,
+  "status": "native-pose-awaiting-registration-and-visual-review",
+  "scope": "phase2 opposite-contact repair after second static reviewer found same foreground leg in phase0/2",
+  "actualToolReceipt": "records/motion/hero_leixiu-phase2-v3-tool-receipt.json",
+  "actualToolReceiptSha256": "ddcd9a0d742fff3b6935a080ab6fa57e2bca3c8179425c70c9aed8b08ad3b992"
+}

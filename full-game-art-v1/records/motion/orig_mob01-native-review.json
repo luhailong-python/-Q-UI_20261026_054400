@@ -1,0 +1,147 @@
+{
+  "actor": "orig_mob01",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob01/orig_mob01_walk_00.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_01.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_02_v3.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png"
+  ],
+  "anchors": [
+    {
+      "sourceTorsoX": 660,
+      "sourceGroundY": 1185
+    },
+    {
+      "sourceTorsoX": 660,
+      "sourceGroundY": 1208
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 665,
+      "sourceGroundY": 1229,
+      "definition": "Manually observed chest/head axis and foremost planted shoe sole plane; not bbox-center normalization",
+      "supportNote": "v3 visibly plants the LARGE camera-near boot DOWN-LEFT of pelvis; small camera-far boot trails BACK/RIGHT higher with heel rising. Two shins/thigh overlap differs from phase0.",
+      "approximatePixelTolerance": 10
+    },
+    {
+      "sourceTorsoX": 665,
+      "sourceGroundY": 1201
+    }
+  ],
+  "anchorMethod": "TorsoX manually marked through folded-paper neck/chest axis; GroundY manually verified actual contact paper-boot sole, not ribbon/hat bbox; approximate native-pixel registration suggestions.",
+  "animationKind": "walk",
+  "passed": true,
+  "blockingIssues": [],
+  "findings": [
+    "All4 selected local native files actually viewed; face, jade eyes, folded-paper material, hat, cinnabar motif and handed view retained",
+    "4 genuine individually AI-painted poses.02/03 original attempts were too similar in leg phase; selectedv2 versions preserve stronger lower-body articulation.03v2 clearly raises viewer-left paper boot while01 raises viewer-right",
+    "Contact overlap remains subtle because ivory folded limbs have no distinct skin/color cue; root must inspect gait at output scale and may reject contact rhythm after playback",
+    "No extra limbs or cut subject at Alpha>=16 observed. The8percent native clear-margin prompt was not fully followed; root must apply one shared downscale and fixed transparent canvas",
+    "Native near-zero Alpha1 outer pixels remain; do not mistake raw RGB fringes for visible dirty edges without compositing",
+    "Second review rejects old phase2 leg ownership: Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+    "Replaced only phase2 with independent builtin AI v3 edit from original master. v3 visibly plants the LARGE camera-near boot DOWN-LEFT of pelvis; small camera-far boot trails BACK/RIGHT higher with heel rising. Two shins/thigh overlap differs from phase0. Face/costume marks, two hands and prop ownership retained; no mirror or extra limb."
+  ],
+  "actuallyViewed": [
+    "assets/motion-native/orig_mob01/orig_mob01_walk_00.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_01.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png"
+  ],
+  "unselectedFiles": [
+    "assets/motion-native/orig_mob01/orig_mob01_walk_02.png",
+    "assets/motion-native/orig_mob01/orig_mob01_walk_03.png"
+  ],
+  "playbackAccepted": false,
+  "unityVerified": false,
+  "reviewedAtUtc": "2026-10-28T10:22:19.478206+00:00",
+  "priorNativeReviewSnapshots": [
+    {
+      "supersededAtUtc": "2026-10-28T10:22:19.478206+00:00",
+      "reason": "Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+      "record": {
+        "actor": "orig_mob01",
+        "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob01\\orig_mob01_master_E.png",
+        "selectedFiles": [
+          "assets/motion-native/orig_mob01/orig_mob01_walk_00.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_01.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png"
+        ],
+        "anchors": [
+          {
+            "sourceTorsoX": 660,
+            "sourceGroundY": 1185
+          },
+          {
+            "sourceTorsoX": 660,
+            "sourceGroundY": 1208
+          },
+          {
+            "sourceTorsoX": 670,
+            "sourceGroundY": 1214
+          },
+          {
+            "sourceTorsoX": 665,
+            "sourceGroundY": 1201
+          }
+        ],
+        "anchorMethod": "TorsoX manually marked through folded-paper neck/chest axis; GroundY manually verified actual contact paper-boot sole, not ribbon/hat bbox; approximate native-pixel registration suggestions.",
+        "animationKind": "walk",
+        "passed": true,
+        "blockingIssues": [],
+        "findings": [
+          "All4 selected local native files actually viewed; face, jade eyes, folded-paper material, hat, cinnabar motif and handed view retained",
+          "4 genuine individually AI-painted poses.02/03 original attempts were too similar in leg phase; selectedv2 versions preserve stronger lower-body articulation.03v2 clearly raises viewer-left paper boot while01 raises viewer-right",
+          "Contact overlap remains subtle because ivory folded limbs have no distinct skin/color cue; root must inspect gait at output scale and may reject contact rhythm after playback",
+          "No extra limbs or cut subject at Alpha>=16 observed. The8percent native clear-margin prompt was not fully followed; root must apply one shared downscale and fixed transparent canvas",
+          "Native near-zero Alpha1 outer pixels remain; do not mistake raw RGB fringes for visible dirty edges without compositing"
+        ],
+        "actuallyViewed": [
+          "assets/motion-native/orig_mob01/orig_mob01_walk_00.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_01.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_03_v2.png"
+        ],
+        "unselectedFiles": [
+          "assets/motion-native/orig_mob01/orig_mob01_walk_02.png",
+          "assets/motion-native/orig_mob01/orig_mob01_walk_03.png"
+        ],
+        "playbackAccepted": false,
+        "unityVerified": false,
+        "reviewedAtUtc": "2026-10-28T08:56:34.031969+00:00"
+      }
+    }
+  ],
+  "selectedFileSha256": [
+    "3f68d520788045e77d3925e6b5f3aeb913582efdada206f848a72f402d34d60e",
+    "5490f6bb5bf0f57a0168dc39f27a2edc16825d630bd7d71eeaa1dcdaa04ecbf7",
+    "d01366f5672acc78bdcd3b57a3705a6b45cd7a10c7ca87b84e70ab828124fe08",
+    "7c7bc65b20dcfe8b11085898a83e5018fea20e4f4c479ccb874ee436203c2bd0"
+  ],
+  "excludedFiles": [
+    "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png"
+  ],
+  "secondReviewRepair": {
+    "reviewedAtUtc": "2026-10-28T10:22:19.478206+00:00",
+    "reviewer": "scope_audit independent static review",
+    "oldSelectedFile": "assets/motion-native/orig_mob01/orig_mob01_walk_02_v2.png",
+    "oldReasonRejected": "Second independent static review found phase0/2 retain same foreground leg/right-front boot arrangement; prior different arms/hem did not establish opposite contact.",
+    "newSelectedFile": "assets/motion-native/orig_mob01/orig_mob01_walk_02_v3.png",
+    "referencePolicy": "Only own original master attached, actually viewed before edit",
+    "newPoseActuallyViewed": true,
+    "sameHandPropsPreserved": true,
+    "oppositeContactStaticReadabilityAccepted": true,
+    "uniformScalePreview": "previews/walk/static-second-review-v3-common-scale.jpg",
+    "residualLimit": "Small source framing/upper-body size variance remains between cels; this accepts the corrected articulated key pose only. Root must evaluate registered normal/slow playback and any justified camera calibration before final acceptance.",
+    "playbackAccepted": false
+  },
+  "passedMeaning": "Native identity/anatomy and repaired opposite-contact key only. Does not approve common-scale playback, foot sliding, exact leg phase timing, endpoint seam or Unity.",
+  "newImagesGeneratedInReview": true,
+  "latestActuallyViewedFiles": [
+    "assets/motion-native/orig_mob01/orig_mob01_walk_02_v3.png",
+    "previews/walk/orig_mob01/contact.jpg",
+    "previews/walk/static-second-review-lowerbody.jpg",
+    "previews/walk/static-second-review-v3-common-scale.jpg"
+  ]
+}

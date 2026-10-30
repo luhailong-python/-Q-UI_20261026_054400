@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: identity-preserve. Asset: ONE opposite-contact WALK cel of the attached original Daoist chibi healer girl on genuine transparent background. Use this original as the sole identity/costume/style reference. Preserve the exact smiling face, dark braided hair, jade lotus hair ornament, ivory/jade flowing dress with gold edging, two complete hands cradling the SAME jade healing gourd at chest height, green bow boots and three-quarter body view facing image RIGHT. Fixed camera and upper-body/head scale consistent with the reference. Required leg anatomy: CAMERA-NEAR leg clearly moves FORWARD diagonally TOWARD THE VIEWER AND DOWN-LEFT. Its nearer large jade boot must be at IMAGE LEFT below the pelvis, fully contacting the ground and lower than the rear boot. CAMERA-FAR leg trails diagonally BACK AND IMAGE RIGHT with small boot higher and rear heel lifting. Make the left/down foreground shin and its connection visible below the skirt; let the hem open naturally enough to see that the two legs have exchanged front/back ownership. Do not repeat a foreground boot projecting right while other foot trails left. A short calm walking contact, not a jump, dance, static wide stance or running leap. Gentle braid/hem follow-through, hands keep holding gourd, very modest shoulder motion. Preserve same high-definition rounded chibi hand-painted jade/ivory/warm-gold detail, same view and lighting. Complete body plus margins, no clipping, no horizontal flip, no shadow/background, no other objects, no text, no spritesheet.",
+    "referenced_image_paths": [
+      "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png"
+    ],
+    "transparent_background": true
+  },
+  "actualReturnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualReturnedInformation": {
+    "image_url": "data:image/png;base64 (omitted here; retained exact returned PNG file recorded by generation.json)",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-fbc8-7aa0-8427-acdf5bed743e\\exec-b80cb0bf-913e-4270-9e41-da6ff15fdb6f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "model": null,
+  "quality": null,
+  "reasonUnconfirmed": "Tool has no model or quality selectors and return exposes no identifying model/quality fields."
+}

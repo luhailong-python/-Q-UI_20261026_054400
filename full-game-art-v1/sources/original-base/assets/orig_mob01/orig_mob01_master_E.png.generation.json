@@ -1,0 +1,55 @@
+{
+  "file": "assets/orig_mob01/orig_mob01_master_E.png",
+  "sha256": "c8ab25c8440bb50277a48aa188d580a858ce83de65f2ceaba77ca46443642945",
+  "generatedAt": "2026-10-26T15:39:59.724242+00:00",
+  "generationTimeEvidence": "Source file LastWriteTimeUtc; tool returned no timestamp field",
+  "recordedAt": "2026-10-27T01:43:27.916356+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI-generated original from text; byte-identical project copy",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed builtin exposes no model/quality selectors and returned image_url plus output_hint only",
+  "references": [],
+  "prompt": "records/generation/orig_mob01/prompt.txt",
+  "returnedInformation": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17797-3fb9-7750-848d-cc6670539e64\\exec-1268aee8-0d74-4efa-9ce1-69cfcfc288c2.png",
+    "imageDataOmittedFromText": true
+  },
+  "externalReferenceImagesUsed": false,
+  "sourceArtFromFDrive": false,
+  "artStatus": "static master; not an animation"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "icon_protection",
+  "name": "护身",
+  "file": "assets/icons/icon_protection.png",
+  "sha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+  "operation": "Non-overlapping atlas ownership crop, fixed uniform premultiplied-Lanczos downscale and transparent centering; no AI generation or redrawing",
+  "slicingMode": "equal-top-halves",
+  "derivedFrom": {
+    "file": "assets/ui-kit/ability_icons_atlas.png",
+    "sha256": "65189866ae6f00df20ba819fb09764363d5e25a33fe80f32314ac808b07b7dec",
+    "generationRecord": "assets/ui-kit/ability_icons_atlas.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceRectTopLeftXYWH": [
+    627,
+    0,
+    627,
+    627
+  ],
+  "sourceCellSize": [
+    627,
+    627
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    55,
+    60,
+    591,
+    570
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "minimumPadding": 32,
+  "requestedUniformScale": 0.5970149253731343,
+  "actualRasterScaleXY": [
+    0.5964912280701754,
+    0.5964912280701754
+  ],
+  "resizedWholeCellSize": [
+    374,
+    374
+  ],
+  "offsetTopLeft": [
+    0,
+    4
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    40,
+    352,
+    344
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    40,
+    32,
+    40
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "mode": "RGBA",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "edgeVisiblePixelsAlpha16": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "outsideOutput": {
+    "nonzeroPixelsOutsideOutput": 0,
+    "alpha16OrHigherPixelsOutsideOutput": 0,
+    "maximumAlphaOutsideOutput": 0
+  },
+  "nativeDetailIncreased": false,
+  "newAIGeneration": false,
+  "unityVerified": false,
+  "sourceUsedOnlyFromThisOriginalBatch": true,
+  "createdAtUtc": "2026-10-26T21:56:20.941208-04:00",
+  "dynamicLabelIncluded": false,
+  "fixedDecorativeMarks": []
+}

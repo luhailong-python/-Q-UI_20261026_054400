@@ -1,0 +1,85 @@
+{
+  "actor": "orig_mob02",
+  "master": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\orig_mob02\\orig_mob02_master_E.png",
+  "masterSha256": "e3ea7f1df28c1defd80065f12a591dc65c341f50d7029aa60d33a7abb36b72d7",
+  "selectedFiles": [
+    "assets/motion-native/orig_mob02/orig_mob02_walk_00.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_01.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_02_v2.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_03_v2.png"
+  ],
+  "selectedFileSha256": [
+    "eab3366182c8e1efbef65c201d16cc98c5de2df05c65fb66463a93c99b4f588f",
+    "98ba52cfd5f8b3f85b7814cfe5b816cc833d715eb463941fbd3b869f5129136e",
+    "b87738cb5263915218dcc0af0c045d0974c709bc2dfaa94b76b600a4c61447da",
+    "a9a21e5030afecaa0f5c4195956d6af16e58b87538bca3b73fd0a968045163da"
+  ],
+  "anchors": [
+    {
+      "phase": 0,
+      "sourceTorsoX": 710,
+      "sourceGroundY": 1192,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-right stone foot contacts in foreground; viewer-left foot trails.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 1,
+      "sourceTorsoX": 710,
+      "sourceGroundY": 1222,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Viewer-left stone foot supports while viewer-right knee and jade toe rise.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 2,
+      "sourceTorsoX": 710,
+      "sourceGroundY": 1214,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Repaired opposite contact: viewer-left leg extends to lower-left foreground with large planted toe; viewer-right leg recedes.",
+      "approximatePixelTolerance": 12
+    },
+    {
+      "phase": 3,
+      "sourceTorsoX": 710,
+      "sourceGroundY": 1195,
+      "definition": "Manually observed chest/body axis and physical planted-foot sole plane; not automatic whole-alpha bbox registration",
+      "supportNote": "Opposite passing: viewer-left sole is lifted and viewer-right foot planted. Targeted repair restores cuff exclusively to viewer-left arm.",
+      "approximatePixelTolerance": 12
+    }
+  ],
+  "animationKind": "walk",
+  "passed": true,
+  "passedMeaning": "Four native articulated poses and identity checked only; registered playback is not yet approved.",
+  "reviewedAtUtc": "2026-10-28T10:16:02.498775+00:00",
+  "actuallyViewedNativeFiles": [
+    "assets/motion-native/orig_mob02/orig_mob02_walk_00.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_01.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_02_v2.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_03_v2.png"
+  ],
+  "masterActuallyViewedBeforeEdits": true,
+  "blockingIssues": [],
+  "findings": [
+    "Native cels contain real leg articulation, including opposite fore/aft contact and different-side lifted passing feet.",
+    "Face, horns, head/torso ratio, costume and carried objects retained; no mirrored frame or transformed still used.",
+    "Alpha seen over light background; final dark/light playback remains required."
+  ],
+  "phaseObservations": [
+    "Viewer-right stone foot contacts in foreground; viewer-left foot trails.",
+    "Viewer-left stone foot supports while viewer-right knee and jade toe rise.",
+    "Repaired opposite contact: viewer-left leg extends to lower-left foreground with large planted toe; viewer-right leg recedes.",
+    "Opposite passing: viewer-left sole is lifted and viewer-right foot planted. Targeted repair restores cuff exclusively to viewer-left arm."
+  ],
+  "excludedFiles": [
+    "assets/motion-native/orig_mob02/orig_mob02_walk_02.png",
+    "assets/motion-native/orig_mob02/orig_mob02_walk_03.png"
+  ],
+  "remainingReview": [
+    "Normal and half-speed looping on light/dark backgrounds",
+    "Scale, foot placement, seam and continuity at display size"
+  ],
+  "sourceRoute": "builtin image_gen individual pose edits; not I2V",
+  "unityVerified": false,
+  "bodyFramesRegistered": false
+}

@@ -1,0 +1,22 @@
+{
+  "reviewedAtUtc": "2026-10-28T10:32:47.787802+00:00",
+  "passed": true,
+  "page": "previews/composite-playback.html",
+  "actualBrowserPlayback": true,
+  "all11ActorsSeen": true,
+  "actualImagesLoaded": 58,
+  "normalAndHalfSpeedObserved": true,
+  "orientationsActuallyViewed": [
+    "landscape1152x760",
+    "portrait760x1152"
+  ],
+  "scope": "Image overlays, identity/alpha readability and moving repeat texture only; no gameplay or Unity acceptance",
+  "findings": [
+    "All eleven body identities retain readable silhouettes and complete appendages against the actual repeating ground.",
+    "Five player/enemy projectile images and nine XP/money images are readable with no rectangular mattes.",
+    "No conspicuous straight join or lighting band seen at observed scrolling offsets; visual repetition remains visible as expected for one tile.",
+    "Four-cel gait remains deliberately stepped; minor native head/cloth variance retained without per-frame bbox normalization."
+  ],
+  "blockingIssues": [],
+  "unityVerified": false
+}

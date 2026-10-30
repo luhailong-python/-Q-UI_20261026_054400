@@ -1,0 +1,71 @@
+{
+  "id": "ability_molotov",
+  "file": "assets/icons/ability_molotov.png",
+  "sha256": "8401f3dabcbaf3689ad3ddede98e46b43e9804eae79cffa52b5ded080e55a555",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_a.png",
+  "sourceSha256": "3ab5d1dd391cc511a74a77e3f43e43ed4038164a101118bafbc86cdb00b48364",
+  "sourceRectTopLeftXYWH": [
+    0,
+    0,
+    535,
+    507
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    103,
+    24,
+    507,
+    473
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "uniformScale": 0.7082405345211581,
+  "actualRasterScaleXY": [
+    0.708411214953271,
+    0.7080867850098619
+  ],
+  "offsetTopLeft": [
+    -24,
+    16
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    49,
+    33,
+    335,
+    351
+  ],
+  "subjectMarginsLTRB": [
+    49,
+    33,
+    49,
+    33
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 19,
+  "maxAlphaOutsideOutput": 1,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

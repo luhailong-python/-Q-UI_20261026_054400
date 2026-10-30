@@ -1,0 +1,98 @@
+{
+  "id": "icon_thunder",
+  "name": "雷法",
+  "file": "assets/icons/icon_thunder.png",
+  "sha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+  "operation": "Non-overlapping atlas ownership crop, fixed uniform premultiplied-Lanczos downscale and transparent centering; no AI generation or redrawing",
+  "slicingMode": "lower-row-transparent-seam-ownership",
+  "derivedFrom": {
+    "file": "assets/ui-kit/ability_icons_atlas.png",
+    "sha256": "65189866ae6f00df20ba819fb09764363d5e25a33fe80f32314ac808b07b7dec",
+    "generationRecord": "assets/ui-kit/ability_icons_atlas.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "sourceRectTopLeftXYWH": [
+    708,
+    627,
+    546,
+    627
+  ],
+  "sourceCellSize": [
+    546,
+    627
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    40,
+    7,
+    448,
+    607
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "minimumPadding": 32,
+  "requestedUniformScale": 0.5333333333333333,
+  "actualRasterScaleXY": [
+    0.532967032967033,
+    0.532695374800638
+  ],
+  "resizedWholeCellSize": [
+    291,
+    334
+  ],
+  "offsetTopLeft": [
+    62,
+    29
+  ],
+  "subjectBBoxAlpha16": [
+    83,
+    32,
+    301,
+    352
+  ],
+  "subjectMarginsLTRB": [
+    83,
+    32,
+    83,
+    32
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "mode": "RGBA",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "edgeVisiblePixelsAlpha16": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "outsideOutput": {
+    "nonzeroPixelsOutsideOutput": 0,
+    "alpha16OrHigherPixelsOutsideOutput": 0,
+    "maximumAlphaOutsideOutput": 0
+  },
+  "nativeDetailIncreased": false,
+  "newAIGeneration": false,
+  "unityVerified": false,
+  "sourceUsedOnlyFromThisOriginalBatch": true,
+  "createdAtUtc": "2026-10-26T21:56:20.987775-04:00",
+  "dynamicLabelIncluded": false,
+  "fixedDecorativeMarks": [
+    "Painted lightning motif and circular cinnabar decorative seal; no dynamic business text"
+  ]
+}

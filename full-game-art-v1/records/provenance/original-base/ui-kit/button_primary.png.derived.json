@@ -1,0 +1,43 @@
+{
+  "id": "button_primary",
+  "file": "assets/ui-kit/button_primary.png",
+  "sha256": "381d4f6e95e5da37446fe41411160aaa71ae05423abc4e3c548526332bb39ee9",
+  "width": 435,
+  "height": 142,
+  "sourceRectLTRB": [
+    618,
+    801,
+    1037,
+    927
+  ],
+  "offset": [
+    8,
+    8
+  ],
+  "derivedFrom": {
+    "file": "assets/ui-kit/ui_kit_atlas.png",
+    "sha256": "ea01c36a6801bbccd0017677f4cf3f2ece1e670c6c6f99d54358422c85c4c30d",
+    "generationRecord": "assets/ui-kit/ui_kit_atlas.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": "Ownership crop and transparent canvas padding; source artwork pixels unscaled",
+  "borderLeftBottomRightTop": [
+    50,
+    34,
+    50,
+    34
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "imageType": "Sliced",
+  "notNewAIGeneration": true,
+  "alphaRange": [
+    0,
+    253
+  ]
+}

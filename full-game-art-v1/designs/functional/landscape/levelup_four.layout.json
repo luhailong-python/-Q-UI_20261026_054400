@@ -1,0 +1,500 @@
+{
+  "screen": "levelup_four",
+  "title": "道法精进",
+  "orientation": "landscape",
+  "state": "four",
+  "file": "designs/landscape/levelup_four.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "assets": [
+    {
+      "asset": "assets/ui-kit/panel_main.png",
+      "rectTopLeft": [
+        80,
+        80,
+        1760,
+        920
+      ],
+      "borderLeftBottomRightTop": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "renderMode": "Sliced"
+    },
+    {
+      "asset": "assets/ui-kit/title_plate.png",
+      "rectTopLeft": [
+        600,
+        48,
+        720,
+        150
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        177,
+        340,
+        365,
+        541
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/icons/icon_sword.png",
+      "rectTopLeft": [
+        279,
+        430,
+        160,
+        160
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        577,
+        340,
+        365,
+        541
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/icons/icon_protection.png",
+      "rectTopLeft": [
+        679,
+        430,
+        160,
+        160
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        977,
+        340,
+        365,
+        541
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        1079,
+        430,
+        160,
+        160
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/ui-kit/card_normal.png",
+      "rectTopLeft": [
+        1377,
+        340,
+        365,
+        541
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    },
+    {
+      "asset": "assets/icons/icon_thunder.png",
+      "rectTopLeft": [
+        1479,
+        430,
+        160,
+        160
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderMode": "contain"
+    }
+  ],
+  "texts": [
+    {
+      "text": "道法精进",
+      "rectTopLeft": [
+        670,
+        65,
+        580,
+        90
+      ],
+      "fontPixels": 58,
+      "fontRole": "heading",
+      "color": "#fff0d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#173f35",
+      "dynamic": true
+    },
+    {
+      "text": "修为突破 · 等级 12 → 13",
+      "rectTopLeft": [
+        300,
+        200,
+        1320,
+        65
+      ],
+      "fontPixels": 34,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "福缘相助 · 额外一项选择",
+      "rectTopLeft": [
+        500,
+        260,
+        920,
+        45
+      ],
+      "fontPixels": 27,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "剑诀",
+      "rectTopLeft": [
+        222,
+        600,
+        275,
+        65
+      ],
+      "fontPixels": 37,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "Lv.2 → Lv.3",
+      "rectTopLeft": [
+        217,
+        670,
+        285,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "剑气更盛，攻击提升。",
+      "rectTopLeft": [
+        227,
+        720,
+        265,
+        60
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "护体罡气",
+      "rectTopLeft": [
+        622,
+        600,
+        275,
+        65
+      ],
+      "fontPixels": 37,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "新道法 · Lv.1",
+      "rectTopLeft": [
+        617,
+        670,
+        285,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "凝聚罡气，减轻伤害。",
+      "rectTopLeft": [
+        627,
+        720,
+        265,
+        60
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "灵葫回元",
+      "rectTopLeft": [
+        1022,
+        600,
+        275,
+        65
+      ],
+      "fontPixels": 37,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "Lv.1 → Lv.2",
+      "rectTopLeft": [
+        1017,
+        670,
+        285,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "温养元气，增强恢复。",
+      "rectTopLeft": [
+        1027,
+        720,
+        265,
+        60
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "天雷符",
+      "rectTopLeft": [
+        1422,
+        600,
+        275,
+        65
+      ],
+      "fontPixels": 37,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "新道法 · Lv.1",
+      "rectTopLeft": [
+        1417,
+        670,
+        285,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "body",
+      "color": "#a47d3e",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "引动天雷，周期落击。",
+      "rectTopLeft": [
+        1427,
+        720,
+        265,
+        60
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "选择一项道法，继续游历",
+      "rectTopLeft": [
+        420,
+        1010,
+        1080,
+        50
+      ],
+      "fontPixels": 29,
+      "fontRole": "heading",
+      "color": "#173f35",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "primitives": [
+    {
+      "type": "solid-background",
+      "color": "#aac1ac",
+      "rectTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ]
+    }
+  ],
+  "sha256": "12429e3a5447756ab7648623ee362c1e121a1a00fc2e4d39581aa120c9af0b8f",
+  "content": {
+    "choiceCount": 4,
+    "abilityIds": [
+      "sword",
+      "protection",
+      "gourd",
+      "thunder"
+    ],
+    "cards": [
+      {
+        "id": "sword",
+        "title": "剑诀",
+        "icon": "icon_sword",
+        "kind": "upgrade",
+        "fromLevel": 2,
+        "toLevel": 3,
+        "description": "剑气更盛，攻击提升。",
+        "role": "飞剑攻击"
+      },
+      {
+        "id": "protection",
+        "title": "护体罡气",
+        "icon": "icon_protection",
+        "kind": "new",
+        "fromLevel": 0,
+        "toLevel": 1,
+        "description": "凝聚罡气，减轻伤害。",
+        "role": "护身道法"
+      },
+      {
+        "id": "gourd",
+        "title": "灵葫回元",
+        "icon": "icon_gourd",
+        "kind": "upgrade",
+        "fromLevel": 1,
+        "toLevel": 2,
+        "description": "温养元气，增强恢复。",
+        "role": "回元道法"
+      },
+      {
+        "id": "thunder",
+        "title": "天雷符",
+        "icon": "icon_thunder",
+        "kind": "new",
+        "fromLevel": 0,
+        "toLevel": 1,
+        "description": "引动天雷，周期落击。",
+        "role": "雷法攻击"
+      }
+    ],
+    "clickBehavior": "Choose one card immediately; resume after applying selection",
+    "confirmRerollSkipButtons": false,
+    "allValuesIllustrative": true
+  },
+  "operation": "Static composition of original hand-painted PNGs and independent Chinese text",
+  "unityVerified": false
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ability_ice_skate",
+  "file": "assets/icons/ability_ice_skate.png",
+  "sha256": "4478fd1e67885d90297c6fb4f8cbbbbcf55c075d1dfeb9942c74b59640ce1e20",
+  "operation": "Non-overlapping ownership crop, premultiplied-alpha Lanczos uniform downscale and transparent centering; no AI repaint",
+  "sourceAtlas": "assets/native/ability_pack_b.png",
+  "sourceSha256": "469d938e53c21eaa33aab341bca78b0cb59e451a16ad63e542e317c13c2b46f5",
+  "sourceRectTopLeftXYWH": [
+    1041,
+    510,
+    495,
+    514
+  ],
+  "sourceSubjectBBoxAlpha16": [
+    22,
+    45,
+    485,
+    470
+  ],
+  "sourceEdgeMaxAlphaLTRB": [
+    1,
+    1,
+    2,
+    1
+  ],
+  "uniformScale": 0.6868250539956804,
+  "actualRasterScaleXY": [
+    0.6868686868686869,
+    0.6867704280155642
+  ],
+  "offsetTopLeft": [
+    18,
+    16
+  ],
+  "outputCanvas": [
+    384,
+    384
+  ],
+  "subjectBBoxAlpha16": [
+    33,
+    47,
+    351,
+    338
+  ],
+  "subjectMarginsLTRB": [
+    33,
+    47,
+    33,
+    46
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "nonzeroAlphaPixelsOutsideOutput": 0,
+  "maxAlphaOutsideOutput": 0,
+  "visibleAlpha16PixelsOutsideOutput": 0,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nativeDetailIncreased": false,
+  "unityVerified": false
+}

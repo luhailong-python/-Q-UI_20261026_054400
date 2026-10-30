@@ -1,0 +1,64 @@
+{
+  "id": "orig_boss_minor_walk_03",
+  "name": "铜铃卫 行走4",
+  "file": "assets/motion/orig_boss_minor/walk/orig_boss_minor_walk_03.png",
+  "kind": "character-walk-frame",
+  "actor": "orig_boss_minor",
+  "action": "walk",
+  "phase": 3,
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "pivot": [
+    0.5,
+    0.125
+  ],
+  "sourceFile": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\motion-native\\orig_boss_minor\\orig_boss_minor_walk_03.png",
+  "sourceSha256": "3efa58ce222a680a5e1650bdd16b761c9eb366ee47e1eda9f944b2badba6e9c9",
+  "sha256": "9fdf5917eda47f57f42e29c68954df7a42f462915ae3821fcdbd8af25d69f527",
+  "sourceAnchorXY": [
+    650,
+    1106
+  ],
+  "outputAnchorTopLeftXY": [
+    512,
+    896
+  ],
+  "sharedUniformScale": 0.6558168083097262,
+  "actualRasterScaleXY": [
+    0.6555023923444976,
+    0.6555023923444976
+  ],
+  "offsetTopLeft": [
+    86,
+    171
+  ],
+  "visibleMarginsLTRB": [
+    136,
+    227,
+    136,
+    124
+  ],
+  "durationMs": 200,
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "operation": "Distinct AI-painted pose, one common body scale and physical root registration; all resampling is downscale",
+  "perFrameBBoxScaling": false,
+  "nativeDetailIncreased": false,
+  "status": "art-and-playback-reviewed",
+  "nativeReview": "records/motion/orig_boss_minor-native-review.json",
+  "unityVerified": false,
+  "cameraCalibrationFactor": 1.0,
+  "actualUniformScale": 0.6558168083097262,
+  "cameraCalibrationMethod": "None adopted; NCC candidates are analysis-only pending actual visual approval"
+}

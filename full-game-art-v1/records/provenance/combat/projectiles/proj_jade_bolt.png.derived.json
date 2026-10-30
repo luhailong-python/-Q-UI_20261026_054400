@@ -1,0 +1,60 @@
+{
+  "id": "proj_jade_bolt",
+  "name": "回转符弹",
+  "file": "assets/projectiles/proj_jade_bolt.png",
+  "function": "machine_gun",
+  "sha256": "c40b50c818fd5c62291847ae4426db968cf5adc8f85a87994f2ad5f1596ade54",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "sourceAtlas": "assets/native/projectiles_a.png",
+  "sourceSha256": "89b3a2e198382c27eb7e87b094a0aea1fc8b1c8983bb1b276ac0b3e4298e108c",
+  "sourceRectTopLeftXYWH": [
+    501,
+    0,
+    500,
+    501
+  ],
+  "sourceAnchorXY": [
+    264.0,
+    295.5
+  ],
+  "outputAnchorTopLeftXY": [
+    128,
+    128
+  ],
+  "anchorMethod": "Static visible-subject centering; not an animation transform",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "uniformScale": 0.46454634146341467,
+  "offsetTopLeft": [
+    6,
+    -9
+  ],
+  "visibleMarginsLTRB": [
+    33,
+    99,
+    32,
+    98
+  ],
+  "maxAlphaOutsideOutput": 0,
+  "operation": "Ownership crop, uniform premultiplied-alpha Lanczos downscale, transparent padding; no new AI detail",
+  "nativeDetailIncreased": false,
+  "dynamicTextInArt": false,
+  "unityVerified": false,
+  "status": "art-ready-binding-pending"
+}

@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-10-28T08:28:06.660567+00:00",
+  "primarySourcesVerifiedBeforeDownload": true,
+  "webEvidence": [
+    {
+      "url": "https://github.com/notofonts/noto-cjk",
+      "purpose": "official project and font distribution"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "purpose": "pinned body font path, commit and16,437,364bytes verified withGitHub API+blob SHA"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/LICENSE",
+      "purpose": "official pinnedSIL OFL1.1 license"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "purpose": "pinnedGoogleFonts title font path, commit and5,857,936bytes verified withGitHub API+blob SHA"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/OFL.txt",
+      "purpose": "official pinnedSIL OFL1.1 license+copyright"
+    }
+  ],
+  "fontFiles": [
+    {
+      "id": "noto-cjk-sc",
+      "family": "Noto Sans CJK SC",
+      "file": "NotoSansCJKsc-Regular.otf",
+      "repo": "notofonts/noto-cjk",
+      "commit": "165c01b46ea533872e002e0785ff17e44f6d97d8",
+      "path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "expectedBytes": 16437364,
+      "expectedGitBlobSha1": "dc15562470b4f842321894787a0d066879ccff8b",
+      "licensePath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "licenseUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/165c01b46ea533872e002e0785ff17e44f6d97d8/LICENSE",
+      "fontFile": "assets/fonts/noto-cjk-sc/NotoSansCJKsc-Regular.otf",
+      "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "fontBytes": 16437364,
+      "licenseFile": "assets/fonts/noto-cjk-sc/OFL.txt",
+      "licenseSha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "licenseBytes": 4301,
+      "downloadedAtUtc": "2026-10-28T08:20:52.088414+00:00",
+      "modified": false,
+      "license": "SIL Open Font License1.1",
+      "installationPerformed": false,
+      "unicodeCmapCount": 44810,
+      "cmapTablesRead": [
+        {
+          "platform": 0,
+          "encoding": 3,
+          "format": 4
+        },
+        {
+          "platform": 0,
+          "encoding": 4,
+          "format": 12
+        },
+        {
+          "platform": 0,
+          "encoding": 5,
+          "format": 14
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "format": 4
+        },
+        {
+          "platform": 3,
+          "encoding": 10,
+          "format": 12
+        }
+      ],
+      "embeddedFontNameMetadata": {
+        "0": "© 2014-2021 Adobe (http://www.adobe.com/).",
+        "1": "Noto Sans CJK SC",
+        "2": "Regular",
+        "5": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+        "6": "NotoSansCJKsc-Regular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "actualCorpusUniqueCharacters": 746,
+      "actualCorpusMissingCharacters": [],
+      "actualCorpusCoveragePassed": true
+    },
+    {
+      "id": "ma-shan-zheng",
+      "family": "Ma Shan Zheng",
+      "file": "MaShanZheng-Regular.ttf",
+      "repo": "google/fonts",
+      "commit": "406197b91ff39a93061c2c2eeaee67ddf2ae1f0d",
+      "path": "ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "expectedBytes": 5857936,
+      "expectedGitBlobSha1": "11bbfb9867d70612158229d037e7a5f622bd0e38",
+      "licensePath": "ofl/mashanzheng/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "licenseUrl": "https://raw.githubusercontent.com/google/fonts/406197b91ff39a93061c2c2eeaee67ddf2ae1f0d/ofl/mashanzheng/OFL.txt",
+      "fontFile": "assets/fonts/ma-shan-zheng/MaShanZheng-Regular.ttf",
+      "fontSha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+      "fontBytes": 5857936,
+      "licenseFile": "assets/fonts/ma-shan-zheng/OFL.txt",
+      "licenseSha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "licenseBytes": 4397,
+      "downloadedAtUtc": "2026-10-28T08:21:04.017500+00:00",
+      "modified": false,
+      "license": "SIL Open Font License1.1",
+      "installationPerformed": false,
+      "unicodeCmapCount": 7015,
+      "cmapTablesRead": [
+        {
+          "platform": 0,
+          "encoding": 3,
+          "format": 4
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "format": 4
+        }
+      ],
+      "embeddedFontNameMetadata": {
+        "0": "Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)",
+        "1": "Ma Shan Zheng",
+        "2": "Regular",
+        "5": "Version 2.003",
+        "6": "MaShanZheng-Regular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+        "14": "https://openfontlicense.org"
+      },
+      "actualCorpusUniqueCharacters": 746,
+      "actualCorpusMissingCharacters": [
+        {
+          "character": "·",
+          "codepoint": "U+00B7",
+          "name": "MIDDLE DOT"
+        },
+        {
+          "character": "→",
+          "codepoint": "U+2192",
+          "name": "RIGHTWARDS ARROW"
+        },
+        {
+          "character": "備",
+          "codepoint": "U+5099",
+          "name": "CJK UNIFIED IDEOGRAPH-5099"
+        },
+        {
+          "character": "傳",
+          "codepoint": "U+50B3",
+          "name": "CJK UNIFIED IDEOGRAPH-50B3"
+        },
+        {
+          "character": "傷",
+          "codepoint": "U+50B7",
+          "name": "CJK UNIFIED IDEOGRAPH-50B7"
+        },
+        {
+          "character": "劍",
+          "codepoint": "U+528D",
+          "name": "CJK UNIFIED IDEOGRAPH-528D"
+        },
+        {
+          "character": "務",
+          "codepoint": "U+52D9",
+          "name": "CJK UNIFIED IDEOGRAPH-52D9"
+        },
+        {
+          "character": "勵",
+          "codepoint": "U+52F5",
+          "name": "CJK UNIFIED IDEOGRAPH-52F5"
+        },
+        {
+          "character": "團",
+          "codepoint": "U+5718",
+          "name": "CJK UNIFIED IDEOGRAPH-5718"
+        },
+        {
+          "character": "寶",
+          "codepoint": "U+5BF6",
+          "name": "CJK UNIFIED IDEOGRAPH-5BF6"
+        },
+        {
+          "character": "復",
+          "codepoint": "U+5FA9",
+          "name": "CJK UNIFIED IDEOGRAPH-5FA9"
+        },
+        {
+          "character": "歷",
+          "codepoint": "U+6B77",
+          "name": "CJK UNIFIED IDEOGRAPH-6B77"
+        },
+        {
+          "character": "獎",
+          "codepoint": "U+734E",
+          "name": "CJK UNIFIED IDEOGRAPH-734E"
+        },
+        {
+          "character": "甦",
+          "codepoint": "U+7526",
+          "name": "CJK UNIFIED IDEOGRAPH-7526"
+        },
+        {
+          "character": "確",
+          "codepoint": "U+78BA",
+          "name": "CJK UNIFIED IDEOGRAPH-78BA"
+        },
+        {
+          "character": "經",
+          "codepoint": "U+7D93",
+          "name": "CJK UNIFIED IDEOGRAPH-7D93"
+        },
+        {
+          "character": "裝",
+          "codepoint": "U+88DD",
+          "name": "CJK UNIFIED IDEOGRAPH-88DD"
+        },
+        {
+          "character": "訣",
+          "codepoint": "U+8A23",
+          "name": "CJK UNIFIED IDEOGRAPH-8A23"
+        },
+        {
+          "character": "設",
+          "codepoint": "U+8A2D",
+          "name": "CJK UNIFIED IDEOGRAPH-8A2D"
+        },
+        {
+          "character": "認",
+          "codepoint": "U+8A8D",
+          "name": "CJK UNIFIED IDEOGRAPH-8A8D"
+        },
+        {
+          "character": "遊",
+          "codepoint": "U+904A",
+          "name": "CJK UNIFIED IDEOGRAPH-904A"
+        },
+        {
+          "character": "醫",
+          "codepoint": "U+91AB",
+          "name": "CJK UNIFIED IDEOGRAPH-91AB"
+        },
+        {
+          "character": "銅",
+          "codepoint": "U+9285",
+          "name": "CJK UNIFIED IDEOGRAPH-9285"
+        },
+        {
+          "character": "錢",
+          "codepoint": "U+9322",
+          "name": "CJK UNIFIED IDEOGRAPH-9322"
+        },
+        {
+          "character": "閃",
+          "codepoint": "U+9583",
+          "name": "CJK UNIFIED IDEOGRAPH-9583"
+        },
+        {
+          "character": "隊",
+          "codepoint": "U+968A",
+          "name": "CJK UNIFIED IDEOGRAPH-968A"
+        },
+        {
+          "character": "領",
+          "codepoint": "U+9818",
+          "name": "CJK UNIFIED IDEOGRAPH-9818"
+        },
+        {
+          "character": "養",
+          "codepoint": "U+990A",
+          "name": "CJK UNIFIED IDEOGRAPH-990A"
+        },
+        {
+          "character": "驗",
+          "codepoint": "U+9A57",
+          "name": "CJK UNIFIED IDEOGRAPH-9A57"
+        },
+        {
+          "character": "體",
+          "codepoint": "U+9AD4",
+          "name": "CJK UNIFIED IDEOGRAPH-9AD4"
+        },
+        {
+          "character": "龍",
+          "codepoint": "U+9F8D",
+          "name": "CJK UNIFIED IDEOGRAPH-9F8D"
+        },
+        {
+          "character": "龜",
+          "codepoint": "U+9F9C",
+          "name": "CJK UNIFIED IDEOGRAPH-9F9C"
+        }
+      ],
+      "actualCorpusCoveragePassed": false
+    }
+  ],
+  "totalFontBytes": 22295300,
+  "under25MB": true,
+  "fontFilesUnmodified": true,
+  "systemFontInstallationPerformed": false,
+  "windowsOrFDriveFontFilesCopied": false,
+  "toolMethod": {
+    "fontToolsUsed": false,
+    "fontToolsProbe": "Not installed inPython314, bundled primary-runtime Python, Python313 or dedicatedForge Python; no package installation performed",
+    "cmapParser": "Python standard-library SFNT table reader: Unicode-platform cmap formats4 and12; nonzero glyphIDs only. Name table also read. Format14 variation selectors not needed for this base-character corpus.",
+    "visualRenderer": "Pillow FreeType reading the two downloaded fonts directly by absolute path; no OS font install"
+  },
+  "corpus": {
+    "sources": [
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\records\\actor-object-full-scope.json",
+        "sha256": "85b6023cf07d3618c4b07b376f097eb9fd4cceeced47822f6a798eae57ef20d0",
+        "textValuesExtracted": 2
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\ability-expansion-v1\\records\\ability-registry.json",
+        "sha256": "3236b319acc9326ae8f145744d1332c1ff52a732863c75c049b9ebf1c0c05cbf",
+        "textValuesExtracted": 21
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\combat-fx-v1\\assets\\manifest.json",
+        "sha256": "be50968e06d14fda369c720dff02301c8c47484392cb1221849dbaaa4b597b90",
+        "textValuesExtracted": 46
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\character_select_buyable.layout.json",
+        "sha256": "93c7f2d0c4553a27e75b437ca05f922797bd03e19db3606ed0ef0bfc8e687bdc",
+        "textValuesExtracted": 20
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\character_select_insufficient.layout.json",
+        "sha256": "28d1364fcf320ecec97bd75fbadb8a575446f3452a42f93db76aa919c1efe87f",
+        "textValuesExtracted": 20
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\character_select_owned.layout.json",
+        "sha256": "cef8dfbfbe38077a86af55681459f80101f00cc32da53b344ec8953ab3785928",
+        "textValuesExtracted": 20
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\levelup_four.layout.json",
+        "sha256": "3391bf6e9dbda1f78708ddf6af5ee6585da0e326e17d8cceaffc3951ab891900",
+        "textValuesExtracted": 29
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\levelup_one.layout.json",
+        "sha256": "b24cb8c47a58220528a13e87ba470c3d00e598478c606a699f7ece82a85feb1d",
+        "textValuesExtracted": 10
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\levelup_three.layout.json",
+        "sha256": "33521080362e17aee7cab5412c32b6e154eae057e6f751795505fc0cbd0cd069",
+        "textValuesExtracted": 22
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\locale_dropdown_open.layout.json",
+        "sha256": "a83f1dc27bded3d8cbd23c98e1a21128a25909daa296babf6eaedff3459c3194",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\survival_hud_empty.layout.json",
+        "sha256": "7b660eedb6141f9c59b1bf85f2789ca69069420de5d36550f7cc543d8b0cb533",
+        "textValuesExtracted": 12
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\survival_hud_normal.layout.json",
+        "sha256": "0a0586a9e742fc6dbd9cc1357bf09f992727e3f5f14e2c658e5b7a15ab36581a",
+        "textValuesExtracted": 16
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\survival_results_loss.layout.json",
+        "sha256": "8886e57352640578b20cbbcc2d94869890f88d1eb35943265a248da1abbafd08",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\landscape\\survival_results_win.layout.json",
+        "sha256": "bf3ca9f88364c5787dc041257da8fc87f46a6e1488c2a88ef6e7cd4d25551424",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\character_select_buyable.layout.json",
+        "sha256": "f6765aa8ea5be1d2c2093e3f765c1cc6465e5f65f973f776ae44f674428507e5",
+        "textValuesExtracted": 23
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\character_select_insufficient.layout.json",
+        "sha256": "8825a0074425cd22cefc26c82ca2c623c3f3b03f85df36a3b1bfb6c5f02424c3",
+        "textValuesExtracted": 23
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\character_select_owned.layout.json",
+        "sha256": "08d9046744fc3c03a579041fc45ce2c33b3ff1b2ea758b0d55fd734e0a69ea9c",
+        "textValuesExtracted": 23
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\levelup_four.layout.json",
+        "sha256": "0267094c6e91dd52f35f6576efab1aaa15ffcb729b97f915fa0136d174db1b50",
+        "textValuesExtracted": 29
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\levelup_one.layout.json",
+        "sha256": "08a533f08e118356959f091f41b1758ffab80bb2ef41f6bd199bfbb57be4455d",
+        "textValuesExtracted": 10
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\levelup_three.layout.json",
+        "sha256": "6def50734e12eb8ca8d42d7080d671f6a8ee6ba8434ae00fbebee33cfeb0bae8",
+        "textValuesExtracted": 22
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\locale_dropdown_open.layout.json",
+        "sha256": "e153a555a501bfc782af636a62be5bb38bcaced5635626885b560cedcd8ef828",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\survival_hud_empty.layout.json",
+        "sha256": "e3c6014f3e22ab2790b91994dec57394d2b154424da2af8f867c02849181c71d",
+        "textValuesExtracted": 11
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\survival_hud_normal.layout.json",
+        "sha256": "88a4e8bed51d4c411c22e12e6d1edd919f23e8ff2b0d8343431e57a00806ef76",
+        "textValuesExtracted": 15
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\survival_results_loss.layout.json",
+        "sha256": "7f380b1fbb87e5a20e7bb07683d2a071ae7ec8848c505322637615bcbfc0fbe9",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\designs\\portrait\\survival_results_win.layout.json",
+        "sha256": "c1cbae1764baef2188e9ad6246ada1bea26d1084c96fdbf8c36cd02ef60cbcfb",
+        "textValuesExtracted": 13
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\records\\levelup-content.json",
+        "sha256": "3cd7194905c87ca706a8be69892840f42871339eb81665d811fdaa64ca50ab3b",
+        "textValuesExtracted": 12
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\records\\inventory-content.json",
+        "sha256": "b1dbec88f1dd56e503853a31a8204226c98245757540f6364d8dbb1051a9be9b",
+        "textValuesExtracted": 48
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\records\\quests-monsters-content.json",
+        "sha256": "d07bdd029f1eb72db27aae8c3544f8e6301dcadf9e470c2ddf520f647755017e",
+        "textValuesExtracted": 71
+      },
+      {
+        "file": "E:\\work\\image\\道家Q版UI_20261026_054400\\records\\screen-layouts.json",
+        "sha256": "715c9e888687e2c41339f689198cc0ab4fc44a29cf43fb156c5e9d82a9d98b13",
+        "textValuesExtracted": 2766
+      }
+    ],
+    "sourceFileCount": 29,
+    "extractedTextValueCount": 3349,
+    "additionalSamples": {
+      "english": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 !?.,:;+-=()%/",
+      "simplified": "道家Q版 游历 任务 怪物 首领 技能 装备 铜钱 经验 奖励 设置 确认 取消 青云道童 清荷灵医 玄霆道人 桃木小傀 玄甲山魈",
+      "traditional": "道家Ｑ版 遊歷 任務 怪物 首領 技能 裝備 銅錢 經驗 獎勵 設定 確認 取消 傷害 體力 醫者 傳送 閃避 團隊 養成 劍訣 寶箱 復甦 龜 龍"
+    },
+    "uniqueVisibleCharacterCount": 746,
+    "characterSetFile": "assets/fonts/coverage-characters.txt",
+    "policy": "Business text keys from existing109screen layout,22additional layout metadata, quests/inventory/ability and combat names plus newactor scope. Existing images notOCR-replaced. Printable ASCII33..126 and explicit commonSC/TC sample added. Whitespace/controlcharacters excluded."
+  },
+  "bodyFontCoveragePassed": true,
+  "bodyMissing": [],
+  "titleMissing": [
+    {
+      "character": "·",
+      "codepoint": "U+00B7",
+      "name": "MIDDLE DOT"
+    },
+    {
+      "character": "→",
+      "codepoint": "U+2192",
+      "name": "RIGHTWARDS ARROW"
+    },
+    {
+      "character": "備",
+      "codepoint": "U+5099",
+      "name": "CJK UNIFIED IDEOGRAPH-5099"
+    },
+    {
+      "character": "傳",
+      "codepoint": "U+50B3",
+      "name": "CJK UNIFIED IDEOGRAPH-50B3"
+    },
+    {
+      "character": "傷",
+      "codepoint": "U+50B7",
+      "name": "CJK UNIFIED IDEOGRAPH-50B7"
+    },
+    {
+      "character": "劍",
+      "codepoint": "U+528D",
+      "name": "CJK UNIFIED IDEOGRAPH-528D"
+    },
+    {
+      "character": "務",
+      "codepoint": "U+52D9",
+      "name": "CJK UNIFIED IDEOGRAPH-52D9"
+    },
+    {
+      "character": "勵",
+      "codepoint": "U+52F5",
+      "name": "CJK UNIFIED IDEOGRAPH-52F5"
+    },
+    {
+      "character": "團",
+      "codepoint": "U+5718",
+      "name": "CJK UNIFIED IDEOGRAPH-5718"
+    },
+    {
+      "character": "寶",
+      "codepoint": "U+5BF6",
+      "name": "CJK UNIFIED IDEOGRAPH-5BF6"
+    },
+    {
+      "character": "復",
+      "codepoint": "U+5FA9",
+      "name": "CJK UNIFIED IDEOGRAPH-5FA9"
+    },
+    {
+      "character": "歷",
+      "codepoint": "U+6B77",
+      "name": "CJK UNIFIED IDEOGRAPH-6B77"
+    },
+    {
+      "character": "獎",
+      "codepoint": "U+734E",
+      "name": "CJK UNIFIED IDEOGRAPH-734E"
+    },
+    {
+      "character": "甦",
+      "codepoint": "U+7526",
+      "name": "CJK UNIFIED IDEOGRAPH-7526"
+    },
+    {
+      "character": "確",
+      "codepoint": "U+78BA",
+      "name": "CJK UNIFIED IDEOGRAPH-78BA"
+    },
+    {
+      "character": "經",
+      "codepoint": "U+7D93",
+      "name": "CJK UNIFIED IDEOGRAPH-7D93"
+    },
+    {
+      "character": "裝",
+      "codepoint": "U+88DD",
+      "name": "CJK UNIFIED IDEOGRAPH-88DD"
+    },
+    {
+      "character": "訣",
+      "codepoint": "U+8A23",
+      "name": "CJK UNIFIED IDEOGRAPH-8A23"
+    },
+    {
+      "character": "設",
+      "codepoint": "U+8A2D",
+      "name": "CJK UNIFIED IDEOGRAPH-8A2D"
+    },
+    {
+      "character": "認",
+      "codepoint": "U+8A8D",
+      "name": "CJK UNIFIED IDEOGRAPH-8A8D"
+    },
+    {
+      "character": "遊",
+      "codepoint": "U+904A",
+      "name": "CJK UNIFIED IDEOGRAPH-904A"
+    },
+    {
+      "character": "醫",
+      "codepoint": "U+91AB",
+      "name": "CJK UNIFIED IDEOGRAPH-91AB"
+    },
+    {
+      "character": "銅",
+      "codepoint": "U+9285",
+      "name": "CJK UNIFIED IDEOGRAPH-9285"
+    },
+    {
+      "character": "錢",
+      "codepoint": "U+9322",
+      "name": "CJK UNIFIED IDEOGRAPH-9322"
+    },
+    {
+      "character": "閃",
+      "codepoint": "U+9583",
+      "name": "CJK UNIFIED IDEOGRAPH-9583"
+    },
+    {
+      "character": "隊",
+      "codepoint": "U+968A",
+      "name": "CJK UNIFIED IDEOGRAPH-968A"
+    },
+    {
+      "character": "領",
+      "codepoint": "U+9818",
+      "name": "CJK UNIFIED IDEOGRAPH-9818"
+    },
+    {
+      "character": "養",
+      "codepoint": "U+990A",
+      "name": "CJK UNIFIED IDEOGRAPH-990A"
+    },
+    {
+      "character": "驗",
+      "codepoint": "U+9A57",
+      "name": "CJK UNIFIED IDEOGRAPH-9A57"
+    },
+    {
+      "character": "體",
+      "codepoint": "U+9AD4",
+      "name": "CJK UNIFIED IDEOGRAPH-9AD4"
+    },
+    {
+      "character": "龍",
+      "codepoint": "U+9F8D",
+      "name": "CJK UNIFIED IDEOGRAPH-9F8D"
+    },
+    {
+      "character": "龜",
+      "codepoint": "U+9F9C",
+      "name": "CJK UNIFIED IDEOGRAPH-9F9C"
+    }
+  ],
+  "combinedFallbackCoveragePassed": true,
+  "combinedFallbackMissing": [],
+  "fallbackPolicy": {
+    "body": "Noto Sans CJK SC Regular for all dynamic text, numbers, player names, English, Simplified and Traditional sample. SC font contains testedTraditional codepoints; preferred locale-specificTC glyph forms are not implied.",
+    "title": "Ma Shan Zheng only when every character is present. If any character is missing, prefer whole-label Noto Sans CJK SC fallback to keep the title visually consistent; per-glyph fallback remains a technical safety net. Never sole dynamic/Traditional font.",
+    "titleFallbackCharacterCount": 32
+  },
+  "previewFile": "assets/fonts/font-preview.png",
+  "existingUIPngsModified": false,
+  "unityVerified": false,
+  "licenseNote": "SIL OFL1.1 permits bundling/embedding/redistributing with software subject to its conditions. Include fullOFL and embedded copyright notices, do not sell font alone, and preserveOFL for font software; this package keeps original font bytes/names.",
+  "previewActuallyViewed": true,
+  "previewVisualFindings": [
+    "No missing-glyph boxes in English,SC,TC or actor names",
+    "Traditional decorative sample uses whole-label body fallback to avoid mixing script and sans glyph styles",
+    "No existingUI picture modified"
+  ],
+  "previewReviewedAtUtc": "2026-10-28T08:29:12.269265+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "orig_mob02",
+  "name": "苔玉小魁",
+  "role": "heavy melee ordinary",
+  "originalRequestId": "orig_mob02",
+  "roleMappingNote": null,
+  "operation": "AI_generated_native_master_byte_copy",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "sourceNativePath": "C:/Users/luyua/.codex/generated_images/01a178ab-c6e7-7eb2-bd95-6199c794fb2a/exec-d9d68055-5f4e-45e1-900e-ba6d6cd252d0.png",
+  "file": "assets/orig_mob02/orig_mob02_master_E.png",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "modelAndQualitySelectorsExposed": false,
+    "actualModel": null,
+    "actualQuality": null,
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept.\nAsset type: original single-character master for a high-definition 2D Daoist chibi game sprite, true transparent PNG.\nCreate an original creature named 苔玉小魁. It is an independent living stone golem, not a pet, animal, human, costume, or existing franchise character. A very large rounded pale warm gray jade-stone head above a short compact body; chunky short rock arms and legs with smoothly worn natural stone facets. Exactly three small moss-green leaves sprout at the top of the head, beside one curved jade-stone horn. Its recessed eyes glow a gentle clear cyan-green, with thick sculpted celadon eyebrows, an alert slightly stubborn cute expression. An ivory fabric waist sash has a fine warm-gold hem. The golem's anatomical right fist wears a substantial celadon jade bracer. Small subtle cloud carvings and moss patches support its Daoist identity, without clutter. Its stone head, feet, bracer, horn and all three leaves are clear separate readable forms.\nStyle: exquisite full-colour high-definition hand-painted Chinese fantasy game art, Daoist Q-version chibi proportions, plump rounded volumes, delicate controlled brushwork and clean contours, gentle painted light and shading, restrained jade and warm gold material highlights. Main palette jade green and teal, warm ivory, pale gray-beige stone and fine warm gold. It must look like finished 2D painted game art rather than a 3D render, toy, glossy plastic, vector clip-art, pixel art, or photorealism.\nCamera and pose: a single full-body subject at a fixed elevated three-quarter view, facing screen bottom-right (E), neutral grounded ready stance with both stone feet visible and separated, no aggressive attack effects. Square composition, subject centered, keep at least 12 percent genuinely empty transparent margin on ALL four sides including horn, leaves and fists. Entire subject fits comfortably. Isolated transparent background with real Alpha. No floor, environment, border, card, text, letters, numbers, symbols resembling UI text, shadow puddle or watermark. No second character, no alternate poses, no diagram or turnaround sheet. No external reference image is supplied or to be copied. The requested gpt-image-2.5-sunburst/max is a configuration target only; do not place this text in the artwork.",
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "referenceImages": [],
+  "referenceInputParametersOmitted": [
+    "referenced_image_paths",
+    "num_last_images_to_include"
+  ],
+  "externalImageInputUsed": false,
+  "FDriveImageInputUsed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed builtin tool exposes no model/quality parameters and returned neither actual model nor quality.",
+  "requestStartedAt": "2026-10-26T15:39:28.842Z",
+  "toolReturnedAt": null,
+  "receipt": "records/generation/orig_mob02/tool-receipt.json",
+  "prompt": "records/generation/orig_mob02/prompt.txt",
+  "runtimeResamplingApplied": false,
+  "nativePreserved": true,
+  "unityVerified": false,
+  "animationClaimed": false,
+  "generatedAtObservedFromNativeFileMtime": "2026-10-26T15:40:26.046043+00:00",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "exportSize": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "e3ea7f1df28c1defd80065f12a591dc65c341f50d7029aa60d33a7abb36b72d7",
+  "pixelSha256": "b2203c3df8d46abb0a1219366f34d02bf01773d5d42cd8cae26a0685e9ae9f6d",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    0,
+    3,
+    1236,
+    1254
+  ],
+  "visibleBBoxAlpha16": [
+    183,
+    51,
+    1072,
+    1205
+  ],
+  "visibleMarginsLTRB": [
+    183,
+    51,
+    182,
+    49
+  ],
+  "visibleMarginsFractionLTRB": [
+    0.145933014354067,
+    0.04066985645933014,
+    0.14513556618819776,
+    0.03907496012759171
+  ],
+  "canvasPaddingApplied": false,
+  "sourceNativeSha256": "e3ea7f1df28c1defd80065f12a591dc65c341f50d7029aa60d33a7abb36b72d7",
+  "byteIdenticalToNative": true,
+  "visuallyInspected": true,
+  "visualReviewNotes": [
+    "Single original construct, readable Daoist jade/ivory/warm-gold hand-painted identity",
+    "Whole silhouette visible with no clipped extremities",
+    "No external image inputs; no F reference or copied-F art used",
+    "Native source retained unchanged; root will unify runtime framing and >=12% safety margin"
+  ],
+  "nativeSafetyMarginTarget12PercentPassed": false,
+  "checkedAt": "2026-10-26T15:46:13.416569+00:00"
+}

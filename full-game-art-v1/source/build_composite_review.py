@@ -1,0 +1,23 @@
+"""Art-only overlay/playback proof from delivered raster files; not a game."""
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parents[1]
+m=json.loads((R/'records/walk-exports.json').read_text(encoding='utf-8'))
+actors=[]
+for i,c in enumerate(m['clips']):
+    actors.append({'actor':c['actor'],'name':c['name'],'frames':[f['file'] for f in c['frames']],'tick':c['frames'][0]['durationMs'],'px':270 if c['actor'].startswith('orig_boss') else 205 if c['actor'].startswith('hero') else 170})
+objects=['assets/final/combat/projectiles/'+f+'.png' for f in ['proj_wind_blade','proj_jade_bolt','enemy_paper_dart','enemy_return_disc','enemy_lob_orb_pending']]
+objects+=['assets/final/combat/pickups/'+f+'.png' for f in ['xp_white_1','xp_blue_2','xp_green_10','xp_red_50','money_bronze_1','money_silver_2','money_gold_5','money_pouch_30','money_bag_50']]
+html='''<!doctype html><meta charset="utf-8"><title>道家Q版素材叠加审阅</title><style>body{margin:20px;background:#eae0c8;color:#174437;font:17px sans-serif}h1{font-size:26px}button,select{font:inherit;padding:8px;margin:4px}.board{width:1152px;height:760px;position:relative;overflow:hidden;background:url(../assets/environment/env_battle_ground_01.png);background-size:626px 626px;animation:pan 16s linear infinite}.actor{position:absolute;width:260px;height:260px}.actor img{width:100%;height:100%}.label{position:absolute;bottom:-4px;left:20%;background:#fff3da;padding:2px 5px;border-radius:4px;font-size:14px}.object{position:absolute;width:55px;height:55px}.small{max-width:1152px;line-height:1.5}.portrait{width:760px;height:1152px}@keyframes pan{to{background-position:626px 626px}}</style><h1>道家Q版 · 素材叠加与循环审阅</h1><p class="small">只核对已交付图片的比例、透明边缘、重复地面与动作帧。全部身份同屏仅用于审片；无操控、碰撞、战斗或业务逻辑，不是游戏UI实现。</p><button id="toggle">暂停素材播放</button><label>速度<select id="speed"><option value="1">正常 1×</option><option value="0.5">慢速 0.5×</option></select></label><button id="orientation">查看竖向画幅</button><p id="state">读取实际图片</p><div class="board" id="board"></div><p>上方一排：敌弹与投射物；下方一排：4档经验与5档钱币。地面为同一张原生1254²图片的626px审片重复，不做放大或接缝修补。</p><script>
+const actors=ACTORS,objects=OBJECTS,board=document.querySelector('#board');let running=true,speed=1,portrait=false,start=performance.now(),loaded=0;const layers=[];let changes=0,last='';const jobs=[];
+function load(src){const im=new Image;jobs.push(new Promise((yes,no)=>{im.onload=()=>{loaded++;yes()};im.onerror=()=>no(new Error(src))}));im.src='../'+src;return im}
+for(let i=0;i<actors.length;i++){const a=actors[i],div=document.createElement('div');div.className='actor';div.style.width=div.style.height=a.px+'px';const im=document.createElement('img'),label=document.createElement('span');label.className='label';label.textContent=a.name;div.append(im,label);board.append(div);layers.push({div,im,cache:a.frames.map(load),actor:a});}
+const props=objects.map((src,i)=>{const im=load(src);im.className='object';board.append(im);return im});
+function layout(){const w=portrait?760:1152,h=portrait?1152:760;layers.forEach((l,i)=>{const cols=portrait?3:6,row=Math.floor(i/cols),col=i%cols;const x=(col+.5)*w/cols,y=portrait?235+row*220:240+row*280;l.div.style.left=x-l.actor.px/2+'px';l.div.style.top=y-l.actor.px*.87+'px';});props.forEach((im,i)=>{im.style.left=(i<5?(i+.5)*(w/5)-27:(i-5+.5)*(w/9)-27)+'px';im.style.top=(i<5?25:h-85)+'px';});}
+document.querySelector('#toggle').onclick=()=>{running=!running;board.style.animationPlayState=running?'running':'paused';document.querySelector('#toggle').textContent=running?'暂停素材播放':'继续素材播放';};document.querySelector('#speed').onchange=e=>{speed=Number(e.target.value);board.style.animationDuration=(16/speed)+'s';start=performance.now();};document.querySelector('#orientation').onclick=()=>{portrait=!portrait;board.classList.toggle('portrait',portrait);layout();};layout();
+Promise.all(jobs).then(()=>{document.body.dataset.ready='true';requestAnimationFrame(draw)}).catch(e=>document.querySelector('#state').textContent='缺图 '+e.message);
+function draw(){const t=(performance.now()-start)*speed;if(running){const phases=[];layers.forEach(l=>{const f=Math.floor(t/l.actor.tick)%4;l.im.src=l.cache[f].src;phases.push(f)});const key=phases.join(',');if(key!==last){changes++;last=key;}document.querySelector('#state').textContent=actors.length+'个身份，'+loaded+'张图片已载入 · 实际帧变更 '+changes+' 次 · 当前姿势 '+phases.map(f=>f+1).join('/');}requestAnimationFrame(draw);}
+</script>'''
+html=html.replace('ACTORS',json.dumps(actors,ensure_ascii=False)).replace('OBJECTS',json.dumps(objects,ensure_ascii=False))
+(R/'previews/composite-playback.html').write_text(html,encoding='utf-8')
+print('Wrote composite review',len(actors))

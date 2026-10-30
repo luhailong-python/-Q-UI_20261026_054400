@@ -1,0 +1,731 @@
+{
+  "screen": "11-encounter-ordinary",
+  "title": "灵影交锋",
+  "orientation": "portrait",
+  "state": "ordinary_encounter",
+  "file": "designs/portrait/11-encounter-ordinary.png",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "operation": "Static composition of hand-painted PNGs, nine-slice layout, alpha masks and separately rendered Chinese text. Preview canvas is not native image-generation resolution.",
+  "notNativeGeneratedScreen": true,
+  "assets": [
+    {
+      "asset": "assets/backgrounds/bg_courtyard_portrait.png",
+      "rectTopLeft": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "renderMode": "cover",
+      "sourceNativeSize": [
+        941,
+        1672
+      ],
+      "resampling": "Lanczos; display adaptation, not native detail"
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        50,
+        70,
+        980,
+        200
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_taiji.png",
+      "rectTopLeft": [
+        77,
+        97,
+        125,
+        125
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        225,
+        145,
+        730,
+        43
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        225,
+        145,
+        569,
+        43
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_track.png",
+      "rectTopLeft": [
+        225,
+        205,
+        730,
+        34
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/slider_fill.png",
+      "rectTopLeft": [
+        225,
+        205,
+        489,
+        34
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        300,
+        320,
+        480,
+        90
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/characters/hero_demo.png",
+      "rectTopLeft": [
+        85,
+        1000,
+        360,
+        450
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/button_secondary.png",
+      "rectTopLeft": [
+        740,
+        450,
+        270,
+        88
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/portrait_ring.png",
+      "rectTopLeft": [
+        70,
+        1550,
+        250,
+        250
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/badge_compass.png",
+      "rectTopLeft": [
+        125,
+        1605,
+        140,
+        140
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        705,
+        1510,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_sword.png",
+      "rectTopLeft": [
+        715,
+        1520,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        875,
+        1400,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_talisman.png",
+      "rectTopLeft": [
+        885,
+        1410,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/cooldown_mask.png",
+      "rectTopLeft": [
+        883,
+        1408,
+        124,
+        124
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        875,
+        1610,
+        140,
+        140
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    },
+    {
+      "asset": "assets/icons/icon_gourd.png",
+      "rectTopLeft": [
+        885,
+        1620,
+        120,
+        110
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/monsters/mob01/mob01_E.png",
+      "rectTopLeft": [
+        160,
+        600,
+        280,
+        280
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/monsters/mob02/mob02_E.png",
+      "rectTopLeft": [
+        560,
+        600,
+        280,
+        280
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/monsters/mob03/mob03_E.png",
+      "rectTopLeft": [
+        620,
+        890,
+        330,
+        330
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/monsters/mob04/mob04_E.png",
+      "rectTopLeft": [
+        560,
+        1200,
+        280,
+        280
+      ],
+      "renderMode": "contain",
+      "borderLeftBottomRightTop": null,
+      "alpha": 255
+    },
+    {
+      "asset": "assets/common/card_paper.png",
+      "rectTopLeft": [
+        65,
+        420,
+        610,
+        145
+      ],
+      "renderMode": "sliced",
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "alpha": 255
+    }
+  ],
+  "texts": [
+    {
+      "text": "无名道友  Lv.12",
+      "rectTopLeft": [
+        225,
+        85,
+        660,
+        50
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "气血  998 / 1,280",
+      "rectTopLeft": [
+        225,
+        145,
+        730,
+        43
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 2,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "灵力  240 / 360",
+      "rectTopLeft": [
+        225,
+        205,
+        730,
+        34
+      ],
+      "fontPixels": 22,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 2,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "山门试炼  ·  02:35",
+      "rectTopLeft": [
+        320,
+        336,
+        440,
+        55
+      ],
+      "fontPixels": 30,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "暂停",
+      "rectTopLeft": [
+        765,
+        458,
+        220,
+        78
+      ],
+      "fontPixels": 32,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "center",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "拖动移动",
+      "rectTopLeft": [
+        60,
+        1820,
+        290,
+        50
+      ],
+      "fontPixels": 25,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "剑诀",
+      "rectTopLeft": [
+        705,
+        1654,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "符术",
+      "rectTopLeft": [
+        875,
+        1544,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "3",
+      "rectTopLeft": [
+        875,
+        1425,
+        140,
+        70
+      ],
+      "fontPixels": 43,
+      "fontRole": "body",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "灵葫",
+      "rectTopLeft": [
+        875,
+        1754,
+        140,
+        46
+      ],
+      "fontPixels": 27,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "烛翎",
+      "rectTopLeft": [
+        160,
+        872,
+        280,
+        45
+      ],
+      "fontPixels": 26,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "霜团貂",
+      "rectTopLeft": [
+        560,
+        872,
+        280,
+        45
+      ],
+      "fontPixels": 26,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "汐螺",
+      "rectTopLeft": [
+        620,
+        1212,
+        330,
+        45
+      ],
+      "fontPixels": 26,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "竹风狸",
+      "rectTopLeft": [
+        560,
+        1472,
+        280,
+        45
+      ],
+      "fontPixels": 26,
+      "fontRole": "heading",
+      "color": "#fff2d0",
+      "align": "center",
+      "strokePixels": 1,
+      "strokeColor": "#153e34",
+      "dynamic": true
+    },
+    {
+      "text": "扫清石阶",
+      "rectTopLeft": [
+        90,
+        434,
+        560,
+        50
+      ],
+      "fontPixels": 31,
+      "fontRole": "heading",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    },
+    {
+      "text": "击败烛翎 3/8",
+      "rectTopLeft": [
+        90,
+        498,
+        560,
+        48
+      ],
+      "fontPixels": 28,
+      "fontRole": "body",
+      "color": "#153e34",
+      "align": "left",
+      "strokePixels": 0,
+      "strokeColor": null,
+      "dynamic": true
+    }
+  ],
+  "sha256": "f71c568582111dd9144954cc5067c1e5b3b5397b613e4ae2931b10d4e2b2e544",
+  "coordinateOrigin": "top-left",
+  "sampleData": true,
+  "unityValidated": false,
+  "metadata": {
+    "module": "encounter",
+    "monsterIds": [
+      "mob01",
+      "mob02",
+      "mob03",
+      "mob04"
+    ],
+    "snapshot": "quest_active",
+    "trackedQuestId": "main02",
+    "objective": "击败烛翎 3/8",
+    "artIsStatic": true,
+    "playableCombatImplemented": false,
+    "characterPoses": "Existing single static illustrations; not an animation demonstration."
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/bg_courtyard_portrait.png",
+      "sha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "sourceRecord": "assets/backgrounds/bg_courtyard_portrait.png.generation.json"
+    },
+    {
+      "file": "assets/characters/hero_demo.png",
+      "sha256": "daa2ed747fc003ab41bc6c4de779916c2614b092ccfd9702e52b1e118b453712",
+      "sourceRecord": "assets/characters/hero_demo.png.generation.json"
+    },
+    {
+      "file": "assets/common/button_secondary.png",
+      "sha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "sourceRecord": "records/reused-assets.json#button_secondary"
+    },
+    {
+      "file": "assets/common/card_paper.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "sourceRecord": "records/reused-assets.json#card_paper"
+    },
+    {
+      "file": "assets/common/cooldown_mask.png",
+      "sha256": "ce551906cc4d6de1f6caabbb71f154e2c444d28811a5a30e63388864ad66e7de",
+      "sourceRecord": "records/ui-auxiliary-assets.json#cooldown_mask"
+    },
+    {
+      "file": "assets/common/portrait_ring.png",
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "sourceRecord": "records/reused-assets.json#portrait_ring"
+    },
+    {
+      "file": "assets/common/slider_fill.png",
+      "sha256": "6613b6f5a4ac1d03e1e92082efc92fd61c339b98d04523ac2a289bdac75acf0f",
+      "sourceRecord": "records/reused-assets.json#slider_fill"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "f35d337bd76d4481db6636aba64172c0d86621fbddc043f3af1c6f7e1ae9697f",
+      "sourceRecord": "records/reused-assets.json#slider_track"
+    },
+    {
+      "file": "assets/icons/badge_compass.png",
+      "sha256": "1b415e8aaf92a22801e2413d6312648445140d3d399e73de60b89f17a0ad1b5c",
+      "sourceRecord": "records/reused-assets.json#badge_compass"
+    },
+    {
+      "file": "assets/icons/badge_taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceRecord": "records/reused-assets.json#badge_taiji"
+    },
+    {
+      "file": "assets/icons/icon_gourd.png",
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceRecord": "records/reused-assets.json#icon_gourd"
+    },
+    {
+      "file": "assets/icons/icon_sword.png",
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "sourceRecord": "records/reused-assets.json#icon_sword"
+    },
+    {
+      "file": "assets/icons/icon_talisman.png",
+      "sha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "sourceRecord": "records/reused-assets.json#icon_talisman"
+    },
+    {
+      "file": "assets/monsters/mob01/mob01_E.png",
+      "sha256": "1e0e80f8cf0fb98ba8467f9805b0c26fdaa24def1b5cda1761003ff0b6be9e4c",
+      "sourceRecord": "records/monster-assets.json#mob01_E"
+    },
+    {
+      "file": "assets/monsters/mob02/mob02_E.png",
+      "sha256": "84339de75ff92d7a877de962b2be3663fbc3f61d1123f2ae4f9052a3fd4288f1",
+      "sourceRecord": "records/monster-assets.json#mob02_E"
+    },
+    {
+      "file": "assets/monsters/mob03/mob03_E.png",
+      "sha256": "2f70c9a67e49f3380619218c5081ce051e5afb4055871dff537e844629d1ba69",
+      "sourceRecord": "records/monster-assets.json#mob03_E"
+    },
+    {
+      "file": "assets/monsters/mob04/mob04_E.png",
+      "sha256": "cd709131437fd595bf46a54554ec3b78bc91aa41bfbfdc3f783156fe40cac833",
+      "sourceRecord": "records/monster-assets.json#mob04_E"
+    }
+  ],
+  "generatedAt": "2026-10-26T13:41:22.439032+00:00"
+}

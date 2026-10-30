@@ -1,0 +1,382 @@
+{
+  "scope": "Static art/camera proportion review, no gameplay or Unity validation",
+  "all11ActorsShown": true,
+  "multipleHeroesShownOnlyForArtReview": true,
+  "groundNativeSize": [
+    1254,
+    1254
+  ],
+  "groundPreviewTileSize": [
+    626,
+    626
+  ],
+  "uvOffsetPreviews": [
+    [
+      0,
+      0
+    ],
+    [
+      200,
+      150
+    ],
+    [
+      500,
+      300
+    ],
+    [
+      900,
+      750
+    ]
+  ],
+  "viewports": [
+    {
+      "orientation": "landscape",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "actors": [
+        {
+          "actor": "hero_daotong",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png",
+          "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.21875,
+          "rootXY": [
+            614,
+            659
+          ],
+          "offsetTopLeft": [
+            502,
+            463
+          ]
+        },
+        {
+          "actor": "hero_lingyi",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png",
+          "sha256": "10cd58ca8f0c3fc2965ba93efd45af192cc31c6416ca2ce6819082632bc07498",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.22105263157894736,
+          "rootXY": [
+            960,
+            659
+          ],
+          "offsetTopLeft": [
+            847,
+            461
+          ]
+        },
+        {
+          "actor": "hero_leixiu",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+          "sha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.21875,
+          "rootXY": [
+            1306,
+            659
+          ],
+          "offsetTopLeft": [
+            1194,
+            463
+          ]
+        },
+        {
+          "actor": "orig_mob01",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob01_runtime_E.png",
+          "sha256": "1a2e274eb5bb938437310c582d5f4cb27e4b2aaefd7218117f6ce3de033d3e06",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.1760104302477184,
+          "rootXY": [
+            250,
+            346
+          ],
+          "offsetTopLeft": [
+            160,
+            188
+          ]
+        },
+        {
+          "actor": "orig_mob02",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob02_runtime_E.png",
+          "sha256": "67f5b9b97235f3e9f4429db74846340314569dfcc485a4e15948a3308318fd06",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            595,
+            346
+          ],
+          "offsetTopLeft": [
+            505,
+            188
+          ]
+        },
+        {
+          "actor": "orig_mob03",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob03_runtime_E.png",
+          "sha256": "44d301453f2ce88371aa4c112e9ba5beafe95af4c7b695591f923eb59be9b3ef",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            941,
+            346
+          ],
+          "offsetTopLeft": [
+            851,
+            188
+          ]
+        },
+        {
+          "actor": "orig_mob04",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob04_runtime_E.png",
+          "sha256": "dbdfd25234153a928d16ec21e4b72dda01b5a85a2656ed7013923e88883e23b6",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            1286,
+            346
+          ],
+          "offsetTopLeft": [
+            1196,
+            188
+          ]
+        },
+        {
+          "actor": "orig_mob05",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\actors\\orig_mob05.png",
+          "sha256": "7dcbd5709f7c73ffbdbab1bd47ad7520166d88963aa81dc239685c80dcc30e71",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            1632,
+            346
+          ],
+          "offsetTopLeft": [
+            1542,
+            188
+          ]
+        },
+        {
+          "actor": "orig_mob06",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\actors\\orig_mob06.png",
+          "sha256": "042b1eb1ea478e4163355b2b30aa003c639883cb9a8df0c2b5851c97b35194c6",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            269,
+            961
+          ],
+          "offsetTopLeft": [
+            179,
+            804
+          ]
+        },
+        {
+          "actor": "orig_boss_minor",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_boss_minor_runtime_E.png",
+          "sha256": "f718cc687a20f74808e121af3178d330a67466b357854b024e6bc23986de8e09",
+          "displayBodyHeightPx": 230,
+          "uniformScale": 0.32951289398280803,
+          "rootXY": [
+            864,
+            972
+          ],
+          "offsetTopLeft": [
+            695,
+            677
+          ]
+        },
+        {
+          "actor": "orig_boss01",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_boss01_runtime_E.png",
+          "sha256": "fa41e00123dd9a02b394c26298f347b3f6a3519d8d6535f1a220e99c07a41559",
+          "displayBodyHeightPx": 230,
+          "uniformScale": 0.34124629080118696,
+          "rootXY": [
+            1517,
+            972
+          ],
+          "offsetTopLeft": [
+            1342,
+            666
+          ]
+        }
+      ]
+    },
+    {
+      "orientation": "portrait",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "actors": [
+        {
+          "actor": "hero_daotong",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_daotong.png",
+          "sha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.21875,
+          "rootXY": [
+            248,
+            1267
+          ],
+          "offsetTopLeft": [
+            136,
+            1071
+          ]
+        },
+        {
+          "actor": "hero_lingyi",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_lingyi.png",
+          "sha256": "10cd58ca8f0c3fc2965ba93efd45af192cc31c6416ca2ce6819082632bc07498",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.22105263157894736,
+          "rootXY": [
+            540,
+            1267
+          ],
+          "offsetTopLeft": [
+            427,
+            1069
+          ]
+        },
+        {
+          "actor": "hero_leixiu",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\heroes\\hero_leixiu.png",
+          "sha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+          "displayBodyHeightPx": 168,
+          "uniformScale": 0.21875,
+          "rootXY": [
+            832,
+            1267
+          ],
+          "offsetTopLeft": [
+            720,
+            1071
+          ]
+        },
+        {
+          "actor": "orig_mob01",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob01_runtime_E.png",
+          "sha256": "1a2e274eb5bb938437310c582d5f4cb27e4b2aaefd7218117f6ce3de033d3e06",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.1760104302477184,
+          "rootXY": [
+            216,
+            557
+          ],
+          "offsetTopLeft": [
+            126,
+            399
+          ]
+        },
+        {
+          "actor": "orig_mob02",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob02_runtime_E.png",
+          "sha256": "67f5b9b97235f3e9f4429db74846340314569dfcc485a4e15948a3308318fd06",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            540,
+            557
+          ],
+          "offsetTopLeft": [
+            450,
+            400
+          ]
+        },
+        {
+          "actor": "orig_mob03",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob03_runtime_E.png",
+          "sha256": "44d301453f2ce88371aa4c112e9ba5beafe95af4c7b695591f923eb59be9b3ef",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            864,
+            557
+          ],
+          "offsetTopLeft": [
+            774,
+            400
+          ]
+        },
+        {
+          "actor": "orig_mob04",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_mob04_runtime_E.png",
+          "sha256": "dbdfd25234153a928d16ec21e4b72dda01b5a85a2656ed7013923e88883e23b6",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            216,
+            883
+          ],
+          "offsetTopLeft": [
+            126,
+            726
+          ]
+        },
+        {
+          "actor": "orig_mob05",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\actors\\orig_mob05.png",
+          "sha256": "7dcbd5709f7c73ffbdbab1bd47ad7520166d88963aa81dc239685c80dcc30e71",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            540,
+            883
+          ],
+          "offsetTopLeft": [
+            450,
+            726
+          ]
+        },
+        {
+          "actor": "orig_mob06",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\full-game-art-v1\\assets\\actors\\orig_mob06.png",
+          "sha256": "042b1eb1ea478e4163355b2b30aa003c639883cb9a8df0c2b5851c97b35194c6",
+          "displayBodyHeightPx": 135,
+          "uniformScale": 0.17578125,
+          "rootXY": [
+            864,
+            883
+          ],
+          "offsetTopLeft": [
+            774,
+            726
+          ]
+        },
+        {
+          "actor": "orig_boss_minor",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_boss_minor_runtime_E.png",
+          "sha256": "f718cc687a20f74808e121af3178d330a67466b357854b024e6bc23986de8e09",
+          "displayBodyHeightPx": 230,
+          "uniformScale": 0.32951289398280803,
+          "rootXY": [
+            313,
+            1728
+          ],
+          "offsetTopLeft": [
+            144,
+            1433
+          ]
+        },
+        {
+          "actor": "orig_boss01",
+          "source": "E:\\work\\image\\道家Q版UI_20261026_054400\\original-monsters-v1\\assets\\runtime\\orig_boss01_runtime_E.png",
+          "sha256": "fa41e00123dd9a02b394c26298f347b3f6a3519d8d6535f1a220e99c07a41559",
+          "displayBodyHeightPx": 230,
+          "uniformScale": 0.34124629080118696,
+          "rootXY": [
+            767,
+            1728
+          ],
+          "offsetTopLeft": [
+            592,
+            1422
+          ]
+        }
+      ]
+    }
+  ],
+  "unityVerified": false
+}
