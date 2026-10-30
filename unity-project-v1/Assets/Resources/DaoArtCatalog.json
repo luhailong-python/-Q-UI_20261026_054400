@@ -1,0 +1,4825 @@
+{
+  "gameName": "一符镇万妖",
+  "assets": [
+    {
+      "id": "preserved-ui__bg_courtyard_landscape",
+      "resource": "DaoArt/preserved-ui__bg_courtyard_landscape",
+      "kind": "preserved-ui",
+      "sourceSha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "width": 1672,
+      "height": 941,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__bg_courtyard_portrait",
+      "resource": "DaoArt/preserved-ui__bg_courtyard_portrait",
+      "kind": "preserved-ui",
+      "sourceSha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "width": 941,
+      "height": 1672,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__hero_demo",
+      "resource": "DaoArt/preserved-ui__hero_demo",
+      "kind": "preserved-ui",
+      "sourceSha256": "daa2ed747fc003ab41bc6c4de779916c2614b092ccfd9702e52b1e118b453712",
+      "width": 1024,
+      "height": 1536,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__add_round",
+      "resource": "DaoArt/preserved-ui__add_round",
+      "kind": "preserved-ui",
+      "sourceSha256": "f5277030ba66d149d3ae6c0fac47cdf30efc4d551a9c6d840404057fd876f0f6",
+      "width": 91,
+      "height": 91,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_primary",
+      "resource": "DaoArt/preserved-ui__button_primary",
+      "kind": "preserved-ui",
+      "sourceSha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "width": 376,
+      "height": 97,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_primary_disabled",
+      "resource": "DaoArt/preserved-ui__button_primary_disabled",
+      "kind": "preserved-ui",
+      "sourceSha256": "6b619c6c38adb5bee52f66d2854f950a9e760d9242ed628c935d1c0c5e4c1489",
+      "width": 376,
+      "height": 97,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_primary_pressed",
+      "resource": "DaoArt/preserved-ui__button_primary_pressed",
+      "kind": "preserved-ui",
+      "sourceSha256": "c9f154c822ee5c3d9f8522ad3c35e3f7964752824a3c44a28f3a32b8d922f6ea",
+      "width": 376,
+      "height": 97,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        66,
+        30,
+        66,
+        30
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_scheme",
+      "resource": "DaoArt/preserved-ui__button_scheme",
+      "kind": "preserved-ui",
+      "sourceSha256": "451990db93a0bba54cf0dc7856196c215ba8cc348672b00bf107a464505f5a32",
+      "width": 389,
+      "height": 79,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        30,
+        24,
+        30,
+        24
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_secondary",
+      "resource": "DaoArt/preserved-ui__button_secondary",
+      "kind": "preserved-ui",
+      "sourceSha256": "96fe5fe53fb30def6e5ee8931179911cfd6a21be1d092359f69d5941cb2999f5",
+      "width": 271,
+      "height": 82,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_secondary_disabled",
+      "resource": "DaoArt/preserved-ui__button_secondary_disabled",
+      "kind": "preserved-ui",
+      "sourceSha256": "05fac93dd91faf4fca5cf4e759eee0c6536b57da250e2ab149ce557bae32476f",
+      "width": 271,
+      "height": 82,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__button_secondary_pressed",
+      "resource": "DaoArt/preserved-ui__button_secondary_pressed",
+      "kind": "preserved-ui",
+      "sourceSha256": "a7c713d6e494e173609751a35b8932565e0e85561378d67d5f18d02e8ad65199",
+      "width": 271,
+      "height": 82,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        30,
+        27,
+        30,
+        27
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__card_normal",
+      "resource": "DaoArt/preserved-ui__card_normal",
+      "kind": "preserved-ui",
+      "sourceSha256": "ad58f542cacdea60ef0e9bbae2d40819c7fa39a8a4ebedc1fc46d8d675ee27fa",
+      "width": 419,
+      "height": 135,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__card_paper",
+      "resource": "DaoArt/preserved-ui__card_paper",
+      "kind": "preserved-ui",
+      "sourceSha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "width": 631,
+      "height": 198,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        27,
+        24,
+        27,
+        24
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__card_selected",
+      "resource": "DaoArt/preserved-ui__card_selected",
+      "kind": "preserved-ui",
+      "sourceSha256": "f8ad6f7d944af4f7c5b5c8daeb2d62ec45f977e579656fee7759d99f7b793260",
+      "width": 419,
+      "height": 135,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__checkbox_off",
+      "resource": "DaoArt/preserved-ui__checkbox_off",
+      "kind": "preserved-ui",
+      "sourceSha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "width": 98,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__checkbox_on",
+      "resource": "DaoArt/preserved-ui__checkbox_on",
+      "kind": "preserved-ui",
+      "sourceSha256": "35cf5de473b3a6273b1e81113bf4f26852950f9057d1e15382ced690e6af250c",
+      "width": 98,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__close",
+      "resource": "DaoArt/preserved-ui__close",
+      "kind": "preserved-ui",
+      "sourceSha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "width": 82,
+      "height": 82,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__cooldown_mask",
+      "resource": "DaoArt/preserved-ui__cooldown_mask",
+      "kind": "preserved-ui",
+      "sourceSha256": "ce551906cc4d6de1f6caabbb71f154e2c444d28811a5a30e63388864ad66e7de",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__divider",
+      "resource": "DaoArt/preserved-ui__divider",
+      "kind": "preserved-ui",
+      "sourceSha256": "628ddbfc48a51b5c7e0375ad4fd25d734e559c051c5b69b41963fc9c3a40bbe3",
+      "width": 34,
+      "height": 661,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__dropdown_arrow",
+      "resource": "DaoArt/preserved-ui__dropdown_arrow",
+      "kind": "preserved-ui",
+      "sourceSha256": "3e7782d11939e08db08a68ac58e750394ba59f5dc97b74779b8cfc82b239172e",
+      "width": 36,
+      "height": 27,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__item_slot_frame",
+      "resource": "DaoArt/preserved-ui__item_slot_frame",
+      "kind": "preserved-ui",
+      "sourceSha256": "fab13d1b2dd5bef7260209fc22fcbd15c9e5a835b83d359ed0d3b5b9d5a0e4a0",
+      "width": 134,
+      "height": 115,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__item_slot_tile",
+      "resource": "DaoArt/preserved-ui__item_slot_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "e169239dce633412d6bfddfb91fd7a337d67f2efb27d9b9ade6ae1e496c306e0",
+      "width": 116,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__lantern",
+      "resource": "DaoArt/preserved-ui__lantern",
+      "kind": "preserved-ui",
+      "sourceSha256": "0ed0f5b0e7c18a683f44d3598f665cc6b00daea5f4368269f1ec464650af2224",
+      "width": 220,
+      "height": 393,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__list_row",
+      "resource": "DaoArt/preserved-ui__list_row",
+      "kind": "preserved-ui",
+      "sourceSha256": "706797419d8d1d8daa67b3915af7b53a01f760ae5590ed5214655985a79a155b",
+      "width": 851,
+      "height": 97,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        24,
+        19,
+        24,
+        19
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__notice_icon",
+      "resource": "DaoArt/preserved-ui__notice_icon",
+      "kind": "preserved-ui",
+      "sourceSha256": "cbf6754ffe44bbbbf2c6fc31e27153e22b07debcd9072ac55188ed388aff510b",
+      "width": 47,
+      "height": 47,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__overlay_dim",
+      "resource": "DaoArt/preserved-ui__overlay_dim",
+      "kind": "preserved-ui",
+      "sourceSha256": "5deffa96b780e002ed9e903588f9e2f85d9dfefac1deb4e2523556b9571675c3",
+      "width": 16,
+      "height": 16,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__panel_main",
+      "resource": "DaoArt/preserved-ui__panel_main",
+      "kind": "preserved-ui",
+      "sourceSha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "width": 1546,
+      "height": 743,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__paper_tile",
+      "resource": "DaoArt/preserved-ui__paper_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "1e49b07c8c1fd508ab4798d3b68c28dd827b2421afa6438a15f6c81175d26992",
+      "width": 375,
+      "height": 57,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__portrait_ring",
+      "resource": "DaoArt/preserved-ui__portrait_ring",
+      "kind": "preserved-ui",
+      "sourceSha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "width": 91,
+      "height": 91,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__section_header",
+      "resource": "DaoArt/preserved-ui__section_header",
+      "kind": "preserved-ui",
+      "sourceSha256": "98dc6c9898d54286999b7be1010e94019582b7232a24df8cfc714ecebbc0fbda",
+      "width": 422,
+      "height": 57,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        42,
+        20,
+        42,
+        20
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__section_plate",
+      "resource": "DaoArt/preserved-ui__section_plate",
+      "kind": "preserved-ui",
+      "sourceSha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "width": 433,
+      "height": 72,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        76,
+        16,
+        72,
+        21
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__slider_fill",
+      "resource": "DaoArt/preserved-ui__slider_fill",
+      "kind": "preserved-ui",
+      "sourceSha256": "6613b6f5a4ac1d03e1e92082efc92fd61c339b98d04523ac2a289bdac75acf0f",
+      "width": 60,
+      "height": 23,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__slider_thumb",
+      "resource": "DaoArt/preserved-ui__slider_thumb",
+      "kind": "preserved-ui",
+      "sourceSha256": "9cab35f55f601663f5f0020600e5815b81de09e303262ddda4be2571207d2aef",
+      "width": 51,
+      "height": 51,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__slider_track",
+      "resource": "DaoArt/preserved-ui__slider_track",
+      "kind": "preserved-ui",
+      "sourceSha256": "f35d337bd76d4481db6636aba64172c0d86621fbddc043f3af1c6f7e1ae9697f",
+      "width": 324,
+      "height": 23,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__slot_selection",
+      "resource": "DaoArt/preserved-ui__slot_selection",
+      "kind": "preserved-ui",
+      "sourceSha256": "b2b403c507f3e51ab3f07499f07df566f007f269a261065b55b68e507c03da37",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__stat_field",
+      "resource": "DaoArt/preserved-ui__stat_field",
+      "kind": "preserved-ui",
+      "sourceSha256": "c175e6e627776393cb7371df797ebe88bdfa0916769829269089ee22ac9b8c46",
+      "width": 273,
+      "height": 62,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__status_offline",
+      "resource": "DaoArt/preserved-ui__status_offline",
+      "kind": "preserved-ui",
+      "sourceSha256": "0a821ae6ec37a9713a2d8a2bbacda259e185e10590b39b3e8893da0feb047263",
+      "width": 30,
+      "height": 30,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__status_online",
+      "resource": "DaoArt/preserved-ui__status_online",
+      "kind": "preserved-ui",
+      "sourceSha256": "9a953fce2f65e4189086d692d9671df706898fe0fa2883b44837fe72ec254011",
+      "width": 30,
+      "height": 33,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__step_minus",
+      "resource": "DaoArt/preserved-ui__step_minus",
+      "kind": "preserved-ui",
+      "sourceSha256": "e788695456c8d65c590bf0b35fbfc027b7baaccb4e42ae39983fb72e529feaa6",
+      "width": 66,
+      "height": 65,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__step_plate",
+      "resource": "DaoArt/preserved-ui__step_plate",
+      "kind": "preserved-ui",
+      "sourceSha256": "e90a79a03cfc48f8716c57c39bfeb922e3d3f4c052642c8d1c1b90c5b5358033",
+      "width": 66,
+      "height": 65,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__step_plus",
+      "resource": "DaoArt/preserved-ui__step_plus",
+      "kind": "preserved-ui",
+      "sourceSha256": "cc5a01c6224ab1d2c5b29e448ccd8a18d4fd30d431dd068c279d598f2237e71f",
+      "width": 66,
+      "height": 65,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__tab_horizontal",
+      "resource": "DaoArt/preserved-ui__tab_horizontal",
+      "kind": "preserved-ui",
+      "sourceSha256": "c5dda5483942a74e0a831f853b9ee5c10ffe46c778960b188fb909617a6aaa65",
+      "width": 279,
+      "height": 71,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        27,
+        24,
+        27,
+        24
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__tab_vertical_normal",
+      "resource": "DaoArt/preserved-ui__tab_vertical_normal",
+      "kind": "preserved-ui",
+      "sourceSha256": "6e25333add80f2325ec87c6f58022444453eb7373f4483c817a55ff165b985cc",
+      "width": 97,
+      "height": 127,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        13,
+        21,
+        29,
+        21
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__tab_vertical_selected",
+      "resource": "DaoArt/preserved-ui__tab_vertical_selected",
+      "kind": "preserved-ui",
+      "sourceSha256": "67ac18f09129d07a0b52aabdf90e34ae62f3c16e7fb7b8730f10713d2f5f5fb9",
+      "width": 97,
+      "height": 127,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        13,
+        21,
+        24,
+        21
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__tassel",
+      "resource": "DaoArt/preserved-ui__tassel",
+      "kind": "preserved-ui",
+      "sourceSha256": "20abbf34762758034e2c87749111a3c06dedf74d013cadc7aa997502517776a5",
+      "width": 30,
+      "height": 81,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__title_plate",
+      "resource": "DaoArt/preserved-ui__title_plate",
+      "kind": "preserved-ui",
+      "sourceSha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "width": 655,
+      "height": 110,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__badge_compass",
+      "resource": "DaoArt/preserved-ui__badge_compass",
+      "kind": "preserved-ui",
+      "sourceSha256": "1b415e8aaf92a22801e2413d6312648445140d3d399e73de60b89f17a0ad1b5c",
+      "width": 120,
+      "height": 120,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__badge_lotus",
+      "resource": "DaoArt/preserved-ui__badge_lotus",
+      "kind": "preserved-ui",
+      "sourceSha256": "15f4ad1ea7ac089d4fefe25f2fae3d46cc459996639afb8192aee3bd84ca0429",
+      "width": 120,
+      "height": 120,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__badge_taiji",
+      "resource": "DaoArt/preserved-ui__badge_taiji",
+      "kind": "preserved-ui",
+      "sourceSha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "width": 120,
+      "height": 120,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_boots",
+      "resource": "DaoArt/preserved-ui__icon_boots",
+      "kind": "preserved-ui",
+      "sourceSha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "width": 600,
+      "height": 600,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_gourd",
+      "resource": "DaoArt/preserved-ui__icon_gourd",
+      "kind": "preserved-ui",
+      "sourceSha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "width": 600,
+      "height": 600,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_pavilion",
+      "resource": "DaoArt/preserved-ui__icon_pavilion",
+      "kind": "preserved-ui",
+      "sourceSha256": "e85ad587ac4a3a68a3afe0b704f2f20a0c871e6088e0967be129f26bd0205a15",
+      "width": 120,
+      "height": 120,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_scroll",
+      "resource": "DaoArt/preserved-ui__icon_scroll",
+      "kind": "preserved-ui",
+      "sourceSha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "width": 600,
+      "height": 600,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_sword",
+      "resource": "DaoArt/preserved-ui__icon_sword",
+      "kind": "preserved-ui",
+      "sourceSha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "width": 600,
+      "height": 600,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__icon_talisman",
+      "resource": "DaoArt/preserved-ui__icon_talisman",
+      "kind": "preserved-ui",
+      "sourceSha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "width": 600,
+      "height": 600,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__reward_coin_tile",
+      "resource": "DaoArt/preserved-ui__reward_coin_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "a01e72ecfb786f61d116f2960fd97d7386a083a9d97335ca9140598522f8c4d1",
+      "width": 116,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__reward_crystal_tile",
+      "resource": "DaoArt/preserved-ui__reward_crystal_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "0cdd4ef4c8838409317d55a4217b3ffb286673920886cc979aa3395cc8d35d55",
+      "width": 116,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__reward_gourd_tile",
+      "resource": "DaoArt/preserved-ui__reward_gourd_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "0b2c964de6c69f505f7186939f3045060b5395cf5a8aefee3607858be28fd6b5",
+      "width": 116,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__reward_mooncake_tile",
+      "resource": "DaoArt/preserved-ui__reward_mooncake_tile",
+      "kind": "preserved-ui",
+      "sourceSha256": "4c4de1f818220aa09c31bda174d0ff78678ee397367022794c43859ebdd45f51",
+      "width": 116,
+      "height": 98,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__boss01_E",
+      "resource": "DaoArt/preserved-ui__boss01_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "ebcfc3acffcf5f4b54190e3954e3e16dc280c3829447d00e55c601cf2113bc4f",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__boss01_target",
+      "resource": "DaoArt/preserved-ui__boss01_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "88ef97b4e884352a24c1b3b770694671f1a26921532dd89150296cf58165bab9",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__elite01_E",
+      "resource": "DaoArt/preserved-ui__elite01_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "f48097dd016557281ee9740e140fbd426967a65a49aba49e1610cbbda07af5ed",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__elite01_target",
+      "resource": "DaoArt/preserved-ui__elite01_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "f5777be14756356a8d66e71024340ef1342f5e6657cec9a4be0291f563468042",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob01_E",
+      "resource": "DaoArt/preserved-ui__mob01_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "1e0e80f8cf0fb98ba8467f9805b0c26fdaa24def1b5cda1761003ff0b6be9e4c",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob01_portrait",
+      "resource": "DaoArt/preserved-ui__mob01_portrait",
+      "kind": "preserved-ui",
+      "sourceSha256": "319df0bbbc134a2c8b82f71f7e1c8ce2fd47687ec1db808cee85a318c20b5546",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob01_target",
+      "resource": "DaoArt/preserved-ui__mob01_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "d5dc18592ad7b0265af055b59f04cd33c1f70de5f6e8fd5254788343d8b19482",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob02_E",
+      "resource": "DaoArt/preserved-ui__mob02_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "84339de75ff92d7a877de962b2be3663fbc3f61d1123f2ae4f9052a3fd4288f1",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob02_target",
+      "resource": "DaoArt/preserved-ui__mob02_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "84f29be922b5d7e7993cf67a899b6ade6cff8a777dc4cd3202cf4abe42e68edc",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob03_E",
+      "resource": "DaoArt/preserved-ui__mob03_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "2f70c9a67e49f3380619218c5081ce051e5afb4055871dff537e844629d1ba69",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob03_target",
+      "resource": "DaoArt/preserved-ui__mob03_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "c5d774bfd0b0d61b44548b7aa3c57b6cb848f9cff9c53229355c0715d7c329f5",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob04_E",
+      "resource": "DaoArt/preserved-ui__mob04_E",
+      "kind": "preserved-ui",
+      "sourceSha256": "cd709131437fd595bf46a54554ec3b78bc91aa41bfbfdc3f783156fe40cac833",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "preserved-ui__mob04_target",
+      "resource": "DaoArt/preserved-ui__mob04_target",
+      "kind": "preserved-ui",
+      "sourceSha256": "bc8e48453cd99dced67955a423fae45bf74d1556b6457aa8ffd351e81e954bae",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob01_runtime_E",
+      "resource": "DaoArt/original-base__orig_mob01_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "1a2e274eb5bb938437310c582d5f4cb27e4b2aaefd7218117f6ce3de033d3e06",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob01_portrait",
+      "resource": "DaoArt/original-base__orig_mob01_portrait",
+      "kind": "original-base",
+      "sourceSha256": "630edb22e633a4a833da9159476b8c6dad71edd5ad034056a47ec768fd52d6db",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob01_target",
+      "resource": "DaoArt/original-base__orig_mob01_target",
+      "kind": "original-base",
+      "sourceSha256": "b2be33e512ef745ca4c9e03aa79b9f7cf8d649887446135d220642a17cf75d55",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob02_runtime_E",
+      "resource": "DaoArt/original-base__orig_mob02_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "67f5b9b97235f3e9f4429db74846340314569dfcc485a4e15948a3308318fd06",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob02_portrait",
+      "resource": "DaoArt/original-base__orig_mob02_portrait",
+      "kind": "original-base",
+      "sourceSha256": "8927098c8dc7bce6c043a33158da2ce81c4f13af862959833451711d14b1e893",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob02_target",
+      "resource": "DaoArt/original-base__orig_mob02_target",
+      "kind": "original-base",
+      "sourceSha256": "cdd4f9acd4c738e8cd332899cd606e71b09161b53fd89f4657fac9f7d5dd0266",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob03_runtime_E",
+      "resource": "DaoArt/original-base__orig_mob03_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "44d301453f2ce88371aa4c112e9ba5beafe95af4c7b695591f923eb59be9b3ef",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob03_portrait",
+      "resource": "DaoArt/original-base__orig_mob03_portrait",
+      "kind": "original-base",
+      "sourceSha256": "e6ce6172397a5480e6fcae7f7bb1887ac5d5eab64af4d58142b73edea9c712b8",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob03_target",
+      "resource": "DaoArt/original-base__orig_mob03_target",
+      "kind": "original-base",
+      "sourceSha256": "fd37b6979b44848455341e385bf478bb10d7b0c99afa99cab9c861991b315939",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob04_runtime_E",
+      "resource": "DaoArt/original-base__orig_mob04_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "dbdfd25234153a928d16ec21e4b72dda01b5a85a2656ed7013923e88883e23b6",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob04_portrait",
+      "resource": "DaoArt/original-base__orig_mob04_portrait",
+      "kind": "original-base",
+      "sourceSha256": "6ce4193df05b3197becde424c6e80052a0b5bed32fbd108e24b65bd66b1d5f3d",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_mob04_target",
+      "resource": "DaoArt/original-base__orig_mob04_target",
+      "kind": "original-base",
+      "sourceSha256": "e6165b35fb808d3af4a8fb0c9dbd6a3b13dd0b8b9190f68a5901125fca382482",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss_minor_runtime_E",
+      "resource": "DaoArt/original-base__orig_boss_minor_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "f718cc687a20f74808e121af3178d330a67466b357854b024e6bc23986de8e09",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss_minor_portrait",
+      "resource": "DaoArt/original-base__orig_boss_minor_portrait",
+      "kind": "original-base",
+      "sourceSha256": "949c0d0bebba0c40b9e5a733ee541190b009b75742cc1305fee0aae5a7a66e82",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss_minor_target",
+      "resource": "DaoArt/original-base__orig_boss_minor_target",
+      "kind": "original-base",
+      "sourceSha256": "ff8da2cf2abfca91e0fdb51a7df935cce1e8c5cc6c42a9de8613ec0595a6b53f",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss01_runtime_E",
+      "resource": "DaoArt/original-base__orig_boss01_runtime_E",
+      "kind": "original-base",
+      "sourceSha256": "fa41e00123dd9a02b394c26298f347b3f6a3519d8d6535f1a220e99c07a41559",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss01_portrait",
+      "resource": "DaoArt/original-base__orig_boss01_portrait",
+      "kind": "original-base",
+      "sourceSha256": "42c5495479f4f247e6ff07a6ca2ec99c47c3832cc765ccf26fcafa8cdeea6a96",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__orig_boss01_target",
+      "resource": "DaoArt/original-base__orig_boss01_target",
+      "kind": "original-base",
+      "sourceSha256": "073adca34d55aa964a0bbbc3e065c8a1003bb2053ea41c101252557c5802feea",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__panel_main",
+      "resource": "DaoArt/original-base__panel_main",
+      "kind": "original-base",
+      "sourceSha256": "d97f410d20a07a1e06b43d6890dcf7d98f4b36b06d6e8a6662932c464e13267c",
+      "width": 604,
+      "height": 627,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__card_normal",
+      "resource": "DaoArt/original-base__card_normal",
+      "kind": "original-base",
+      "sourceSha256": "67142fc5227eedc474c31c5afa05ff61041e970db8f6a85bac05f42496026deb",
+      "width": 475,
+      "height": 704,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__card_selected",
+      "resource": "DaoArt/original-base__card_selected",
+      "kind": "original-base",
+      "sourceSha256": "8976ed85831ffb503181aef04285409bedfb5a5ae6dfd1c9a6cc0098ab184bd0",
+      "width": 475,
+      "height": 704,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__title_plate",
+      "resource": "DaoArt/original-base__title_plate",
+      "kind": "original-base",
+      "sourceSha256": "adc27cb8bdb50b39e78413a4b1e9f19d50ec0cff07be80b6b1277bd6385e8a2c",
+      "width": 562,
+      "height": 152,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__button_primary",
+      "resource": "DaoArt/original-base__button_primary",
+      "kind": "original-base",
+      "sourceSha256": "381d4f6e95e5da37446fe41411160aaa71ae05423abc4e3c548526332bb39ee9",
+      "width": 435,
+      "height": 142,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__button_secondary",
+      "resource": "DaoArt/original-base__button_secondary",
+      "kind": "original-base",
+      "sourceSha256": "fa30c922cd8194ee30ba14614e2625a68d2a37f24058f142d055218e639a1da2",
+      "width": 446,
+      "height": 141,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        50,
+        34,
+        50,
+        34
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__icon_sword",
+      "resource": "DaoArt/original-base__icon_sword",
+      "kind": "original-base",
+      "sourceSha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__icon_protection",
+      "resource": "DaoArt/original-base__icon_protection",
+      "kind": "original-base",
+      "sourceSha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__icon_gourd",
+      "resource": "DaoArt/original-base__icon_gourd",
+      "kind": "original-base",
+      "sourceSha256": "0c315e057fa88e5ab14ec7905c214e362784778e2a2e283b49bcbfe043814435",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__icon_thunder",
+      "resource": "DaoArt/original-base__icon_thunder",
+      "kind": "original-base",
+      "sourceSha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__hero_daotong",
+      "resource": "DaoArt/original-base__hero_daotong",
+      "kind": "original-base",
+      "sourceSha256": "f9f45f52c6ce6d91124cdf34bda716702ec8e12eb35ffc7b3b61d3e4d4074e62",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__hero_lingyi",
+      "resource": "DaoArt/original-base__hero_lingyi",
+      "kind": "original-base",
+      "sourceSha256": "10cd58ca8f0c3fc2965ba93efd45af192cc31c6416ca2ce6819082632bc07498",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__hero_leixiu",
+      "resource": "DaoArt/original-base__hero_leixiu",
+      "kind": "original-base",
+      "sourceSha256": "442ea1aa1cfc11a275b209eeb6e458608609b04f327cf00953341b19205213bd",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__item_bomb",
+      "resource": "DaoArt/original-base__item_bomb",
+      "kind": "original-base",
+      "sourceSha256": "7c3e236ca46ff50af81d639f0186cdb497a7b07dca4d3ba7435d6658b9171f6e",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__item_magnet",
+      "resource": "DaoArt/original-base__item_magnet",
+      "kind": "original-base",
+      "sourceSha256": "a62f3f05ccda0738f2a1d2f15ecd2dde9c0c928b1d95d56eed6008d3d6f2f362",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__item_heal",
+      "resource": "DaoArt/original-base__item_heal",
+      "kind": "original-base",
+      "sourceSha256": "9d41a40cfd6eebd110c32b9aad799553fdb5e334f9aa8c762604e148dc37eefe",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__item_regen",
+      "resource": "DaoArt/original-base__item_regen",
+      "kind": "original-base",
+      "sourceSha256": "5d41b6fc7a1fb601cbe8fad44c905c26c25fd37c9e1f4c5fd7df2029d3e5b9e7",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__chest_closed",
+      "resource": "DaoArt/original-base__chest_closed",
+      "kind": "original-base",
+      "sourceSha256": "e6ea6057fe8369fc53e19cf7ab70e47b2cb4cd23291545f31339f20fcbe72682",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__chest_opening",
+      "resource": "DaoArt/original-base__chest_opening",
+      "kind": "original-base",
+      "sourceSha256": "f090151c1e26ddda45f12f3c49aa9ad3a6f7bfddfdb267bf83ef1094ae56b5c0",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__chest_open",
+      "resource": "DaoArt/original-base__chest_open",
+      "kind": "original-base",
+      "sourceSha256": "2b9b28e221a0d66d2ba96cddcc3daa450594780176ace27b17812f2d069355f7",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__bg_courtyard_landscape",
+      "resource": "DaoArt/original-base__bg_courtyard_landscape",
+      "kind": "original-base",
+      "sourceSha256": "86b72a2c6dd4fdac1e04d58feff5839bcd0f445143955800b388a4df16524fe3",
+      "width": 1672,
+      "height": 941,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__bg_courtyard_portrait",
+      "resource": "DaoArt/original-base__bg_courtyard_portrait",
+      "kind": "original-base",
+      "sourceSha256": "7270768f412aef435fc2e7799bfd8ac527a2ca8d89f0312709eb6f33663256dd",
+      "width": 941,
+      "height": 1672,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__panel_surface",
+      "resource": "DaoArt/original-base__panel_surface",
+      "kind": "original-base",
+      "sourceSha256": "c8694f59ff5562c71d58b61f7fd1619e662afbc103b7adaecd3d4831193a47cb",
+      "width": 718,
+      "height": 376,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        90,
+        90,
+        90,
+        90
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "original-base__panel_small",
+      "resource": "DaoArt/original-base__panel_small",
+      "kind": "original-base",
+      "sourceSha256": "d98b10756f20121447a5ae9c7fe7129f70ecf9e515b4480e9a98714b74a84cc3",
+      "width": 359,
+      "height": 188,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_lightsaber",
+      "resource": "DaoArt/abilities__ability_lightsaber",
+      "kind": "abilities",
+      "sourceSha256": "6f37d05caafbe4ac3ca8dec2b89462222d8c7eb345cec451c347f405fb6e52f8",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_machete",
+      "resource": "DaoArt/abilities__ability_machete",
+      "kind": "abilities",
+      "sourceSha256": "ccca6c88e29f51d6a7376536378d108b386740637dd8228c72b92af426f94dd2",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_lifesteal",
+      "resource": "DaoArt/abilities__ability_lifesteal",
+      "kind": "abilities",
+      "sourceSha256": "0cfddaf3735d19f9b5a2d79a9a57756f7371469bba18c4478d9ac85396cebf36",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__icon_gourd",
+      "resource": "DaoArt/abilities__icon_gourd",
+      "kind": "abilities",
+      "sourceSha256": "0c315e057fa88e5ab14ec7905c214e362784778e2a2e283b49bcbfe043814435",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_bat",
+      "resource": "DaoArt/abilities__ability_bat",
+      "kind": "abilities",
+      "sourceSha256": "8bbc7172586350f0b80870c82c25dab0d8febbcedbe348da951052755bc274da",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_dagger",
+      "resource": "DaoArt/abilities__ability_dagger",
+      "kind": "abilities",
+      "sourceSha256": "6198ad1b34fc6ea5f50591b753fb242565508f38d584115ac20224a3908afaca",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__icon_sword",
+      "resource": "DaoArt/abilities__icon_sword",
+      "kind": "abilities",
+      "sourceSha256": "dbf1fff5f1a25872471adca5ef8397b280001f68731404d1d22bdf5c03020da1",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__icon_thunder",
+      "resource": "DaoArt/abilities__icon_thunder",
+      "kind": "abilities",
+      "sourceSha256": "6eab93c5d8d70022a7864c8fe831ae33515242470a97ac590af84e523cc450c1",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_machine_gun",
+      "resource": "DaoArt/abilities__ability_machine_gun",
+      "kind": "abilities",
+      "sourceSha256": "9f021e62a64481874a36052bbea2e2f2914e8c49d7e2f4e7bfc82021df061a0f",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_shuriken",
+      "resource": "DaoArt/abilities__ability_shuriken",
+      "kind": "abilities",
+      "sourceSha256": "3107d07902db5904999cee7899d36fd8267129ac7eb53e7bed63a4177df2ca66",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_book",
+      "resource": "DaoArt/abilities__ability_book",
+      "kind": "abilities",
+      "sourceSha256": "d2450f2df24528da8b7387ed487ee1024aa5d661b4226a8bb1650f73b870c805",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_grenade",
+      "resource": "DaoArt/abilities__ability_grenade",
+      "kind": "abilities",
+      "sourceSha256": "8115c606df5e115045c15dc82c88935782ba23283900a7c5630ff26be5e448e1",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_molotov",
+      "resource": "DaoArt/abilities__ability_molotov",
+      "kind": "abilities",
+      "sourceSha256": "8401f3dabcbaf3689ad3ddede98e46b43e9804eae79cffa52b5ded080e55a555",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_aoe_upgrade",
+      "resource": "DaoArt/abilities__ability_aoe_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "63d1c433d9de202468c8d40f72dc71c9a3de14d03d026eab471b05f2e8b447de",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__icon_protection",
+      "resource": "DaoArt/abilities__icon_protection",
+      "kind": "abilities",
+      "sourceSha256": "92ef2a57e07da95e22a39fcfc0de8a15ad93c3b7a6b8fba3cc1c2fa5f99e86fd",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_cooldown_upgrade",
+      "resource": "DaoArt/abilities__ability_cooldown_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "530b087f9fc05674cb2974a23bdd00aa5b6fe9dfdf8af26ed4b02247045b0de8",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_damage_upgrade",
+      "resource": "DaoArt/abilities__ability_damage_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "21dd3076da90f2835e9f78a3cd824ef53ef96ae7c6fed5706507d72f3eee119c",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_ice_skate",
+      "resource": "DaoArt/abilities__ability_ice_skate",
+      "kind": "abilities",
+      "sourceSha256": "4478fd1e67885d90297c6fb4f8cbbbbcf55c075d1dfeb9942c74b59640ce1e20",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_knockback_upgrade",
+      "resource": "DaoArt/abilities__ability_knockback_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "fe3c7df65bd3683e8e6d79d0a75f1ef218c7f6e1ad93786bfb9032ed44e1eea4",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_projectile_count_upgrade",
+      "resource": "DaoArt/abilities__ability_projectile_count_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "3bbb1aa52773514984da2527d6470f0cf0e4471db64f8a853419af70af786fb5",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "abilities__ability_projectile_speed_upgrade",
+      "resource": "DaoArt/abilities__ability_projectile_speed_upgrade",
+      "kind": "abilities",
+      "sourceSha256": "38bae1d04db3c3027f7f5a5058056a671087cf95581b09f3c07e9b92657e2f37",
+      "width": 384,
+      "height": 384,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__proj_wind_blade",
+      "resource": "DaoArt/combat__proj_wind_blade",
+      "kind": "combat",
+      "sourceSha256": "8043087092865d0dfe445a61c1ad1c1ec083e85eaf90cd9605c0b5c72cc1071d",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__proj_jade_bolt",
+      "resource": "DaoArt/combat__proj_jade_bolt",
+      "kind": "combat",
+      "sourceSha256": "c40b50c818fd5c62291847ae4426db968cf5adc8f85a87994f2ad5f1596ade54",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__proj_thunder_dart",
+      "resource": "DaoArt/combat__proj_thunder_dart",
+      "kind": "combat",
+      "sourceSha256": "1cd66e4af1d77b2950736e4fc18ad7e925fa3cdcbcf514995ef539cd417b097c",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__throw_grenade",
+      "resource": "DaoArt/combat__throw_grenade",
+      "kind": "combat",
+      "sourceSha256": "a1ae432a3dfecf8d5f3f34d3c4b05cc0ce0640807ad07f82eec47c2b5b3fa6c1",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__proj_jade_fragment",
+      "resource": "DaoArt/combat__proj_jade_fragment",
+      "kind": "combat",
+      "sourceSha256": "512bd57baff1636a54d6605ae3ab08eab11920e1b0a55fb2a2eb23bc1ad4f320",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__throw_fire_flask",
+      "resource": "DaoArt/combat__throw_fire_flask",
+      "kind": "combat",
+      "sourceSha256": "c23a9c52c6f38883e0ad7876904f9516a7e1e9e1d38eb27d7341f6696cb942bf",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__boom_jade_ring",
+      "resource": "DaoArt/combat__boom_jade_ring",
+      "kind": "combat",
+      "sourceSha256": "46120a2bc276579e129e52993c78583005584e9b010738795ea14e338500fa99",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__boom_flying_knife",
+      "resource": "DaoArt/combat__boom_flying_knife",
+      "kind": "combat",
+      "sourceSha256": "d1cf30f89a09dc6c585857687419b6f8b6e2674e003ae3f39117915a99731c1b",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__orbit_dao_book",
+      "resource": "DaoArt/combat__orbit_dao_book",
+      "kind": "combat",
+      "sourceSha256": "d28f06925fd7212399d361d0bbc9936b9cd3c25954ce20ebbcd6a2eb26fe962d",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__enemy_paper_dart",
+      "resource": "DaoArt/combat__enemy_paper_dart",
+      "kind": "combat",
+      "sourceSha256": "ec72a292d897263b2e050c2198cc85d0e3f6addb9049d650347db0531d78fdfd",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__enemy_return_disc",
+      "resource": "DaoArt/combat__enemy_return_disc",
+      "kind": "combat",
+      "sourceSha256": "c3b63ea6d2a28d6315a89680a6ea4ba84d2df0ab171a079ea77ed0c36548a55f",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__enemy_lob_orb_pending",
+      "resource": "DaoArt/combat__enemy_lob_orb_pending",
+      "kind": "combat",
+      "sourceSha256": "c3048216d96c064ac0f4a68605dc88c3fc1eb1d2650580b09f1e6c86f9502200",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__xp_white_1",
+      "resource": "DaoArt/combat__xp_white_1",
+      "kind": "combat",
+      "sourceSha256": "a5f6ac88a7e68fe956e70a2a4df9ef8519ff9efc6aacb47455a74339a19f4755",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__xp_blue_2",
+      "resource": "DaoArt/combat__xp_blue_2",
+      "kind": "combat",
+      "sourceSha256": "a68b01c6bbbccde0f413b0ea7efc62eeb30bce0d2bf0a9b21a569c0cb7e6717c",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__xp_green_10",
+      "resource": "DaoArt/combat__xp_green_10",
+      "kind": "combat",
+      "sourceSha256": "961c72deaee3e7d2c622e7c001ad9c9123451e77962e81d41d9aadd215d164b6",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__xp_red_50",
+      "resource": "DaoArt/combat__xp_red_50",
+      "kind": "combat",
+      "sourceSha256": "e0e2bab3241146df0e54ad16685d5bbf61ea74508efd77f08e3f604da9c943f5",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__money_bronze_1",
+      "resource": "DaoArt/combat__money_bronze_1",
+      "kind": "combat",
+      "sourceSha256": "42fa946344561529cb0b7319d19d9a0f8bf2bb8ffb02213f2c51d559a54e3a6a",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__money_silver_2",
+      "resource": "DaoArt/combat__money_silver_2",
+      "kind": "combat",
+      "sourceSha256": "2ba5bf6d0df6c2c16fceb3ab5a08179b525e96a9fadecb5f86ea594d960f28dc",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__money_gold_5",
+      "resource": "DaoArt/combat__money_gold_5",
+      "kind": "combat",
+      "sourceSha256": "07143095f7d02acfddbbbe073ea2d63aceababf4e26a58dfd23d17c740a4cef3",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__money_pouch_30",
+      "resource": "DaoArt/combat__money_pouch_30",
+      "kind": "combat",
+      "sourceSha256": "dc47ddbee80c0d247a30043b33e2ad68ce517cc9a68413089f4e103c8c3a1f9c",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__money_bag_50",
+      "resource": "DaoArt/combat__money_bag_50",
+      "kind": "combat",
+      "sourceSha256": "e3a0e5dd65282c29eb8546395dccae439ecc4c90f1cf33a05dfd66a566c5ed1b",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__particle_ivory_cloud",
+      "resource": "DaoArt/combat__particle_ivory_cloud",
+      "kind": "combat",
+      "sourceSha256": "955f0748155dc363e4f7f7f948a26c17bb9a1ee3715edf481ff7f71ec751f393",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__particle_gold_spark",
+      "resource": "DaoArt/combat__particle_gold_spark",
+      "kind": "combat",
+      "sourceSha256": "d2bceab20e0eb647b50261966c05d2c5e0a18ea8c3b9a89e2affa9f786629644",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__particle_jade_leaf",
+      "resource": "DaoArt/combat__particle_jade_leaf",
+      "kind": "combat",
+      "sourceSha256": "56e3c7fe5a458283fb5224171f3b4dcb3868f3902f47647774c9627c3fea671a",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__particle_cinnabar_flame",
+      "resource": "DaoArt/combat__particle_cinnabar_flame",
+      "kind": "combat",
+      "sourceSha256": "c304ce97c0c7547a61b7b68529d2e82258d0ab74bfc56076f53c417c0842d23b",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__particle_jade_glow",
+      "resource": "DaoArt/combat__particle_jade_glow",
+      "kind": "combat",
+      "sourceSha256": "4620e103b5368a4b64904520f6c630ede9565e2423ab5af1fb556d4aae174f86",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__charge_warning_brush",
+      "resource": "DaoArt/combat__charge_warning_brush",
+      "kind": "combat",
+      "sourceSha256": "ced4bd4dfb1608a2466b0bffc2a1fd64f2f813ee92b1eb01889cfd556d589534",
+      "width": 512,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__weapon_sword",
+      "resource": "DaoArt/combat__weapon_sword",
+      "kind": "combat",
+      "sourceSha256": "077a687b95e6c9d7fd759741852a76f2305429818728ab0d2840db6d89e1ee78",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.203125,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__weapon_mace",
+      "resource": "DaoArt/combat__weapon_mace",
+      "kind": "combat",
+      "sourceSha256": "1040446925a3c73236c3c42fabd48ce2e71deb28543e6703cc98dece06a5b4a0",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.203125,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__weapon_dagger",
+      "resource": "DaoArt/combat__weapon_dagger",
+      "kind": "combat",
+      "sourceSha256": "d640cbad3bda0acc871c36275c43d9545a92a0f0ffdb8f9b7be0d55557634711",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.203125,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__emitter_talisman_case",
+      "resource": "DaoArt/combat__emitter_talisman_case",
+      "kind": "combat",
+      "sourceSha256": "504c8b5c21a037f8f1c87cde8358abbd2e3f41961c20ad113573465222172e0d",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.203125,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__emitter_thunder_launcher",
+      "resource": "DaoArt/combat__emitter_thunder_launcher",
+      "kind": "combat",
+      "sourceSha256": "45ad79659394f9e8d68e2e30e36174a85f3cc5c63a641ee66fd46860a59b144a",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.203125,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_00",
+      "resource": "DaoArt/combat__fx_explosion_00",
+      "kind": "combat",
+      "sourceSha256": "bf40c8af6a134bf2fe4d9139c5b9ce74f1fcc689ebc10ae84df00b0939e05458",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_01",
+      "resource": "DaoArt/combat__fx_explosion_01",
+      "kind": "combat",
+      "sourceSha256": "c8ab6acd8136490ec0a3553b4f0ae5014b467398a5d205002a399ba48d76ca75",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_02",
+      "resource": "DaoArt/combat__fx_explosion_02",
+      "kind": "combat",
+      "sourceSha256": "ce5063ce4a131ff1b47c31575de4ac82908b2e69c9bef6a97d1f591891d3a4b2",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_03",
+      "resource": "DaoArt/combat__fx_explosion_03",
+      "kind": "combat",
+      "sourceSha256": "661274f016cc3a000e0e8ee335138f6b4a7119f52788ac3c98421affe6da6e0b",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_04",
+      "resource": "DaoArt/combat__fx_explosion_04",
+      "kind": "combat",
+      "sourceSha256": "7a84cd4d2312ab13147564f817de994af529a28651abd32a7f74e27ab73a2d2b",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_explosion_05",
+      "resource": "DaoArt/combat__fx_explosion_05",
+      "kind": "combat",
+      "sourceSha256": "79e45111d3aa88d54d85b1fef973d4827b7a9c045f4e66061d2f59855f6a6e49",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_00",
+      "resource": "DaoArt/combat__fx_firefield_00",
+      "kind": "combat",
+      "sourceSha256": "1b6cbd5ca5f55e0e7818a3214415d5c36978f3a3f0b513184258da4e6eaa5eea",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_01",
+      "resource": "DaoArt/combat__fx_firefield_01",
+      "kind": "combat",
+      "sourceSha256": "acfa11a84ffc8e5842a8495c2a90d680f0d48860fc24e7f2b3b2b0f3adc39a4a",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_02",
+      "resource": "DaoArt/combat__fx_firefield_02",
+      "kind": "combat",
+      "sourceSha256": "0dc5f2653c409fa12d9e44b3cbed0720380dc30eae04b86bd5dcffff81030a6f",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_03",
+      "resource": "DaoArt/combat__fx_firefield_03",
+      "kind": "combat",
+      "sourceSha256": "2314c1ca96e6235684b019cda0f9b0aa092f77d21c6b8a9b4c6eb3968b0241e8",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_04",
+      "resource": "DaoArt/combat__fx_firefield_04",
+      "kind": "combat",
+      "sourceSha256": "7622700343fa42e39be7655d509ca828202a5fedaa063bfea14182c98462a0d0",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "combat__fx_firefield_05",
+      "resource": "DaoArt/combat__fx_firefield_05",
+      "kind": "combat",
+      "sourceSha256": "bc1484d4a79895657fe571634e1273e255b04ffe5a7fdebee397e850446ff100",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.3125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_runtime",
+      "resource": "DaoArt/orig_mob05_runtime",
+      "kind": "new-static",
+      "sourceSha256": "7dcbd5709f7c73ffbdbab1bd47ad7520166d88963aa81dc239685c80dcc30e71",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_portrait",
+      "resource": "DaoArt/orig_mob05_portrait",
+      "kind": "new-static",
+      "sourceSha256": "d41f18418e67ba8948e6cdfa7731730a89cad98b5d98e24cd5950aae41e60c32",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_target",
+      "resource": "DaoArt/orig_mob05_target",
+      "kind": "new-static",
+      "sourceSha256": "8e722752e5ccfb36ea2bb045e0988d419b2e19a5bf4aeca92f806c31e5a1e277",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_runtime",
+      "resource": "DaoArt/orig_mob06_runtime",
+      "kind": "new-static",
+      "sourceSha256": "042b1eb1ea478e4163355b2b30aa003c639883cb9a8df0c2b5851c97b35194c6",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_portrait",
+      "resource": "DaoArt/orig_mob06_portrait",
+      "kind": "new-static",
+      "sourceSha256": "c6a39623052f64527babf0350ff4e8103983a563c2a0034337bbd04f175e9163",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_target",
+      "resource": "DaoArt/orig_mob06_target",
+      "kind": "new-static",
+      "sourceSha256": "261ede6ddab93f27fb77e31a151f6c4901ce31dbb34ed98d8681eede09ded71b",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "fx_gravity_well",
+      "resource": "DaoArt/fx_gravity_well",
+      "kind": "new-static",
+      "sourceSha256": "96a3c08991e1e2edf65064cbd00f477de73a7f5fab09efd793117ffba95dcc58",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "look_indicator",
+      "resource": "DaoArt/look_indicator",
+      "kind": "new-static",
+      "sourceSha256": "81bf7e7bbe598932ec05e90e3fe52f8d341218145b065fc6f603693f64ccfe41",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "soft_shadow",
+      "resource": "DaoArt/soft_shadow",
+      "kind": "new-static",
+      "sourceSha256": "d01216ac22db74fde4d0c72d6e4d60711a9d5a9f7e7775bc5ce62cf107fcfdd0",
+      "width": 512,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "env_repeat_noise",
+      "resource": "DaoArt/env_repeat_noise",
+      "kind": "technical-data",
+      "sourceSha256": "68d8906fdf2a973487c9a872d54ef5fc0be917ed746ed896b1a795bda036e4b3",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": true
+    },
+    {
+      "id": "flash_white",
+      "resource": "DaoArt/flash_white",
+      "kind": "technical-data",
+      "sourceSha256": "508e92238640e05034d4f6ac7d906a3288e82dbe047b7e8f55ff4d993a7523ef",
+      "width": 4,
+      "height": 4,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "env_battle_ground_01",
+      "resource": "DaoArt/env_battle_ground_01",
+      "kind": "environment",
+      "sourceSha256": "1ed2d2eae867411ecf1a6688554392e4794c416ad8e002b689f382d4c8b88c5b",
+      "width": 1254,
+      "height": 1254,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": true
+    },
+    {
+      "id": "hero_daotong_walk_00",
+      "resource": "DaoArt/hero_daotong_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "b2f67279f9e751851f81258fd41826e79d7fcc91693ba51b03cb440476cd6da2",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_daotong_walk_01",
+      "resource": "DaoArt/hero_daotong_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "6156c0c7f9e476a3b58fe1f9eb8fc8b1cf9e6c68f46784f4b1f59e1dff88226b",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_daotong_walk_02",
+      "resource": "DaoArt/hero_daotong_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "0f1c4d80251dbb8f13b54319e02c0da70dfe8fd04afc1415710208fc3a18271d",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_daotong_walk_03",
+      "resource": "DaoArt/hero_daotong_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "fb4b40e18b1e292eb11e20d2c01d162fe43a0c163a19115962eeef109850f178",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_lingyi_walk_00",
+      "resource": "DaoArt/hero_lingyi_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "f8d26f79e492d17d9b8206c5cd119b744d74ef439b608e00bfa08d41bee89961",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_lingyi_walk_01",
+      "resource": "DaoArt/hero_lingyi_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "501302e9b38cf9413898944f027fabc90e1a659e981c9ce005b72bf8045cf6c9",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_lingyi_walk_02",
+      "resource": "DaoArt/hero_lingyi_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "5d7538a675a48d9f5685173fc86235af1ff902723e1277a95c528e3932a59594",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_lingyi_walk_03",
+      "resource": "DaoArt/hero_lingyi_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "6bc34d6f3f5ddb899c870ee0a28d65417f7fb5ec319899233227a57f3b719d6a",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_leixiu_walk_00",
+      "resource": "DaoArt/hero_leixiu_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "e7ce7798072fd2357b6038f17e3f0bee9937bc7c697b87b6e75bdfc1c215b771",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_leixiu_walk_01",
+      "resource": "DaoArt/hero_leixiu_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "cc37d7dfb3b2af1db0372f5b69e4db84be64d9e5ad80c70795e84963295c36a4",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_leixiu_walk_02",
+      "resource": "DaoArt/hero_leixiu_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "7851f46405e3e0585f2fc3aa00db4ad8e2ee94132a63992f8cae9851cc686a46",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "hero_leixiu_walk_03",
+      "resource": "DaoArt/hero_leixiu_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "822573f7f43f3146de50795cc98d32fed2783efcf9f02651e3b4e5de3306fc44",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob01_walk_00",
+      "resource": "DaoArt/orig_mob01_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "88cc655926bda41f3ea3b3ab4dc3ba357b3f1345543c6794f41f075c20b658b4",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob01_walk_01",
+      "resource": "DaoArt/orig_mob01_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "617f580e063c9c4c88adfc88d947e33fcc3275c871ab2447854b2fdfb478aa11",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob01_walk_02",
+      "resource": "DaoArt/orig_mob01_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "1066035a39c588bffb8c5521666cb10d02c4b16859b7f6b16cfe6c5983781158",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob01_walk_03",
+      "resource": "DaoArt/orig_mob01_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "fb2ec7a7377cbabfd1d50391c1a9c7104d69d82db42d9bb1c570edf8719a7ff0",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob02_walk_00",
+      "resource": "DaoArt/orig_mob02_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "57de05a1a9ef06c20b3d471e96ae58fedcd7c067680ca01c118930d529a20df6",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob02_walk_01",
+      "resource": "DaoArt/orig_mob02_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "a9a387b8239840067b2601a1d5b777d96762abc256af8980f78a30a94a8ed86e",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob02_walk_02",
+      "resource": "DaoArt/orig_mob02_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "3180e48e442f2a304590b5bcfa69fc8f5cc5f9468fa21e016d8582c7c396b839",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob02_walk_03",
+      "resource": "DaoArt/orig_mob02_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "3616cc925ad9d6c4519122aaed2115948f54bfbb1b0470961e86e2d988240ffc",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob03_walk_00",
+      "resource": "DaoArt/orig_mob03_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "860b1f49cacd8563129f65894c291006b063f2b3d674b5a3c6c62891d539a331",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob03_walk_01",
+      "resource": "DaoArt/orig_mob03_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "9b7dd0343f601c9cf6f9737d0b0db8652d9e1ae3ecc4352f63eb947663ab095f",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob03_walk_02",
+      "resource": "DaoArt/orig_mob03_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "2e107cca431eb180852197c3f0ba8b6563a9cfbcf6c617b413be449e24e0a18e",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob03_walk_03",
+      "resource": "DaoArt/orig_mob03_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "452599e9ca08194af47766a659e40c463a8d363d9a5530aaeff19fb4c126a65c",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob04_walk_00",
+      "resource": "DaoArt/orig_mob04_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "4627ea114ae5822c3e0f4d996106c2b4c461e1c6d5658cfb973d0e81953338fe",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob04_walk_01",
+      "resource": "DaoArt/orig_mob04_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "42d274bddaa6d5ca0beca4585046771bbabc7c91d2d3ed3bcb4fe7e71551bfcc",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob04_walk_02",
+      "resource": "DaoArt/orig_mob04_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "8b29596c492590cac222ed56ab3ff64640dc34916e963ef8928050516f35bf87",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob04_walk_03",
+      "resource": "DaoArt/orig_mob04_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "3e020ed30b7faf0b3848f5a77913bad084255cd7f0297b63006f192536b4b20a",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_walk_00",
+      "resource": "DaoArt/orig_mob05_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "dec97774bf980f4f9a3ec29872dc1b76afbcb177f7ddf57c090eba11db424388",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_walk_01",
+      "resource": "DaoArt/orig_mob05_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "9bcb55d93f447b129c6641d812c37b97c9cb0b3e05295db46fe42a97479d3c44",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_walk_02",
+      "resource": "DaoArt/orig_mob05_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "bb84b91c6158287988d3a761352ae75846c53d1f24edbc44eb1aa0c07ea3b50c",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob05_walk_03",
+      "resource": "DaoArt/orig_mob05_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "6ec3bad7083089fed6de0a0b9bf744e119e380b452e2a3558dd3baf602d54d3a",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_walk_00",
+      "resource": "DaoArt/orig_mob06_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "9bf3192b6c33a696255d69b4d34d97a58a2a92e8ab1d46bf905982a1ef75c31e",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_walk_01",
+      "resource": "DaoArt/orig_mob06_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "46f593c0a2aeb9cee7a20366c92720b658f33ae05f98d153ee49ef663857a5d0",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_walk_02",
+      "resource": "DaoArt/orig_mob06_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "a123e7d5a8773be96192a2bd69d5469961ec26b433b7a08f528770fa516a2cdf",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_mob06_walk_03",
+      "resource": "DaoArt/orig_mob06_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "600b83f1c984e75bb822709758903bf262c6f9f483ae36d482b19e7ebfcc9d3b",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss_minor_walk_00",
+      "resource": "DaoArt/orig_boss_minor_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "2fdf695ed330076952876abd143c10526be18ccf31b23bc3feb2280ddfa37cbd",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss_minor_walk_01",
+      "resource": "DaoArt/orig_boss_minor_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "045018c1614e85186dd3aab733ba8a0c303cd8c6d923028614cdbe5da8bc6208",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss_minor_walk_02",
+      "resource": "DaoArt/orig_boss_minor_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "c14a39d3b7fae23d506a3b96249d5a377d458bdeed4ce4a968b091f62cbc6d0b",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss_minor_walk_03",
+      "resource": "DaoArt/orig_boss_minor_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "9fdf5917eda47f57f42e29c68954df7a42f462915ae3821fcdbd8af25d69f527",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss01_walk_00",
+      "resource": "DaoArt/orig_boss01_walk_00",
+      "kind": "character-walk-frame",
+      "sourceSha256": "2547f49d530beef6ec7290b3a1ced90f4257d0423754fbdd55df69454663a514",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss01_walk_01",
+      "resource": "DaoArt/orig_boss01_walk_01",
+      "kind": "character-walk-frame",
+      "sourceSha256": "3bf9d636a64e29f958ebe2c87ee85ea927b25ec49efbc8782e23e9fb2b95414e",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss01_walk_02",
+      "resource": "DaoArt/orig_boss01_walk_02",
+      "kind": "character-walk-frame",
+      "sourceSha256": "94a0b9c228ad3c2a0295eec1a9ec8349fd935f533288a39506de7197f6be3e5c",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "orig_boss01_walk_03",
+      "resource": "DaoArt/orig_boss01_walk_03",
+      "kind": "character-walk-frame",
+      "sourceSha256": "e0fc1adc000b50cd806e5c46a26238167bb02062f63e001d5a7e6ffc27bf5b43",
+      "width": 1024,
+      "height": 1024,
+      "pivot": [
+        0.5,
+        0.125
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-logo-primary",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-logo-primary",
+      "kind": "branding",
+      "sourceSha256": "d82510c49589471d5174d373189fd26d6031f8802e47b3d269b0a71b5718582d",
+      "width": 1680,
+      "height": 1120,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-logo-primary-1200w",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-logo-primary-1200w",
+      "kind": "branding",
+      "sourceSha256": "9fc47f8a38b4a05969e405c408f002ad79d3dfe1b3fd810876cd0a96fe339759",
+      "width": 1200,
+      "height": 800,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-logo-primary-768w",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-logo-primary-768w",
+      "kind": "branding",
+      "sourceSha256": "e2cf3744de0d8b9bba2497aa265f74d9bdfd506a804d17d5aef2efc4b3ae361c",
+      "width": 768,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-brand-emblem",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-brand-emblem",
+      "kind": "branding",
+      "sourceSha256": "115da8c9d1efea40b59887dbc4e07e8d7e15e1b4b33bb8abc78c387f35bc4299",
+      "width": 1392,
+      "height": 1392,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-brand-emblem-512w",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-brand-emblem-512w",
+      "kind": "branding",
+      "sourceSha256": "6a6c42aa17425e0296d242340dd04a453f9e9d5704632ac7e44f5af0f2a8990e",
+      "width": 512,
+      "height": 512,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-brand-emblem-256w",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-brand-emblem-256w",
+      "kind": "branding",
+      "sourceSha256": "a50d17b5abed447acc2e579fbb1981089fb86c28fdef0753bd65a34c1c93f9c1",
+      "width": 256,
+      "height": 256,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    },
+    {
+      "id": "branding__yifu-zhen-wanyao-brand-emblem-128w",
+      "resource": "DaoArt/branding__yifu-zhen-wanyao-brand-emblem-128w",
+      "kind": "branding",
+      "sourceSha256": "f1b1a1aba9c64641c9c8b36204e9d97442fb863e513d49d7c6508489bb72cff7",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "textureOnly": false
+    }
+  ],
+  "actors": [
+    {
+      "id": "hero_daotong",
+      "name": "青云道童",
+      "staticArt": "original-base__hero_daotong",
+      "frames": [
+        "hero_daotong_walk_00",
+        "hero_daotong_walk_01",
+        "hero_daotong_walk_02",
+        "hero_daotong_walk_03"
+      ],
+      "seconds": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "displayHeight": 1.35,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "hero_lingyi",
+      "name": "清荷灵医",
+      "staticArt": "original-base__hero_lingyi",
+      "frames": [
+        "hero_lingyi_walk_00",
+        "hero_lingyi_walk_01",
+        "hero_lingyi_walk_02",
+        "hero_lingyi_walk_03"
+      ],
+      "seconds": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "displayHeight": 1.35,
+      "staticVisibleHeightPx": 760,
+      "floating": false
+    },
+    {
+      "id": "hero_leixiu",
+      "name": "玄霆道人",
+      "staticArt": "original-base__hero_leixiu",
+      "frames": [
+        "hero_leixiu_walk_00",
+        "hero_leixiu_walk_01",
+        "hero_leixiu_walk_02",
+        "hero_leixiu_walk_03"
+      ],
+      "seconds": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "displayHeight": 1.35,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "orig_mob01",
+      "name": "青符灵",
+      "staticArt": "original-base__orig_mob01_runtime_E",
+      "frames": [
+        "orig_mob01_walk_00",
+        "orig_mob01_walk_01",
+        "orig_mob01_walk_02",
+        "orig_mob01_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 767,
+      "floating": false
+    },
+    {
+      "id": "orig_mob02",
+      "name": "苔玉小魁",
+      "staticArt": "original-base__orig_mob02_runtime_E",
+      "frames": [
+        "orig_mob02_walk_00",
+        "orig_mob02_walk_01",
+        "orig_mob02_walk_02",
+        "orig_mob02_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "orig_mob03",
+      "name": "灯芯小魅",
+      "staticArt": "original-base__orig_mob03_runtime_E",
+      "frames": [
+        "orig_mob03_walk_00",
+        "orig_mob03_walk_01",
+        "orig_mob03_walk_02",
+        "orig_mob03_walk_03"
+      ],
+      "seconds": [
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 768,
+      "floating": true
+    },
+    {
+      "id": "orig_mob04",
+      "name": "竹甲小妖",
+      "staticArt": "original-base__orig_mob04_runtime_E",
+      "frames": [
+        "orig_mob04_walk_00",
+        "orig_mob04_walk_01",
+        "orig_mob04_walk_02",
+        "orig_mob04_walk_03"
+      ],
+      "seconds": [
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "orig_mob05",
+      "name": "桃木小傀",
+      "staticArt": "orig_mob05_runtime",
+      "frames": [
+        "orig_mob05_walk_00",
+        "orig_mob05_walk_01",
+        "orig_mob05_walk_02",
+        "orig_mob05_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "orig_mob06",
+      "name": "玄甲山魈",
+      "staticArt": "orig_mob06_runtime",
+      "frames": [
+        "orig_mob06_walk_00",
+        "orig_mob06_walk_01",
+        "orig_mob06_walk_02",
+        "orig_mob06_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.05,
+      "staticVisibleHeightPx": 768,
+      "floating": false
+    },
+    {
+      "id": "orig_boss_minor",
+      "name": "铜铃卫",
+      "staticArt": "original-base__orig_boss_minor_runtime_E",
+      "frames": [
+        "orig_boss_minor_walk_00",
+        "orig_boss_minor_walk_01",
+        "orig_boss_minor_walk_02",
+        "orig_boss_minor_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.8,
+      "staticVisibleHeightPx": 698,
+      "floating": false
+    },
+    {
+      "id": "orig_boss01",
+      "name": "玄坛石尊",
+      "staticArt": "original-base__orig_boss01_runtime_E",
+      "frames": [
+        "orig_boss01_walk_00",
+        "orig_boss01_walk_01",
+        "orig_boss01_walk_02",
+        "orig_boss01_walk_03"
+      ],
+      "seconds": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "displayHeight": 1.8,
+      "staticVisibleHeightPx": 674,
+      "floating": false
+    }
+  ]
+}

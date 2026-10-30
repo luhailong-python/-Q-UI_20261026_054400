@@ -1,0 +1,19 @@
+{
+  "recordedAtUtc": "2026-10-30T04:44:24.500703+00:00",
+  "method": "Executed dotnet Roslyn CSharpSyntaxTree.ParseText",
+  "commandExitCode": 0,
+  "checkedCSharpFiles": 5,
+  "syntaxErrors": [],
+  "unityCompilationVerified": false,
+  "note": "Roslyn syntax only; actual Unity Editor API/type/import/playback validation still required.",
+  "unityImportVerified": false,
+  "runtimePlaybackVerified": false,
+  "sourceSha256": {
+    "Assets/Editor/DaoArtImporter.cs": "17550f679ddfb6805334a3b93d16288b6b86f5f87f6d023c15d11b04208445b9",
+    "Assets/Editor/DaoProjectBuilder.cs": "2683e6757115d83054d98a24bdd433eb50ea4cacef0447a5b09f8c5bcb871772",
+    "Assets/Scripts/ArtActor.cs": "be00f659cbbb1ba76074f41cc12c9aed885e2aa3a2eb3cb213d46f51331401b2",
+    "Assets/Scripts/ArtCatalog.cs": "657ba96273aeb84fbf8f1dbb9d96df0f16be2da5637dfd0724e08932200a1211",
+    "Assets/Scripts/ArtIntegrationPreview.cs": "ff8d56c4966d61927ff9e87f4915a1b2b08d546e2e61fc939a4d259f4e3f982a"
+  },
+  "limitation": "No actual Unity Editor available; syntax is not API/type/import/playback verification."
+}

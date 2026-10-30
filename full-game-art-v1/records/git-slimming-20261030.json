@@ -1,0 +1,14 @@
+{
+  "completedAtUtc": "2026-10-30T04:07:31.4984810Z",
+  "repository": "E:\\work\\image\\道家Q版UI_20261026_054400",
+  "beforeBytes": 3641982990.0,
+  "afterBytes": 1091414.0,
+  "freedBytes": 3640891576.0,
+  "keptCommit": "09651f701647dcda576e41520ddc40fb45e95a98",
+  "keptCommitCount": 1,
+  "oldLocalHeadRemoved": "9ba1067740e49ba9e7d39b1f50304bffb2bf50ef",
+  "oldHistoryAndLfsCacheRemoved": true,
+  "remoteHistoryChanged": false,
+  "workingArt242AndUI131VerifiedUnchanged": true,
+  "branch": "codex/deliver-yifu-zhen-wanyao-lfs"
+}
