@@ -1,10 +1,10 @@
 # 美术交付验收
 
-本批范围是固定commit `01f8c76e40f52b853117f436d6d3d08f80a41506` 对应的全部游戏图片、美术与已确认演示任务扩展。正式项目远端未提供。131张旧UI保持原像素；新增游戏美术均使用本项目原创来源。
+本批范围是固定commit `01f8c76e40f52b853117f436d6d3d08f80a41506` 对应的全部游戏图片、美术与已确认演示任务扩展。当前交付仓库为 `luhailong-python/-Q-UI_20261026_054400`。131张旧UI保持原像素；新增游戏美术均使用本项目原创来源。
 
-当前汇总：235张正式图片、131张横竖设计/状态图、11个身体身份、11组4姿势行走共44帧、21类能力图标、4档经验/5档钱、4类消耗品、宝箱三态、战斗场景、弹体/武器/粒子/特效与辅助纹理。数量是交付文件数，不冒充独立原画数量。
+核心美术汇总：235张正式图片、131张横竖设计/状态图、11个身体身份、11组4姿势行走共44帧、21类能力图标、4档经验/5档钱、4类消耗品、宝箱三态、战斗场景、弹体/武器/粒子/特效与辅助纹理。后来已完成正式名称“一符镇万妖”及7张Logo/徽记导出，统一交付总计242张正式PNG；品牌验收见 `branding-v1/records/acceptance.json`。数量是交付文件数，不冒充独立原画数量。
 
-最终判定与逐图SHA：`records/final-acceptance.json`、`records/final-resource-manifest.json`。动作须以 `walk-playback-review.json` 当前帧SHA匹配为准。静态功能审计文档中的“缺失”是制作前快照，当前状态由上述最终记录覆盖。
+核心美术最终判定与逐图SHA：`records/final-acceptance.json`、`records/final-resource-manifest.json`；含品牌的统一索引为 `records/complete-art-manifest.json`。动作须以 `walk-playback-review.json` 当前帧SHA匹配为准。静态功能审计文档中的“缺失”是制作前快照，当前状态由最终记录覆盖。最新磁盘与完整ZIP复核见 `records/complete-art-verification.json`，绑定既有实际审片记录，不冒称本次重新播放验收。
 
 ## 实际检查
 
@@ -25,4 +25,6 @@
 | native-size-below-prompt-target | [1254,1254] | requested [2048,2048] | assets/native/env_battle_ground_01.png | 保留原生1254²，不放大或宣称2048原生细节 |
 | opposite-edge-not-identical | leftRightMeanAbsRGB 11.144869804382324; topBottomMeanAbsRGB 11.169590950012207 | 0 | assets/native/env_battle_ground_01.png | 实际平铺及移动审片通过；不称数学逐像素无缝 |
 
-Unity导入、材质、动画控制、Prefab、场景组装、C#、业务与设备运行均按约定留下一阶段。PPU、Pivot、Border、导入压缩为接入建议，尚未在Unity验证。当前未Git提交、推送或发布。
+Unity下一阶段已准备独立工程、C#导入器、Prefab/动画/场景生成器与操作审片代码；实际编辑器导入、编译、播放、材质及设备运行仍未验证。PPU、Pivot、Border、导入压缩已经写入接入代码，但仍须真实Unity验收。该限制属于工程接入，当前确认范围没有待补美术图片。
+
+美术已经Git提交并Push至 `codex/deliver-yifu-zhen-wanyao-lfs`，后续工作在 `codex/unity-art-integration-v1`。旧“未提交”字段保留在原验收JSON及冻结ZIP中，表示当时的历史状态；当前以本说明和已发布分支为准。

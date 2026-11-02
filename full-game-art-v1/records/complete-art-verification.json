@@ -1,0 +1,29 @@
+{
+  "verifiedAtUtc": "2026-11-02T02:51:53.303788+00:00",
+  "gameName": "一符镇万妖",
+  "scope": "Previously confirmed whole-game art scope plus later approved naming/logo work",
+  "referenceCommit": "01f8c76e40f52b853117f436d6d3d08f80a41506",
+  "passed": true,
+  "errors": [],
+  "runtimePngCount": 242,
+  "uiDesignCount": 131,
+  "all131OriginalUIHashesMatch": true,
+  "actorCount": 11,
+  "walkFrameCount": 44,
+  "existingPlaybackEvidenceMatchesCurrentFrames": true,
+  "fontFamilyCount": 2,
+  "archiveEntryCount": 1045,
+  "archiveSha256": "0d3508919e88fa2eb56a8dab9be6f02b006df41f5955e3988e5f90d5e0d7d9a4",
+  "archiveEntryHashesAndCrcChecked": true,
+  "committedLfsPointersChecked": 376,
+  "verifiedAgainstLocalCommit": "d2059ee59bfe9108040aa9e8b4f6fc7ff89f1551",
+  "newPlaybackReviewPerformed": false,
+  "unityImportVerified": false,
+  "runtimePlaybackVerifiedInUnity": false,
+  "limits": [
+    "Each body has a four-key-pose stepped original walk/hover loop; not continuous video or additional action families.",
+    "Ground is native1254px visual repeat with documented numeric edge differences.",
+    "Unity import, animation control, scene/prefab/logic and device verification remain the agreed next stage."
+  ],
+  "frozenImagesOrArchivesModified": false
+}

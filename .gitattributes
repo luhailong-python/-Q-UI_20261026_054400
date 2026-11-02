@@ -4,6 +4,10 @@
 /full-game-art-v1/AGENTS.md text eol=lf
 /full-game-art-v1/source/slim_local_git.ps1 text eol=lf
 /full-game-art-v1/records/git-slimming-20261030.json text eol=lf
+/full-game-art-v1/docs/ACCEPTANCE.md text eol=lf
+/full-game-art-v1/docs/COMPLETE_DELIVERY.md text eol=lf
+/full-game-art-v1/source/verify_complete_delivery.py text eol=lf
+/full-game-art-v1/records/complete-art-verification.json text eol=lf
 unity-project-v1/** text eol=lf
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text

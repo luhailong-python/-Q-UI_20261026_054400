@@ -11,6 +11,8 @@ Unity下一阶段已启动：[接入工程与实际验证状态](unity-project-v
 
 [统一交付说明](full-game-art-v1/docs/COMPLETE_DELIVERY.md) · [逐图统一清单](full-game-art-v1/records/complete-art-manifest.json) · [Unity导入建议](full-game-art-v1/docs/UNITY_IMPORT.md)
 
+最新全量复核：[图片、原UI、动作证据、字体、ZIP与已提交LFS指针校验](full-game-art-v1/records/complete-art-verification.json)。本项目确认的整套美术已交付；真实Unity导入与运行验收仍待完成。
+
 [下载完整美术ZIP](full-game-art-v1/delivery/yifu_zhen_wanyao_complete_art_20261029.zip) · [ZIP SHA-256](full-game-art-v1/delivery/yifu_zhen_wanyao_complete_art_20261029.zip.sha256) · [包内逐文件校验记录](full-game-art-v1/records/complete-delivery-package.json)
 
 ![11身份动作总览](full-game-art-v1/previews/all-actors-walk-contact.jpg)

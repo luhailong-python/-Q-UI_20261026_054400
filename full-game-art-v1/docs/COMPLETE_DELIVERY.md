@@ -23,6 +23,8 @@
 - `docs/UNITY_IMPORT.md`：Sprite、Pivot、九宫格、字体与纹理导入建议。
 - `docs/ACCEPTANCE.md`：实际验收证据、保留的地面诊断和原画差异。
 
-动作按每身份4张独立AI关键姿势组成分格循环，已做浅深底和正常/半速审片。Unity导入、动画控制、Prefab、场景、业务与设备验证按约定留下一阶段，尚未执行。美术交付完成不代表可玩的Unity工程已经完成。
+动作按每身份4张独立AI关键姿势组成分格循环，已做浅深底和正常/半速审片。Unity下一阶段已经建立工程、导入器及Prefab/动画/场景生成代码，见 `../../unity-project-v1/README.md`；生成器尚未在真实Unity编辑器执行，实际导入、编译、播放与设备验证仍待完成。美术交付完成不代表可玩的Unity工程已经完成。
 
-本次只合并本项目已采用成果与新增品牌文件，未重画131张UI，未读写F盘、未Git提交或发布。旧交付ZIP保留。新的完整包：`delivery/yifu_zhen_wanyao_complete_art_20261029.zip`；同名`.zip.sha256`为包校验值，逐文件打包记录保存在`records/complete-delivery-package.json`。
+本次交付只合并本项目已采用成果与新增品牌文件，未重画131张UI，未读写F盘。美术快照已提交并Push至 `codex/deliver-yifu-zhen-wanyao-lfs`，后续工程与说明在 `codex/unity-art-integration-v1` 继续。旧本地Git历史已按用户要求删除，工作素材保留。
+
+完整包：`delivery/yifu_zhen_wanyao_complete_art_20261029.zip`；同名`.zip.sha256`为包校验值，逐文件打包记录保存在`records/complete-delivery-package.json`。ZIP保持原字节，包内“未提交”等文字是打包时的历史状态；当前以本仓库说明为准。最新重新校验结果见 `records/complete-art-verification.json`，可用 `source/verify_complete_delivery.py` 重跑图片、原UI、动作验收对应帧、字体、ZIP全部1045条目及已提交LFS指针检查。
